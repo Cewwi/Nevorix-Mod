@@ -1,0 +1,10 @@
+type: turret
+name: "Polygon"
+description: A basic Ender regiment turret
+research: {
+  parent: duo
+  requirements: [
+    copper/750
+    scrap/750
+  ]
+}
