@@ -2,7 +2,7 @@ type: turret
 name: "Polygon"
 description: A basic Ender regiment turret
 research: {
-  parent: duo
+  parent: breach
   requirements: [
     copper/750
     scrap/750
