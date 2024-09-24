@@ -1,8 +1,8 @@
-type: turret
+type: BaseTurret
 name: "Polygon"
 description: A basic Ender regiment turret
 research: {
-  parent: breach
+  parent: duo
   requirements: [
     copper/750
     scrap/750
