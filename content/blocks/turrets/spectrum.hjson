@@ -49,12 +49,12 @@ ammoTypes: {
 		height: 20
 		lifetime: 30
 	}
-}
-	  fragBullets: 10
-	  fragVelocityMin: 0.99
-	  fragOffsetMax: 1
+	fragBullets: 10
+	fragVelocityMin: 0.99
+	fragOffsetMax: 1
   	fragSpread: 0.05
-	  fragRandomSpread: 360
+	fragRandomSpread: 360
+}
 }
 requirements: [
 copper/3000
