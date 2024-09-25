@@ -1,5 +1,5 @@
 type: ItemTurret
-localizedName: TestTurret
+localizedName: Shottototogun
 description: bruh
 detail: details here i guess
 health: 360
@@ -54,8 +54,8 @@ shoot: {
 }
 
 requirements: [
-copper/550
-duo-fragment/50
+copper/3000
+silicon/1
 ]
 category: turret
 research: duo
