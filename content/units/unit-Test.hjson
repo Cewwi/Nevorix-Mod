@@ -1,4 +1,4 @@
-scepter = new UnitType("scepter"){{
+type: unitTest
             speed = 0.36f;
             hitSize = 22f;
             rotateSpeed = 2.1f;
@@ -11,8 +11,6 @@ scepter = new UnitType("scepter"){{
             stepShake = 0.15f;
             singleTarget = true;
             drownTimeMultiplier = 4f;
-
-            abilities.add(new ShieldRegenFieldAbility(25f, 250f, 60f * 1, 60f));
 
             BulletType smallBullet = new BasicBulletType(3f, 10){{
                 width = 7f;
