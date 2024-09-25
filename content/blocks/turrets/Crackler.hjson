@@ -1,7 +1,7 @@
 type: ItemTurret
 localizedName: Crackler
 description: A Simple Lazer turret
-detail: buh
+detail: JJ
 health: 5000
 size: 4
 reload: 300
