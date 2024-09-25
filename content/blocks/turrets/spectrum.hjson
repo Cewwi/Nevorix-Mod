@@ -48,7 +48,7 @@ ammoTypes: {
 			width: 7
 			height: 9
 			lifetime: 150
-			}
+			
 		fragBullets: 10
 		fragVelocityMin: 0.99
 		fragOffsetMax: 1
