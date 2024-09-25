@@ -1,38 +1,39 @@
-type: dagger
-            speed = 0.5f;
-            hitSize = 8f;
-            health = 150;
-            weapons.add
-            type: large-weapon
-                reload = 13f;
-                x = 4f;
-                y = 2f;
-                top = false;
-                ejectEffect = Fx.casing1;
-                ammoTypes: {
-	spore-pod : {
-    type: ContinuousLaserBulletType
-		ammoPerShot: 1
-		speed: 0
-		damage: 888
-		width: 10
-		height: 800
-		shootEffect: shootSmall
-		ammoMultiplier: 20
-    fadeTime: 5
-    lightStroke: 60
-    divisions: 20.5
-    colors: [DEE700, 1DCCE7, 70E765]
-    strokeFrom: 5
-    strokeTo: 0.5
-    pointyScaling: 2
-    backLength: 3
-    frontLength: 50
-    width: 3
-    oscScl: 0.5
-    oscMag: 5
-		}	
-}
-                }};
-            }});
-        }};
+type: tank
+name: Trigon
+description: Quick and durable. Equipped with a rocket launcher.
+hitSize: 19
+treadRects: [
+  {
+    x: -31
+    y: -42
+    width: 16
+    height: 84
+  }
+]
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 710
+armor: 6
+speed: 1.15
+rotateSpeed: 4.5
+itemCapacity: 0
+outlineColor: 44413c
+research: 15o-01-shennong
+weapons: [
+  {
+    x: 0
+    y: -1
+    name: trigon-weapon
+    reload: 90
+    mirror: false
+    rotate: true
+    shootSound: shoot-big-artillery
+    bullet: {
+      instantDisappear: true
+      damage: 0
+      spawnUnit: scathe-missile
+    }
+  }
+]
+researchCostMultiplier: 3
