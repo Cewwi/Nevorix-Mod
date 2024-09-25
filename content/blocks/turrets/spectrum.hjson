@@ -4,7 +4,7 @@ description: sensory overload ahh turret
 detail: cewwi
 health: 700
 size: 3
-reload: 10
+reload: 1
 range: 2000
 ammoUseEffect: casing2 
 inaccuracy: 360
@@ -22,7 +22,7 @@ consumes: {
 
 ammoTypes: {
 	oxide : {
-    type: ContinuousLaserBulletType
+                type: ContinuousLaserBulletType
 		ammoPerShot: 1
 		speed: 2
 		damage: 999
@@ -30,18 +30,36 @@ ammoTypes: {
 		height: 800
 		shootEffect: shootSmall
 		ammoMultiplier: 20
-    fadeTime: 1
-    lightStroke: 70
-    divisions: 20.5
-    colors: [#ff0000, #ff3c00, #ff7000, #ffa100, #fff300, #c8ff00, #4cff00, #00ff42, #00ffd4, #00a0ff, #0020ff, #5400ff, #b900ff, #ff00f3, #ff0096, #ff0043, #ff0000]
-    strokeFrom: 5
-    strokeTo: 0.5
-    pointyScaling: 3
-    backLength: 3
-    frontLength: 50
-    oscScl: 0.5
-    oscMag: 5
+    		fadeTime: 1
+    		lightStroke: 70
+    		divisions: 20.5
+    		colors: [#ff0000, #ff3c00, #ff7000, #ffa100, #fff300, #c8ff00, #4cff00, #00ff42, #00ffd4, #00a0ff, #0020ff, #5400ff, #b900ff, #ff00f3, #ff0096, #ff0043, #ff0000]
+    		strokeFrom: 5
+    		strokeTo: 0.5
+    		pointyScaling: 3
+    		backLength: 3
+    		frontLength: 50
+    		oscScl: 0.5
+    		oscMag: 5
+		fragBullet: {
+			speed: 10
+			damage: 2
+			width: 2
+			height: 30
+			lifetime: 60
+			}
+		fragBullets: 10
+		fragVelocityMin: 0.99
+		fragOffsetMax: 1
+		fragSpread: 0.05
+		fragRandomSpread: 360
 		}	
+}
+
+shoot: {
+	type: ShootAlternate
+	shots: 3
+	shotDelay: 2	
 }
 
 requirements: [
