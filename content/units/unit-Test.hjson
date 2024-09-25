@@ -1,4 +1,4 @@
-scepterthung = new UnitType("Unit Test"){{
+type:Unit Test
             speed = 0.36f;
             hitSize = 22f;
             rotateSpeed = 2.1f;
