@@ -1,4 +1,4 @@
-type:Unit Test
+type: Unit Test
             speed = 0.36f;
             hitSize = 22f;
             rotateSpeed = 2.1f;
@@ -12,8 +12,6 @@ type:Unit Test
             singleTarget = true;
             drownTimeMultiplier = 4f;
 
-            abilities.add(new ShieldRegenFieldAbility(25f, 250f, 60f * 1, 60f));
-
             BulletType smallBullet = new BasicBulletType(3f, 10){{
                 width = 7f;
                 height = 9f;
@@ -21,7 +19,7 @@ type:Unit Test
             }};
 
             weapons.add(
-            new Weapon("reign-weapon"){{
+            type: reign-weapon
                 top = false;
                 y = 1f;
                 x = 16f;
@@ -48,7 +46,7 @@ type:Unit Test
                     lightningDamage = 20;
                 }};
             }},
-         new Weapon("reign-weapon"){{
+         type: reign-weapon
                 top = false;
                 y = 3f;
                 x = 18f;
