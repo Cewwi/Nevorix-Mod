@@ -39,7 +39,19 @@ ammoTypes: {
     		frontLength: 50
     		oscScl: 0.5
     		oscMag: 5
-		}	
+		fragBullet: {
+			speed: 10
+			damage: 2
+			width: 2
+			height: 30
+			lifetime: 60
+			}
+		fragBullets: 10
+		fragVelocityMin: 0.99
+		fragOffsetMax: 1
+		fragSpread: 0.05
+		fragRandomSpread: 360
+			
 }
 
 shoot: {
