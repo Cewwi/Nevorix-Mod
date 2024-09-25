@@ -58,7 +58,7 @@ shoot: {
 	type: ShootAlternate
 	shots: 3
 	shotDelay: 2	
-}
+}}
 
 requirements: [
 berrylium/1000
