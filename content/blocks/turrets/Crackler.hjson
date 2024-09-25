@@ -26,7 +26,7 @@ ammoTypes: {
 		ammoPerShot: 3
 		speed: 0
 		damage: 50
-		width: 1000
+		width: 10
 		height: 500
 		shootEffect: shootSmall
 		ammoMultiplier: 30
