@@ -13,17 +13,19 @@ targetGround: true
 targetAir: true
 coolantMultiplier: 2
 researchCostMultiplier: 1.5
-consumes: {
+
+/* consumes: {
   coolant: {
-    amount: 0.5
+    amount: 0.3
   }
-}
+} */
+
 ammoTypes: {
-	oxide: {
-        	type: ContinuousLaserBulletType
+	oxide : {
+		type: ContinuousLaserBulletType
 		ammoPerShot: 1
-		speed: 2
-		damage: 999
+		speed: 0
+		damage: 888
 		width: 300
 		height: 800
 		shootEffect: shootSmall
@@ -40,26 +42,20 @@ ammoTypes: {
     		oscScl: 0.5
     		oscMag: 5
 		fragBullet: {
-			speed: 10
-			damage: 2
-			width: 2
-			height: 30
-			lifetime: 60
+			type: BulletType
+			speed: 6
+			damage: 8
+			width: 7
+			height: 9
+			lifetime: 150
 			}
 		fragBullets: 10
 		fragVelocityMin: 0.99
 		fragOffsetMax: 1
-		fragSpread: 0.05
+		fragSpread: 1
 		fragRandomSpread: 360
-			
+		}	
 }
-
-shoot: {
-	type: ShootAlternate
-	shots: 3
-	shotDelay: 2	
-}}
-
 requirements: [
 berrylium/1000
 graphite/600
@@ -70,3 +66,4 @@ surge-alloy/50
 ]
 category: turret
 research: Crackler
+ 
