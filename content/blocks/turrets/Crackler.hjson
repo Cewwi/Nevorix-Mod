@@ -38,7 +38,7 @@ ammoTypes: {
     strokeTo: 0.5
     pointyScaling: 2
     backLength: 0
-    frontLength: 250
+    frontLength: 10
     width: 5
     oscScl: 0.5
     oscMag: 5
