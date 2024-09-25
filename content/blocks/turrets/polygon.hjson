@@ -1,14 +1,14 @@
 type: ItemTurret
-localizedName: Shottototogun
-description: bruh
-detail: details here i guess
-health: 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-size: 16
-reload: 5
-range: 999999999999999999
+localizedName: BRATATATATATA
+description: I need more boulets!
+detail: 
+health: 696969
+size: 1
+reload: 10
+range: 300
 ammoUseEffect: casing2 
 inaccuracy: 16
-rotateSpeed: 1000
+rotateSpeed: 100
 targetGround: true
 targetAir: true
 coolantMultiplier: 2
@@ -36,21 +36,22 @@ ammoTypes: {
 			damage: 2
 			width: 30
 			height: 5
-			lifetime: 150
+			lifetime: 60
 			fragBullet: {
-				speed: 4
+				speed: 5
 				damage: 5
 				width: 5
-				height: 30
-				lifetime: 150
+				height: 50
+				lifetime: 30
 				}
 			fragBullets: 3
+			fragRandomSpread: 5
 			}
 		fragBullets: 40
 		fragVelocityMin: 0.99
 		fragOffsetMax: 1
 		fragSpread: 0.05
-		fragRandomSpread: 1
+		fragRandomSpread: 10
 		}	
 }
 
