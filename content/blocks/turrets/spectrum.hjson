@@ -1,69 +1,60 @@
 type: ItemTurret
 localizedName: Spectrum
-description: "sensory overload ahh turret"
-detail: "cewwi"
-health: 700
+description: wow so long name
+detail: cewwi
+health: 1000
 size: 3
-reload: 1
-range: 2000
+reload: 10
+range: 1000
 ammoUseEffect: casing2 
-inaccuracy: 360
-rotateSpeed: 5
+inaccuracy: 2
+rotateSpeed: 6
 targetGround: true
 targetAir: true
 coolantMultiplier: 2
 researchCostMultiplier: 1.5
 
-/* consumes: {
+consumes: {
   coolant: {
-    amount: 0.3
+    amount: 0.5
   }
-} */
+}
 
 ammoTypes: {
-	oxide : {
-		type: ContinuousLaserBulletType
+	spore-pod : {
+    type: ContinuousLaserBulletType
 		ammoPerShot: 1
 		speed: 0
 		damage: 888
-		width: 300
+		width: 10
 		height: 800
 		shootEffect: shootSmall
 		ammoMultiplier: 20
-    		fadeTime: 1
-    		lightStroke: 70
-    		divisions: 20.5
-    		colors: [#ff0000, #ff3c00, #ff7000, #ffa100, #fff300, #c8ff00, #4cff00, #00ff42, #00ffd4, #00a0ff, #0020ff, #5400ff, #b900ff, #ff00f3, #ff0096, #ff0043, #ff0000]
-    		strokeFrom: 5
-    		strokeTo: 0.5
-    		pointyScaling: 3
-    		backLength: 3
-    		frontLength: 50
-    		oscScl: 0.5
-    		oscMag: 5
-		fragBullet: {
-			type: BulletType
-			speed: 6
-			damage: 8
-			width: 7
-			height: 9
-			lifetime: 150
-			
-		fragBullets: 10
-		fragVelocityMin: 0.99
-		fragOffsetMax: 1
-		fragSpread: 1
-		fragRandomSpread: 360
+    fadeTime: 5
+    lightStroke: 60
+    divisions: 20.5
+    colors: [#ff0000, #ff3c00, #ff7000, #ffa100, #fff300, #c8ff00, #4cff00, #00ff42, #00ffd4, #00a0ff, #0020ff, #5400ff, #b900ff, #ff00f3, #ff0096, #ff0043, #ff0000]
+    strokeFrom: 5
+    strokeTo: 0.5
+    pointyScaling: 2
+    backLength: 3
+    frontLength: 50
+    width: 20
+    oscScl: 0.5
+    oscMag: 5
 		}	
 }
+
+shoot: {
+	type: ShootAlternate
+	shots: 2
+	shotDelay: 1
+	spread: 3.5	
+}
+
 requirements: [
-berrylium/1000
-graphite/600
-oxide/400
-silicon/350
-carbide/200
-surge-alloy/50
+copper/3000
+silicon/1
 ]
 category: turret
-research: breach
- 
+research: duo
