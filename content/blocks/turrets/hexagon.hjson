@@ -1,0 +1,60 @@
+type: ItemTurret
+localizedName: Scorching Death Ray of the Tyrannical Emperor of the Four Suns
+description: wow so long name
+detail: buh
+health: 1000
+size: 3
+reload: 10
+range: 1000
+ammoUseEffect: casing2 
+inaccuracy: 2
+rotateSpeed: 6
+targetGround: true
+targetAir: true
+coolantMultiplier: 2
+researchCostMultiplier: 1.5
+
+consumes: {
+  coolant: {
+    amount: 0.5
+  }
+}
+
+ammoTypes: {
+	spore_pod : {
+    type: ContinuousLaserBulletType
+		ammoPerShot: 1
+		speed: 0
+		damage: 888
+		width: 10
+		height: 800
+		shootEffect: shootSmall
+		ammoMultiplier: 20
+    fadeTime: 5
+    lightStroke: 60
+    divisions: 20.5
+    colors: Color[DEE700]
+    strokeFrom: 5
+    strokeTo: 0.5
+    pointyScaling: 2
+    backLength: 3
+    frontLength: 50
+    width: 20
+    oscScl: 0.5
+    oscMag: 5
+		}	
+}
+
+shoot: {
+	type: ShootAlternate
+	shots: 2
+	shotDelay: 1
+	spread: 3.5	
+}
+
+requirements: [
+copper/3000
+silicon/1
+]
+category: turret
+research: duo
