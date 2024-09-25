@@ -1,4 +1,4 @@
-type: Unit Test
+scepter = new UnitType("scepter"){{
             speed = 0.36f;
             hitSize = 22f;
             rotateSpeed = 2.1f;
@@ -12,6 +12,8 @@ type: Unit Test
             singleTarget = true;
             drownTimeMultiplier = 4f;
 
+            abilities.add(new ShieldRegenFieldAbility(25f, 250f, 60f * 1, 60f));
+
             BulletType smallBullet = new BasicBulletType(3f, 10){{
                 width = 7f;
                 height = 9f;
@@ -19,7 +21,7 @@ type: Unit Test
             }};
 
             weapons.add(
-            type: reign-weapon
+            new Weapon("scepter-weapon"){{
                 top = false;
                 y = 1f;
                 x = 16f;
@@ -31,7 +33,7 @@ type: Unit Test
                 shootSound = Sounds.bang;
                 inaccuracy = 3f;
 
-                shoot.shots = 10;
+                shoot.shots = 3;
                 shoot.shotDelay = 4f;
 
                 bullet = new BasicBulletType(8f, 80){{
@@ -46,10 +48,10 @@ type: Unit Test
                     lightningDamage = 20;
                 }};
             }},
-         type: reign-weapon
+            new Weapon("scepter-weapon"){{
                 top = false;
                 y = 3f;
-                x = 18f;
+                x = 19f;
                 shootY = 8f;
                 reload = 45f;
                 recoil = 5f;
@@ -58,7 +60,7 @@ type: Unit Test
                 shootSound = Sounds.bang;
                 inaccuracy = 3f;
 
-                shoot.shots = 10;
+                shoot.shots = 3;
                 shoot.shotDelay = 4f;
 
                 bullet = new BasicBulletType(8f, 80){{
