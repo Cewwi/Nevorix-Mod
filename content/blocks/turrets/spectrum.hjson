@@ -27,12 +27,12 @@ ammoTypes: {
         speed: 0
         damage: 888
         width: 10
-        height: 800
+        height: 2000
         shootEffect: shootSmall
         ammoMultiplier: 20
         fadeTime: 5
         lightStroke: 200
-        divisions: 20.5
+        divisions: 50
         colors: [ff0000, ff3c00, ff7000, ffa100, fff300, c8ff00, 4cff00, 00ff42, 00ffd4, 00a0ff, 0020ff, 5400ff, b900ff, ff00f3, ff0096, ff0043, ff0000, ff0000, ff3c00, ff7000, ffa100, fff300, c8ff00, 4cff00, 00ff42, 00ffd4, 00a0ff, 0020ff, 5400ff, b900ff, ff00f3, ff0096, ff0043, ff0000, ff0000, ff3c00, ff7000, ffa100, fff300, c8ff00, 4cff00, 00ff42, 00ffd4, 00a0ff, 0020ff, 5400ff, b900ff, ff00f3, ff0096, ff0043, ff0000, ff0000, ff3c00, ff7000, ffa100, fff300, c8ff00, 4cff00, 00ff42, 00ffd4, 00a0ff, 0020ff, 5400ff, b900ff, ff00f3, ff0096, ff0043, ff0000]
         strokeFrom: 5
         strokeTo: 0.5
@@ -42,18 +42,6 @@ ammoTypes: {
         width: 40
         oscScl: 0.5
         oscMag: 5
-        fragBullet: {
-		speed: 5
-		damage: 20
-		width: 2
-		height: 20
-		lifetime: 30
-	}
-	fragBullets: 10
-	fragVelocityMin: 0.99
-	fragOffsetMax: 1
-  	fragSpread: 0.05
-	fragRandomSpread: 360
 }
 }
 requirements: [
