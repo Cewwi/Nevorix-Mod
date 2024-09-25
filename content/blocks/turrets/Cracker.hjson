@@ -1,0 +1,61 @@
+type: ItemTurret
+localizedName: Cracker
+description: A Simple Lazer turret
+detail: buh
+health: 5000
+size: 10
+reload: 10
+range: 1000
+ammoUseEffect: casing2 
+inaccuracy: 2
+rotateSpeed: 3
+targetGround: true
+targetAir: true
+coolantMultiplier: 2
+researchCostMultiplier: 1.5
+
+consumes: {
+  coolant: {
+    amount: 1
+  }
+}
+
+ammoTypes: {
+	spore-pod : {
+    type: ContinuousLaserBulletType
+		ammoPerShot: 1
+		speed: 0
+		damage: 10
+		width: 10
+		height: 100
+		shootEffect: shootSmall
+		ammoMultiplier: 20
+    fadeTime: 5
+    lightStroke: 10
+    divisions: 20.5
+    colors: [ffffff, ffffff, ffffff]
+    strokeFrom: 5
+    strokeTo: 0.5
+    pointyScaling: 2
+    backLength: 3
+    frontLength: 50
+    width: 5
+    oscScl: 0.5
+    oscMag: 5
+		}	
+}
+
+shoot: {
+	type: ShootAlternate
+	shots: 2
+	shotDelay: 1
+	spread: 3.5	
+}
+
+requirements: [
+copper/2000
+thorium/ 100
+silicon/100
+]
+category: turret
+research: meltdown
