@@ -43,7 +43,6 @@ ammoTypes: {
     oscScl: 0.5
     oscMag: 5
 		}	
-}
 
 shoot: {
 	type: ShootAlternate
