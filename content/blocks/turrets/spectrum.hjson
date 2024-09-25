@@ -43,19 +43,18 @@ ammoTypes: {
         oscScl: 0.5
         oscMag: 5
         fragBullet: {
-				  speed: 5
-				  damage: 20
-				  width: 2
-			  	height: 20
-		  		lifetime: 30
-			  	}
-		  	}
-	  	fragBullets: 10
-	  	fragVelocityMin: 0.99
-	  	fragOffsetMax: 1
-  		fragSpread: 0.05
-	  	fragRandomSpread: 360
-      }
+		speed: 5
+		damage: 20
+		width: 2
+		height: 20
+		lifetime: 30
+	}
+}
+	  fragBullets: 10
+	  fragVelocityMin: 0.99
+	  fragOffsetMax: 1
+  	fragSpread: 0.05
+	  fragRandomSpread: 360
 }
 requirements: [
 copper/3000
