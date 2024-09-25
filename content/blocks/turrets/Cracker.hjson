@@ -4,11 +4,11 @@ description: A Simple Lazer turret
 detail: buh
 health: 5000
 size: 10
-reload: 10
+reload: 1000
 range: 1000
 ammoUseEffect: casing2 
-inaccuracy: 2
-rotateSpeed: 3
+inaccuracy: 0
+rotateSpeed: 1
 targetGround: true
 targetAir: true
 coolantMultiplier: 2
@@ -26,10 +26,10 @@ ammoTypes: {
 		ammoPerShot: 1
 		speed: 0
 		damage: 10
-		width: 10
-		height: 100
+		width: 1000
+		height: 4
 		shootEffect: shootSmall
-		ammoMultiplier: 20
+		ammoMultiplier: 30
     fadeTime: 5
     lightStroke: 10
     divisions: 20.5
@@ -49,7 +49,7 @@ shoot: {
 	type: ShootAlternate
 	shots: 2
 	shotDelay: 1
-	spread: 3.5	
+	spread: 0	
 }
 
 requirements: [
