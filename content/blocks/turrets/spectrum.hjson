@@ -1,14 +1,14 @@
 type: ItemTurret
-localizedName: Scorching Death Ray of the Tyrannical Emperor of the Four Suns
-description: wow so long name
+localizedName: Spectrum
+description: sensory overload ahh turret
 detail: cewwi
-health: 1000
+health: 700
 size: 3
 reload: 10
-range: 1000
+range: 2000
 ammoUseEffect: casing2 
-inaccuracy: 2
-rotateSpeed: 6
+inaccuracy: 360
+rotateSpeed: 5
 targetGround: true
 targetAir: true
 coolantMultiplier: 2
@@ -21,25 +21,24 @@ consumes: {
 }
 
 ammoTypes: {
-	spore-pod : {
+	oxide : {
     type: ContinuousLaserBulletType
 		ammoPerShot: 1
-		speed: 0
-		damage: 888
-		width: 10
+		speed: 2
+		damage: 999
+		width: 300
 		height: 800
 		shootEffect: shootSmall
 		ammoMultiplier: 20
-    fadeTime: 5
-    lightStroke: 60
+    fadeTime: 1
+    lightStroke: 70
     divisions: 20.5
-    colors: [DEE700, 1DCCE7, 70E765]
+    colors: [#ff0000, #ff3c00, #ff7000, #ffa100, #fff300, #c8ff00, #4cff00, #00ff42, #00ffd4, #00a0ff, #0020ff, #5400ff, #b900ff, #ff00f3, #ff0096, #ff0043, #ff0000]
     strokeFrom: 5
     strokeTo: 0.5
-    pointyScaling: 2
+    pointyScaling: 3
     backLength: 3
     frontLength: 50
-    width: 20
     oscScl: 0.5
     oscMag: 5
 		}	
@@ -48,13 +47,16 @@ ammoTypes: {
 shoot: {
 	type: ShootAlternate
 	shots: 2
-	shotDelay: 1
-	spread: 3.5	
+	shotDelay: 2	
 }
 
 requirements: [
-copper/3000
-silicon/1
+berrylium/1000
+graphite/600
+oxide/400
+silicon/350
+carbide/200
+surge-alloy/50
 ]
 category: turret
-research: duo
+research: Crackler
