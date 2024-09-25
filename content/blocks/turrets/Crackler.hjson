@@ -25,9 +25,9 @@ ammoTypes: {
     type: ContinuousLaserBulletType
 		ammoPerShot: 3
 		speed: 0
-		damage: 10
+		damage: 50
 		width: 1000
-		height: 4
+		height: 500
 		shootEffect: shootSmall
 		ammoMultiplier: 30
     fadeTime: 10
