@@ -33,7 +33,7 @@ ammoTypes: {
     fadeTime: 5
     lightStroke: 60
     divisions: 20.5
-    colors: [#ff0000, #ff3c00, #ff7000, #ffa100, #fff300, #c8ff00, #4cff00, #00ff42, #00ffd4, #00a0ff, #0020ff, #5400ff, #b900ff, #ff00f3, #ff0096, #ff0043, #ff0000]
+    colors: [#ff0000, #ff3c00, #ff7000]
     strokeFrom: 5
     strokeTo: 0.5
     pointyScaling: 2
