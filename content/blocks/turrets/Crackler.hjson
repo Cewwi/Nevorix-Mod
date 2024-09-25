@@ -1,5 +1,5 @@
 type: ItemTurret
-localizedName: Cracker
+localizedName: Crackler
 description: A Simple Lazer turret
 detail: buh
 health: 5000
