@@ -42,8 +42,9 @@ ammoTypes: {
     width: 20
     oscScl: 0.5
     oscMag: 5
-		}	
-
+		
+}	
+}
 shoot: {
 	type: ShootAlternate
 	shots: 2
