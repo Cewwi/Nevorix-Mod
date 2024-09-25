@@ -3,7 +3,7 @@ localizedName: Crackler
 description: A Simple Lazer turret
 detail: buh
 health: 5000
-size: 5
+size: 4
 reload: 100
 range: 1000
 ammoUseEffect: casing2 
