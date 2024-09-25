@@ -9,10 +9,30 @@ type: dagger
                 y = 2f;
                 top = false;
                 ejectEffect = Fx.casing1;
-                bullet = new BasicBulletType(2.5f, 9){{
-                    width = 7f;
-                    height = 9f;
-                    lifetime = 60f;
+                ammoTypes: {
+	spore-pod : {
+    type: ContinuousLaserBulletType
+		ammoPerShot: 1
+		speed: 0
+		damage: 888
+		width: 10
+		height: 800
+		shootEffect: shootSmall
+		ammoMultiplier: 20
+    fadeTime: 5
+    lightStroke: 60
+    divisions: 20.5
+    colors: [DEE700, 1DCCE7, 70E765]
+    strokeFrom: 5
+    strokeTo: 0.5
+    pointyScaling: 2
+    backLength: 3
+    frontLength: 50
+    width: 3
+    oscScl: 0.5
+    oscMag: 5
+		}	
+}
                 }};
             }});
         }};
