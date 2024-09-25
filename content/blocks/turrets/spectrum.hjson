@@ -44,12 +44,6 @@ ammoTypes: {
 		}	
 }
 
-shoot: {
-	type: ShootAlternate
-	shots: 2
-	shotDelay: 2	
-}
-
 requirements: [
 berrylium/1000
 graphite/600
