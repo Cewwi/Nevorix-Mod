@@ -1,7 +1,7 @@
 type: ItemTurret
 localizedName: Spectrum
-description: sensory overload ahh turret
-detail: cewwi
+description: "sensory overload ahh turret"
+detail: "cewwi"
 health: 700
 size: 3
 reload: 1
@@ -13,16 +13,14 @@ targetGround: true
 targetAir: true
 coolantMultiplier: 2
 researchCostMultiplier: 1.5
-
 consumes: {
   coolant: {
     amount: 0.5
   }
 }
-
 ammoTypes: {
-	oxide : {
-                type: ContinuousLaserBulletType
+	oxide: {
+        	type: ContinuousLaserBulletType
 		ammoPerShot: 1
 		speed: 2
 		damage: 999
