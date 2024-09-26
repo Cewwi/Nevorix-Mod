@@ -4,11 +4,11 @@ description: pssss
 detail: cewwi
 health: 550
 size: 2
-reload: 10
+reload: 1
 range: 60
 ammoUseEffect: casing2 
 inaccuracy: 360
-rotateSpeed: 0
+rotateSpeed: 100
 targetGround: true
 targetAir: true
 coolantMultiplier: 2
@@ -22,9 +22,9 @@ consumes: {
 
 ammoTypes: {
 	 sand: {
-		ammoPerShot: 3
-		speed: 0
-		damage: 0
+		ammoPerShot: 4
+		speed: 1
+		damage: 1
 		width: 1
 		height: 1
 		shootEffect: shootSmall
