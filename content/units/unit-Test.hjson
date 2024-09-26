@@ -1,9 +1,9 @@
 type: tank
 name: Unit Test
-description: Quick and durable. Equipped with a rocket launcher.
+description: Not Quick and Very durable. Equipped with a rocket launcher.
 hitSize: 19
 singleTarget: false
-omniMovement: false
+omniMovement: true
 faceTarget: false
 health: 710
 armor: 6
