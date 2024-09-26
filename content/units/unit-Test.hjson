@@ -8,10 +8,19 @@ faceTarget: false
 health: 710
 armor: 6
 speed: 1.15
+parent: stell
 rotateSpeed: 4.5
 itemCapacity: 0
 outlineColor: 44413c
 research: stell
+treadRects: [
+  {
+    x: -50
+    y: -67
+    width: 29
+    height: 134
+  }
+]
 weapons: [
   {
     x: 0
