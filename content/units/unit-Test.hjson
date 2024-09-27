@@ -8,7 +8,6 @@ faceTarget: false
 health: 710
 armor: 6
 speed: 1.15
-parent: stell
 rotateSpeed: 2
 itemCapacity: 0
 research: stell
@@ -24,7 +23,7 @@ weapons: [
   {
     x: 0
     y: 4
-    name: spiroct-weapon
+    name: unit-Test-weapon
     reload: 90
     mirror: false
     rotate: true
@@ -32,7 +31,7 @@ weapons: [
     bullet: {
       instantDisappear: true
       damage: 50
-      spawnUnit: anthicus-missile
+      spawnUnit: scathe-missile
     }
   }
 ]
