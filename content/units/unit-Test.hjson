@@ -1,17 +1,16 @@
 type: tank
 name: Unit Test
-description: Not Quick and Very durable. Equipped with a rocket launcher.
+description: Test-Unit.
 hitSize: 19
 singleTarget: false
-omniMovement: true
+omniMovement: false
 faceTarget: false
 health: 710
 armor: 6
 speed: 1.15
 parent: stell
-rotateSpeed: 4.5
+rotateSpeed: 2
 itemCapacity: 0
-outlineColor: 44413c
 research: stell
 treadRects: [
   {
@@ -33,7 +32,7 @@ weapons: [
     bullet: {
       instantDisappear: true
       damage: 0
-      spawnUnit: scathe-missile
+      spawnUnit: anthicus-missile
     }
   }
 ]
