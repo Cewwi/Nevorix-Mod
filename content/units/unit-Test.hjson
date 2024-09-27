@@ -23,15 +23,15 @@ treadRects: [
 weapons: [
   {
     x: 0
-    y: -1
-    name: unit-Test-weapon
+    y: 4
+    name: spiroct-weapon
     reload: 90
     mirror: false
     rotate: true
     shootSound: shoot-big-artillery
     bullet: {
       instantDisappear: true
-      damage: 0
+      damage: 50
       spawnUnit: anthicus-missile
     }
   }
