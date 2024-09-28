@@ -4,10 +4,10 @@ description: Transports items.
 category: distribution
 alwaysUnlocked: true
 researchCost: [
-  copper: 1
+  copper/1
 ]
 speed: 10
 health: 45
 requirements: [
-  copper: 1
+  copper/1
 ]
