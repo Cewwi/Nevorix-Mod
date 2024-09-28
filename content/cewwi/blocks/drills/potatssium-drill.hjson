@@ -1,1 +1,16 @@
-
+type: WallCrafter
+name: Potatssium drill
+description: broken cause why not
+size: 2
+category: production
+research: plasma-bore
+requirements: [
+  silicon/1
+]
+drillTime: 1
+output: tungsten
+attribute: tungsten
+ambientSound: drill
+ambientSoundVolume: 0.08
+alwaysUnlocked: true
+squareSprite: false
