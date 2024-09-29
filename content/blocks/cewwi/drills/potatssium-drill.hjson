@@ -9,7 +9,6 @@ requirements: [
 ]
 drillTime: 1
 output: tungsten
-attribute: tungsten
 ambientSound: drill
 ambientSoundVolume: 0.08
 alwaysUnlocked: true
