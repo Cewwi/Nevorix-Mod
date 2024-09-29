@@ -1,6 +1,6 @@
 type: flying
 name: Lumi
-description: Fires an array of missiles at enemies.
+description: Fires a long range, fragging missile.
 shadowElevation: 0.1
 drag: 0.08
 outlineColor: 44413c
@@ -28,7 +28,7 @@ engines: [
   {
     x: 0
     y: 0
-    radius: 5
+    radius: 3.5
   }
 ]
 itemCapacity: 0
