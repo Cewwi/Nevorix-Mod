@@ -57,7 +57,8 @@ weapons: [
       height: 10
       trailWidth: 2
       trailLength: 10
-      pierce: false
+      pierce: true
+      buildingPierce: true
       shrinkX: 1
       shrinkY: 0
       fragBullet: {
