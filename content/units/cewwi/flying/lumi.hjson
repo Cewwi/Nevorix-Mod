@@ -19,7 +19,7 @@ abilities: [
     teamColor: true
     effect: missileTrailShort
     x: 0
-    y: -6.6
+    y: 0
     interval: 4
     minVelocity: 0.6
   }
@@ -36,30 +36,42 @@ useEngineElevation: false
 lowAltitude: false
 weapons: [
   {
-    x: 1.7
+    x: 0
     y: 1
-    mirror: true
-    alternate: true
-    reload: 30
+    mirror: false
+    alternate: false
+    reload: 200
     rotate: false
     shootSound: missile
     shoot: {
-      shots: 6
+      shots: 1
       shotDelay: 6
-      spread: 20
+      inaccuracy: 20
     }
     bullet: {
       type: MissileBulletType
       speed: 10
-      lifetime: 120
-      damage: 60
+      lifetime: 40
+      damage: 30
       width: 2
       height: 10
       trailWidth: 2
-      trailLength: 20
-      pierce: true
+      trailLength: 10
+      pierce: false
       shrinkX: 1
       shrinkY: 0
+      fragBullet: {
+            speed: 5
+            lifetime: 10
+            pierce: true
+            damage: 10
+            width: 1
+            height: 10
+      }
+      fragBullets: 4
+      fragSpread: 20
+      fragRandomSpread: 5
+      fragVelocityMin: 0.8
     }
   }
 ]
