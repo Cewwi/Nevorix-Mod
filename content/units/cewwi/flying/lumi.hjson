@@ -1,0 +1,64 @@
+type: flying
+name: Lumi
+description: Fires an array of missiles at enemies.
+shadowElevation: 0.1
+drag: 0.08
+outlineColor: 44413c
+speed: 4
+rotateSpeed: 8
+accel: 0.211195
+groundLayer: 60
+health: 300
+armor: 0
+hitSize: 7
+researchCostMultiplier: 1.5
+research: horizon
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -6.6
+    interval: 4
+    minVelocity: 0.6
+  }
+]
+engines: [
+  {
+    x: 0
+    y: 0
+    radius: 5
+  }
+]
+itemCapacity: 0
+useEngineElevation: false
+lowAltitude: false
+weapons: [
+  {
+    x: 1.7
+    y: 1
+    mirror: true
+    alternate: true
+    reload: 1
+    rotate: false
+    shootSound: missile
+    shoot: {
+      shots: 6
+      shotDelay: 7
+    }
+    bullet: {
+      type: MissileBulletType
+      speed: 10
+      lifetime: 120
+      damage: 60
+      width: 2
+      height: 10
+      trailWidth: 2
+      trailLength: 20
+      pierce: true
+      shrinkX: 1
+      shrinkY: 0
+    }
+  }
+]
