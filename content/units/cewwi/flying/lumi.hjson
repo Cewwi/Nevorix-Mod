@@ -64,13 +64,13 @@ weapons: [
             speed: 5
             lifetime: 10
             pierce: true
-            damage: 10
+            damage: 5
             width: 1
             height: 10
       }
-      fragBullets: 4
-      fragSpread: 20
-      fragRandomSpread: 5
+      fragBullets: 15
+      fragSpread: 45
+      fragRandomSpread: 3
       fragVelocityMin: 0.8
     }
   }
