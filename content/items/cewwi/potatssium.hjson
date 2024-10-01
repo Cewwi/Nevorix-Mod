@@ -1,0 +1,8 @@
+name: Potatssium
+description: a hard, rock-like material. Used to build basic structures.
+hardness: 1
+cost: 0.5
+alwaysUnlocked: true
+color: 8f8d87
+research: copper
+//hiddenOnPlanets: [serpulo, erekir]
