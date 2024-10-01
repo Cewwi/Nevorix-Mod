@@ -3,6 +3,6 @@ description: a hard, rock-like material. Used to build basic structures.
 hardness: 1
 cost: 0.5
 alwaysUnlocked: true
-color: 8f8d87
+color: 133a3d
 research: copper
 //hiddenOnPlanets: [serpulo, erekir]
