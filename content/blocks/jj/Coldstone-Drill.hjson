@@ -1,0 +1,15 @@
+type: WallCrafter
+name: Coldstone Drill
+description: A basic drill made of coldstone
+size: 2
+category: production
+research: plasma-bore
+requirements: [
+  silicon/1
+]
+drillTime: 1
+output: tungsten
+ambientSound: drill
+ambientSoundVolume: 0.08
+alwaysUnlocked: true
+squareSprite: false
