@@ -1,0 +1,102 @@
+localizedName: Tronoe PO7
+description: description here ig
+alwaysUnlocked: true
+mesh: [
+ {
+    //write here whatever this is supposed to represent
+    type: NoiseMesh //no touch
+    planet: tronoe
+    divisions: 5 //touch, but dont make it too high
+    seed: 7 //change ig
+    radius: 1.229 //your choice, just make it reasonable
+    color1: 587d89 //change coolors
+    color2: 5e95a8 //change coolors
+    octaves: 3.7 //I think this is variation? idk, you tell me lol
+    persistence: 1.1 //how often it appears i think
+  }
+  //copy paste the above thingy to make the different colours, and play around with values ig
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh //no touch
+   planet: tronoe
+   speed: 1.21 //speed 
+   radius: 0.1 //idk
+   divisions: 6 //don't make too high
+   color: eafffd7e //cloud color, change it ig
+   octaves: 3 //I think this is variation? idk, you tell me lol
+   persistence: 0.3 //how often it appears i think
+   scl: 1 //don't know what this is
+   thresh: 0.6 //higher it is, more dense clouds are
+  }
+  {
+   type: HexSkyMesh
+   planet: asthosus
+   speed: 1.01
+   radius: 0.11
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.4
+   scl: 0.9
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: asthosus
+   speed: 0.891
+   radius: 0.091
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
+]
+generator: { //not sure what this part does
+  octaves: 3 
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+sectorSize: 1
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 1
+radius: 1.2
+minZoom: 1.5
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: false
+sectorSeed: 14513 //whatever number you want ig
+bloom: true
+visible: true
+atmosphereColor: 666359 //change colours
+iconColor: 666359 //change colours
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+//defaultCore: name of core here
+parent: sun
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [ //items you want on the planet go here
+  "berrylium" 
+]
