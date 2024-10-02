@@ -93,7 +93,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-//defaultCore: name of core here
+//defaultCore: name of core here, and delete slashes if you want to re-activate code
 parent: sun
 solarSystem: sun
 launchCandidates: []
