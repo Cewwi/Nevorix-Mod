@@ -29,16 +29,16 @@ mesh: [
 ]
 cloudMesh: [
  {
-   type: HexSkyMesh //no touch
+   type: HexSkyMesh
    planet: iralius
-   speed: 1.21 //speed 
-   radius: 0.1 //idk
-   divisions: 6 //don't make too high
-   color: eafffd7e //cloud color, change it ig
-   octaves: 3 //I think this is variation? idk, you tell me lol
-   persistence: 0.3 //how often it appears i think
-   scl: 1 //don't know what this is
-   thresh: 0.6 //higher it is, more dense clouds are
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.6
   }
   {
    type: HexSkyMesh
