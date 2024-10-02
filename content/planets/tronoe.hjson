@@ -23,9 +23,9 @@ cloudMesh: [
    speed: 1.21 //speed 
    radius: 0.1 //idk
    divisions: 6 //don't make too high
-   color: eafffd7e //cloud color, change it ig
-octaves:"3"
-persistence: 0.3 //how often it appears i think
+   color: "eafffd7e" //buhhuhhuuhuh
+   octaves: "3"
+   persistence: 0.3
    scl: 1 //don't know what this is
    thresh: 0.6 //higher it is, more dense clouds are
   }
