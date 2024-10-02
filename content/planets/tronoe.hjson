@@ -1,5 +1,5 @@
 localizedName: Tronoe PO7
-description: "description here ig"
+description: "A large planet with Mixed conditions."
 alwaysUnlocked: true
 mesh: [
  {
@@ -8,9 +8,9 @@ mesh: [
     planet: tronoe
     divisions: 5 //touch, but dont make it too high
     seed: 7 //change ig
-    radius: 1.229 //your choice, just make it reasonable
-    color1: 587d89 //change coolors
-    color2: 5e95a8 //change coolors
+    radius: 3.229 //your choice, just make it reasonable
+    color1: 628b9d //change coolors
+    color2: 353535 //change coolors
     octaves: 3.7 //I think this is variation? idk, you tell me lol
     persistence: 1.1 //how often it appears i think
   }
@@ -33,9 +33,9 @@ cloudMesh: [
    type: HexSkyMesh
    planet: tronoe
    speed: 1.01
-   radius: 0.11
+   radius: 0.23
    divisions: 6
-   color: eafffd7e
+   color: 515151
    octaves: 3
    persistence: 0.4
    scl: 0.9
@@ -45,9 +45,9 @@ cloudMesh: [
    type: HexSkyMesh
    planet: tronoe
    speed: 0.891
-   radius: 0.091
+   radius: 0.12
    divisions: 6
-   color: eafffd7e
+   color: 151515
    octaves: 3
    persistence: 0.5
    scl: 1.1
@@ -98,5 +98,5 @@ parent: sun
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [ //items you want on the planet go here
-  "potatssium"
+  "Coldstone"
 ]
