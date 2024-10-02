@@ -31,7 +31,7 @@ cloudMesh: [
   }
   {
    type: HexSkyMesh
-   planet: asthosus
+   planet: tronoe
    speed: 1.01
    radius: 0.11
    divisions: 6
@@ -43,7 +43,7 @@ cloudMesh: [
   }
   {
    type: HexSkyMesh
-   planet: asthosus
+   planet: tronoe
    speed: 0.891
    radius: 0.091
    divisions: 6
