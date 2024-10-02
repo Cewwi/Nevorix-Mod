@@ -3,6 +3,6 @@ description: "A cold, hard rock using in basic structures."
 hardness: 1
 cost: 0.5
 alwaysUnlocked: true
-color: 8f8d87
+color: 628b9d
 research: copper
 hiddenOnPlanets: [serpulo, erekir]
