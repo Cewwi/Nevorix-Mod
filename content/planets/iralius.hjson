@@ -1,25 +1,36 @@
-localizedName: Tronoe PO7
-description: description here ig
+localizedName: Iralius
+description: The moon of Tronoe. For some unknown reason, barely shares any rescources - if at all, with Tronoe.
 alwaysUnlocked: true
 mesh: [
  {
-    //write here whatever this is supposed to represent
-    type: NoiseMesh //no touch
-    planet: tronoe
-    divisions: 5 //touch, but dont make it too high
-    seed: 7 //change ig
-    radius: 1.229 //your choice, just make it reasonable
-    color1: 587d89 //change coolors
-    color2: 5e95a8 //change coolors
-    octaves: 3.7 //I think this is variation? idk, you tell me lol
-    persistence: 1.1 //how often it appears i think
+    //potatssium
+    type: NoiseMesh
+    planet: iralius
+    divisions: 3
+    seed: 4
+    radius: 1.229
+    color1: 133a3d
+    color2: 246569
+    octaves: 3.7
+    persistence: 0.9
   }
-  //copy paste the above thingy to make the different colours, and play around with values ig
+{
+    //more potatssium
+    type: NoiseMesh
+    planet: iralius
+    divisions: 5
+    seed: 10
+    radius: 1.229
+    color1: 1b998b
+    color2: 1b998b
+    octaves: 4
+    persistence: 0.5
+  }
 ]
 cloudMesh: [
  {
    type: HexSkyMesh //no touch
-   planet: tronoe
+   planet: iralius
    speed: 1.21 //speed 
    radius: 0.1 //idk
    divisions: 6 //don't make too high
@@ -31,7 +42,7 @@ cloudMesh: [
   }
   {
    type: HexSkyMesh
-   planet: asthosus
+   planet: iralius
    speed: 1.01
    radius: 0.11
    divisions: 6
@@ -43,7 +54,7 @@ cloudMesh: [
   }
   {
    type: HexSkyMesh
-   planet: asthosus
+   planet: iralius
    speed: 0.891
    radius: 0.091
    divisions: 6
@@ -98,5 +109,5 @@ parent: sun
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [ //items you want on the planet go here
-  "berrylium" 
+  "potatssium"
 ]
