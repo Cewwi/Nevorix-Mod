@@ -87,7 +87,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
-radius: 1.2
+radius: 0.6
 minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: 0
@@ -105,7 +105,7 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 //defaultCore: name of core here, and delete slashes if you want to re-activate code
-parent: sun
+parent: tronoe
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [ //items you want on the planet go here
