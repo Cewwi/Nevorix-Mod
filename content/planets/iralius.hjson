@@ -34,7 +34,7 @@ cloudMesh: [
    speed: 1.21
    radius: 0.1
    divisions: 6
-   color: eafffd7e
+   color: "eafffd7e" //buhhuhhuuhuh
    octaves: 3
    persistence: 0.3
    scl: 1
