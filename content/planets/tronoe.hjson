@@ -8,7 +8,7 @@ mesh: [
     planet: tronoe
     divisions: 5
     seed: 7
-    radius: 4
+    radius: 2.5555
     color1: 151515
     color2: 120d0d
     octaves: 3.2
@@ -20,7 +20,7 @@ mesh: [
     planet: tronoe
     divisions: 5
     seed: 8
-    radius: 4
+    radius: 2.5444
     color1: 353535
     color2: 2a2626
     octaves: 3.2
@@ -32,7 +32,7 @@ mesh: [
     planet: tronoe
     divisions: 7
     seed: 11
-    radius: 2.56775
+    radius: 2.53232
     color1: c73c0b
     color2: a84523
     octaves: 4
@@ -44,7 +44,7 @@ mesh: [
     planet: tronoe
     divisions: 7
     seed: 12
-    radius: 2.56775
+    radius: 2.53555
     color1: e4531b
     color2: e26e41
     octaves: 4
@@ -56,7 +56,7 @@ mesh: [
     planet: tronoe
     divisions: 7
     seed: 13
-    radius: 2.56775
+    radius: 2.5455
     color1: 0d488e
     color2: 173b66
     octaves: 4
@@ -68,7 +68,7 @@ mesh: [
     planet: tronoe
     divisions: 7
     seed: 14
-    radius: 2.56775
+    radius: 2.5655
     color1: 80b5f3
     color2: 94adca
     octaves: 4
@@ -80,7 +80,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: tronoe
    speed: 1.21 //speed 
-   radius: 0.1 //idk
+   radius: 3 //idk
    divisions: 6 //don't make too high
    color: "eafffd7e" //buhhuhhuuhuh
    octaves: "3"
