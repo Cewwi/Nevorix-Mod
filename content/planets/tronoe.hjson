@@ -2,6 +2,10 @@ localizedName: Tronoe PO7
 description: "A large planet with Mixed conditions."
 alwaysUnlocked: true
 mesh: [
+//persistence = how varied the height is
+
+
+
  {
     //normal stone
     type: NoiseMesh
