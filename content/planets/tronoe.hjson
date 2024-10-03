@@ -15,8 +15,8 @@ mesh: [
     radius: 2.9999
     color1: 151515
     color2: 120d0d
-    octaves: 20
-    persistence: 1
+    octaves: 5
+    persistence: 5
   }
   {
     //lighter stone
@@ -27,8 +27,8 @@ mesh: [
     radius: 2.9999
     color1: 353535
     color2: 2a2626
-    octaves: 20
-    persistence: 1
+    octaves: 5
+    persistence: 5
   }
   {
     //dark slag
@@ -39,8 +39,8 @@ mesh: [
     radius: 2.9999
     color1: c73c0b
     color2: a84523
-    octaves: 100
-    persistence: 0
+    octaves: 0.1
+    persistence: 5
   }
   {
     //light slag
@@ -51,8 +51,8 @@ mesh: [
     radius: 2.9999
     color1: e4531b
     color2: e26e41
-    octaves: 100
-    persistence: 0
+    octaves: 0.1
+    persistence: 5
   }
   {
     //dark ice
@@ -64,7 +64,7 @@ mesh: [
     color1: 0d488e
     color2: 173b66
     octaves: 0.1
-    persistence: 0
+    persistence: 1
   }
   {
     //light ice
@@ -76,7 +76,7 @@ mesh: [
     color1: 80b5f3
     color2: 94adca
     octaves: 0.1
-    persistence: 0
+    persistence: 1
   }
 ]
 cloudMesh: [
