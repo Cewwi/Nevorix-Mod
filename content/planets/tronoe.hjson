@@ -8,7 +8,7 @@ mesh: [
     planet: tronoe
     divisions: 5
     seed: 7
-    radius: 2.5555
+    radius: 2.8888
     color1: 151515
     color2: 120d0d
     octaves: 3.2
@@ -20,7 +20,7 @@ mesh: [
     planet: tronoe
     divisions: 5
     seed: 8
-    radius: 2.5444
+    radius: 2.9999
     color1: 353535
     color2: 2a2626
     octaves: 3.2
@@ -32,7 +32,7 @@ mesh: [
     planet: tronoe
     divisions: 7
     seed: 11
-    radius: 2.53232
+    radius: 2.2222
     color1: c73c0b
     color2: a84523
     octaves: 4
@@ -44,7 +44,7 @@ mesh: [
     planet: tronoe
     divisions: 7
     seed: 12
-    radius: 2.53555
+    radius: 2.2222
     color1: e4531b
     color2: e26e41
     octaves: 4
@@ -56,7 +56,7 @@ mesh: [
     planet: tronoe
     divisions: 7
     seed: 13
-    radius: 2.5455
+    radius: 2.2222
     color1: 0d488e
     color2: 173b66
     octaves: 4
@@ -68,7 +68,7 @@ mesh: [
     planet: tronoe
     divisions: 7
     seed: 14
-    radius: 2.5655
+    radius: 2.2222
     color1: 80b5f3
     color2: 94adca
     octaves: 4
