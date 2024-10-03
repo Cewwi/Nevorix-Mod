@@ -8,7 +8,7 @@ mesh: [
     planet: tronoe
     divisions: 5
     seed: 7
-    radius: 2.8888
+    radius: 2.9999
     color1: 151515
     color2: 120d0d
     octaves: 3.2
@@ -30,7 +30,7 @@ mesh: [
     //dark slag
     type: NoiseMesh
     planet: tronoe
-    divisions: 7
+    divisions: 5
     seed: 11
     radius: 2.9999
     color1: c73c0b
@@ -42,7 +42,7 @@ mesh: [
     //light slag
     type: NoiseMesh
     planet: tronoe
-    divisions: 7
+    divisions: 5
     seed: 12
     radius: 2.9999
     color1: e4531b
@@ -54,7 +54,7 @@ mesh: [
     //dark ice
     type: NoiseMesh
     planet: tronoe
-    divisions: 7
+    divisions: 5
     seed: 13
     radius: 2.9999
     color1: 0d488e
@@ -66,7 +66,7 @@ mesh: [
     //light ice
     type: NoiseMesh
     planet: tronoe
-    divisions: 7
+    divisions: 5
     seed: 14
     radius: 2.9999
     color1: 80b5f3
