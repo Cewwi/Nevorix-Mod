@@ -36,7 +36,7 @@ mesh: [
     color1: c73c0b
     color2: a84523
     octaves: 3.2
-    persistence: 0.01
+    persistence: 50
   }
   {
     //light slag
@@ -48,7 +48,7 @@ mesh: [
     color1: e4531b
     color2: e26e41
     octaves: 3.2
-    persistence: 0.01
+    persistence: 40
   }
   {
     //dark ice
@@ -60,7 +60,7 @@ mesh: [
     color1: 0d488e
     color2: 173b66
     octaves: 3.2
-    persistence: 0.01
+    persistence: 50
   }
   {
     //light ice
@@ -72,7 +72,7 @@ mesh: [
     color1: 80b5f3
     color2: 94adca
     octaves: 3.2
-    persistence: 0.01
+    persistence: 40
   }
 ]
 cloudMesh: [
