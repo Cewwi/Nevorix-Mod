@@ -3,22 +3,81 @@ description: "A large planet with Mixed conditions."
 alwaysUnlocked: true
 mesh: [
  {
-    //write here whatever this is supposed to represent
-    type: NoiseMesh //no touch
+    //normal stone
+    type: NoiseMesh
     planet: tronoe
-    divisions: 5 //touch, but dont make it too high
-    seed: 7 //change ig
-    radius: 3.229 //your choice, just make it reasonable
-    color1: 628b9d //change coolors
-    color2: 353535 //change coolors
-    octaves: 3.7 //I think this is variation? idk, you tell me lol
-    persistence: 1.1 //how often it appears i think
+    divisions: 5
+    seed: 7
+    radius: 4
+    color1: 151515
+    color2: 120d0d
+    octaves: 3.2
+    persistence: 1.3
   }
-  //copy paste the above thingy to make the different colours, and play around with values ig
+  {
+    //lighter stone
+    type: NoiseMesh
+    planet: tronoe
+    divisions: 5
+    seed: 8
+    radius: 4
+    color1: 353535
+    color2: 2a2626
+    octaves: 3.2
+    persistence: 1.3
+  }
+  {
+    //dark slag
+    type: NoiseMesh
+    planet: tronoe
+    divisions: 7
+    seed: 11
+    radius: 2.56775
+    color1: c73c0b
+    color2: a84523
+    octaves: 4
+    persistence: 0.3
+  }
+  {
+    //light slag
+    type: NoiseMesh
+    planet: tronoe
+    divisions: 7
+    seed: 12
+    radius: 2.56775
+    color1: e4531b
+    color2: e26e41
+    octaves: 4
+    persistence: 0.45
+  }
+  {
+    //dark ice
+    type: NoiseMesh
+    planet: tronoe
+    divisions: 7
+    seed: 13
+    radius: 2.56775
+    color1: 0d488e
+    color2: 173b66
+    octaves: 4
+    persistence: 0.3
+  }
+  {
+    //light ice
+    type: NoiseMesh
+    planet: tronoe
+    divisions: 7
+    seed: 14
+    radius: 2.56775
+    color1: 80b5f3
+    color2: 94adca
+    octaves: 4
+    persistence: 0.45
+  }
 ]
 cloudMesh: [
  {
-   type: HexSkyMesh //no touch
+   type: HexSkyMesh
    planet: tronoe
    speed: 1.21 //speed 
    radius: 0.1 //idk
