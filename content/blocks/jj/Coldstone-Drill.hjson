@@ -9,6 +9,7 @@ requirements: [
 ]
 drillTime: 100
 output: Coldstone
+attribute: Coldstone
 ambientSound: drill
 ambientSoundVolume: 0.08
 alwaysUnlocked: true
