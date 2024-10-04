@@ -35,9 +35,9 @@ useEngineElevation: false
 lowAltitude: false
 weapons: [
   {
-    x: 0
-    y: 1
-    mirror: false
+    x: 2
+    y: 0
+    mirror: true
     alternate: false
     reload: 200
     rotate: false
@@ -47,31 +47,45 @@ weapons: [
       shotDelay: 6
       inaccuracy: 20
     }
-    bullet: {
-      type: MissileBulletType
-      speed: 10
-      lifetime: 40
-      damage: 30
-      width: 2
-      height: 10
-      trailWidth: 2
-      trailLength: 10
-      pierce: true
-      buildingPierce: true
-      shrinkX: 1
-      shrinkY: 0
-      fragBullet: {
-            speed: 5
-            lifetime: 10
-            pierce: true
-            damage: 5
-            width: 1
-            height: 10
-      }
-      fragBullets: 15
-      fragSpread: 45
-      fragRandomSpread: 3
-      fragVelocityMin: 0.8
-    }
-  }
-]
+    type:   ContinuousLaserBulletType
+		ammoPerShot: 1
+		speed: 0
+		damage: 888
+		width: 10
+		height: 800
+		shootEffect: shootSmall
+		ammoMultiplier: 20
+    fadeTime: 5
+    lightStroke: 60
+    divisions: 20.5
+    colors: [007a84, 00bbca, 00ecff]
+    strokeFrom: 5
+    strokeTo: 0.5
+    pointyScaling: 2
+    backLength: 3
+    frontLength: 50
+    width: 1
+    oscScl: 0.5
+    oscMag: 5
+}
+type: RepairBeamWeapon
+x: 3.75
+y: 5
+rotate: false
+mirror: true
+shootY: 0
+widthSinMag: 0.14
+reload: 20
+beamWidth: 0.7
+shootCone: 40
+repairSpeed: 4.2
+fractionRepairSpeed: 0.04
+targetUnits: false
+targetBuildings: true
+autoTarget: false
+controllable: true
+laserColor: f08dd5
+healColor: f08dd5
+bullet: {
+maxRange: 85
+}
