@@ -5,10 +5,10 @@ size: 2
 category: production
 research: plasma-bore
 requirements: [
-  silicon/1
+  Coldstone/50
 ]
-drillTime: 1
-output: tungsten
+drillTime: 300
+output: Coldstone
 ambientSound: drill
 ambientSoundVolume: 0.08
 alwaysUnlocked: true
