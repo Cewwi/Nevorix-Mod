@@ -4,5 +4,5 @@ hardness: 1
 cost: 0.5
 alwaysUnlocked: true
 color: 133a3d
-research: copper
+research: isocite
 hiddenOnPlanets: [serpulo, erekir]
