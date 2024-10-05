@@ -42,11 +42,11 @@ weapons: [
     rotate: false
     shootSound: shoot-small-flame
     bullet: {
-      type: ContinuousFlameBulletType
+      type: LaserBulletType
       length: 100
       width: 6
-      colors: [ff0004, ff0004, e13d1e, e23b1d, ffffff]
-      drawFlare: true
+      colors: [ffffff, ff0004, e13d1e, e23b1d, ffffff]
+      drawFlare: false
       damageInterval: 15
       damage: 5
       buildingDamageMultiplier: 0.01
