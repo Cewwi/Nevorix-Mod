@@ -43,6 +43,7 @@ weapons: [
     shootSound: shoot-small-flame
     bullet: {
       type: LaserBulletType
+      name: Heat-gun
       length: 100
       width: 6
       colors: [ffffff, ff0004, e13d1e, e23b1d, ffffff]
