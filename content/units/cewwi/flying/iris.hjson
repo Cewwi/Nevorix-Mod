@@ -51,7 +51,7 @@ weapons: [
       width: 1
       colors: [083841, 0d5463, 117082, 179bb5, 14c7eb]
       drawFlare: false
-      damageInterval: 15
+      //damageInterval: 15
       damage: 5
       buildingDamageMultiplier: 0.01
       pierceArmor: false
