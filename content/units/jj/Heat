@@ -1,0 +1,123 @@
+type: legs
+legCount: 6
+legLength: 12
+legSpeed: 0.2
+legForwardScl: 0.56
+legMoveSpace: 0.9
+hovering: true
+groundLayer: 60
+name: Theta
+description: Defends the Substratum core. Builds structures and mines ores. 
+health: 200
+armor: 2
+speed: 1.5
+hitSize: 12
+isEnemy: false
+mineSpeed: 5.5
+mineFloor: true
+mineWalls: true
+mineTier: 1
+buildSpeed: 0.95
+drag: 0.4
+itemCapacity: 30
+alwaysUnlocked: true
+outlineColor: 42413e
+
+abilities: [
+  {
+    type: ShieldRegenFieldAbility
+    reload: 240
+    range: 100
+    amount: 6
+    max: 32
+  }
+]
+weapons: [
+  {
+    name: electric-drone
+    x: 0
+    y: -16
+    mirror: false
+    rotate: true
+    reload: 31
+    shootSound: spark
+    rotateSpeed: 3.6
+    recoil: 1
+    bullet: {
+      type: LightningBulletType
+      damage: 12
+      buildingDamageMultiplier: 0.01
+      lightningLength: 18
+      hitSound: spark
+      despawnSound: spark
+      spawnBullets: [
+        {
+          type: LaserBulletType
+          width: 5
+          length: 144
+          damage: 14
+          buildingDamageMultiplier: 0.01
+          pierce: true
+          pierceCap: 1
+        }
+      ]
+    }
+  }
+  {
+    name: fire-drone
+    x: 15
+    y: 7
+    mirror: False
+    rotate: true
+    rotateSpeed: 4
+    shootSound: shoot-small-flame
+    reload: 8
+    inaccuracy: 4
+    recoil: 0.2
+    bullet: {
+      type: ContinuousFlameBulletType
+      buildingDamageMultiplier: 0.01
+      lifetime: 20
+      drawFlare: false
+      hitColor: ffc9a2
+      damage: 4
+      knockback: 0
+      pierce: true
+      pierceArmor: true
+      length: 120
+      width: 1.2
+      colors: [e99558, f3ad7a, ffc9a2, ffdfc7, ffffff]
+    }
+  }
+  {
+    name: needle-drone
+    x: -15
+    y: 7
+    mirror: false
+    rotate: true
+    rotateSpeed: 2.2
+    shootSound: shoot-heavy-cannon
+    reload: 121
+    recoil: 2
+    bullet: {
+      buildingDamageMultiplier: 0.01
+      trailColor: 4e4277
+      trailRotation: true
+      trailLength: 12
+      trailWidth: 1
+      type: BasicBulletType
+      layer: 111
+      width: 4
+      height: 42
+      speed: 6
+      lifetime: 28
+      frontColor: 8270c0
+      backColor: 4e4277
+      pierce: true
+      pierceBuilding: false
+      pierceCap: 2
+      damage: 38
+      despawnSound: dullExplosion
+    }
+  }
+]
