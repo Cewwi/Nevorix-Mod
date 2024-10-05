@@ -19,7 +19,7 @@ mineWalls: true
 mineTier: 1
 buildSpeed: 0.95
 drag: 0.4
-itemCapacity: 30
+itemCapacity: 80
 alwaysUnlocked: true
 outlineColor: 42413e
 
@@ -40,12 +40,12 @@ weapons: [
     alternate: false
     reload: 1
     rotate: false
-    shootSound: missile
+    shootSound: shoot-small-flame
     bullet: {
       type: ContinuousFlameBulletType
       length: 100
       width: 6
-      colors: [083841, 0d5463, 117082, 179bb5, 14c7eb]
+      colors: [ff0004, ff0004, e13d1e, e23b1d, ffffff]
       drawFlare: true
       damageInterval: 15
       damage: 5
