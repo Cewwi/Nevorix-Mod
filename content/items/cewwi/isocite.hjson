@@ -4,5 +4,5 @@ hardness: 1
 cost: 0.5
 alwaysUnlocked: true
 color: 2c3444
-research: copper
+research: iridescence
 hiddenOnPlanets: [serpulo, erekir]
