@@ -12,6 +12,9 @@ health: 300
 armor: 0
 hitSize: 7
 researchCostMultiplier: 1.5
+buildSpeed: 3
+buildBeamOffset: 1.1
+outlineColor: 282b3b
 abilities: [
   {
     type: MoveEffectAbility
