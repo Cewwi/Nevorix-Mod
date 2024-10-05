@@ -84,10 +84,9 @@ targetUnits: false
 targetBuildings: true
 autoTarget: false
 controllable: true
-laserColor: f08dd5
-healColor: f08dd5
+laserColor: 14c7eb
+healColor: 14c7eb
 bullet: {
 maxRange: 85
-      }
     }
 ]
