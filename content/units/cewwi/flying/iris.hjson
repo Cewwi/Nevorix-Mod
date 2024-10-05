@@ -55,7 +55,7 @@ weapons: [
       damage: 1.5
       buildingDamageMultiplier: 0.1
       pierceArmor: true
-      pierceCap: 8
+      //pierceCap: 8
       hitEffect: none
       despawnEffect: none
     }
