@@ -1,5 +1,5 @@
 type: legs
-legCount: 4
+legCount: 6
 legLength: 12
 legSpeed: 0.2
 legForwardScl: 0.56
@@ -10,7 +10,7 @@ name: Heat
 description: Defends the Heat core. Builds structures and mines ores. 
 health: 200
 armor: 2
-speed: 1.5
+speed: 1
 hitSize: 12
 isEnemy: false
 mineSpeed: 5.5
