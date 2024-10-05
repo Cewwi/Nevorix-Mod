@@ -28,7 +28,7 @@ weapons: [
       type: LaserBoltBulletType
       speed: 10
       lifetime: 40
-      damage: 30
+      damage: 4
       width: 2
       height: 10
       collidesTeam: true
