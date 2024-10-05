@@ -1,6 +1,6 @@
 type: flying
 name: Cold
-description: Defender of the Cold core. Equipped with Cannons and a repair beam.
+description: Defender of the Cold core. Can mine, build and defend.
 shadowElevation: 0.1
 drag: 0.08
 outlineColor: 44413c
@@ -58,20 +58,6 @@ weapons: [
       pierceCap: 3
       hitEffect: none
       despawnEffect: none
-    }
-  }
-  {
-    x: -0.5
-    y: 4.1
-    reload: 36
-    mirror: true
-    alternate: false
-    rotate: false
-    ejectEffect: casing2
-    shootSound: shoot-dull
-    shoot: {
-      shots: 3
-      shotDelay: 8
     }
   }
 ]
