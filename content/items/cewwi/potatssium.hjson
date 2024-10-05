@@ -5,4 +5,4 @@ cost: 0.5
 alwaysUnlocked: true
 color: 133a3d
 research: copper
-//hiddenOnPlanets: [serpulo, erekir]
+hiddenOnPlanets: [serpulo, erekir]
