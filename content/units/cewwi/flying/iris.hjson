@@ -7,7 +7,7 @@ outlineColor: 43474f
 speed: 5
 rotateSpeed: 6
 accel: 0.2011576
-groundLayer: 60
+groundLayer: 300
 health: 250
 armor: 2
 hitSize: 7
