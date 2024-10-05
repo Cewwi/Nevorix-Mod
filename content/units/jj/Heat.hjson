@@ -34,7 +34,7 @@ abilities: [
 ]
 weapons: [
   {
-    x: 2
+    x: 0
     y: 0
     mirror: true
     alternate: false
@@ -43,10 +43,10 @@ weapons: [
     shootSound: missile
     bullet: {
       type: ContinuousFlameBulletType
-      length: 200
-      width: 1
+      length: 100
+      width: 6
       colors: [083841, 0d5463, 117082, 179bb5, 14c7eb]
-      drawFlare: false
+      drawFlare: true
       damageInterval: 15
       damage: 5
       buildingDamageMultiplier: 0.01
