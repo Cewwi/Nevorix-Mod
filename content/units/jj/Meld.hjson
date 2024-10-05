@@ -31,6 +31,7 @@ weapons: [
       damage: 4
       width: 2
       height: 10
+      color: 16c5e9
       collidesTeam: true
       healPercent: 1
       trailWidth: 2
