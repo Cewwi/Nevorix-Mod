@@ -1,13 +1,13 @@
 type: legs
-legCount: 6
+legCount: 4
 legLength: 12
 legSpeed: 0.2
 legForwardScl: 0.56
 legMoveSpace: 0.9
 hovering: true
 groundLayer: 60
-name: Theta
-description: Defends the Substratum core. Builds structures and mines ores. 
+name: Heat
+description: Defends the Heat core. Builds structures and mines ores. 
 health: 200
 armor: 2
 speed: 1.5
