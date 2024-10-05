@@ -1,6 +1,6 @@
 type: flying
 name: Cold
-description: Defender of the Cold core. Equipped with lasers and a healing beam.
+description: Defender of the Cold core. Equipped with Cannons and a repair beam.
 shadowElevation: 0.1
 drag: 0.08
 outlineColor: 44413c
@@ -42,20 +42,20 @@ weapons: [
     y: 0
     mirror: true
     alternate: false
-    reload: 200
+    reload: 10
     rotate: false
     shootSound: missile
     bullet: {
       type: ContinuousFlameBulletType
-      length: 80
+      length: 200
       width: 1
       colors: [d46f6b, e48581, ffbe7f, e49e81, ffffff]
       drawFlare: false
       damageInterval: 15
-      damage: 14
+      damage: 2
       buildingDamageMultiplier: 0.01
       pierceArmor: false
-      pierceCap: 1
+      pierceCap: 3
       hitEffect: none
       despawnEffect: none
     }
