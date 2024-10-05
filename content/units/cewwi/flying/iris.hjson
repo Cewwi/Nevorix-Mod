@@ -61,8 +61,8 @@ weapons: [
     }
   shoot: {
     type: ShootPatternType
-    shots: 4
-    shotDelay: 5
+    shots: 20
+    shotDelay: 1
     firstShotDelay: 0
     inaccurracy: 10
 }
