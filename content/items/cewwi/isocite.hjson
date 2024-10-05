@@ -1,0 +1,8 @@
+name: Isocite
+description: a hard, rock-like material that is very common on.
+hardness: 1
+cost: 0.5
+alwaysUnlocked: true
+color: 2c3444
+research: copper
+//hiddenOnPlanets: [serpulo, erekir]
