@@ -39,9 +39,9 @@ weapons: [
     name: Heat-gun
     mirror: true
     alternate: false
-    reload: 1
+    reload: 5
     rotate: false
-    shootSound: shoot-small-flame
+    shootSound: missile
     bullet: {
       type: LaserBulletType
       length: 100
