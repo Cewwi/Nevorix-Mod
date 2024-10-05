@@ -73,26 +73,5 @@ weapons: [
       shots: 3
       shotDelay: 8
     }
-type: RepairBeamWeapon
-x: 3.75
-y: 5
-rotate: false
-mirror: true
-shootY: 0
-widthSinMag: 0.14
-reload: 20
-beamWidth: 0.7
-shootCone: 40
-repairSpeed: 4.2
-fractionRepairSpeed: 0.04
-targetUnits: false
-targetBuildings: true
-autoTarget: false
-controllable: true
-laserColor: 14c7eb
-healColor: 14c7eb
-bullet: {
-maxRange: 85
-    }
-}
+  }
 ]
