@@ -42,7 +42,7 @@ weapons: [
     y: 0
     mirror: true
     alternate: false
-    reload: 1
+    reload: 40
     rotate: false
     shootSound: missile
     bullet: {
@@ -61,8 +61,8 @@ weapons: [
     }
   shoot: {
     type: ShootPatternType
-    shots: 7
-    shotDelay: 30
+    shots: 4
+    shotDelay: 5
     firstShotDelay: 0
     inaccurracy: 10
 }
