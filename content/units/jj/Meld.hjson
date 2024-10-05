@@ -15,13 +15,13 @@ weapons: [
       recoil: 0.4
       shootCone: 45
         y: 1.25
-        reload: 72
+        reload: 59
         rotate: false
         mirror: true
         alternate: true
         shoot: {
-          shots: 4
-          shotDelay: 12
+          shots: 3
+          shotDelay: 5
         }
         shootSound: energy-blade-launch
         bullet: {
@@ -30,7 +30,7 @@ weapons: [
       lifetime: 40
       damage: 4
       width: 2
-      height: 10
+      height: 5
       color: 16c5e9
       collidesTeam: true
       healPercent: 1
@@ -44,7 +44,7 @@ weapons: [
             speed: 5
             lifetime: 10
             pierce: true
-            damage: 5
+            damage: 2
             width: 1
             height: 10
       }
