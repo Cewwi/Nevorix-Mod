@@ -1,28 +1,28 @@
 type: flying
 name: Iris
-description: Defender of the Cold core. Can mine, build and defend.
+description: Defender of the Iridescence core. Can mine, build and defend.
 shadowElevation: 0.1
 drag: 0.08
-outlineColor: 44413c
-speed: 4
-rotateSpeed: 8
-accel: 0.211195
+outlineColor: 43474f
+speed: 5
+rotateSpeed: 6
+accel: 0.2011576
 groundLayer: 60
-health: 300
-armor: 0
+health: 250
+armor: 2
 hitSize: 7
 researchCostMultiplier: 1.5
-buildSpeed: 3
+buildSpeed: 4
 buildBeamOffset: 1.1
-outlineColor: 282b3b
 abilities: [
   {
     type: MoveEffectAbility
-    teamColor: true
+    teamColor: false
+    color: 842c9c
     effect: missileTrailShort
     x: 0
     y: 0
-    interval: 4
+    interval: 3
     minVelocity: 0.6
   }
 ]
@@ -33,7 +33,7 @@ engines: [
     radius: 3.5
   }
 ]
-itemCapacity: 0
+itemCapacity: 30
 useEngineElevation: false
 lowAltitude: false
 weapons: [
