@@ -1,1 +1,8 @@
-
+name: Malanium
+description: a highly unstable compound. Used in weapons, and production.
+hardness: 1
+cost: 0.5
+alwaysUnlocked: true
+color: 133a3d
+research: isocite
+hiddenOnPlanets: [serpulo, erekir]
