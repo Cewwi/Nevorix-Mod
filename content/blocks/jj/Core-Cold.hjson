@@ -11,7 +11,7 @@
   unitType: Cold
  requirements: [
     silicon/1000
-    carbide/1000
-    beryllium/800
+    Coldstone/1000
+    graphite/800
   ],
   alwaysUnlocked: true
