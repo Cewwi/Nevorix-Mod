@@ -42,17 +42,17 @@ weapons: [
     y: 0
     mirror: true
     alternate: false
-    reload: 10
+    reload: 1
     rotate: false
     shootSound: missile
     bullet: {
       type: ContinuousFlameBulletType
       length: 200
       width: 1
-      colors: [d46f6b, e48581, ffbe7f, e49e81, ffffff]
+      colors: [083841, 0d5463, 117082, 179bb5, 14c7eb]
       drawFlare: false
       damageInterval: 15
-      damage: 2
+      damage: 5
       buildingDamageMultiplier: 0.01
       pierceArmor: false
       pierceCap: 3
