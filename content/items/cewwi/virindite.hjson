@@ -1,0 +1,8 @@
+name: Virindite
+description: a fragile, conductive mineral. Commonly used for power generation.
+hardness: 0.5
+cost: 0.5
+alwaysUnlocked: true
+color: 5c2c54
+research: copper
+hiddenOnPlanets: [serpulo, erekir]
