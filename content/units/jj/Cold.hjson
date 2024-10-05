@@ -42,32 +42,34 @@ weapons: [
     reload: 200
     rotate: false
     shootSound: missile
-    shoot: {
-      shots: 1
-      shotDelay: 6
-      inaccuracy: 20
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 80
+      width: 1
+      colors: [d46f6b, e48581, ffbe7f, e49e81, ffffff]
+      drawFlare: false
+      damageInterval: 15
+      damage: 14
+      buildingDamageMultiplier: 0.01
+      pierceArmor: false
+      pierceCap: 1
+      hitEffect: none
+      despawnEffect: none
     }
-    type:   ContinuousLaserBulletType
-		ammoPerShot: 1
-		speed: 0
-		damage: 888
-		width: 10
-		height: 800
-		shootEffect: shootSmall
-		ammoMultiplier: 20
-    fadeTime: 5
-    lightStroke: 60
-    divisions: 20.5
-    colors: [007a84, 00bbca, 00ecff]
-    strokeFrom: 5
-    strokeTo: 0.5
-    pointyScaling: 2
-    backLength: 3
-    frontLength: 50
-    width: 1
-    oscScl: 0.5
-    oscMag: 5
-}
+  }
+  {
+    x: -0.5
+    y: 4.1
+    reload: 36
+    mirror: true
+    alternate: false
+    rotate: false
+    ejectEffect: casing2
+    shootSound: shoot-dull
+    shoot: {
+      shots: 3
+      shotDelay: 8
+    }
 type: RepairBeamWeapon
 x: 3.75
 y: 5
@@ -89,4 +91,5 @@ healColor: 14c7eb
 bullet: {
 maxRange: 85
     }
+}
 ]
