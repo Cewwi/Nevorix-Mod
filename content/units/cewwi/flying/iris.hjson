@@ -59,5 +59,12 @@ weapons: [
       hitEffect: none
       despawnEffect: none
     }
+  shoot: {
+    type: ShootPatternType
+    shots: 7
+    shotDelay: 30
+    firstShotDelay: 0
+    inaccurracy: 10
+}
   }
 ]
