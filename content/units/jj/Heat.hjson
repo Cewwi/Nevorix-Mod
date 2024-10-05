@@ -34,9 +34,9 @@ abilities: [
 ]
 weapons: [
   {
-    x: 7
+    x: 8
     y: 0
-    name: Heat-gun
+    name: Heat-Gun
     mirror: true
     alternate: false
     reload: 5
