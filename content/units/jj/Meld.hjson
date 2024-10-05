@@ -25,44 +25,32 @@ weapons: [
         }
         shootSound: energy-blade-launch
         bullet: {
-          type: BasicBulletType
-          speed: 4
-          lifetime: 32
-          pierce: false
-          damage: 22
-          pierce: true
-          pierceCap: 2
-          width: 28
-          height: 12
-          sprite: asthosus-energy-blade
-          trailEffect: disperseTrail
-          trailInterval: 3
-        }
-    }
-    {  
-      x: 0
-      y: 0
-      display: false
-      rotate: false
-      mirror: false
-      reload: 210
-      shootCone: 5
-      shootSound: energy-blade-hit
-      bullet: {
-        width: 0
-        speed: 8
-        lifetime: 10
-        despawnEffect: none
-        hitEffect: none
-        height: 0
-        collides: false
-        damage: 0
-        pierce: true
-        pierceBuilding: true
-        recoil: -24
-        impact: true
+      type: LaserBoltBulletType
+      speed: 10
+      lifetime: 40
+      damage: 30
+      width: 2
+      height: 10
+      collidesTeam: true
+      healPercent: 1
+      trailWidth: 2
+      trailLength: 10
+      pierce: true
+      buildingPierce: true
+      shrinkX: 1
+      shrinkY: 0
+      fragBullet: {
+            speed: 5
+            lifetime: 10
+            pierce: true
+            damage: 5
+            width: 1
+            height: 10
       }
+      fragBullets: 4
+      fragSpread: 30
+      fragRandomSpread: 3
+      fragVelocityMin: 0.8
     }
+  }
 ]
-researchCostMultiplier: 1.5
-research: 10j-00-ground-mounting-bay
