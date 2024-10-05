@@ -11,7 +11,7 @@ weapons: [
     {
       top: false
       x: -6.1
-      name: shiv-weapon
+      name: Meld-cannon
       recoil: 0.4
       shootCone: 45
         y: 1.25
@@ -20,7 +20,7 @@ weapons: [
         mirror: true
         alternate: true
         shoot: {
-          shots: 2
+          shots: 4
           shotDelay: 12
         }
         shootSound: energy-blade-launch
