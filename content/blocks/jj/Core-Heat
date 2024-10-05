@@ -1,0 +1,17 @@
+name: Core: Heat
+  type: CoreBlock
+  health: 6500
+  size: 4
+  armor: 16
+  isFirstTier: true
+  itemCapacity: 2000
+  unitCapModifier: 15
+  researchCostMultiplier: 0.07
+  buildCostMultiplier: 0.7
+  unitType: Heat
+ requirements: [
+    silicon/1000
+    Coldstone/1000
+    graphite/800
+  ],
+  alwaysUnlocked: true
