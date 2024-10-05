@@ -1,6 +1,6 @@
 type: mech
 name: Meld
-description: Fires Healing bullets at buildings and ally units.
+description: Fires Healing bullets at buildings.
 speed: 0.5
 flying: false
 health: 210
