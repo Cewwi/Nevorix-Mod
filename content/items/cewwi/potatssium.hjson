@@ -1,5 +1,5 @@
 name: Potatssium
-description: a hard, rock-like material. Used to build basic structures.
+description: a hard, slightly radioactive mineral. Used to make machines.
 hardness: 1
 cost: 0.5
 alwaysUnlocked: true
