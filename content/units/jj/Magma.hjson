@@ -34,7 +34,7 @@ abilities: [
 ]
 weapons: [
   {
-    x: 8
+    x: 10
     y: 0
     name: Magma-Gun-Big
     mirror: true
