@@ -33,7 +33,7 @@ abilities: [
   }
 ]
 weapons: [
-
+{
     x: 8
     y: 0
     name: Heat-Gun
