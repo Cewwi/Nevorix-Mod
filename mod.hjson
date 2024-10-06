@@ -1,7 +1,7 @@
 name: "cewwi-mod"
 displayName: "Goofy Ahh Turrets and Stuff"
 author: "cewwi & JJ"
-description: "two novices try to mod mindustry gone wrong"
+description: "We plan to add three new planets into the game, with two new tech trees./n/n On Tronoe, a deserted planet where ice and fire co-exist in harmony, your goal is to harness elemental energies to reign supreme over the planet./n/n On the dark, and irradiated wasteland of Iralius, you must research how to use the native radioactive rescources to overcome it's mutated inhabitants./n/n On the ancient battlefield of Nevorix, you must use the technologies that you have researched on Tronoe and Iralius to overcome an ancient enemy that has long gone undefeated, as well as using new materials to create mmore powerful weapons, and structures."
 version: "1.0"
 minGameVersion: "146"
 dependencies: [ ]
