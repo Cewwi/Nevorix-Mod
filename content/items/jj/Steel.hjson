@@ -1,0 +1,8 @@
+name: Strong
+description: "Very strong, but only in larg quantities."
+hardness: 1
+cost: 0.5
+alwaysUnlocked: true
+color: 628b9d
+research: Coldstone
+hiddenOnPlanets: [serpulo, erekir]
