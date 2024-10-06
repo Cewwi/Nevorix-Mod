@@ -1,10 +1,9 @@
 name: Core: Magma
   type: CoreBlock
-  health: 6500
+  health: 12500
   size: 5
   armor: 16
-  isFirstTier: true
-  itemCapacity: 2000
+  itemCapacity: 4000
   unitCapModifier: 15
   researchCostMultiplier: 0.07
   buildCostMultiplier: 0.7
