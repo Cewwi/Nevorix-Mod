@@ -63,7 +63,7 @@ shoot: {
     }
     x: 8
     y: 0
-    name: Heat-Gun-Big
+    name: Heat-Gun
     mirror: true
     alternate: false
     reload: 5
