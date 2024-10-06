@@ -17,7 +17,7 @@ mineSpeed: 7.5
 mineFloor: true
 mineWalls: true
 mineTier: 2
-buildSpeed: 0.95
+buildSpeed: 1.2
 drag: 0.4
 itemCapacity: 110
 alwaysUnlocked: true
@@ -69,7 +69,7 @@ shoot: {
     mirror: true
     alternate: false
     reload: 12
-    rotate: false
+    rotate: true
     shootSound: shootBig2
     shoot: {
       shots: 1
