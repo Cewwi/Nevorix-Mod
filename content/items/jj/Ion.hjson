@@ -1,0 +1,8 @@
+name: Ion
+description: "A strong, boutiful material. Used in every structure."
+hardness: 1
+cost: 0.5
+alwaysUnlocked: true
+color: 628b9d
+research: Olium
+hiddenOnPlanets: [serpulo, erekir]
