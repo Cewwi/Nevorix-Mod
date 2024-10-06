@@ -1,1 +1,8 @@
-
+name: Coldstone
+description: "Not very strong, but has the special ability to repair broken structures."
+hardness: 1
+cost: 0.5
+alwaysUnlocked: true
+color: 628b9d
+research: Coldstone
+hiddenOnPlanets: [serpulo, erekir]
