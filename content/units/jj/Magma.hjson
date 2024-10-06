@@ -56,9 +56,11 @@ weapons: [
       hitEffect: none
       despawnEffect: none
     }
+}
+{
     x: 3
     y: 3
-    name: Heat-Gun-small
+    name: Magma-Gun-small
     mirror: true
     alternate: false
     reload: 5
