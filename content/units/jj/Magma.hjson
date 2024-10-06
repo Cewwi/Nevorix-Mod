@@ -34,6 +34,33 @@ abilities: [
 ]
 weapons: [
   {
+    x: 3
+    y: 3
+    name: Heat-Gun-small
+    mirror: true
+    alternate: false
+    reload: 5
+    rotate: false
+    shootSound: missile
+shoot: {
+      shots: 1
+      shotDelay: 6
+      inaccuracy: 20
+    }
+    bullet: {
+      type: MissileBulletType
+      speed: 10
+      lifetime: 40
+      damage: 3
+      width: 2
+      height: 10
+      trailWidth: 2
+      trailLength: 10
+      pierce: true
+      buildingPierce: true
+      shrinkX: 1
+      shrinkY: 0
+    }
     x: 10
     y: 0
     name: Magma-Gun-Big
