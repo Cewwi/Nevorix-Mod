@@ -4,5 +4,5 @@ hardness: 1
 cost: 0.5
 alwaysUnlocked: true
 color: 628b9d
-research: Core-Cold
+research: Olium
 hiddenOnPlanets: [serpulo, erekir]
