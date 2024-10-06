@@ -10,8 +10,6 @@ name: Core: Heat
   buildCostMultiplier: 0.7
   unitType: Heat
  requirements: [
-    silicon/1000
-    Coldstone/1000
-    graphite/800
+    silicon/1
   ],
   alwaysUnlocked: true
