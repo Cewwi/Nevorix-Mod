@@ -34,22 +34,27 @@ abilities: [
 ]
 weapons: [
 {
+shoot: {
+      shots: 10
+      shotDelay: 1
+      inaccuracy: 0
+    }
     x: 10
     y: 0
     name: Magma-Gun-Big
     mirror: true
     alternate: false
-    reload: 5
+    reload: 30
     rotate: false
     shootSound: missile
     bullet: {
       type: LaserBulletType
       length: 100
-      width: 6
+      width: 20
       colors: [ffffff, ff0004, e13d1e, e23b1d, ffffff]
       drawFlare: false
       damageInterval: 15
-      damage: 5
+      damage: 7
       buildingDamageMultiplier: 0.01
       pierceArmor: false
       pierceCap: 3
@@ -58,12 +63,12 @@ weapons: [
     }
 }
 {
-    x: 3
-    y: 3
+    x: 6
+    y: -3
     name: Magma-Gun-small
     mirror: true
     alternate: false
-    reload: 5
+    reload: 12
     rotate: false
     shootSound: shootBig2
     shoot: {
