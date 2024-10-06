@@ -1,0 +1,8 @@
+name: Magmium
+description: "Refined form of Volcanite, Generates a large amount of power, and extremely volatile."
+hardness: 1
+cost: 0.5
+alwaysUnlocked: true
+color: 628b9d
+research: Volcanite
+hiddenOnPlanets: [serpulo, erekir]
