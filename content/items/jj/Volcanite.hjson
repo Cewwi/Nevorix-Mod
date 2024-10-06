@@ -1,5 +1,5 @@
-name: Ferrinite
-description: "A cold, hard rock using in basic structures."
+name: Volcanite
+description: "A Hot rock. Produces power, but highly volatile"
 hardness: 1
 cost: 0.5
 alwaysUnlocked: true
