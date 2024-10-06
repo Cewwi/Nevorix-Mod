@@ -44,8 +44,8 @@ weapons: [
     shootSound: missile
     bullet: {
       type: LaserBulletType
-      length: 150
-      width: 8
+      length: 100
+      width: 5
       colors: [ffffff, ff0004, e13d1e, e23b1d, ff0004]
       drawFlare: false
       damageInterval: 15
