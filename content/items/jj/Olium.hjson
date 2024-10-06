@@ -1,0 +1,8 @@
+name: Olium
+description: "A Smooth, Stone type material. Used in many basic structures."
+hardness: 1
+cost: 0.5
+alwaysUnlocked: true
+color: 628b9d
+research: Core-Cold
+hiddenOnPlanets: [serpulo, erekir]
