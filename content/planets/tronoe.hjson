@@ -1,100 +1,114 @@
 localizedName: Tronoe PO7
-description: "A large planet with Mixed conditions."
+description: A deserted planet, where fire and ice exist in harmony.
 alwaysUnlocked: true
 mesh: [
-{
-    //normal stone
+ {
+    //water
     type: NoiseMesh
     planet: tronoe
     divisions: 5
     seed: 7
-    radius: 2.9999
-    color1: 151515
-    color2: 120d0d
-    octaves: 5
-    persistence: 5
+    radius: 1.229
+    color1: 587d89
+    color2: 5e95a8
+    octaves: 3.7
+    persistence: 1.1
   }
   {
-    //lighter stone
+    //ferrinite
     type: NoiseMesh
     planet: tronoe
     divisions: 5
-    seed: 8
-    radius: 2.9999
-    color1: 353535
-    color2: 2a2626
-    octaves: 5
-    persistence: 5
+    radius: 1.22
+    seed: 94
+    color1: e9e9de
+    color2: c2c1b4
+    octaves: 3.7
+    persistence: 0.6
   }
   {
-    //dark slag
+    //sand
     type: NoiseMesh
     planet: tronoe
-    divisions: 5
-    seed: 11
-    radius: 2.9999
-    color1: c73c0b
-    color2: a84523
-    octaves: 0.1
-    persistence: 5
+    divisions: 6
+    seed: 101
+    radius: 1.2441
+    color1: babca8
+    color2: c6c282
+    octaves: 5.1
+    persistence: 0.8
   }
   {
-    //light slag
+    //demetite
     type: NoiseMesh
     planet: tronoe
+    seed: 69
     divisions: 5
-    seed: 12
-    radius: 2.9999
-    color1: e4531b
-    color2: e26e41
-    octaves: 0.1
-    persistence: 5
-  }
-  {
-    //dark ice
-    type: NoiseMesh
-    planet: tronoe
-    divisions: 5
-    seed: 13
-    radius: 2.9999
-    color1: 0d488e
-    color2: 173b66
-    octaves: 0.1
+    color1: d5c995
+    color2: 666359
+    radius: 1.212
+    octaves: 4
     persistence: 1
+    scale: 0.75
+    mag: 1
   }
   {
-    //light ice
+    //barite
     type: NoiseMesh
     planet: tronoe
     divisions: 5
-    seed: 14
-    radius: 2.9999
-    color1: 80b5f3
-    color2: 94adca
-    octaves: 0.1
-    persistence: 1
+    seed: 19
+    radius: 1.247
+    color1: f8efe6
+    color2: bab4ae
+    octaves: 4.5
+    persistence: 1.1
+  }
+  {
+    //radian barite
+    type: NoiseMesh
+    planet: tronoe
+    divisions: 6
+    seed: 61
+    radius: 1.248
+    color1: 6b9388
+    color2: 425b54
+    octaves: 4.5
+    persistence: 1.1
+  }
+  {
+    //red sand
+    type: NoiseMesh
+    planet: tronoe
+    divisions: 6
+    seed: 17
+    radius: 1.2514
+    color1: dea67d
+    color2: d58b79
+    octaves: 5.7
+    persistence: 0.9
   }
 ]
 cloudMesh: [
  {
    type: HexSkyMesh
    planet: tronoe
-   speed: 1.21 //speed 
-   radius: 3 //idk
-   divisions: 6 //don't make too high
-   color: "eafffd7e" //buhhuhhuuhuh
-   octaves: "3"
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
    persistence: 0.3
-   scl: 1 //don't know what this is
-   thresh: 0.6 //higher it is, more dense clouds are
+   scl: 1
+   thresh: 0.6
   }
   {
    type: HexSkyMesh
    planet: tronoe
    speed: 1.01
-   radius: 0.23
+   radius: 0.11
    divisions: 6
-   color: 515151
+   color: eafffd7e
    octaves: 3
    persistence: 0.4
    scl: 0.9
@@ -104,17 +118,17 @@ cloudMesh: [
    type: HexSkyMesh
    planet: tronoe
    speed: 0.891
-   radius: 0.12
+   radius: 0.091
    divisions: 6
-   color: 151515
+   color: eafffd7e
    octaves: 3
    persistence: 0.5
    scl: 1.1
    thresh: 0.6
   }
 ]
-generator: { //not sure what this part does
-  octaves: 3 
+generator: {
+  octaves: 3
   persistence: 0.52
   scale: 22
   mag: 0.721
@@ -135,27 +149,27 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
-radius: 2
+radius: 1.2
 minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 accessible: true
 updateLighting: false
-sectorSeed: 14513 //whatever number you want ig
-bloom: true
+sectorSeed: 14513
+bloom: false
 visible: true
-atmosphereColor: 666359 //change colours
-iconColor: 666359 //change colours
+atmosphereColor: 666359
+iconColor: 666359
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-//defaultCore: name of core here, and delete slashes if you want to re-activate code
+defaultCore: Core-Cold
 parent: sun
 solarSystem: sun
 launchCandidates: []
-itemWhitelist: [ //items you want on the planet go here
+itemWhitelist: [
   "Coldstone"
 ]
