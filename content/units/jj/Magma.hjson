@@ -35,8 +35,8 @@ abilities: [
 weapons: [
 {
 shoot: {
-      shots: 10
-      shotDelay: 1
+      shots: 4
+      shotDelay: 2
       inaccuracy: 0
     }
     x: 10
@@ -51,7 +51,7 @@ shoot: {
       type: LaserBulletType
       length: 100
       width: 20
-      colors: [ffffff, ff0004, e13d1e, e23b1d, ffffff]
+      colors: [ffffff, e13d1e, ff0004, e13d1e, e23b1d, e13d1e]
       drawFlare: false
       damageInterval: 15
       damage: 7
