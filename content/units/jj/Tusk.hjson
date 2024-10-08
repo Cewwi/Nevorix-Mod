@@ -8,7 +8,7 @@ speed: 4
 rotateSpeed: 8
 accel: 0.211195
 groundLayer: 60
-health: 300
+health: 500
 armor: 0
 hitSize: 7
 researchCostMultiplier: 1.5
@@ -37,24 +37,29 @@ itemCapacity: 0
 useEngineElevation: false
 lowAltitude: false
 weapons: [
-  {
-    x: 2
+{
+shoot: {
+      shots: 1
+      inaccuracy: 0
+    }
+    x: 10
     y: 0
+    name: Magma-Gun-Big
     mirror: true
     alternate: false
-    reload: 1
+    reload: 10
     rotate: false
     shootSound: missile
     bullet: {
-      type: ContinuousFlameBulletType
-      length: 200
-      width: 1
-      colors: [083841, 0d5463, 117082, 179bb5, 14c7eb]
+      type: LaserBulletType
+      length: 100
+      width: 10
+      colors: [13d600, 13d600, ffffff, ffffff, ffffff, ffffff]
       drawFlare: false
+      damageInterval: 15
+      damage: 7
       healPercent: 1
       collidesTeam: true
-      damageInterval: 15
-      damage: 5
       buildingDamageMultiplier: 0.01
       pierceArmor: false
       pierceCap: 3
