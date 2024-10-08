@@ -21,7 +21,7 @@ abilities: [
     teamColor: true
     effect: missileTrailShort
     x: 0
-    y: 8
+    y: -8
     interval: 4
     minVelocity: 0.6
   }
@@ -29,8 +29,8 @@ abilities: [
 engines: [
   {
     x: 0
-    y: 8
-    radius: 3.5
+    y: -8
+    radius: 4
   }
 ]
 itemCapacity: 0
