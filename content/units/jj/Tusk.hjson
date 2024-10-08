@@ -42,12 +42,10 @@ shoot: {
       shots: 1
       inaccuracy: 0
     }
-    x: 10
+    x: 0
     y: 0
-    name: Magma-Gun-Big
-    mirror: true
     alternate: false
-    reload: 10
+    reload: 1
     rotate: false
     shootSound: missile
     bullet: {
@@ -57,8 +55,8 @@ shoot: {
       colors: [13d600, 13d600, ffffff, ffffff, ffffff, ffffff]
       drawFlare: false
       damageInterval: 15
-      damage: 7
-      healPercent: 1
+      damage: 1
+      healPercent: 0.2
       collidesTeam: true
       buildingDamageMultiplier: 0.01
       pierceArmor: false
