@@ -21,7 +21,7 @@ abilities: [
     teamColor: true
     effect: missileTrailShort
     x: 0
-    y: 0
+    y: 8
     interval: 4
     minVelocity: 0.6
   }
@@ -29,7 +29,7 @@ abilities: [
 engines: [
   {
     x: 0
-    y: 0
+    y: 8
     radius: 3.5
   }
 ]
@@ -55,7 +55,7 @@ shoot: {
       colors: [13d600, 13d600, ffffff, ffffff, ffffff, ffffff]
       drawFlare: false
       damageInterval: 15
-      damage: 1
+      damage: 5
       healPercent: 0.2
       collidesTeam: true
       buildingDamageMultiplier: 0.01
