@@ -1,0 +1,63 @@
+type: flying
+name: Tusk
+description: Shoots mending lazers and structures.
+shadowElevation: 0.1
+drag: 0.08
+outlineColor: 44413c
+speed: 4
+rotateSpeed: 8
+accel: 0.211195
+groundLayer: 60
+health: 300
+armor: 0
+hitSize: 7
+researchCostMultiplier: 1.5
+buildSpeed: 3
+buildBeamOffset: 1.1
+outlineColor: 282b3b
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: 0
+    interval: 4
+    minVelocity: 0.6
+  }
+]
+engines: [
+  {
+    x: 0
+    y: 0
+    radius: 3.5
+  }
+]
+itemCapacity: 0
+useEngineElevation: false
+lowAltitude: false
+weapons: [
+  {
+    x: 2
+    y: 0
+    mirror: true
+    alternate: false
+    reload: 1
+    rotate: false
+    shootSound: missile
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 200
+      width: 1
+      colors: [083841, 0d5463, 117082, 179bb5, 14c7eb]
+      drawFlare: false
+      damageInterval: 15
+      damage: 5
+      buildingDamageMultiplier: 0.01
+      pierceArmor: false
+      pierceCap: 3
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
+]
