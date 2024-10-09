@@ -22,7 +22,7 @@ colors: [
 202020,
 ]
 }
-  {
+/*  {
     //demetite
     type: NoiseMesh
     planet: tronoe
@@ -95,7 +95,7 @@ colors: [
     color2: c47a2e
     octaves: 3.7
     persistence: 1.1
-  }
+  } */
 ]
 cloudMesh: [
  {
