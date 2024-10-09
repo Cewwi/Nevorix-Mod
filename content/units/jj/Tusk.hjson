@@ -50,7 +50,7 @@ shoot: {
     shootSound: missile
     bullet: {
       type: LaserBulletType
-      length: 100
+      length: 200
       width: 10
       colors: [13d600, 13d600, ffffff, ffffff, ffffff, ffffff]
       drawFlare: false
