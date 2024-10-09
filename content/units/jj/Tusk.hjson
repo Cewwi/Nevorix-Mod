@@ -33,6 +33,20 @@ engines: [
     radius: 4
   }
 ]
+engines: [
+  {
+    x: 5
+    y: 8
+    radius: 3
+  }
+]
+engines: [
+  {
+    x: -5
+    y: 8
+    radius: 3
+  }
+]
 itemCapacity: 0
 useEngineElevation: false
 lowAltitude: false
