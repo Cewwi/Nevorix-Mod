@@ -3,29 +3,25 @@ description: A deserted planet, where fire and ice exist in harmony.
 alwaysUnlocked: true
 mesh: [
   {
-    //generic stone
-    type: NoiseMesh
-    planet: tronoe
-    divisions: 5
-    radius: 1.22
-    seed: 94
-    color1: 353535
-    color2: 757575
-    octaves: 3.7
-    persistence: 0.6
-  }
-  {
-    //darker stone
-    type: NoiseMesh
-    planet: tronoe
-    divisions: 6
-    seed: 101
-    radius: 1.2441
-    color1: 151515
-    color2: 202020
-    octaves: 5.1
-    persistence: 0.8
-  }
+bloom: false
+type: SunMesh
+planet: tronoe
+seed: 94
+divisions: 5
+radius: 1.22
+octaves: 1
+persistence: 0.5
+scl: 2
+pow: 2.2
+mag: 3
+colorScale: 1
+colors: [
+353535,
+757575,
+151515,
+202020,
+]
+}
   {
     //demetite
     type: NoiseMesh
