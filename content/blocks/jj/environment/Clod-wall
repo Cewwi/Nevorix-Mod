@@ -1,3 +1,4 @@
 type: StaticWall
-name: Cold Wall
+name: ColdWall
 description: "Contains small bits of coldstone"
+variants: 3
