@@ -2,7 +2,7 @@ type: StaticWall
 name: Potatssium Wall
 description: "Contains an abundance of potatssium that is ready to be harvested."
 itemDrop: potatssium
-variants: 1
+variants: 2
 /*attributes: {
 demetite: 1 what dat do
 }*/
