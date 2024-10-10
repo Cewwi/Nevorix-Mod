@@ -1,4 +1,4 @@
-localizedName: Viridinite Ore (Wall)
+name: Viridinite Ore (Wall)
 type: OreBlock
 description: "wow it's purple"
 itemDrop: viridinite
