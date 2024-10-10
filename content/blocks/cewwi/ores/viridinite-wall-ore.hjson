@@ -1,1 +1,4 @@
-
+localizedName: Viridinite Ore (Wall)
+type: OreBlock
+itemDrop: viridinite
+wallOre = true
