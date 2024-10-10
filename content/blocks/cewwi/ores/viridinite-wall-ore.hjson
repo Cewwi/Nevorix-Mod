@@ -1,4 +1,6 @@
 localizedName: Viridinite Ore (Wall)
 type: OreBlock
+description: "wow it's purple"
 itemDrop: viridinite
 wallOre = true
+//variants: 3
