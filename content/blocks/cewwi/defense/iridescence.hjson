@@ -15,3 +15,6 @@
     graphite/800
   ],
   alwaysUnlocked: true
+  drawCracks: true
+  createRubble: true
+  category: core
