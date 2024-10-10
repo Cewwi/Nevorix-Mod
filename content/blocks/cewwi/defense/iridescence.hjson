@@ -17,4 +17,4 @@
   alwaysUnlocked: true
   drawCracks: true
   createRubble: true
-  category: core
+  //category: core
