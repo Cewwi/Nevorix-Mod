@@ -3,4 +3,4 @@ type: OreBlock
 description: "wow it's purple"
 itemDrop: viridinite
 wallOre = true
-//variants: 3
+variants: 1
