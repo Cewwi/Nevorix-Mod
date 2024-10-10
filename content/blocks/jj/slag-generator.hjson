@@ -1,5 +1,6 @@
+type: PowerGenerator
 name: Slag Generator
 description: "place on slag to create power."
-type: PowerGenerator
+size: 2
 powerProduction: 50
 floating: true
