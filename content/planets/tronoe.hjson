@@ -174,7 +174,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: Core-Cold
+defaultCore: Plasma-core
 parent: sun
 solarSystem: sun
 launchCandidates: []
