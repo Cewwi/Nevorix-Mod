@@ -179,5 +179,5 @@ parent: sun
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
-  "Coldstone"
+  "silicon"
 ]
