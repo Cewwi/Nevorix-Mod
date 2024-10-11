@@ -1,9 +1,9 @@
 type: legs
 legCount: 6
 legLength: 50
-legSpeed: 0.2
+legSpeed: 0.5
 legForwardScl: 0.2
-legMoveSpace: 0.9
+legMoveSpace: 0.2
 hovering: false
 groundLayer: 60
 name: bore
