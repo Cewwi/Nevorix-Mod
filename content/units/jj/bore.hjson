@@ -6,7 +6,7 @@ legForwardScl: 0.56
 legMoveSpace: 0.9
 hovering: false
 groundLayer: 60
-name: Plasma
+name: bore
 description: Defends the Plasma core. Builds structures and mines ores. 
 health: 500
 armor: 4
