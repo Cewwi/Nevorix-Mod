@@ -1,8 +1,7 @@
   name: Core: Iridescence
   type: CoreBlock
-  health: 6500
+  health: 1500
   size: 4
-  armor: 13
   isFirstTier: true
   itemCapacity: 2500
   unitCapModifier: 15
