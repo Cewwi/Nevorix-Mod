@@ -1,0 +1,8 @@
+type: Floor
+name: Potatssium Floor
+description: Contains traces of potatssium, which can be extracted in small amounts.
+//itemDrop: potatssium
+variants: 3
+attributes: {
+  potatssium: 1
+}
