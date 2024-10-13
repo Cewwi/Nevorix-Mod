@@ -1,15 +1,15 @@
 type: Duct
-name: Ferrinite Pipeline
+name: Durium Duct
 description: Transports items using negative pressure.
 category: distribution
 alwaysUnlocked: true
-research: 11k-01-core-essence
+research: copper
 researchCost: [
-  01a-01-item-ferrinite/10
+  copper/10
 ]
 speed: 10
 health: 45
-bridgeReplacement: 05e-06-ferrinite-duct-bridge
+//bridgeReplacement: 05e-06-ferrinite-duct-bridge
 requirements: [
-  01a-01-item-ferrinite/1
+  copper/1
 ]
