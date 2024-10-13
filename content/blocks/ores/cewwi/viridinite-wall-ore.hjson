@@ -1,7 +1,0 @@
-name: Viridinite Wall Ore
-type: OreBlock
-description: wow it's purple
-itemDrop: viridinite
-wallOre: true
-variants: 1
-//get rid of this bruh
