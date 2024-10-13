@@ -1,5 +1,5 @@
 type: StaticWall
 name: Viridinite Wall
-description: "Contains traces of viridinite that are unaccessible to basic mining equipment."
-//itemDrop: viridinite
+description: Contains traces of viridinite that are inacessable to basic equipment.
+itemDrop: viridinite
 variants: 2
