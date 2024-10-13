@@ -2,7 +2,7 @@ type: legs
 legCount: 8
 legLength: 60
 legSpeed: 0.5
-legExtension: -7.5
+legExtension: -13.5
 legForwardScl: 0.2
 legMoveSpace: 0.9
 legPairOffset: 2
