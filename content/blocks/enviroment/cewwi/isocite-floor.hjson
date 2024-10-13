@@ -1,0 +1,8 @@
+type: Floor
+name: Isocite Floor
+description: Contains some isocite deep underground, which can be mined with high-tier drills.
+//itemDrop: isocite
+variants: 1
+attributes: {
+  isocite: 1
+}
