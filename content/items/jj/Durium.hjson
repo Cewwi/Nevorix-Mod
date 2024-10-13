@@ -1,5 +1,5 @@
-name: Coldstone
-description: "A cold, hard rock using in basic structures."
+name: Durium
+description: "Produces a small amount of power, enough to power small blocks."
 hardness: 1
 cost: 0.5
 alwaysUnlocked: true
