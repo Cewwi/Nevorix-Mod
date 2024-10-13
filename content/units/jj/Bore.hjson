@@ -42,7 +42,7 @@ weapons: [
     }
     bullet: {
       type: LightningBulletType
-          lightningColor: edc66c
+          lightningColor: C6FF6BFF
           lightningLength: 15
           lightningDamage: 10
           hitSound: spark
