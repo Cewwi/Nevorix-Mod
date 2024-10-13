@@ -1,5 +1,5 @@
 type: legs
-legCount: 6
+legCount: 8
 legLength: 50
 legSpeed: 0.5
 legExtension: -4.5
@@ -12,7 +12,7 @@ name: bore
 description: Defends the Plasma core. Builds structures and mines ores. 
 health: 500
 armor: 4
-speed: 1
+speed: 3
 hitSize: 9
 isEnemy: false
 mineSpeed: 7.5
