@@ -1,6 +1,6 @@
 type: Floor
 name: Isocite Floor
-description: Contains some isocite deep underground, which can be mined with high-tier drills.
+description: Contains some isocite right under the surface, which can be mined with high-tier drills.
 //itemDrop: isocite
 variants: 3
 attributes: {
