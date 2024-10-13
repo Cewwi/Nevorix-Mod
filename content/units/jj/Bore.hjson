@@ -5,7 +5,7 @@ legSpeed: 0.5
 legExtension: -2.5
 legForwardScl: 0.2
 legMoveSpace: 0.9
-legPairOffset: 6
+legPairOffset: 2
 hovering: false
 groundLayer: 60
 name: bore
