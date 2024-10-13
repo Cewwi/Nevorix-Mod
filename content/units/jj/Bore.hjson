@@ -27,53 +27,27 @@ outlineColor: 42413e
 
 weapons: [
 {
-    x: 10
-    y: 0
-    name: Magma-Gun-Big
-    mirror: true
-    alternate: false
-    reload: 30
-    rotate: false
-    shootSound: missile
-    bullet: {
-      type: LaserBulletType
-      length: 100
-      width: 20
-      colors: [ffffff, e13d1e, ff0004, e13d1e, e23b1d, e13d1e]
-      drawFlare: false
-      damageInterval: 15
-      damage: 7
-      buildingDamageMultiplier: 0.01
-      pierceArmor: false
-      pierceCap: 3
-      hitEffect: none
-      despawnEffect: none
-    }
-}
-{
-    x: 6
+    name: Bore-gun
+    x: 8
     y: -3
     mirror: true
     alternate: false
-    reload: 3
+    reload: 15
     rotate: true
     shootSound: shootBig2
     shoot: {
-      shots: 1
-      shotDelay: 6
+      shots: 10
+      shotDelay: 1
       inaccuracy: 20
     }
     bullet: {
-      type: LaserBulletType
-          laserAbsorb: false
-          length: 240
-          width: 4
-          sideAngle: 45
-          sideLength: 50
-          sideWidth: 1.5
-          colors: [baa164, edc66c, ffffff]
-          damage: 4
-          lifetime: 126
+      type: LightningBulletType
+          lightningColor: edc66c
+          lightningLength: 15
+          lightningDamage: 10
+          hitSound: spark
+          despawnSound: spark
+          lifetime: 1
     }
 }
 ]
