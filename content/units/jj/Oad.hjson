@@ -9,6 +9,9 @@ speed: 1.5
 rotateSpeed: 5
 accel: 0.095
 groundLayer: 60
+mineItems: [copper]
+mineWalls: true
+mineFloor: true
 isEnemy: false
 health: 120
 itemCapacity: 25
