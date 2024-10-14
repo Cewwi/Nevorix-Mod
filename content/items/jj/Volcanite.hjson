@@ -1,5 +1,5 @@
-name: Kiperite
-description: "A hard rock with a magma-like core. Produces power a small amount of power"
+name: Volcanite
+description: "A hard rock with a magma-like core. Produces power, but highly volatile."
 hardness: 1
 cost: 0.5
 alwaysUnlocked: true
