@@ -1,0 +1,4 @@
+name: Kiperite ore Wall
+type: StaticWall
+itemDrop: Kiperite
+variants: 3
