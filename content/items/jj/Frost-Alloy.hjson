@@ -1,8 +1,0 @@
-name: Frost Alloy
-description: "The Refined form of Coldstone. Can be used in powerful machinery."
-hardness: 1
-cost: 0.5
-alwaysUnlocked: true
-color: 628b9d
-research: Coldstone
-hiddenOnPlanets: [serpulo, erekir]
