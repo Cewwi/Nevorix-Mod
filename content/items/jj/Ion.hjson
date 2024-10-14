@@ -1,8 +1,8 @@
 name: Ion
-description: "A strong, common material. Used in every structure."
+description: "A strong, common material. Used in most structures."
 hardness: 1
 cost: 0.5
 alwaysUnlocked: true
 color: 628b9d
-research: Olium
+research: Kiperite
 hiddenOnPlanets: [serpulo, erekir]
