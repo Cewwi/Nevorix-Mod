@@ -1,4 +1,4 @@
-type: mech
+type: flying
 name: Parave
 description: Basic support unit. Can mine some ores.
 flying: true
@@ -15,11 +15,11 @@ mineWalls: true
 mineFloor: true
 isEnemy: false
 health: 120
-itemCapacity: 25
+itemCapacity: 40
 mineTier: 1
 allowChangeCommands: false
 armor: 1
-controller: MinerAI
+defaultController: minerAI
 abilities: [
   {
     type: MoveEffectAbility
