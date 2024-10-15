@@ -26,8 +26,8 @@
   "weapons": [
     {
       "name": "Thor-test-cannon",
-      "x": 28,
-      "y": 24.5,
+      "x": 36,
+      "y": 20.5,
       "layerOffset": 0.002,
       "shootY": 4,
       "rotateSpeed": 1,
