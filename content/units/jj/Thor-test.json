@@ -26,10 +26,10 @@
   "weapons": [
     {
       "name": "Thor-test-cannon",
-      "x": 36,
-      "y": 20.5,
+      "x": 33,
+      "y": 15.5,
       "layerOffset": 0.002,
-      "shootY": 4,
+      "shootY": 12,
       "rotateSpeed": 1,
       "reload": 100,
       "recoil": 0,
@@ -37,6 +37,17 @@
       "mirror": true,
       "alternate": true,
       "rotate": false,
+      "effect": {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 6,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "A9D8FFFF",
+          "colorTo": "66B1FFFF"
+        }
       "bullet": {
         "type": "LaserBulletType",
         "length": 350,
