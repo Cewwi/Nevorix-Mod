@@ -1,0 +1,58 @@
+{
+  "singleTarget": true,
+  "drawShields": false,
+  "research": {
+    "parent": "b06-altair",
+    "requirements": [
+      "copper/1"
+    ]
+  },
+  "lightRadius": 200,
+  "rotateSpeed": 0.7,
+  "speed": 0.33,
+  "accel": 0.4,
+  "drag": 0.4,
+  "range": 380,
+  "maxRange": 380,
+  "aimDst": 340,
+  "engineColor": "A9D8FFFF",
+  "outlineColor": "36363c",
+  "faceTarget": true,
+  "flying": true,
+  "health": 174000,
+  "hitSize": 92,
+  "armor": 36,
+  "lowAltitude": true,
+  "weapons": [
+    {
+      "name": "Thor-test-gun",
+      "x": 45,
+      "y": 35.5,
+      "layerOffset": 0.002,
+      "shootY": 4,
+      "rotateSpeed": 1,
+      "reload": 100,
+      "recoil": 0,
+      "shootSound": "laser",
+      "mirror": true,
+      "alternate": true,
+      "rotate": true,
+      "bullet": {
+        "type": "LaserBulletType",
+        "length": 350,
+        "width": 50,
+        "damage": 600,
+        "hitEffect": "lightningShoot",
+        "shootEffect": "lightningShoot",
+        "colors": [
+          "66B1FFAA",
+          "A9D8FFFF",
+          "FFFFFF"
+        ],
+        "sideAngle": -45,
+        "sideLength": 30,
+        "sideWidth": 3.4
+      }
+    },
+  ]
+}
