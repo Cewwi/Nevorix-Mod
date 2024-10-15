@@ -179,5 +179,10 @@ parent: sun
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
-  "Durium"
+  "Kiperite"
+  "Ion"
+  "Magmium"
+  "Olium"
+  "Malinite"
+  "Volcanite"
 ]
