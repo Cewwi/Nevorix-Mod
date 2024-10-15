@@ -29,7 +29,7 @@
       "x": 33,
       "y": 15.5,
       "layerOffset": 0.002,
-      "shootY": 12,
+      "shootY": 22,
       "rotateSpeed": 1,
       "reload": 100,
       "recoil": 0,
@@ -37,17 +37,6 @@
       "mirror": true,
       "alternate": true,
       "rotate": false,
-      "effect": {
-          "type": "WaveEffect",
-          "lifetime": 20,
-          "sizeFrom": 0,
-          "sizeTo": 6,
-          "sides": 4,
-          "strokeFrom": 8,
-          "strokeTo": 0,
-          "colorFrom": "A9D8FFFF",
-          "colorTo": "66B1FFFF"
-        }
       "bullet": {
         "type": "LaserBulletType",
         "length": 350,
@@ -55,9 +44,20 @@
         "damage": 600,
         "hitEffect": "lightningShoot",
         "shootEffect": "lightningShoot",
+        "effect": {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 6,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "FFE96C"
+        }
         "colors": [
-          "66B1FFAA",
-          "A9D8FFFF",
+          "FFE96CFF",
+          "FFE135FF",
           "FFFFFF"
         ],
         "sideAngle": -45,
