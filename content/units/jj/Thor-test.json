@@ -25,8 +25,8 @@
   "lowAltitude": true,
   "weapons": [
     {
-      "name": "Thor-test-gun",
-      "x": 45,
+      "name": "Thor-test-cannon",
+      "x": 43,
       "y": 35.5,
       "layerOffset": 0.002,
       "shootY": 4,
