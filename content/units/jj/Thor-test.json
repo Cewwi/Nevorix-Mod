@@ -2,7 +2,7 @@
   "singleTarget": true,
   "drawShields": false,
   "research": {
-    "parent": "b06-altair",
+    "parent": "copper",
     "requirements": [
       "copper/1"
     ]
@@ -36,7 +36,7 @@
       "shootSound": "laser",
       "mirror": true,
       "alternate": true,
-      "rotate": true,
+      "rotate": false,
       "bullet": {
         "type": "LaserBulletType",
         "length": 350,
