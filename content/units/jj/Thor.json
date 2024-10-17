@@ -2,12 +2,20 @@
   "singleTarget": true,
   "drawShields": false,
   "research": {
-    "parent": "copper",
     "requirements": [
       "copper/1"
     ]
   },
   "lightRadius": 200,
+  "type": "legs",
+  "drownTimeMultiplier": 999999999999999999999,
+  "legCount": 8,
+  "legLength": 60,
+  "legSpeed": 0.5,
+  "legExtension": -25.5,
+  "legForwardScl": 0.2,
+  "legMoveSpace": 0.9,
+  "legPairOffset": 2,
   "rotateSpeed": 0.7,
   "speed": 0.33,
   "accel": 0.4,
@@ -18,7 +26,7 @@
   "engineColor": "A9D8FFFF",
   "outlineColor": "36363c",
   "faceTarget": true,
-  "flying": true,
+  "flying": false,
   "health": 174000,
   "hitSize": 92,
   "armor": 36,
