@@ -19,7 +19,7 @@
   ammoTypes: {
   copper: {
     trailColor: FFE135FF
-    trailInterval: 3.5
+    trailInterval: 1
     trailRotation: true
     trailLength: 24
     trailWidth: 1
@@ -30,12 +30,12 @@
       useRotation: true
       randLength: false
       lifetime: 45
-      particles: 1
+      particles: 3
       length: 0
       colorFrom: FFE135FF
       colorTo: ffffff
       sizeFrom: 0
-      sizeTo: 14
+      sizeTo: 5
       region: asthosus-sound-wave
       interp: pow2Out
     }
@@ -43,14 +43,14 @@
     layer: 111
     width: 6
     height: 72
-    speed: 8
-    lifetime: 26
+    speed: 10
+    lifetime: 30
     frontColor: FFE135FF
     backColor: ffffff
     pierce: true
     pierceBuilding: false
-    pierceCap: 2
-    fragOnHit: false
+    pierceCap: 3
+    fragOnHit: true
     damage: 78
     reloadMultiplier: 0.75
     fragBullets: 6
@@ -62,17 +62,13 @@
     fragLifeMax: 1
     despawnSound: dullExplosion
     fragBullet: {
-      type: BasicBulletType
-      pierce: true
-      width: 3
-      height: 48
-      frontColor: FFE135FF
-      backColor: ffffff
-      pierceBuilding: false
-      damage: 32
-      layer: 111
-      hitEffect: shootSmokeSquareSparse
-      despawnEffect: shootSmokeSquareSparse
+      type: LightningBulletType
+          lightningColor: C6FF6BFF
+          lightningLength: 30
+          lightningDamage: 10
+          hitSound: spark
+          despawnSound: spark
+          lifetime: 1
     }
   }
 }
