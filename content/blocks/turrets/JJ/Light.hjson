@@ -36,7 +36,7 @@
       colorTo: ffffff
       sizeFrom: 0
       sizeTo: 5
-      region: asthosus-sound-wave
+      region: particle
       interp: pow2Out
     }
     type: BasicBulletType
@@ -53,7 +53,7 @@
     fragOnHit: true
     damage: 78
     reloadMultiplier: 0.75
-    fragBullets: 6
+    fragBullets: 8
     fragSpread: 60
     fragRandomSpread: 0
     fragVelocityMin: 1
@@ -64,7 +64,7 @@
     fragBullet: {
       type: LightningBulletType
           lightningColor: C6FF6BFF
-          lightningLength: 30
+          lightningLength: 10
           lightningDamage: 10
           hitSound: spark
           despawnSound: spark
