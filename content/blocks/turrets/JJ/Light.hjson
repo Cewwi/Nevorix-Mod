@@ -1,5 +1,6 @@
 {
   type: ItemTurret
+  name: Light
   researchCostMultiplier": 0.3
   squareSprite: false
   outlineColor: 36363CFF
@@ -16,79 +17,63 @@
     basePrefix: Acentus-
   },
   ammoTypes: {
-    copper: {
-      type: ArtilleryBulletType
-      shootEffect: {
-        type: ParticleEffect
-        particles: 10
-        length: 50
-        lifetime: 46
-        interp: pow3Out
-        sizeInterp: pow5In
-        cone: 20
-        colorFrom: FFE135
-        colorTo: ffffff
-        sizeFrom: 5
-        sizeTo: 0
-      },
-      shrinkY: 0
-      shrinkX: 0
-      speed: 5
-      lifetime: 38
-      collides: false
-      splashDamage: 42
-      splashDamageRadius: 55
-      trailColor: FFE135
-      lightColor: ffffff
-      trailParam: 5
-      trailLength: 6
-      trailWidth: 5
-      trailEffect: none
-      status: freezing
-      statusDuration: 30
-      height: 20
-      width: 15
-      hitEffect: {
-        type: multiEffect
-        effects: [
-          {
-            type: ParticleEffect
-            particles: 5
-            length: 35
-            lifetime: 50
-            interp: circleOut
-            sizeInterp: pow5In
-            lightColor: A9D8FFFF
-            colorFrom: A9D8FFFF
-            colorTo: 66B1FFFF
-            sizeFrom: 3.5
-            sizeTo: 0
-          },
-          {
-            type: ParticleEffect
-            particles: 7
-            length: 40
-            lifetime: 35
-            interp: circleOut
-            sizeInterp: pow5In
-            lightColor: A9D8FFFF
-            colorFrom: A9D8FFFF
-            colorTo: 66B1FFFF
-            sizeFrom: 2
-            sizeTo: 0
-          }
-        ]
-      },
-      frontColor: A9D8FFFF
-      backColor: 66B1FFFF
+  01a-06-item-lodestone: {
+    trailColor: 4e4277
+    trailInterval: 3.5
+    trailRotation: true
+    trailLength: 24
+    trailWidth: 1
+    trailEffect: {
+      type: ParticleEffect
+      followParent: true
+      rotWithParent: true
+      useRotation: true
+      randLength: false
+      lifetime: 45
+      particles: 1
+      length: 0
+      colorFrom: 4e4277
+      colorTo: 4e4277
+      sizeFrom: 0
+      sizeTo: 14
+      region: asthosus-sound-wave
+      interp: pow2Out
     }
-  },
-  requirements: [
-    silicon/60
-    lead/230
-  ],
-  envRequired: 0
-  enDisabled: 4
-  category: turret
-  research: Plasma-core
+    type: BasicBulletType
+    layer: 111
+    width: 6
+    height: 72
+    speed: 8
+    lifetime: 26
+    frontColor: 8270c0
+    backColor: 4e4277
+    pierce: true
+    pierceBuilding: false
+    pierceCap: 2
+    fragOnHit: false
+    damage: 78
+    reloadMultiplier: 0.75
+    fragBullets: 6
+    fragSpread: 60
+    fragRandomSpread: 0
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    despawnSound: dullExplosion
+    fragBullet: {
+      type: BasicBulletType
+      pierce: true
+      width: 3
+      height: 48
+      frontColor: 8270c0
+      backColor: 4e4277
+      pierceBuilding: false
+      damage: 32
+      layer: 111
+      hitEffect: shootSmokeSquareSparse
+      despawnEffect: shootSmokeSquareSparse
+    }
+  }
+}
 }
