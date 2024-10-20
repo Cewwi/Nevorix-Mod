@@ -28,10 +28,10 @@ drawer: {
 }
 consumes: {
   items: [
-    Kiperite
+    Kiperite/2
   ]
 outputItems: [
-  Ion
+  Ion/1
   ]
 craftEffect: {
   type: RadialEffect
