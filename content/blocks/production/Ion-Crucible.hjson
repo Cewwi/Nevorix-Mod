@@ -1,0 +1,66 @@
+type: GenericCrafter
+name: Ion Crucible
+description: Refines Kiperite to a smooth rough alloy called Ion.
+size: 3
+craftTime: 60
+squareSprite: false
+researchCostMultiplier: 0.5
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -heat
+      blending: additive
+      color: d76a6a80
+    }
+  ]
+}
+consumes: {
+  items: [
+    Kiperite
+  ]
+    outputItems: [
+  Ion
+]
+craftEffect: {
+  type: RadialEffect
+  rotationSpacing: 45
+  amount: 8
+  lengthOffset: 4
+  layer: 118
+  effect: {
+    type: ParticleEffect
+    particles: 12
+    length: 14
+    lifetime: 100
+    cone: 20
+    useRotation: false
+    baseRotation: 45
+    sizeFrom: 2.5
+    sizeTo: 0
+    colorFrom: ffffff00
+    colorTo: ffffff88
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 80
+  }
+}
+rotate: false
+ambientSound: smelter
+ambientSoundVolume: 0.08
+category: crafting
+research: Plasma-Core
+requirements: [
+  kiperite/30
+]
