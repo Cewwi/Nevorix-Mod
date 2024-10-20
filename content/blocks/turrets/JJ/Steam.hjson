@@ -1,6 +1,6 @@
 {
   type: ItemTurret
-  name: Light
+  name: Steam
   researchCostMultiplier": 0.3
   squareSprite: false
   outlineColor: 36363CFF
