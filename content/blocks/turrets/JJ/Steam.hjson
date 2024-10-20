@@ -1,0 +1,91 @@
+{
+  type: ItemTurret
+  name: Light
+  researchCostMultiplier": 0.3
+  squareSprite: false
+  outlineColor: 36363CFF
+  size: 2
+  health: 500
+  reload: 120
+  range: 190
+  maxAmmo: 10
+  recoil: 3
+  rotateSpeed: 2
+  shootSound: bang
+  consumes: {
+    power: 4
+  },
+  hasPower: true
+  drawer: {
+    type: drawTurret
+    basePrefix: Acentus-
+  },
+  shootType: {
+    trailColor: FFE135FF
+    trailInterval: 1
+    trailRotation: true
+    trailLength: 24
+    trailWidth: 1
+    trailEffect: {
+      type: ParticleEffect
+      followParent: true
+      rotWithParent: true
+      useRotation: true
+      randLength: false
+      lifetime: 45
+      particles: 3
+      length: 0
+      colorFrom: FFE135FF
+      colorTo: ffffff
+      sizeFrom: 0
+      sizeTo: 5
+      region: particle
+      interp: pow2Out
+    }
+    type: BasicBulletType,
+        collidesAir: true,
+        speed: 5,
+        damage: 335,
+        width: 0.1,
+        height: 0.1,
+        shootEffect: {
+          type: ParticleEffect,
+          particles: 36,
+          sizeFrom: 8,
+          sizeTo: 1,
+          length: 270,
+          lifetime: 58,
+          interp: circleOut,
+          colorFrom: D99F6BFF,
+          colorTo: F3E979FF,
+          cone: 20
+        },
+        smokeEffect: none
+        lifetime: 30
+        despawnEffect: none
+        hittable: false
+        reflectable: false
+        hitEffect: {
+          type: ParticleEffect
+          particles: 15
+          sizeFrom: 5
+          sizeTo: 0
+          length: 20
+          lifetime: 22
+          interp: circleOut
+          colorFrom: ff4500
+          colorTo: D99F6BFF
+          cone: 360
+        },
+        pierce: true,
+        incendAmount: 5
+    }
+  }
+}
+}
+requirements: [
+copper/3000
+silicon/1
+]
+category: turret
+research: duo
