@@ -64,16 +64,12 @@ weapons: [
     shootY: 10
     mirror: true
     alternate: true
-    reload: 20
+    reload: 2
     rotate: false
     trailColor: A45637FF
     shootSound: missile
     frontColor: A45637FF
-      backColor: ffffff
-    shoot: {
-      shots: 5
-      shotDelay: 3
-    }
+    backColor: ffffff
     bullet: {
       type: BasicBulletType
       speed: 5
