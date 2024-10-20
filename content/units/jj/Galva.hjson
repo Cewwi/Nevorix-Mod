@@ -84,5 +84,6 @@ weapons: [
           despawnSound: spark
           lifetime: 1
     }
+}
   }
 ]
