@@ -6,7 +6,7 @@
   outlineColor: 36363CFF
   size: 2
   health: 500
-  reload: 120
+  reload: 1
   range: 190
   maxAmmo: 10
   recoil: 3
@@ -18,41 +18,17 @@
   ]
   category: turret
   research: duo
-  consumes: {
-    power: 4
-  },
   hasPower: true
   drawer: {
     type: drawTurret
     basePrefix: Solarion-
   },
   ammoTypes: {
-	  Kiperite : {
-    trailColor: FFE135FF
-    trailInterval: 1
-    trailRotation: true
-    trailLength: 24
-    trailWidth: 1
-    trailEffect: {
-      type: ParticleEffect
-      followParent: true
-      rotWithParent: true
-      useRotation: true
-      randLength: false
-      lifetime: 45
-      particles: 3
-      length: 0
-      colorFrom: FFE135FF
-      colorTo: ffffff
-      sizeFrom: 0
-      sizeTo: 5
-      region: particle
-      interp: pow2Out
-    }
+    Kiperite : {
     type: BasicBulletType,
         collidesAir: true,
         speed: 5,
-        damage: 335,
+        damage: 10,
         width: 0.1,
         height: 0.1,
         shootEffect: {
@@ -63,8 +39,8 @@
           length: 270,
           lifetime: 58,
           interp: circleOut,
-          colorFrom: D99F6BFF,
-          colorTo: F3E979FF,
+          colorFrom: ff3d00,
+          colorTo: 595959,
           cone: 20
         },
         smokeEffect: none
@@ -80,8 +56,8 @@
           length: 20
           lifetime: 22
           interp: circleOut
-          colorFrom: ff4500
-          colorTo: D99F6BFF
+          colorFrom: ff3d00
+          colorTo: 595959
           cone: 360
         },
         pierce: true,
