@@ -17,8 +17,7 @@
   silicon/1
   ]
   category: turret
-  research: duo
-  hasPower: true
+  research: Core-Plasma
   drawer: {
     type: drawTurret
     basePrefix: Solarion-
