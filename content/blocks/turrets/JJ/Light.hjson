@@ -12,12 +12,15 @@
   recoil: 3
   rotateSpeed: 2
   shootSound: bang
+  consumes: {
+    power: 4
+  },
+  hasPower: true
   drawer: {
     type: drawTurret
     basePrefix: Acentus-
   },
-  ammoTypes: {
-  copper: {
+  shootType: {
     trailColor: FFE135FF
     trailInterval: 1
     trailRotation: true
@@ -71,7 +74,6 @@
           lifetime: 1
     }
   }
-}
 }
 requirements: [
 copper/3000
