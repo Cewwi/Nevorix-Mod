@@ -5,13 +5,13 @@ flying: true
 shadowElevation: 1
 drag: 0.06
 outlineColor: 1d1c1a
-speed: 1.5
+speed: 5
 rotateSpeed: 4
 hitSize: 5
 accel: 0.095
 groundLayer: 60
 isEnemy: true
-health: 600
+health: 1525000
 armor: 1
 abilities: [
   {
@@ -34,6 +34,33 @@ engines: [
 useEngineElevation: false
 lowAltitude: false
 weapons: [
+  {
+    x: 10
+    y: 0
+    shootY: 10
+    mirror: true
+    alternate: true
+    reload: 10
+    rotate: false
+    trailColor: A45637FF
+    shootSound: missile
+    frontColor: A45637FF
+    backColor: ffffff
+    bullet: {
+      type: LaserBulletType
+      colors: [
+      A45637FF
+      ffffff
+      ]
+    width: 5
+    length: 144
+    damage: 2900
+    pierce: true
+    pierceBuilding: false
+    pierceCap: 50
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    hitColor: 85c278
   {
     x: 10
     y: 6
@@ -104,7 +131,8 @@ weapons: [
       shrinkY: 0
     }
 }
-  }
+}
+}
 }
 }
 ]
