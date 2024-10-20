@@ -1,0 +1,8 @@
+name: Terestrium
+description: "Least refined form of Eternium. Has some of its properties."
+hardness: 1
+cost: 0.5
+alwaysUnlocked: true
+color: 628b9d
+research: Kiperite
+hiddenOnPlanets: [serpulo, erekir]
