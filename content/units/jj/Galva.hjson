@@ -43,9 +43,9 @@ useEngineElevation: false
 lowAltitude: true
 weapons: [
   {
-    name: Galva-weapon
-    x: 40.7
-    y: 1
+    name: Galva-cannon
+    x: 10.7
+    y: 20
     shootY: 10
     mirror: true
     alternate: true
