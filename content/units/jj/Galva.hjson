@@ -61,6 +61,8 @@ weapons: [
       shrinkX: 0
       shrinkY: 0
       fragBullets: 10
+      frontColor: C6FF6BFF
+      backColor: ffffff
       fragSpread: 60
       fragRandomSpread: 0
       fragVelocityMin: 1
