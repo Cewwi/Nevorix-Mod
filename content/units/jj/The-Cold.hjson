@@ -27,7 +27,7 @@ abilities: [
 engines: [
   {
     x: 0
-    y: -12.6
+    y: -4.6
     radius: 1.5
   }
 ]
@@ -80,7 +80,7 @@ weapons: [
           hitSound: spark
           despawnSound: spark
           lifetime: 1
-       fragBullets: 30
+       fragBullets: 1
       fragSpread: 60
       fragRandomSpread: 0
       fragVelocityMin: 1
