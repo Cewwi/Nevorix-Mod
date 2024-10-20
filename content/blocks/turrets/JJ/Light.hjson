@@ -1,5 +1,5 @@
 {
-  type: ItemTurret
+  type: PowerTurret
   name: Light
   researchCostMultiplier": 0.3
   squareSprite: false
@@ -12,6 +12,13 @@
   recoil: 3
   rotateSpeed: 2
   shootSound: bang
+  requirements: [
+  copper/3000
+  silicon/1
+  ]
+  category: turret
+  research: duo
+
   consumes: {
     power: 4
   },
@@ -75,9 +82,3 @@
     }
   }
 }
-requirements: [
-copper/3000
-silicon/1
-]
-category: turret
-research: duo
