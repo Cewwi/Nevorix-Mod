@@ -13,8 +13,8 @@
   rotateSpeed: 2
   shootSound: bang
   requirements: [
-  copper/3000
-  silicon/1
+  Terestrium/100
+  ion/150
   ]
   category: turret
   research: duo
