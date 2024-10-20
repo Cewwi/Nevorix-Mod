@@ -105,8 +105,8 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 defaultCore: iridescence
-parent: tronoe
-solarSystem: sun
+parent: sun
+solarSystem: tronoe
 launchCandidates: []
 itemWhitelist: [ //items you want on the planet go here
   "potatssium"
