@@ -12,6 +12,12 @@
   recoil: 3
   rotateSpeed: 2
   shootSound: bang
+  requirements: [
+  copper/3000
+  silicon/1
+  ]
+  category: turret
+  research: duo
   consumes: {
     power: 4
   },
@@ -81,9 +87,3 @@
         incendAmount: 5
     }
   }
-requirements: [
-copper/3000
-silicon/1
-]
-category: turret
-research: duo
