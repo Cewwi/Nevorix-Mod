@@ -34,7 +34,7 @@ abilities: [
 engines: [
   {
     x: 0
-    y: -6.6
+    y: -9.6
     radius: 1.5
   }
 ]
@@ -43,9 +43,9 @@ useEngineElevation: false
 lowAltitude: true
 weapons: [
   {
-    name: Galva-cannon
-    x: 10.7
-    y: 20
+    name: Galva-Cannon
+    x: 8.7
+    y: 25
     shootY: 10
     mirror: true
     alternate: true
