@@ -5,7 +5,7 @@ size: 3
 craftTime: 120
 consumes: {
   items: [
-    Kiperite/6
+    Kiperite/2
   ]
 }
 ignoreLiquidFullness: true
@@ -54,11 +54,11 @@ drawer: {
   }
 }
 outputItems: [
-  Ion/2
+  Ion/3
 ]
-outputLiquid: slag/0.1
+outputLiquid: slag/1
 category: crafting
-research: 09i-05-cretite-mixer
+research: Plasma-Core
 requirements: [
   Kiperite/160
 ]
