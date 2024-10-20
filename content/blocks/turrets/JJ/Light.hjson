@@ -73,3 +73,9 @@
   }
 }
 }
+requirements: [
+copper/3000
+silicon/1
+]
+category: turret
+research: duo
