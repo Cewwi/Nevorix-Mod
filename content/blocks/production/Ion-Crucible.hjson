@@ -1,10 +1,37 @@
 type: GenericCrafter
 name: Ion Crucible
-description: Refines Kiperite to a smooth rough alloy called Ion.
-size: 3
-craftTime: 60
-squareSprite: false
+description: Refines Kiperite to a smooth rough alloy called Ion. Produces slag as a byproduct.
+size: 4
+craftTime: 120
+consumes: {
+  items: [
+    Kiperite/6
+  ]
+}
+ignoreLiquidFullness: true
+ambientSound: extractLoop
 researchCostMultiplier: 0.5
+ambientSoundVolume: 0.09
+craftEffect: {
+  type: RadialEffect
+  amount: 2
+  rotationOffset: 225
+  lengthOffset: 12
+  effect: {
+    type: ParticleEffect
+    particles: 12
+    colorFrom: fca67b
+    colorTo: c27954
+    sizeFrom: 0.95
+    sizeTo: 0.2
+    lifetime: 30
+    cone: 360
+    length: 6
+    baseLength: 8
+    interp: pow2Out
+    sizeInterp: pow2
+  }
+}
 drawer: {
   type: DrawMulti
   drawers: [
@@ -13,55 +40,25 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawCrucibleFlame
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 9
+      x: -6.5
+      y: -6.5
     }
     {
       type: DrawDefault
     }
-    {
-      type: DrawGlowRegion
-      suffix: -heat
-      blending: additive
-      color: d76a6a80
-    }
   ]
 }
-consumes: {
-  items: [
-    Kiperite/2
-  ]
 outputItems: [
-  Ion/1
-  ]
-craftEffect: {
-  type: RadialEffect
-  rotationSpacing: 45
-  amount: 8
-  lengthOffset: 4
-  layer: 118
-  effect: {
-    type: ParticleEffect
-    particles: 12
-    length: 14
-    lifetime: 100
-    cone: 20
-    useRotation: false
-    baseRotation: 45
-    sizeFrom: 2.5
-    sizeTo: 0
-    colorFrom: ffffff00
-    colorTo: ffffff88
-    interp: pow2
-    sizeInterp: pow3In
-    layer: 80
-  }
-}
-rotate: false
-ambientSound: smelter
-ambientSoundVolume: 0.08
-category: crafting
-research: Plasma-Core
-requirements: [
-  Kiperite/30
+  Ion/2
 ]
-}
+outputLiquid: slag/0.1
+category: crafting
+research: 09i-05-cretite-mixer
+requirements: [
+  Kiperite/160
+]
+itemCapacity: 20
