@@ -44,8 +44,8 @@ lowAltitude: true
 weapons: [
   {
     name: Galva-Cannon
-    x: 8.7
-    y: 25
+    x: -8.7
+    y: 20
     shootY: 10
     mirror: true
     alternate: true
