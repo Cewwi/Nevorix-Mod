@@ -42,9 +42,9 @@ weapons: [
     alternate: true
     reload: 20
     rotate: false
-    trailColor: C6FF6BFF
+    trailColor: A45637FF
     shootSound: missile
-    frontColor: C6FF6BFF
+    frontColor: A45637FF
       backColor: ffffff
     shoot: {
       shots: 5
@@ -53,8 +53,8 @@ weapons: [
     bullet: {
       type: BasicBulletType
       speed: 5
-      trailColor: C6FF6BFF
-      frontColor: C6FF6BFF
+      trailColor: A45637FF
+      frontColor: A45637FF
       backColor: ffffff
       lifetime: 40
       damage: 900
@@ -74,7 +74,7 @@ weapons: [
       fragLifeMax: 1
       fragBullet: {
       type: LightningBulletType
-          lightningColor: C6FF6BFF
+          lightningColor: A45637FF
           lightningLength: 100
           lightningDamage: 10
           hitSound: spark
@@ -91,13 +91,13 @@ weapons: [
       fragBullet: {
       type: LaserBulletType
       speed: 5
-      trailColor: C6FF6BFF
-      frontColor: C6FF6BFF
+      trailColor: A45637FF
+      frontColor: A45637FF
       backColor: ffffff
       lifetime: 40
       damage: 900
       width: 10
-      height: 15
+      height: 30
       trailWidth: 1
       trailLength: 4
       pierce: true
