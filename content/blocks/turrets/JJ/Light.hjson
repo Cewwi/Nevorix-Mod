@@ -14,7 +14,7 @@
   shootSound: bang
   requirements: [
   Terestrium/100
-  ion/150
+  Ion/150
   ]
   category: turret
   research: duo
@@ -46,7 +46,6 @@
       colorTo: ffffff
       sizeFrom: 0
       sizeTo: 5
-      region: particle
       interp: pow2Out
     }
     type: BasicBulletType
