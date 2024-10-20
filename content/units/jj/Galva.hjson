@@ -2,9 +2,9 @@ type: flying
 name: Galva
 description: Special forces unit. Fire super charged bullets at enemies
 flying: true
-shadowElevation: 1
+shadowElevation: 6
 drag: 0.06
-outlineColor: 44413c
+outlineColor: 1d1c1a
 speed: 1.5
 rotateSpeed: 4
 accel: 0.095
@@ -44,6 +44,8 @@ weapons: [
     reload: 46
     rotate: false
     shootSound: missile
+    frontColor: C6FF6BFF
+      backColor: ffffff
     shoot: {
       shots: 3
       shotDelay: 5
@@ -51,6 +53,8 @@ weapons: [
     bullet: {
       type: BasicBulletType
       speed: 5
+      frontColor: C6FF6BFF
+      backColor: ffffff
       lifetime: 40
       damage: 9
       width: 10
@@ -61,8 +65,6 @@ weapons: [
       shrinkX: 0
       shrinkY: 0
       fragBullets: 10
-      frontColor: C6FF6BFF
-      backColor: ffffff
       fragSpread: 60
       fragRandomSpread: 0
       fragVelocityMin: 1
