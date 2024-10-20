@@ -24,9 +24,10 @@
   hasPower: true
   drawer: {
     type: drawTurret
-    basePrefix: Acentus-
+    basePrefix: Solarion-
   },
-  shootType: {
+  ammoTypes: {
+	  Kiperite : {
     trailColor: FFE135FF
     trailInterval: 1
     trailRotation: true
