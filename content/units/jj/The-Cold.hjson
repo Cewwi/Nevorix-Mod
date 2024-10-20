@@ -80,14 +80,13 @@ weapons: [
           hitSound: spark
           despawnSound: spark
           lifetime: 1
-       fragBullets: 1
+      fragBullets: 1
       fragSpread: 60
       fragRandomSpread: 0
       fragVelocityMin: 1
       fragVelocityMax: 1
       fragLifeMin: 1
       fragLifeMax: 1
-      fragBullet: {
       fragBullet: {
       type: LaserBulletType
       speed: 5
