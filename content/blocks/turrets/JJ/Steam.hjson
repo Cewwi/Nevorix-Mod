@@ -6,7 +6,7 @@
   outlineColor: 36363CFF
   size: 2
   health: 500
-  reload: 1
+  reload: 3
   range: 190
   maxAmmo: 10
   recoil: 3
@@ -35,7 +35,7 @@
           particles: 36,
           sizeFrom: 8,
           sizeTo: 1,
-          length: 200,
+          length: 170,
           lifetime: 58,
           interp: circleOut,
           colorFrom: ff3d00,
@@ -60,7 +60,7 @@
           cone: 360
         },
         pierce: true,
-        incendAmount: 5
+        incendAmount: 2
     }
   }
 }
