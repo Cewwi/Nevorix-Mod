@@ -46,6 +46,7 @@ weapons: [
     name: Galva-weapon
     x: 10.7
     y: 1
+    shootY: 10
     mirror: true
     alternate: true
     reload: 46
@@ -67,6 +68,21 @@ weapons: [
       pierce: true
       shrinkX: 0
       shrinkY: 0
+      fragBullets: 10
+      fragSpread: 60
+      fragRandomSpread: 0
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragBullet: {
+      type: LightningBulletType
+          lightningColor: C6FF6BFF
+          lightningLength: 10
+          lightningDamage: 10
+          hitSound: spark
+          despawnSound: spark
+          lifetime: 1
     }
   }
 ]
