@@ -2,11 +2,12 @@ type: flying
 name: Galva
 description: Special forces unit. Fire super charged bullets at enemies
 flying: true
-shadowElevation: 6
+shadowElevation: 1
 drag: 0.06
 outlineColor: 1d1c1a
 speed: 1.5
 rotateSpeed: 4
+hitSize: 5
 accel: 0.095
 groundLayer: 60
 isEnemy: true
@@ -26,13 +27,12 @@ abilities: [
 engines: [
   {
     x: 0
-    y: -9.6
+    y: -12.6
     radius: 1.5
   }
 ]
-itemCapacity: 0
 useEngineElevation: false
-lowAltitude: true
+lowAltitude: false
 weapons: [
   {
     name: Galva-Cannon
@@ -43,6 +43,7 @@ weapons: [
     alternate: true
     reload: 46
     rotate: false
+    trailColor: C6FF6BFF
     shootSound: missile
     frontColor: C6FF6BFF
       backColor: ffffff
@@ -53,6 +54,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       speed: 5
+      trailColor: C6FF6BFF
       frontColor: C6FF6BFF
       backColor: ffffff
       lifetime: 40
