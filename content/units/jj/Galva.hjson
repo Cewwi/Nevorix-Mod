@@ -1,25 +1,17 @@
 type: flying
-name: Parave
+name: Galva
 description: Special forces unit. Fire super charged bullets at enemies
 flying: true
 shadowElevation: 1
 drag: 0.06
 outlineColor: 44413c
 speed: 1.5
-rotateSpeed: 5
+rotateSpeed: 4
 accel: 0.095
-mineSpeed: 1
 groundLayer: 60
-mineItems: [copper]
-mineWalls: true
-mineFloor: true
-isEnemy: false
-health: 120
-itemCapacity: 40
-mineTier: 1
-allowChangeCommands: false
+isEnemy: true
+health: 600
 armor: 1
-defaultController: minerAI
 abilities: [
   {
     type: MoveEffectAbility
