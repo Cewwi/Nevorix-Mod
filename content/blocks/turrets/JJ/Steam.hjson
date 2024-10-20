@@ -81,8 +81,6 @@
         incendAmount: 5
     }
   }
-}
-}
 requirements: [
 copper/3000
 silicon/1
