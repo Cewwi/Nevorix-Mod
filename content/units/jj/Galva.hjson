@@ -67,7 +67,6 @@ weapons: [
       trailLength: 4
       pierce: true
       shrinkX: 0
-      colors: [C6FF6BFF, ffffff]
       shrinkY: 0
       fragBullets: 10
       fragSpread: 60
