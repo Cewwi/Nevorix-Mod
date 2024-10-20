@@ -30,9 +30,9 @@ consumes: {
   items: [
     Kiperite
   ]
-    outputItems: [
+outputItems: [
   Ion
-]
+  ]
 craftEffect: {
   type: RadialEffect
   rotationSpacing: 45
@@ -62,6 +62,6 @@ ambientSoundVolume: 0.08
 category: crafting
 research: Plasma-Core
 requirements: [
-  kiperite/30
+  Kiperite/30
 ]
 }
