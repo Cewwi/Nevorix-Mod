@@ -1,6 +1,6 @@
 type: flying
 name: Parave
-description: Basic support unit. Can mine some ores.
+description: Special forces unit. 
 flying: true
 shadowElevation: 1
 drag: 0.06
@@ -44,7 +44,7 @@ lowAltitude: true
 weapons: [
   {
     name: Galva-weapon
-    x: 10.7
+    x: 40.7
     y: 1
     shootY: 10
     mirror: true
@@ -58,11 +58,11 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      speed: 3
+      speed: 5
       lifetime: 40
       damage: 9
-      width: 3
-      height: 6
+      width: 10
+      height: 15
       trailWidth: 1
       trailLength: 4
       pierce: true
