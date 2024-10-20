@@ -89,7 +89,7 @@ weapons: [
       fragLifeMax: 1
       fragBullet: {
       fragBullet: {
-      type: BasicBulletType
+      type: LaserBulletType
       speed: 5
       trailColor: C6FF6BFF
       frontColor: C6FF6BFF
