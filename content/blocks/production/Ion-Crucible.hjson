@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: Ion Crucible
-description: Refines Kiperite to a smooth rough alloy called Ion. Produces slag as a byproduct.
-size: 4
+description: Refines Kiperite to a smooth alloy called Ion. Produces slag as a byproduct.
+size: 3
 craftTime: 120
 consumes: {
   items: [
@@ -30,27 +30,28 @@ craftEffect: {
     baseLength: 8
     interp: pow2Out
     sizeInterp: pow2
-  }
-}
 drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawRegion
-      suffix: -spinner
-      spinSprite: true
-      rotateSpeed: 9
-      x: -6.5
-      y: -6.5
-    }
-    {
       type: DrawDefault
     }
+    {
+      type: DrawParticles
+      color: f0950f
+      alpha: 0.85
+      particleSize: 1.2
+      particles: 50
+      particleRad: 12
+      particleLife: 60
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
   ]
+}
+  }
 }
 outputItems: [
   Ion/2
