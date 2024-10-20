@@ -59,6 +59,7 @@ weapons: [
     hitColor: 85c278
   }
 }
+  {
     x: 10
     y: 6
     shootY: 10
@@ -100,32 +101,6 @@ weapons: [
           hitSound: spark
           despawnSound: spark
           lifetime: 1
-      fragBullets: 1
-      fragSpread: 60
-      fragRandomSpread: 0
-      fragVelocityMin: 1
-      fragVelocityMax: 1
-      fragLifeMin: 1
-      fragLifeMax: 1
-      fragBullet: {
-      type: LaserBulletType
-      speed: 5
-      trailColor: A45637FF
-      frontColor: A45637FF
-      backColor: ffffff
-      colors: [
-      A45637FF
-      ffffff
-      ]
-      lifetime: 40
-      damage: 900
-      width: 10
-      height: 30
-      trailWidth: 1
-      trailLength: 4
-      pierce: true
-      shrinkX: 0
-      shrinkY: 0
     }
 }
 }
