@@ -60,6 +60,6 @@ outputLiquid: slag/1
 category: crafting
 research: Plasma-Core
 requirements: [
-  Kiperite/160
+  Kiperite/40
 ]
 itemCapacity: 20
