@@ -2,15 +2,20 @@ type: flying
 name: Parave
 description: Basic support unit. Can mine some ores.
 flying: true
+playerControllable: false
 shadowElevation: 1
 drag: 0.06
 outlineColor: 44413c
 speed: 1.5
 rotateSpeed: 5
 accel: 0.095
+mineHardnessScaling: true
 mineSpeed: 1
 groundLayer: 60
-mineItems: [copper]
+mineItems: [
+copper
+Kiperite
+]
 mineWalls: true
 mineFloor: true
 isEnemy: false
