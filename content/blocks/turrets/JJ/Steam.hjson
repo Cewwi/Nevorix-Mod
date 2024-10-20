@@ -11,7 +11,7 @@
   maxAmmo: 10
   recoil: 3
   rotateSpeed: 2
-  shootSound: bang
+  shootSound: flame
   requirements: [
   copper/3000
   silicon/1
