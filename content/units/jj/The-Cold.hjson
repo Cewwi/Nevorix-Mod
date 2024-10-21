@@ -112,7 +112,7 @@ triLength: 0
 }
 {
 type: shapePart
-x: 10
+x: 30
 y: 20
 hollow: true
 circle: true
@@ -125,7 +125,7 @@ radius: 5
 }
 {
 type: shapePart
-x: 10
+x: 30
 y: 20
 hollow: true
 circle: true
@@ -138,7 +138,7 @@ radius: 9
 }
 {
 type: HaloPart
-x: 10
+x: 30
 y: 20
 radius: 4.6
 tri: true
@@ -155,7 +155,7 @@ triLength: 0
 }
 {
 type: HaloPart
-x: 10
+x: 30
 y: 20
 radius: 4.6
 tri: true
@@ -172,7 +172,7 @@ triLength: 0
 }
 {
 type: shapePart
-x: -10
+x: -30
 y: 20
 hollow: true
 circle: true
@@ -185,7 +185,7 @@ radius: 5
 }
 {
 type: shapePart
-x: -10
+x: -30
 y: 20
 hollow: true
 circle: true
@@ -198,7 +198,7 @@ radius: 9
 }
 {
 type: HaloPart
-x: -10
+x: -30
 y: 20
 radius: 4.6
 tri: true
@@ -215,7 +215,7 @@ triLength: 0
 }
 {
 type: HaloPart
-x: -10
+x: -30
 y: 20
 radius: 4.6
 tri: true
@@ -253,7 +253,7 @@ useEngineElevation: false
 lowAltitude: false
 weapons: [
   {
-    x: 10
+    x: 30
     y: 20
     shootY: 7
     mirror: true
@@ -275,6 +275,38 @@ weapons: [
     lifetime: 40
     width: 80
     length: 500
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 50
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    hitColor: 85c278
+  }
+}
+{
+    x: 30
+    y: 20
+    shootY: 7
+    mirror: true
+    alternate: true
+    reload: 4
+    rotate: false
+    trailColor: A45637FF
+    lifetime: 40
+    shootSound: laserblast
+    frontColor: A45637FF
+    backColor: ffffff
+    bullet: {
+    type: LaserBulletType
+    colors: [
+      A45637FF
+      ffffff
+      ]
+    damage: 200
+    lifetime: 40
+    width: 5
+    length: 500
+    inaccuracy: 40,
     pierce: true
     pierceBuilding: true
     pierceCap: 50
@@ -323,7 +355,7 @@ weapons: [
       ffffff
       ]
       width: 5
-      length: 100
+      length: 10000
       damage: 2900
       inaccuracy: 10,
       lifetime: 40
