@@ -16,4 +16,10 @@
   alwaysUnlocked: true
   drawCracks: true
   createRubble: true
+research: {
+  planet: tronoe
+  root: true
+  name: Tronoe
+  requiresUnlock: false
+}
   //category: core
