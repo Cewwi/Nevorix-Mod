@@ -15,6 +15,17 @@ isEnemy: true
 health: 1525000
 effect: guardian
 armor: 50
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 1.1
+    x: 0
+    y: -2.4
+    effect: artilleryTrailSmoke
+    teamColor: true
+    interval: 7
+  }
+]
 parts: [
 {
 type: shapePart
@@ -247,7 +258,6 @@ weapons: [
   {
     x: 30
     y: 20
-    shootY: 7
     mirror: true
     alternate: true
     reload: 270
@@ -266,7 +276,7 @@ weapons: [
     damage: 29000
     lifetime: 40
     width: 80
-    length: 500
+    length: 50000
     pierce: true
     pierceBuilding: true
     pierceCap: 50
@@ -278,7 +288,6 @@ weapons: [
 {
     x: 30
     y: 20
-    shootY: 7
     mirror: true
     alternate: true
     reload: 4
