@@ -30,7 +30,6 @@ triLengthTo: 8
 triLength: 0
 }
 {
-{
 type: HaloPart
 radius: 4.6
 tri: true
