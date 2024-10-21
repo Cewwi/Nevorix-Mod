@@ -13,6 +13,40 @@ groundLayer: 60
 isEnemy: true
 health: 1525000
 armor: 1
+parts: [
+ {
+type: HaloPart
+y: -36
+radius: 4.6
+tri: true
+layer: 110,
+color: A45637FF
+haloRotateSpeed: 0.7
+haloRadius: 18
+haloRadiusTo: 18
+stroke: 0
+strokeTo: 2
+shapes: 7
+triLengthTo: 8
+triLength: 0
+}
+{
+type: HaloPart
+y: -36
+radius: 4.6
+tri: true
+layer: 110
+color: A45637FF
+haloRotateSpeed: -0.7
+haloRadius: 9
+haloRadiusTo: 9
+stroke: 0
+strokeTo: 2
+shapes: 7
+triLengthTo: 8
+triLength: 0
+}
+]
 abilities: [
   {
     type: MoveEffectAbility
