@@ -21,11 +21,11 @@ y: 0
 hollow: true
 circle: true
 layer: 110
-color: ffb98b
+color: A45637FF
 stroke: 0
 strokeTo: 1.1
-radiusTo: 7
-radius: 7
+radiusTo: 12
+radius: 12
 }
  {
 type: shapePart
@@ -33,7 +33,7 @@ y: 0
 hollow: true
 circle: true
 layer: 110
-color: ffb98b
+color: A45637FF
 stroke: 0
 strokeTo: 0.7
 radiusTo: 9
