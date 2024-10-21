@@ -110,6 +110,126 @@ shapes: 7
 triLengthTo: 8
 triLength: 0
 }
+{
+type: shapePart
+x: 10
+y: 20
+hollow: true
+circle: true
+layer: 110
+color: ffffff
+stroke: 0
+strokeTo: 2
+radiusTo: 5
+radius: 5
+}
+{
+type: shapePart
+x: 10
+y: 20
+hollow: true
+circle: true
+layer: 110
+color: A45637FF
+stroke: 0
+strokeTo: 2
+radiusTo: 9
+radius: 9
+}
+{
+type: HaloPart
+x: 10
+y: 20
+radius: 4.6
+tri: true
+layer: 110
+color: A45637FF
+haloRotateSpeed: -4
+haloRadius: 8
+haloRadiusTo: 8
+stroke: 0
+strokeTo: 2
+shapes: 7
+triLengthTo: 8
+triLength: 0
+}
+{
+type: HaloPart
+x: 10
+y: 20
+radius: 4.6
+tri: true
+layer: 110
+color: A45637FF
+haloRotateSpeed: 4
+haloRadius: 8
+haloRadiusTo: 8
+stroke: 0
+strokeTo: 2
+shapes: 7
+triLengthTo: 8
+triLength: 0
+}
+{
+type: shapePart
+x: -10
+y: 20
+hollow: true
+circle: true
+layer: 110
+color: ffffff
+stroke: 0
+strokeTo: 2
+radiusTo: 5
+radius: 5
+}
+{
+type: shapePart
+x: -10
+y: 20
+hollow: true
+circle: true
+layer: 110
+color: A45637FF
+stroke: 0
+strokeTo: 2
+radiusTo: 9
+radius: 9
+}
+{
+type: HaloPart
+x: -10
+y: 20
+radius: 4.6
+tri: true
+layer: 110
+color: A45637FF
+haloRotateSpeed: -4
+haloRadius: 8
+haloRadiusTo: 8
+stroke: 0
+strokeTo: 2
+shapes: 7
+triLengthTo: 8
+triLength: 0
+}
+{
+type: HaloPart
+x: -10
+y: 20
+radius: 4.6
+tri: true
+layer: 110
+color: A45637FF
+haloRotateSpeed: 4
+haloRadius: 8
+haloRadiusTo: 8
+stroke: 0
+strokeTo: 2
+shapes: 7
+triLengthTo: 8
+triLength: 0
+}
 ]
 abilities: [
   {
@@ -133,8 +253,8 @@ useEngineElevation: false
 lowAltitude: false
 weapons: [
   {
-    x: 0
-    y: 0
+    x: 10
+    y: 20
     shootY: 7
     mirror: true
     alternate: true
@@ -145,8 +265,6 @@ weapons: [
     shootSound: laserblast
     frontColor: A45637FF
     backColor: ffffff
-    width: 80
-    length: 500
     bullet: {
     type: LaserBulletType
     colors: [
@@ -155,8 +273,10 @@ weapons: [
       ]
     damage: 29000
     lifetime: 40
+    width: 80
+    length: 500
     pierce: true
-    pierceBuilding: false
+    pierceBuilding: true
     pierceCap: 50
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
