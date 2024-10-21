@@ -47,10 +47,15 @@ weapons: [
     frontColor: A45637FF
     backColor: ffffff
     bullet: {
-      type: LaserBulletType
-    width: 5
-    length: 144
+    type: LaserBulletType
+    colors: [
+      A45637FF
+      ffffff
+      ]
+    width: 10
+    length: 500
     damage: 2900
+    lifetime: 40
     pierce: true
     pierceBuilding: false
     pierceCap: 50
