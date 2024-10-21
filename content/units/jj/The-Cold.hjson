@@ -28,14 +28,27 @@ parts: [
 type: shapePart
 y: -7
 x: -16
-hollow: false
+hollow: true
+circle: true
+layer: 110
+color: ffffff
+stroke: 0
+strokeTo: 2
+radiusTo: 5
+radius: 5
+}
+{
+type: shapePart
+y: -7
+x: -16
+hollow: true
 circle: true
 layer: 110
 color: A45637FF
 stroke: 0
 strokeTo: 2
-radiusTo: 7
-radius: 7
+radiusTo: 9
+radius: 9
 }
 {
 type: HaloPart
@@ -57,20 +70,33 @@ triLength: 0
 {
 type: shapePart
 y: -7
-x: -16
-hollow: false
+x: 16
+hollow: true
+circle: true
+layer: 110
+color: ffffff
+stroke: 0
+strokeTo: 2
+radiusTo: 5
+radius: 5
+}
+{
+type: shapePart
+y: -7
+x: 16
+hollow: true
 circle: true
 layer: 110
 color: A45637FF
 stroke: 0
 strokeTo: 2
-radiusTo: 7
-radius: 7
+radiusTo: 9
+radius: 9
 }
 {
 type: HaloPart
 y: -7
-x: -16
+x: 16
 radius: 4.6
 tri: true
 layer: 110
@@ -119,14 +145,14 @@ weapons: [
     shootSound: laserblast
     frontColor: A45637FF
     backColor: ffffff
+    width: 80
+    length: 500
     bullet: {
     type: LaserBulletType
     colors: [
       A45637FF
       ffffff
       ]
-    width: 80
-    length: 5000
     damage: 29000
     lifetime: 40
     pierce: true
