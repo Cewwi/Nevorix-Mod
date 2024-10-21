@@ -283,7 +283,23 @@ weapons: [
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     hitColor: 85c278
+    fragBullets: 4
+      fragSpread: 180
+      fragRandomSpread: 10
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragBullet: {
+     type: LightningBulletType
+          lightningColor: A45637FF
+          lightningLength: 15
+          lightningDamage: 10
+          hitSound: spark
+          despawnSound: spark
+          lifetime: 1
   }
+}
 }
 {
     x: 30
