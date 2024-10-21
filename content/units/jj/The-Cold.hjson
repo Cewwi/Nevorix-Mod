@@ -26,21 +26,8 @@ abilities: [
 parts: [
 {
 type: shapePart
-y: 4
-x: 5
-hollow: false
-circle: true
-layer: 110
-color: A45637FF
-stroke: 0
-strokeTo: 2
-radiusTo: 10
-radius: 10
-}
-{
-type: shapePart
-y: 4
-x: 5
+y: -4
+x: -10
 hollow: false
 circle: true
 layer: 110
@@ -52,8 +39,38 @@ radius: 7
 }
 {
 type: HaloPart
-y: 4
-x: 5
+y: -4
+x: -10
+radius: 4.6
+tri: true
+layer: 110
+color: A45637FF
+haloRotateSpeed: -1.5
+haloRadius: 8
+haloRadiusTo: 8
+stroke: 0
+strokeTo: 2
+shapes: 7
+triLengthTo: 8
+triLength: 0
+}
+{
+type: shapePart
+y: -4
+x: 10
+hollow: false
+circle: true
+layer: 110
+color: ffffff
+stroke: 0
+strokeTo: 2
+radiusTo: 7
+radius: 7
+}
+{
+type: HaloPart
+y: -4
+x: 10
 radius: 4.6
 tri: true
 layer: 110
@@ -120,9 +137,8 @@ weapons: [
   }
 }
   {
-    x: 5
-    y: -6
-    shootY: 10
+    y: -4
+    x: 10
     mirror: true
     alternate: true
     reload: 2
