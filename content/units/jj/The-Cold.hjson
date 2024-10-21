@@ -260,7 +260,7 @@ weapons: [
     y: 20
     mirror: true
     alternate: true
-    reload: 270
+    reload: 200
     rotate: false
     trailColor: A45637FF
     lifetime: 40
@@ -273,7 +273,7 @@ weapons: [
       A45637FF
       ffffff
       ]
-    damage: 29000
+    damage: 100000
     lifetime: 40
     width: 80
     length: 50000
@@ -283,23 +283,7 @@ weapons: [
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     hitColor: 85c278
-    fragBullets: 4
-      fragSpread: 180
-      fragRandomSpread: 10
-      fragVelocityMin: 1
-      fragVelocityMax: 1
-      fragLifeMin: 1
-      fragLifeMax: 1
-      fragBullet: {
-     type: LightningBulletType
-          lightningColor: A45637FF
-          lightningLength: 15
-          lightningDamage: 10
-          hitSound: spark
-          despawnSound: spark
-          lifetime: 1
   }
-}
 }
 {
     x: 30
@@ -322,8 +306,8 @@ weapons: [
     damage: 2000
     lifetime: 40
     width: 10
-    length: 500
-    inaccuracy: 40,
+    length: 50000
+    inaccuracy: 10,
     pierce: true
     pierceBuilding: true
     pierceCap: 50
@@ -350,7 +334,7 @@ weapons: [
       inaccuracy: 5,
       frontColor: A45637FF
       backColor: ffffff
-      lifetime: 40
+      lifetime: 20
       damage: 7000
       width: 20
       height: 30
@@ -360,8 +344,8 @@ weapons: [
       shrinkX: 0
       shrinkY: 0
       fragBullets: 10
-      fragSpread: 360
-      fragRandomSpread: 10
+      fragSpread: 36
+      fragRandomSpread: 360
       fragVelocityMin: 1
       fragVelocityMax: 1
       fragLifeMin: 1
