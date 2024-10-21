@@ -13,16 +13,8 @@ accel: 0.095
 groundLayer: 60
 isEnemy: true
 health: 1525000
+effect: guardian
 armor: 50
-abilities: [
-    {
-      type: mindustry.entities.abilities.StatusFieldAbility
-      range: 1
-      reload: 200000000000000
-      duration: 200000000
-      effect: guardian
-    }
-    ]
 parts: [
 {
 type: shapePart
@@ -330,6 +322,7 @@ weapons: [
       type: BasicBulletType
       speed: 5
       trailColor: A45637FF
+      inaccuracy: 20,
       frontColor: A45637FF
       backColor: ffffff
       lifetime: 40
@@ -343,7 +336,7 @@ weapons: [
       shrinkY: 0
       fragBullets: 10
       fragSpread: 10
-      fragRandomSpread: 0
+      fragRandomSpread: 10
       fragVelocityMin: 1
       fragVelocityMax: 1
       fragLifeMin: 1
