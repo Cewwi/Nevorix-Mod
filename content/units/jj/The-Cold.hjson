@@ -337,7 +337,7 @@ weapons: [
     x: -16
     mirror: true
     alternate: true
-    reload: 2
+    reload: 100
     rotate: false
     trailColor: A45637FF
     shootSound: missile
@@ -345,20 +345,20 @@ weapons: [
     backColor: ffffff
     bullet: {
       type: BasicBulletType
-      speed: 5
+      speed: 20
       trailColor: A45637FF
       inaccuracy: 20,
       frontColor: A45637FF
       backColor: ffffff
       lifetime: 40
-      damage: 900
-      width: 10
-      height: 15
-      trailWidth: 1
-      trailLength: 4
+      damage: 7000
+      width: 30
+      height: 40
+      trailWidth: 8
+      trailLength: 30
       pierce: true
-      shrinkX: 0
-      shrinkY: 0
+      shrinkX: 4
+      shrinkY: 4
       fragBullets: 10
       fragSpread: 10
       fragRandomSpread: 10
