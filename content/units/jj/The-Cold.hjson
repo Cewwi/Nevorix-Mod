@@ -288,14 +288,17 @@ weapons: [
 {
     x: 0
     y: 20
-    reload: 2000
+    reload: 1000
     rotate: false
     trailColor: A45637FF
-    lifetime: 100
+    lifetime: 300
     shootSound: laserblast
     chargeSound: lasercharge
     frontColor: A45637FF
     backColor: ffffff
+    shoot: {
+firstShotDelay: 180
+}
     bullet: {
     type: LaserBulletType
     colors: [
@@ -303,8 +306,8 @@ weapons: [
       ffffff
       ]
     damage: 10000000
-    lifetime: 100
-    width: 80
+    lifetime: 300
+    width: 400
     length: 500000
     pierce: true
     pierceBuilding: true
