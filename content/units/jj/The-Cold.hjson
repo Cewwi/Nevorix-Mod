@@ -12,7 +12,7 @@ hitSize: 5
 accel: 0.095
 groundLayer: 60
 isEnemy: true
-health: 1525000
+health: 15250000
 effect: guardian
 armor: 50
 abilities: [
@@ -337,7 +337,7 @@ weapons: [
     x: -16
     mirror: true
     alternate: true
-    reload: 100
+    reload: 10
     rotate: false
     trailColor: A45637FF
     shootSound: missile
@@ -347,20 +347,20 @@ weapons: [
       type: BasicBulletType
       speed: 20
       trailColor: A45637FF
-      inaccuracy: 20,
+      inaccuracy: 5,
       frontColor: A45637FF
       backColor: ffffff
       lifetime: 40
       damage: 7000
-      width: 30
-      height: 40
+      width: 20
+      height: 30
       trailWidth: 8
-      trailLength: 30
+      trailLength: 10
       pierce: true
-      shrinkX: 4
-      shrinkY: 4
+      shrinkX: 0
+      shrinkY: 0
       fragBullets: 10
-      fragSpread: 10
+      fragSpread: 360
       fragRandomSpread: 10
       fragVelocityMin: 1
       fragVelocityMax: 1
