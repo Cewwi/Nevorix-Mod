@@ -13,7 +13,7 @@ accel: 0.095
 groundLayer: 60
 isEnemy: true
 health: 15250000
-effect: guardian
+status: guardian
 armor: 50
 abilities: [
   {
