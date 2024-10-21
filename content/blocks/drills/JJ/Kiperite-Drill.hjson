@@ -1,0 +1,18 @@
+type: WallCrafter
+name: Kiperite drill
+description: basic drill used to mine Kiperite.
+size: 2
+category: production
+research: Plasma-Core
+requirements: [
+  Kiperite/30
+]
+drillTime: 50
+output: tungsten
+ambientSound: drill
+ambientSoundVolume: 0.08
+alwaysUnlocked: true
+squareSprite: false
+researchCost: [
+  Kiperite/50
+]
