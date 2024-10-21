@@ -286,6 +286,66 @@ weapons: [
   }
 }
 {
+    x: 0
+    y: 20
+    reload: 2000
+    rotate: false
+    trailColor: A45637FF
+    lifetime: 100
+    shootSound: laserblast
+    chargeSound: lasercharge
+    frontColor: A45637FF
+    backColor: ffffff
+    bullet: {
+    type: LaserBulletType
+    colors: [
+      A45637FF
+      ffffff
+      ]
+    damage: 10000000
+    lifetime: 100
+    width: 80
+    length: 500000
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 50
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    hitColor: 85c278
+    chargeEffect: {
+          type: multiEffect
+          lifetime: 120
+          effects: [
+            {
+             type: WaveEffect
+             lifetime: 40
+             startDelay: 130
+             sizeFrom: 65
+             sizeTo: 0
+             strokeFrom: 0
+             strokeTo: 2
+             colorFrom: A45637FF
+             colorTo: ffffff
+            }
+            {
+              type: ParticleEffect
+              particles: 10
+              offset: 15
+              sizeFrom: 0
+              sizeTo: 8
+              interp: pow3In
+              sizeInterp: pow5Out
+              length: 60
+              lightColor: A45637FF
+              lifetime: 120
+              colorFrom: A45637FF
+              colorTo: ffffff
+            }
+          ]
+        }
+  }
+}
+{
     x: 30
     y: 20
     mirror: true
