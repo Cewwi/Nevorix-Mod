@@ -14,9 +14,8 @@ isEnemy: true
 health: 1525000
 armor: 1
 parts: [
- {
+{
 type: HaloPart
-y: -36
 radius: 4.6
 tri: true
 layer: 110,
@@ -31,8 +30,8 @@ triLengthTo: 8
 triLength: 0
 }
 {
+{
 type: HaloPart
-y: -36
 radius: 4.6
 tri: true
 layer: 110
