@@ -26,12 +26,12 @@ abilities: [
 parts: [
 {
 type: shapePart
-y: -4
-x: -10
+y: -7
+x: -16
 hollow: false
 circle: true
 layer: 110
-color: ffffff
+color: A45637FF
 stroke: 0
 strokeTo: 2
 radiusTo: 7
@@ -39,8 +39,8 @@ radius: 7
 }
 {
 type: HaloPart
-y: -4
-x: -10
+y: -7
+x: -16
 radius: 4.6
 tri: true
 layer: 110
@@ -56,12 +56,12 @@ triLength: 0
 }
 {
 type: shapePart
-y: -4
-x: 10
+y: -7
+x: -16
 hollow: false
 circle: true
 layer: 110
-color: ffffff
+color: A45637FF
 stroke: 0
 strokeTo: 2
 radiusTo: 7
@@ -69,8 +69,8 @@ radius: 7
 }
 {
 type: HaloPart
-y: -4
-x: 10
+y: -7
+x: -16
 radius: 4.6
 tri: true
 layer: 110
@@ -112,10 +112,11 @@ weapons: [
     shootY: 7
     mirror: true
     alternate: true
-    reload: 10
+    reload: 270
     rotate: false
     trailColor: A45637FF
-    shootSound: laser
+    lifetime: 40
+    shootSound: laserblast
     frontColor: A45637FF
     backColor: ffffff
     bullet: {
@@ -124,9 +125,9 @@ weapons: [
       A45637FF
       ffffff
       ]
-    width: 10
-    length: 500
-    damage: 2900
+    width: 80
+    length: 5000
+    damage: 29000
     lifetime: 40
     pierce: true
     pierceBuilding: false
@@ -137,8 +138,8 @@ weapons: [
   }
 }
   {
-    y: -4
-    x: 10
+    y: -7
+    x: -16
     mirror: true
     alternate: true
     reload: 2
@@ -173,10 +174,27 @@ weapons: [
       type: LightningBulletType
           lightningColor: A45637FF
           lightningLength: 100
-          lightningDamage: 700
+          lightningDamage: 2900
           hitSound: spark
           despawnSound: spark
           lifetime: 1
+      }
+      fragBullet: {
+      type: LaserBulletType
+    colors: [
+      A45637FF
+      ffffff
+      ]
+    width: 5
+    length: 100
+    damage: 2900
+    lifetime: 40
+    pierce: true
+    pierceBuilding: false
+    pierceCap: 50
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    hitColor: A45637FF
     }
 }
 }
