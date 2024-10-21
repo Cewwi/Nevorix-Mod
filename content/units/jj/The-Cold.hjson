@@ -293,7 +293,7 @@ weapons: [
     rotate: false
     trailColor: A45637FF
     lifetime: 40
-    shootSound: laserblast
+    shootSound: laser
     frontColor: A45637FF
     backColor: ffffff
     bullet: {
@@ -302,9 +302,9 @@ weapons: [
       A45637FF
       ffffff
       ]
-    damage: 200
+    damage: 2000
     lifetime: 40
-    width: 5
+    width: 10
     length: 500
     inaccuracy: 40,
     pierce: true
