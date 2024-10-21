@@ -32,9 +32,9 @@ circle: true
 layer: 110
 color: f92c00
 stroke: 0
-strokeTo: 1.1
-radiusTo: 20
-radius: 20
+strokeTo: 2
+radiusTo: 18
+radius: 18
 }
  {
 type: shapePart
@@ -44,9 +44,9 @@ circle: true
 layer: 110
 color: f92c00
 stroke: 0
-strokeTo: 0.7
-radiusTo: 9
-radius: 9
+strokeTo: 2
+radiusTo: 9.5
+radius: 9.5
 }
 {
 type: HaloPart
