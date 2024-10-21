@@ -309,38 +309,30 @@ weapons: [
       pierce: true
       shrinkX: 0
       shrinkY: 0
-      fragBullets: 30
-      fragSpread: 60
+      fragBullets: 10
+      fragSpread: 10
       fragRandomSpread: 0
       fragVelocityMin: 1
       fragVelocityMax: 1
       fragLifeMin: 1
       fragLifeMax: 1
       fragBullet: {
-      type: LightningBulletType
-          lightningColor: A45637FF
-          lightningLength: 100
-          lightningDamage: 2900
-          hitSound: spark
-          despawnSound: spark
-          lifetime: 1
-      }
-      fragBullet: {
       type: LaserBulletType
-    colors: [
+      colors: [
       A45637FF
       ffffff
       ]
-    width: 5
-    length: 100
-    damage: 2900
-    lifetime: 40
-    pierce: true
-    pierceBuilding: false
-    pierceCap: 50
-    shootEffect: shootSmall
-    smokeEffect: shootSmallSmoke
-    hitColor: A45637FF
+      width: 5
+      length: 100
+      damage: 2900
+      inaccuracy: 10,
+      lifetime: 40
+      pierce: true
+      pierceBuilding: false
+      pierceCap: 50
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      hitColor: A45637FF
     }
 }
 }
