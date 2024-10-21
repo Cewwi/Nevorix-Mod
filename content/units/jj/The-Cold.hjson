@@ -21,8 +21,8 @@ abilities: [
       reload: 200000000000000
       duration: 200000000
       effect: guardian
-    },
-    {
+    }
+    ]
 parts: [
 {
 type: shapePart
