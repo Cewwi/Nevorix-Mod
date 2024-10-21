@@ -1,0 +1,30 @@
+ammoPerShot: 20
+		speed: 0
+		damage: 0
+		width: 1
+		height: 1
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		lifetime: 0
+		ammoMultiplier: 20
+		fragBullet: {
+			speed: 10
+			damage: 2
+			width: 30
+			height: 5
+			lifetime: 60
+			fragBullet: {
+				speed: 5
+				damage: 5
+				width: 5
+				height: 50
+				lifetime: 30
+				}
+			fragBullets: 3
+			fragRandomSpread: 5
+			}
+		fragBullets: 40
+		fragVelocityMin: 0.99
+		fragOffsetMax: 1
+		fragSpread: 0.05
+		fragRandomSpread: 10
