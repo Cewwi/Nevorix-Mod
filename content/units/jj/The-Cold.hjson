@@ -331,11 +331,11 @@ firstShotDelay: 120
             }
             {
              type: WaveEffect
-             lifetime: 120
+             lifetime: 300
              sizeFrom: 0
-             sizeTo: 100
+             sizeTo: 200
              strokeFrom: 0
-             strokeTo: 6
+             strokeTo: 14
              colorFrom: ffffff
              colorTo: A45637FF
             }
@@ -345,12 +345,12 @@ firstShotDelay: 120
               startDelay: 120
               offset: 20
               sizeFrom: 0
-              sizeTo: 14
+              sizeTo: 50
               interp: pow3In
               sizeInterp: pow5Out
-              length: 100
+              length: 200
               lightColor: A45637FF
-              lifetime: 120
+              lifetime: 300
               colorFrom: A45637FF
               colorTo: ffffff
             }
