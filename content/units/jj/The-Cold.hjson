@@ -346,7 +346,7 @@ firstShotDelay: 120
               offset: 20
               sizeFrom: 0
               sizeTo: 14
-              interp: pow5Out
+              interp: pow3In
               sizeInterp: pow5Out
               length: 100
               lightColor: A45637FF
@@ -360,7 +360,7 @@ firstShotDelay: 120
               offset: 15
               sizeFrom: 0
               sizeTo: 8
-              interp: pow5out
+              interp: pow3In
               sizeInterp: pow5Out
               length: 80
               lightColor: A45637FF
