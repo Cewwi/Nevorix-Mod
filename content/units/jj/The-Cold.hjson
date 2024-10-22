@@ -297,7 +297,7 @@ weapons: [
     frontColor: A45637FF
     backColor: ffffff
     shoot: {
-firstShotDelay: 180
+firstShotDelay: 120
 }
     bullet: {
     type: LaserBulletType
@@ -321,14 +321,52 @@ firstShotDelay: 180
           effects: [
             {
              type: WaveEffect
-             lifetime: 40
-             startDelay: 130
+             lifetime: 120
              sizeFrom: 65
              sizeTo: 0
              strokeFrom: 0
              strokeTo: 2
-             colorFrom: A45637FF
-             colorTo: ffffff
+             colorFrom: ffffff
+             colorTo: A45637FF
+            }
+            {
+             type: WaveEffect
+             lifetime: 120
+             sizeFrom: 0
+             sizeTo: 100
+             strokeFrom: 0
+             strokeTo: 6
+             colorFrom: ffffff
+             colorTo: A45637FF
+            }
+            {
+              type: ParticleEffect
+              particles: 20
+              startDelay: 120
+              offset: 20
+              sizeFrom: 0
+              sizeTo: 14
+              interp: pow3in
+              sizeInterp: pow5Out
+              length: 100
+              lightColor: A45637FF
+              lifetime: 120
+              colorFrom: A45637FF
+              colorTo: ffffff
+            }
+            {
+              type: ParticleEffect
+              particles: 20
+              offset: 15
+              sizeFrom: 0
+              sizeTo: 8
+              interp: pow5out
+              sizeInterp: pow3in
+              length: 80
+              lightColor: A45637FF
+              lifetime: 120
+              colorFrom: ffffff
+              colorTo: A45637FF
             }
             {
               type: ParticleEffect
@@ -336,7 +374,7 @@ firstShotDelay: 180
               offset: 15
               sizeFrom: 0
               sizeTo: 8
-              interp: pow3In
+              interp: pow3in
               sizeInterp: pow5Out
               length: 60
               lightColor: A45637FF
