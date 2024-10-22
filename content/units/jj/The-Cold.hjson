@@ -261,6 +261,7 @@ weapons: [
     mirror: true
     alternate: true
     reload: 200
+    shake: 3
     rotate: false
     trailColor: A45637FF
     lifetime: 40
@@ -293,7 +294,8 @@ weapons: [
     trailColor: A45637FF
     lifetime: 300
     shootSound: laserblast
-    chargeSound: lasercharge
+    chargeSound: lasercharge 
+    shake: 6
     frontColor: A45637FF
     backColor: ffffff
     shoot: {
