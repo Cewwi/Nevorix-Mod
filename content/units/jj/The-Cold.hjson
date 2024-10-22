@@ -271,7 +271,11 @@ weapons: [
     bullet: {
     type: LaserBulletType
     colors: [
+      901700
       A45637FF
+      eb5914
+      fac94d
+      fbd36e
       ffffff
       ]
     damage: 100000
