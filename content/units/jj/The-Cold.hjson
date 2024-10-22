@@ -319,7 +319,7 @@ firstShotDelay: 120
     length: 500000
     pierce: true
     pierceBuilding: true
-    pierceCap: 50
+    pierceCap: 5000
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     hitColor: 85c278
@@ -352,8 +352,8 @@ firstShotDelay: 120
               particles: 20
               startDelay: 120
               offset: 20
-              sizeFrom: 0
-              sizeTo: 50
+              sizeFrom: 50
+              sizeTo: 0
               interp: pow3In
               sizeInterp: pow5Out
               length: 200
