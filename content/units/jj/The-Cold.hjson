@@ -9,6 +9,7 @@ outlineColor: 1d1c1a
 speed: 5
 rotateSpeed: 4
 hitSize: 5
+immunities: true
 accel: 0.095
 groundLayer: 60
 isEnemy: true
@@ -261,7 +262,7 @@ weapons: [
     mirror: true
     alternate: true
     reload: 200
-    shake: 3
+    shake: 30
     rotate: false
     trailColor: A45637FF
     lifetime: 40
@@ -295,7 +296,7 @@ weapons: [
     lifetime: 300
     shootSound: laserblast
     chargeSound: lasercharge 
-    shake: 6
+    shake: 100
     frontColor: A45637FF
     backColor: ffffff
     shoot: {
