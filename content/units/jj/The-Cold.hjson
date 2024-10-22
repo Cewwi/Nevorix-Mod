@@ -9,7 +9,6 @@ outlineColor: 1d1c1a
 speed: 5
 rotateSpeed: 4
 hitSize: 5
-immunities: true
 accel: 0.095
 groundLayer: 60
 isEnemy: true
