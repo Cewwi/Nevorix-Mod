@@ -271,11 +271,7 @@ weapons: [
     bullet: {
     type: LaserBulletType
     colors: [
-      901700
       A45637FF
-      eb5914
-      fac94d
-      fbd36e
       ffffff
       ]
     damage: 100000
@@ -310,7 +306,11 @@ firstShotDelay: 120
     bullet: {
     type: LaserBulletType
     colors: [
+      901700
       A45637FF
+      eb5914
+      fac94d
+      fbd36e
       ffffff
       ]
     damage: 10000000
@@ -319,7 +319,7 @@ firstShotDelay: 120
     length: 500000
     pierce: true
     pierceBuilding: true
-    pierceCap: 5000
+    pierceCap: 50000
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     hitColor: 85c278
