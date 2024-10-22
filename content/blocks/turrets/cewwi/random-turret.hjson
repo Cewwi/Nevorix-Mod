@@ -1,0 +1,66 @@
+type: ItemTurret
+localizedName: sprinkle
+description: pssss
+detail: cewwi
+health: 550
+size: 2
+reload: 1
+range: 60
+ammoUseEffect: casing2 
+inaccuracy: 360
+rotateSpeed: 100
+targetGround: true
+targetAir: true
+coolantMultiplier: 2
+researchCostMultiplier: 1.5
+variants: 2
+consumes: {
+  coolant: {
+    amount: 0.5
+  }
+}
+
+ammoTypes: {
+	 sand: {
+		ammoPerShot: 4
+		speed: 1
+		damage: 1
+		width: 1
+		height: 1
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		lifetime: 0
+		ammoMultiplier: 2
+		fragBullet: {
+			speed: 7
+			damage: 5
+			width: 3
+			height: 6
+			lifetime: 20
+			fragBullet: {
+				speed: 4
+				damage: 2
+				width: 1
+				height: 2
+				lifetime: 7
+				}
+			fragBullets: 3
+			fragRandomSpread: 360
+			}
+		fragBullets: 10
+		fragVelocityMin: 0.99
+		fragOffsetMax: 1
+		fragRandomSpread: 360
+		}	
+}
+
+requirements: [
+silicon/300
+titanium/200
+thorium/200
+graphite/100
+plastanium/50
+metaglass/20
+]
+category: turret
+research: duo
