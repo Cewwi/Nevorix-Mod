@@ -296,6 +296,8 @@ weapons: [
     shootSound: laserblast
     chargeSound: lasercharge 
     shake: 100
+    shootStatus: unmoving
+    shootStatusDuration: 120
     frontColor: A45637FF
     backColor: ffffff
     shoot: {
