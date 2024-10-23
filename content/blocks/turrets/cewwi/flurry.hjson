@@ -1,14 +1,14 @@
 type: ItemTurret
-localizedName: sprinkle
-description: pssss
+localizedName: flurry
+description: a flurry of bullets
 detail: cewwi
 health: 550
 size: 2
 reload: 1
 range: 60
 ammoUseEffect: casing2 
-inaccuracy: 360
-rotateSpeed: 100
+inaccuracy: 10
+rotateSpeed: 9
 targetGround: true
 targetAir: true
 coolantMultiplier: 2
@@ -68,11 +68,20 @@ drawer: {
   parts: [
     {
       type: RegionPart
-      suffix: -barrel
+      suffix: -left
       progress: recoil
       moveY: 0
       heatProgress: recoil
-      mirror: true
+      mirror: false
+      under: true
+    }
+    {
+      type: RegionPart
+      suffix: -right
+      progress: recoil
+      moveY: 0
+      heatProgress: recoil
+      mirror: false
       under: true
     }
   ]
