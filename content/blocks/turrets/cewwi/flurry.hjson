@@ -1,5 +1,5 @@
 type: ItemTurret
-localizedName: flurry
+localizedName: McFlurry
 description: a flurry of bullets
 detail: cewwi
 health: 550
@@ -38,20 +38,12 @@ ammoTypes: {
 			width: 3
 			height: 6
 			lifetime: 20
-			fragBullet: {
-				speed: 4
-				damage: 2
-				width: 1
-				height: 2
-				lifetime: 7
-				}
-			fragBullets: 3
-			fragRandomSpread: 360
 			}
 		fragBullets: 10
-		fragVelocityMin: 0.99
+		fragVelocityMin: 0.2
+		fragVelocityMax: 2
 		fragOffsetMax: 1
-		fragRandomSpread: 360
+		fragRandomSpread: 20
 		}	
 }
 
