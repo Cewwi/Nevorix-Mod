@@ -4,7 +4,7 @@ description: a flurry of bullets
 detail: cewwi
 health: 550
 size: 2
-reload: 1
+reload: 30
 range: 60
 ammoUseEffect: casing2 
 inaccuracy: 10
@@ -13,7 +13,6 @@ targetGround: true
 targetAir: true
 coolantMultiplier: 2
 researchCostMultiplier: 1.5
-variants: 2
 consumes: {
   coolant: {
     amount: 0.5
@@ -21,7 +20,7 @@ consumes: {
 }
 
 ammoTypes: {
-	 sand: {
+	 malanium: {
 		ammoPerShot: 4
 		speed: 1
 		damage: 1
@@ -38,6 +37,8 @@ ammoTypes: {
 			width: 6
 			height: 6
 			lifetime: 20
+			lightning: 3
+			lightningLength: 6
 			}
 		fragBullets: 10
 		fragVelocityMin: 0.2
