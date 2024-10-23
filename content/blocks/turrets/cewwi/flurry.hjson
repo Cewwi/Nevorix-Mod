@@ -62,5 +62,20 @@ graphite/100
 plastanium/50
 metaglass/20
 ]
+drawer: {
+  type: DrawTurret
+  basePrefix: flurry-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      moveY: 0
+      heatProgress: recoil
+      mirror: true
+      under: true
+    }
+  ]
+}
 category: turret
 research: duo
