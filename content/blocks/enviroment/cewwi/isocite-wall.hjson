@@ -3,4 +3,5 @@ name: Isocite Wall
 description: "A material so common, that it is the source of Iralius' colour."
 itemDrop: isocite
 variants: 2
+mineTier: 1
 
