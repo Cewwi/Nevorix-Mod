@@ -14,6 +14,7 @@ targetAir: true
 coolantMultiplier: 2
 researchCostMultiplier: 1.5
 consumes: {
+  power: 444
   coolant: {
     amount: 0.5
   }
@@ -36,6 +37,7 @@ ammoTypes: {
 			damage: 5
 			width: 1
 			height: 1
+			length: 3
 			lifetime: 20
 			lightning: 3
 			lightningLength: 6
