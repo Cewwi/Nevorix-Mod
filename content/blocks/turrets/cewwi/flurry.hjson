@@ -15,40 +15,35 @@ coolantMultiplier: 2
 researchCostMultiplier: 1.5
 consumes: {
   power: 444
-  coolant: {
-    amount: 0.5
-  }
 }
-
-ammoTypes: {
-	 malanium: {
-		ammoPerShot: 4
+hasPower: true
+shootType: {
+	ammoPerShot: 4
+	speed: 1
+	damage: 1
+	width: 1
+	height: 1
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+	lifetime: 0
+	ammoMultiplier: 2
+	fragBullet: {
+		type: laserBulletType
 		speed: 1
-		damage: 1
+		damage: 5
 		width: 1
 		height: 1
-		shootEffect: shootSmall
-		smokeEffect: shootSmallSmoke
-		lifetime: 0
-		ammoMultiplier: 2
-		fragBullet: {
-			type: laserBulletType
-			speed: 1
-			damage: 5
-			width: 1
-			height: 1
-			length: 3
-			lifetime: 20
-			lightning: 3
-			lightningLength: 6
-			}
-		fragBullets: 10
-		fragVelocityMin: 0.2
-		fragVelocityMax: 2
-		fragOffsetMax: 1
-		fragRandomSpread: 20
-		}	
-}
+		length: 3
+		lifetime: 20
+		lightning: 3
+		lightningLength: 6
+		}
+	fragBullets: 10
+	fragVelocityMin: 0.2
+	fragVelocityMax: 2
+	fragOffsetMax: 1
+	fragRandomSpread: 20
+}	
 
 requirements: [
 silicon/300
