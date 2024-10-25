@@ -13,6 +13,8 @@ On the ancient battlefield of Nevorix, you use the technologies that you have re
 version: "1.0"
 minGameVersion: "146"
 dependencies: [ ]
+main: "nevorix.Nevorix"
 hidden: false
 subtitle: "in the making"
 repo: https://github.com/Cewwi/Nevorix-Mod
+java: true
