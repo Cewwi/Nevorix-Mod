@@ -10,7 +10,7 @@ Your goal is to uncover these relics and piece together a machine that can take 
 On the dark, irradiated wasteland of Iralius, you must research powerful turrets to overcome the mutated inhabitants.
 
 On the ancient battlefield of Nevorix, you use the technologies that you have researched on Tronoe and Iralius to overcome an ancient enemy that has long gone undefeated. While winning the long - forgotten war, you will also discover new materials to create even more powerful weapons than before.'''
-version: "1.0"
+version: "0"
 minGameVersion: "146"
 dependencies: [ ]
 main: "nevorix.Nevorix"
