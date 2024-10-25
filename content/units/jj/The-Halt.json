@@ -1,6 +1,5 @@
 {
   "singleTarget": true,
-  "template": "ErekirUnitType",
   "lightRadius": 300,
   "type": "legs",
   "speed": 0.40,
