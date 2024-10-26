@@ -26,6 +26,8 @@ shootType: {
 	smokeEffect: shootSmallSmoke
 	lifetime: 1
 	ammoMultiplier: 2
+	frontColor: 73d188
+   	backColor: 62ae7f
 	fragBullet: {
 		type: laserBulletType
 		speed: 0
