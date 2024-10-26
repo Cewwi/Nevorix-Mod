@@ -14,7 +14,7 @@ weapons: [
     y: 0
     x: 4
     shooty: 3
-    reload: 10
+    reload: 14
     alternate: true
     mirror: true
     rotate: false
@@ -25,7 +25,7 @@ weapons: [
       type: MissileBulletType
       speed: 3
       lifetime: 50
-      damage: 20
+      damage: 10
       width: 5
       height: 7
       frontColor: ffffff
