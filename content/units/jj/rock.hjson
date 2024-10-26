@@ -12,28 +12,29 @@ weapons: [
   {
     name: rock-gun
     y: 0
-    x: 11
-    reload: 45
+    x: 5
+    reload: 50
+    alternate: true
     mirror: true
     rotate: false
     inaccuracy: 4
     shoot: {
-      shots: 10
-      shotDelay: 2
+      shots: 3
+      shotDelay: 5
     }
     shootSound: shoot-dull
     bullet: {
-      type: BasicBulletType
+      type: MissileBulletType
       speed: 3
       lifetime: 50
-      damage: 3
+      damage: 10
       pierce: true
       pierceCap: 1
       width: 9
       height: 13
       frontColor: ffffff
       backColor: FF7436FF
-      trailChance: -1
+      trailChance: 1
       trailEffect: missileTrail
       trailColor: FF7436FF
       shootEffect: shootSmall
