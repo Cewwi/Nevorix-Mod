@@ -28,19 +28,12 @@ shootType: {
 	ammoMultiplier: 2
 	fragBullet: {
 		type: laserBulletType
-		speed: 1
+		speed: 0
 		damage: 5
 		width: 1
 		height: 1
 		lifetime: 20
-		fragBullet: {
-			type: lightningBulletType
-			length: 10
-			width: 2
-			lifetime: 2
-		}
-		fragbullets: 5
-		fragRandomSpread: 360
+		color: 73d188
 	}
 	fragBullets: 10
 	fragVelocityMin: 0.2
