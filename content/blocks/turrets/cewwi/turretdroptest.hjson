@@ -12,5 +12,6 @@ targetGround: true
 targetAir: true
 coolantMultiplier: 2
 researchCostMultiplier: 1.5
+itemDrop: isocite
 category: turret
 research: duo
