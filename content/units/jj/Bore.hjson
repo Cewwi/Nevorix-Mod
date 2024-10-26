@@ -32,7 +32,7 @@ weapons: [
     y: -3
     mirror: true
     alternate: false
-    reload: 15
+    reload: 40
     rotate: true
     shootSound: shootBig2
     shoot: {
