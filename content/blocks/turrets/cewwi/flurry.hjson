@@ -6,7 +6,7 @@ health: 550
 size: 2
 reload: 75
 range: 210
-shootY: 3
+shootY: 10
 ammoUseEffect: casing2 
 inaccuracy: 10
 rotateSpeed: 9
