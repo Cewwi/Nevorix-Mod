@@ -46,6 +46,8 @@ weapons: [
           lightningLength: 15
           lightningDamage: 10
           hitSound: spark
+          healPercent: 2
+          collidesTeam: true
           despawnSound: spark
           lifetime: 1
     }
