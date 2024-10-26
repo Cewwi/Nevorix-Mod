@@ -1,15 +1,14 @@
 type: Duct
 name: Durium Duct
-description: Transports items using negative pressure.
+description: basic transport duct.
 category: distribution
 alwaysUnlocked: true
-research: copper
+research: Plasma-Core
 researchCost: [
-  copper/10
+  Kiperite/10
 ]
 speed: 10
 health: 45
-//bridgeReplacement: 05e-06-ferrinite-duct-bridge
 requirements: [
-  copper/1
+  Kiiperite/1
 ]
