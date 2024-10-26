@@ -1,6 +1,6 @@
 type: mech
 name: Rock
-description: Fires small missiles that have a chance to set enemies ablaze.
+description: Fires small missiles that set enemies ablaze.
 speed: 0.45
 flying: false
 health: 250
@@ -20,6 +20,7 @@ weapons: [
     rotate: false
     inaccuracy: 10
     shootSound: shotgun
+    incendAmount: 2
     shoot: {
       shots: 10
       shotDelay: 2
@@ -38,6 +39,7 @@ weapons: [
       trailColor: FF7436FF
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
+      incendAmount: 2
     }
   }
 ]
