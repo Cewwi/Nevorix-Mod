@@ -10,7 +10,7 @@ range: 210
 shootY: 18
 ammoUseEffect: casing2 
 inaccuracy: 0
-rotateSpeed: 9
+rotateSpeed: 3
 targetGround: true
 targetAir: true
 coolantMultiplier: 2
@@ -25,7 +25,7 @@ shootType: {
 	type: continuousLaserBulletType
 	ammoPerShot: 4
 	damage: 1000
-	width: 3
+	width: 2
 	length: 210
 	hitEffect: instHit
 	smokeEffect: shootSmallSmoke
