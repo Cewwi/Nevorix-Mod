@@ -35,7 +35,7 @@ shoot: {
 	type: ShootAlternate
 	shots: 2
 	shotDelay: 1
-	spread: 9.75
+	spread: 10.2
 }
 requirements: [
 silicon/300
