@@ -1,0 +1,16 @@
+type: ItemTurret
+localizedName: testing, testing
+description: buh
+health: 999
+size: 1
+reload: 10
+range: 1000
+ammoUseEffect: casing2 
+inaccuracy: 2
+rotateSpeed: 6
+targetGround: true
+targetAir: true
+coolantMultiplier: 2
+researchCostMultiplier: 1.5
+category: turret
+research: duo
