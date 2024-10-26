@@ -18,17 +18,19 @@ consumes: {
 }
 hasPower: true
 shootType: {
-	type: laserBulletType
+	type: continuousLaserBulletType
 	ammoPerShot: 4
-	speed: 0
 	damage: 1000
-	width: 1
-	height: 1
+	width: 5
+	length: 210
+	hitEffect: instHit
 	smokeEffect: shootSmallSmoke
-	lifetime: 10
+	lifetime: 20
+	bulletInterval: 5
 	ammoMultiplier: 2
-	frontColor: 73d188
-   	backColor: 62ae7f
+	intervalRandomSpread: 20
+     	//buildingDamageMultiplier: 0.75
+	colors: [73d188,62ae7f]
 }	
 
 shoot: {
