@@ -7,7 +7,7 @@ health: 550
 size: 2
 reload: 75
 range: 210
-shootY: 18
+shootY: 14
 ammoUseEffect: casing2 
 inaccuracy: 0
 rotateSpeed: 3
@@ -29,7 +29,7 @@ shootType: {
 	length: 210
 	hitEffect: instHit
 	smokeEffect: shootSmallSmoke
-	lifetime: 50
+	lifetime: 20
 	bulletInterval: 5
 	ammoMultiplier: 2
 	intervalRandomSpread: 20
