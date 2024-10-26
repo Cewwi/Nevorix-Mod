@@ -22,7 +22,7 @@ shootType: {
 	type: continuousLaserBulletType
 	ammoPerShot: 4
 	damage: 1000
-	width: 5
+	width: 3
 	length: 210
 	hitEffect: instHit
 	smokeEffect: shootSmallSmoke
