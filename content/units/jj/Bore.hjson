@@ -38,14 +38,13 @@ weapons: [
     shootSound: missile
     bullet: {
       type: MissileBulletType
-      speed: 3
+      speed: 10
       lifetime: 50
       damage: 10
-      width: 5
-      height: 7
+      width: 7
+      height: 10
       healPercent: 2
       collidesTeam: true
-      despawnSound: spark
       frontColor: ffffff
       backColor: C6FF6BFF
       trailChance: 1
