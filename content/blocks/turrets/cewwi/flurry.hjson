@@ -1,6 +1,6 @@
-type: ItemTurret
-localizedName: McFlurry
-description: a flurry of bullets
+type: PowerTurret
+localizedName: Buston
+description: Fires bullets that burst mid-air
 detail: cewwi
 health: 550
 size: 2
@@ -14,7 +14,7 @@ targetAir: true
 coolantMultiplier: 2
 researchCostMultiplier: 1.5
 consumes: {
-  power: 444
+  power: 100
 }
 hasPower: true
 shootType: {
