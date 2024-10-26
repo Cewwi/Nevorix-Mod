@@ -1,6 +1,6 @@
 type: mech
-name: Cleaver
-description: Uses a gatling gun to pelt enemy targets. Equipped with an electric mine launcher.
+name: Rock
+description: Fires small missiles that have a chance to set .
 speed: 0.45
 flying: false
 health: 250
@@ -18,17 +18,17 @@ weapons: [
     alternate: true
     mirror: true
     rotate: false
-    inaccuracy: 4
+    inaccuracy: 10
     shootSound: shotgun
     shoot: {
-      shots: 3
-      shotDelay: 5
+      shots: 10
+      shotDelay: 2
     }
     bullet: {
       type: MissileBulletType
       speed: 3
       lifetime: 50
-      damage: 10
+      damage: 16
       width: 5
       height: 7
       frontColor: ffffff
