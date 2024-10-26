@@ -1,5 +1,5 @@
 type: Duct
-name: Durium Duct
+name: Kiperite Duct
 description: basic transport duct.
 category: distribution
 alwaysUnlocked: true
@@ -10,5 +10,5 @@ researchCost: [
 speed: 10
 health: 45
 requirements: [
-  Kiiperite/1
+  Kiperite/1
 ]
