@@ -39,9 +39,15 @@ shootType: {
 	fragVelocityMin: 0.2
 	fragVelocityMax: 2
 	fragOffsetMax: 1
-	fragRandomSpread: 20
+	fragRandomSpread: 5
 }	
 
+shoot: {
+	type: ShootAlternate
+	shots: 2
+	shotDelay: 1
+	spread: 3.5	
+}
 requirements: [
 silicon/300
 titanium/200
