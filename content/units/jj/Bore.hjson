@@ -46,10 +46,11 @@ weapons: [
       healPercent: 2
       collidesTeam: true
       despawnSound: spark
-      lifetime: 1
+      frontColor: ffffff
+      backColor: C6FF6BFF
       trailChance: 1
       trailEffect: missileTrail
-      trailColor: FF7436FF
+      trailColor: C6FF6BFF
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
     }
