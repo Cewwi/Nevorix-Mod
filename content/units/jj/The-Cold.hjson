@@ -15,6 +15,11 @@ isEnemy: true
 health: 15250000
 status: guardian
 armor: 50
+mineSpeed: 7.5
+mineFloor: true
+mineWalls: true
+mineTier: 1
+buildSpeed: 1.2
 abilities: [
   {
     type: MoveEffectAbility
