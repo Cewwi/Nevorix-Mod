@@ -32,6 +32,8 @@ shootType: {
 	intervalRandomSpread: 20
      	buildingDamageMultiplier: 0.75
 	colors: [73d188,62ae7f]
+	followParent: true
+      	rotWithParent: true
 	intervalBullet: {
       type: LightningBulletType
       buildingDamageMultiplier: 0.75
