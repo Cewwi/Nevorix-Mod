@@ -1,0 +1,16 @@
+type: UnitFactory
+researchCostMultiplier: 0.3
+size: 3
+consumes: {
+  power: 5
+}
+plans: [
+  {
+    unit: rock
+    requirements: [
+      Kiperite/25
+      Ion/15
+    ]
+    time: 480
+  }
+]
