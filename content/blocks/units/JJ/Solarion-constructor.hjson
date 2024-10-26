@@ -1,4 +1,7 @@
 type: UnitFactory
+name: Solarion Factory
+description: A factory used by the [red]Solarion[] to make basic units.
+category: units
 researchCostMultiplier: 0.3
 size: 3
 consumes: {
@@ -11,6 +14,6 @@ plans: [
       Kiperite/25
       Ion/15
     ]
-    time: 480
+    time: 60
   }
 ]
