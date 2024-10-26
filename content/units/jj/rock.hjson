@@ -23,7 +23,7 @@ weapons: [
       shots: 3
       shotDelay: 5
     }
-    shootSound: shoot-dull
+    shootSound: shoot-heavy-cannon
     bullet: {
       type: MissileBulletType
       speed: 3
