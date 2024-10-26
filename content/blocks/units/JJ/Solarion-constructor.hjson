@@ -1,6 +1,6 @@
 type: UnitFactory
 name: Solarion Factory
-description: A factory used by the [red]Solarion[] to make basic units.
+description: A factory used by the Solarion to make basic units.
 category: units
 researchCostMultiplier: 0.3
 size: 3
