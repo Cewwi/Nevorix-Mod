@@ -13,8 +13,8 @@
   rotateSpeed: 2
   shootSound: flame
   requirements: [
-  copper/3000
-  silicon/1
+  Kiperite/100
+  Ion/100
   ]
   category: turret
   research: Core-Plasma
@@ -27,7 +27,7 @@
     type: BasicBulletType,
         collidesAir: true,
         speed: 3,
-        damage: 1,
+        damage: 15,
         width: 0.1,
         height: 0.1,
         shootEffect: {
