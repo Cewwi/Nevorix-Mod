@@ -19,18 +19,16 @@ weapons: [
     mirror: true
     rotate: false
     inaccuracy: 4
+    shootSound: shotgun
     shoot: {
       shots: 3
       shotDelay: 5
     }
-    shootSound: shoot-heavy-cannon
     bullet: {
       type: MissileBulletType
       speed: 3
       lifetime: 50
       damage: 10
-      pierce: true
-      pierceCap: 1
       width: 5
       height: 7
       frontColor: ffffff
