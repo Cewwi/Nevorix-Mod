@@ -1,4 +1,5 @@
-type: PowerTurret
+type: powerTurret
+type: ContinuousTurret
 localizedName: McFlurry
 description: Fires bullets that burst mid-air
 detail: cewwi
