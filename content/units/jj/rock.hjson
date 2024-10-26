@@ -3,7 +3,7 @@ name: Rock
 description: Fires small missiles that set enemies ablaze.
 speed: 0.45
 flying: false
-health: 250
+health: 150
 armor: 9
 hitSize: 14
 outlineColor: 44413c
