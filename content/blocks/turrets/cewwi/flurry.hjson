@@ -6,6 +6,7 @@ health: 550
 size: 2
 reload: 30
 range: 210
+shootY: -6
 ammoUseEffect: casing2 
 inaccuracy: 10
 rotateSpeed: 9
@@ -29,8 +30,21 @@ shootType: {
 	bulletInterval: 5
 	ammoMultiplier: 2
 	intervalRandomSpread: 20
-     	//buildingDamageMultiplier: 0.75
+     	buildingDamageMultiplier: 0.75
 	colors: [73d188,62ae7f]
+	intervalBullet: {
+      type: LightningBulletType
+      buildingDamageMultiplier: 0.75
+      lightningLength: 100
+      lightningColor: 73d188
+      damage: 100
+      intervalSpread: 5
+      shootSound: spark
+      intervalAngle: 5
+      shoot: {
+      shots: 5
+          }
+      }
 }	
 
 shoot: {
