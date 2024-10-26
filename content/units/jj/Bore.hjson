@@ -24,34 +24,34 @@ drag: 0.4
 itemCapacity: 110
 alwaysUnlocked: true
 outlineColor: 42413e
-
 weapons: [
 {
     name: Bore-gun
     x: 8
     y: -3
+    shooty: 3
+    reload: 10
+    alternate: true
     mirror: true
-    alternate: false
-    healPercent: 2
-    collidesTeam: true
-    reload: 40
-    rotate: true
-    shootSound: shootBig2
-    shoot: {
-      shots: 10
-      shotDelay: 1
-      inaccuracy: 20
-    }
+    rotate: false
+    inaccuracy: 3
+    shootSound: missile
     bullet: {
-      type: LightningBulletType
-          lightningColor: C6FF6BFF
-          lightningLength: 15
-          lightningDamage: 10
-          hitSound: spark
-          healPercent: 2
-          collidesTeam: true
-          despawnSound: spark
-          lifetime: 1
+      type: MissileBulletType
+      speed: 3
+      lifetime: 50
+      damage: 10
+      width: 5
+      height: 7
+      healPercent: 2
+      collidesTeam: true
+      despawnSound: spark
+      lifetime: 1
+      trailChance: 1
+      trailEffect: missileTrail
+      trailColor: FF7436FF
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
     }
 }
 ]
