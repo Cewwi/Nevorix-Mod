@@ -3,6 +3,7 @@ name: Solarion Factory
 description: A factory used by the Solarion to make basic units.
 category: units
 researchCostMultiplier: 0.3
+research: Plasma-Core
 size: 3
 consumes: {
   power: 5
