@@ -5,7 +5,7 @@ detail: cewwi
 health: 550
 size: 2
 reload: 30
-range: 60
+range: 210
 ammoUseEffect: casing2 
 inaccuracy: 10
 rotateSpeed: 9
@@ -46,7 +46,7 @@ shoot: {
 	type: ShootAlternate
 	shots: 2
 	shotDelay: 1
-	spread: 3.5	
+	spread: 8	
 }
 requirements: [
 silicon/300
