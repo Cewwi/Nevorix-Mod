@@ -18,30 +18,17 @@ consumes: {
 }
 hasPower: true
 shootType: {
+	type: laserBulletType
 	ammoPerShot: 4
-	speed: 1
-	damage: 1
+	speed: 0
+	damage: 1000
 	width: 1
 	height: 1
 	smokeEffect: shootSmallSmoke
-	lifetime: 1
+	lifetime: 10
 	ammoMultiplier: 2
 	frontColor: 73d188
    	backColor: 62ae7f
-	fragBullet: {
-		type: laserBulletType
-		speed: 0
-		damage: 5
-		width: 1
-		height: 1
-		lifetime: 20
-		color: 73d188
-	}
-	fragBullets: 10
-	fragVelocityMin: 0.2
-	fragVelocityMax: 2
-	fragOffsetMax: 1
-	fragRandomSpread: 5
 }	
 
 shoot: {
