@@ -1,6 +1,6 @@
 type: mech
 name: Rock
-description: Fires small missiles that have a chance to set .
+description: Fires small missiles that have a chance to set enemies ablaze.
 speed: 0.45
 flying: false
 health: 250
