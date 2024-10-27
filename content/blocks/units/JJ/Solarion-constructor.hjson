@@ -1,9 +1,15 @@
+{
 type: UnitFactory
 name: Solarion Factory
 description: A factory used by the Solarion to make basic units.
 category: units
 researchCostMultiplier: 0.3
-research: Plasma-Core
+research: Plasma-core
+requirements: [
+  Ion/50
+  Kiperite/150
+  Steel/50
+]
 size: 3
 consumes: {
   power: 5
@@ -18,3 +24,4 @@ plans: [
     time: 60
   }
 ]
+}
