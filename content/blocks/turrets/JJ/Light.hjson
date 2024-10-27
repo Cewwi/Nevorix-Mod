@@ -40,12 +40,12 @@
       useRotation: true
       randLength: false
       lifetime: 45
-      particles: 3
+      particles: 15
       length: 0
       colorFrom: FFE135FF
       colorTo: ffffff
       sizeFrom: 0
-      sizeTo: 5
+      sizeTo: 1
       interp: pow2Out
     }
     type: BasicBulletType
