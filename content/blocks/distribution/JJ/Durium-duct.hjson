@@ -3,7 +3,7 @@ name: Kiperite Duct
 description: basic transport duct.
 category: distribution
 alwaysUnlocked: true
-research: Plasma-Core
+research: Plasma-core
 researchCost: [
   Kiperite/10
 ]
