@@ -79,7 +79,6 @@
         "homingRange": 160,
         "shrinkX": 0,
         "shrinkY": 0,
-        "hitEffect": "reactorExplosion",
         "despawnEffect": [
 {
 "type": "ParticleEffect",
