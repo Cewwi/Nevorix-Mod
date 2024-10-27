@@ -80,7 +80,7 @@
         "shrinkX": 0,
         "shrinkY": 0,
         "hitEffect": "reactorExplosion",
-        "despawnEffect": {
+        "despawnEffect": [
           "effects": [
 {
 "type": "ParticleEffect",
@@ -187,8 +187,8 @@
 "lightColor": "C6FF6BFF",
 "colorFrom": "C6FF6BFF",
 "colorTo": "C6FF6BFF"
-},
-        }
+  ]
+          ]
         "trailEffect": {
           "type": "ParticleEffect",
           "particles": 10,
