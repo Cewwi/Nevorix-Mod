@@ -1,13 +1,13 @@
 type: mech
 name: Rock
 description: Fires small missiles that set enemies ablaze.
-speed: 0.45
+speed: 0.75
 flying: false
 health: 150
 armor: 9
 hitSize: 14
-outlineColor: 44413c
-mechLegColor: 44413c
+outlineColor: 1d1c1a
+mechLegColor: 1d1c1a
 weapons: [
   {
     name: rock-gun
