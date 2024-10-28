@@ -1,7 +1,7 @@
 {
   type: "Reconstructor"
   size: 3
-  constructTime: 600
+  constructTime: 1000
   consumes: {
     power: 10
      items: [
