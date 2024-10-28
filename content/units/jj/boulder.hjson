@@ -60,8 +60,20 @@ weapons: [
         {
           type: ParticleEffect
           line: true
-          particles: 12
+          particles: 6
           lifetime: 10
+          length: 20
+          cone: -40
+          lenFrom: 7
+          lenTo: 7
+          colorFrom: FFFFFFF
+          colorTo: FF7436FF
+          },
+          {
+          type: ParticleEffect
+          line: true
+          particles: 6
+          lifetime: 14
           length: 20
           cone: -40
           lenFrom: 7
