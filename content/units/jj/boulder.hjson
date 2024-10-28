@@ -1,7 +1,7 @@
 type: mech
 name: Rock
 description: Hurls molten boulders at enemies.
-speed: 0.45
+speed: 0.55
 flying: false
 health: 350
 armor: 9
