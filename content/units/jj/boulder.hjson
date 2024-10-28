@@ -38,9 +38,24 @@ weapons: [
         trailChance: 1
         trailParam: 10
         trailLength: 19
-        trailColor: "FF7436FF"
+        trailColor: FF7436FF
         trailWidth: 5
-      incendAmount: 2
+        incendAmount: 2
+        trailEffect: {
+          type: ParticleEffect
+          particles: 10
+          length: 9
+          baseLength: 9
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset": 5
+          lightColor: FF7436FF
+          colorFrom: fff8e8
+          colorTo: FF7436FF
+          sizeFrom: 7
+          sizeTo: 0
+        },
     }
   }
 ]
