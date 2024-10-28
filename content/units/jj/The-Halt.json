@@ -139,14 +139,6 @@
         "homingRange": 160,
         "shrinkX": 0,
         "shrinkY": 0,
-        "lightning": 5,
-        "lightningColor": "C6FF6BFF",
-        "colorFrom": "FFFFFFF",
-        "colorTo": "C6FF6BFF",
-        "lightningDamage": 20,
-        "lightningLength": 20,
-        "lightningCone": 100,
-        "lightningLengthRand": 20,
         "hitEffect": {
           "type": "ParticleEffect",
           "line": true,
@@ -172,6 +164,14 @@
           "colorTo": "C6FF6BFF"
         },
       }
+      "lightning": 5,
+      "lightningColor": "C6FF6BFF",
+      "lightningDamage": 20,
+      "lightningLength": 20,
+      "lightningCone": 100,
+      "lightningLengthRand": 20,
+      "frontColor": "ffffff",
+      "backColor": "C6FF6BFF"
     },
     {
       "name": "The-Halt-Halter",
