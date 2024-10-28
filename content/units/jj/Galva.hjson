@@ -11,7 +11,7 @@ hitSize: 25
 accel: 0.095
 groundLayer: 60
 isEnemy: true
-health: 1300
+health: 3800
 armor: 1
 abilities: [
   {
@@ -46,7 +46,7 @@ weapons: [
     trailColor: C6FF6BFF
     shootSound: missile
     frontColor: C6FF6BFF
-      backColor: ffffff
+    backColor: ffffff
     shoot: {
       shots: 3
       shotDelay: 5
@@ -58,7 +58,7 @@ weapons: [
       frontColor: C6FF6BFF
       backColor: ffffff
       lifetime: 40
-      damage: 9
+      damage: 30
       width: 10
       height: 15
       trailWidth: 1
