@@ -3,11 +3,11 @@ name: Rock
 description: Hurls molten boulders at enemies.
 speed: 0.45
 flying: false
-health: 150
+health: 350
 armor: 9
-hitSize: 14
-outlineColor: 44413c
-mechLegColor: 44413c
+hitSize: 17
+outlineColor: 1d1c1a
+mechLegColor: 1d1c1a
 weapons: [
   {
     name: boulder-gun
