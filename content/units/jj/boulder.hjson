@@ -12,8 +12,8 @@ weapons: [
   {
     name: boulder-gun
     y: 0
-    x: 4
-    shooty: 3
+    x: 10
+    shooty: 8
     reload: 40
     alternate: true
     mirror: true
