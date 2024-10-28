@@ -11,7 +11,7 @@ mechLegColor: 1d1c1a
 weapons: [
   {
     name: boulder-gun
-    y: 3
+    y: 4
     x: 10
     shooty: 8
     reload: 40
