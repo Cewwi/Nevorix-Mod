@@ -61,7 +61,7 @@ weapons: [
           line: true
           particles: 6
           lifetime: 3
-          length: 30
+          length: 7
           cone: -40
           lenFrom: 2
           lenTo: 2
