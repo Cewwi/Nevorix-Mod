@@ -5,7 +5,7 @@ flying: true
 playerControllable: false
 shadowElevation: 1
 drag: 0.06
-outlineColor: 44413c
+outlineColor: 1d1c1a
 speed: 1.5
 rotateSpeed: 5
 accel: 0.095
