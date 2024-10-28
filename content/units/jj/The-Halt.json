@@ -1,5 +1,6 @@
 {
   "singleTarget": true,
+  "name": "The Halt",
   "lightRadius": 300,
   "type": "legs",
   "speed": 0.40,
@@ -11,7 +12,7 @@
   "groundLayer": 87,
   "legPairOffset": 2,
   "outlineColor": "1d1c1a",
-  "legLength": 82,
+  "legLength": 88,
   "legBaseOffset": 28,
   "legExtension": -20,
   "legSpeed": 0.7,
@@ -110,6 +111,8 @@
       "x": 0,
       "y": 5,
       "shootCone": 30,
+      "frontColor": "ffffff",
+      "backColor": "C6FF6BFF"
       "reload": 5,
       "alternate": true,
       "top": false,
@@ -170,8 +173,6 @@
       "lightningLength": 20,
       "lightningCone": 100,
       "lightningLengthRand": 20,
-      "frontColor": "ffffff",
-      "backColor": "C6FF6BFF"
     },
     {
       "name": "The-Halt-Halter",
