@@ -1,5 +1,5 @@
 type: flying
-name: Parave
+name: Oad
 description: Basic support unit. Can mine some ores.
 flying: true
 playerControllable: false
@@ -13,64 +13,22 @@ mineHardnessScaling: true
 mineSpeed: 1
 groundLayer: 60
 mineItems: [
-copper
-Kiperite
+   copper
+   Kiperite
 ]
 mineWalls: true
 mineFloor: true
 isEnemy: false
 health: 120
-itemCapacity: 40
+itemCapacity: 20
 mineTier: 1
 allowChangeCommands: false
 armor: 1
 defaultController: minerAI
-abilities: [
-  {
-    type: MoveEffectAbility
-    teamColor: true
-    effect: missileTrailShort
-    x: 0
-    y: -6.6
-    interval: 4
-    minVelocity: 0.6
-  }
-]
 engines: [
   {
     x: 0
     y: -6.6
     radius: 1.5
-  }
-]
-itemCapacity: 0
-useEngineElevation: false
-lowAltitude: true
-weapons: [
-  {
-    x: 1.7
-    y: 1
-    mirror: true
-    alternate: true
-    reload: 46
-    rotate: false
-    shootSound: missile
-    shoot: {
-      shots: 3
-      shotDelay: 5
-    }
-    bullet: {
-      type: MissileBulletType
-      speed: 3
-      lifetime: 40
-      damage: 9
-      width: 3
-      height: 6
-      trailWidth: 1
-      trailLength: 4
-      pierce: false
-      shrinkX: 0
-      shrinkY: 0
-    }
   }
 ]
