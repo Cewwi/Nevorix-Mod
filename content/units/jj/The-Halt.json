@@ -142,11 +142,11 @@
         "lightning": 5,
         "lightningColor": "C6FF6BFF",
         "colorFrom": "FFFFFFF",
-        "colorTo": "C6FF6BFF"
+        "colorTo": "C6FF6BFF",
         "lightningDamage": 20,
-        "lightningLength": 10,
-        "lightningCone": 40,
-        "lightningLengthRand": 6,
+        "lightningLength": 20,
+        "lightningCone": 100,
+        "lightningLengthRand": 20,
         "hitEffect": {
           "type": "ParticleEffect",
           "line": true,
