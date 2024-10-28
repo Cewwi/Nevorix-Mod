@@ -11,7 +11,7 @@ mechLegColor: 1d1c1a
 weapons: [
   {
     name: boulder-gun
-    y: 0
+    y: 3
     x: 10
     shooty: 8
     reload: 40
@@ -19,13 +19,13 @@ weapons: [
     mirror: true
     rotate: false
     shootSound: shootBig
-    incendAmount: 2
+    incendAmount: 4
     bullet: {
       type: BasicBulletType
         sprite: circle-bullet
         lightRadius: 10
         lightColor: FF7436FF
-        damage: 100
+        damage: 20
         scaleVelocity: true
         splashDamage: 20
         splashDamageRadius: 10
@@ -36,10 +36,10 @@ weapons: [
         shrinkX: 0
         shrinkY: 0
         trailChance: 1
-        trailParam: 5
+        trailParam: 10
         trailLength: 19
         trailColor: "FF7436FF"
-        trailWidth: 9
+        trailWidth: 5
       incendAmount: 2
     }
   }
