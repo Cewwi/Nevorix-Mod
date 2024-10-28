@@ -30,6 +30,45 @@
   "rotateSpeed": 1.5,
   "parts": [
     {
+      "type": "HaloPart",
+      "y": 52,
+      "hollow": true,
+      "radius": 300,
+      "circle": true,
+      "haloRotateSpeed": 1.5,
+      "color": "C6FF6BFF",
+      "stroke": 9.5,
+      "strokeTo": 9.5,
+      "radiusTo": 230,
+      "radius": 230
+    },
+    {
+      "type": "HaloPart",
+      "y": 52,
+      "hollow": true,
+      "radius": 300,
+      "tri": true,
+      "haloRotateSpeed": 1.5,
+      "color": "C6FF6BFF",
+      "stroke": 9.5,
+      "strokeTo": 9.5,
+      "radiusTo": 230,
+      "radius": 230
+    },
+    {
+      "type": "HaloPart",
+      "y": 52,
+      "hollow": true,
+      "radius": 300,
+      "tri": true,
+      "haloRotateSpeed": -1.5,
+      "color": "C6FF6BFF",
+      "stroke": 9.5,
+      "strokeTo": 9.5,
+      "radiusTo": 230,
+      "radius": 230
+    },
+    {
       "type": "shapePart",
       "y": 52,
       "hollow": true,
