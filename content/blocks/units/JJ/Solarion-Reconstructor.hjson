@@ -5,15 +5,15 @@
   consumes: {
     power: 10
      items: [
-     Kiperite/150
-     Ion/200
-     Steel/250
-     Volcanite/150
+     Kiperite/50
+     Ion/40
+     Volcanite/50
       ]
   }
   requirements: [
     Kiperite/150
     Ion/200
+    Volcanite/50
     Steel/50
     ]
   upgrades: [
