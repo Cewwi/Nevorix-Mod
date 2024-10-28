@@ -44,12 +44,12 @@ weapons: [
         trailEffect: {
           type: ParticleEffect
           particles: 10
-          length: 9
-          baseLength: 9
+          length: 3
+          baseLength: 3
           lifetime: 25
           interp: circleOut
           cone: 360
-          offset": 5
+          offset": 3
           lightColor: FF7436FF
           colorFrom: fff8e8
           colorTo: FF7436FF
@@ -57,17 +57,19 @@ weapons: [
           sizeTo: 0
         },
         despawnEffect: {
+        {
           type: ParticleEffect
           line: true
           particles: 12
           lifetime: 10
           length: 20
           cone: -40
-          lenFrom: 4
-          lenTo: 4
+          lenFrom: 7
+          lenTo: 7
           colorFrom: FFFFFFF
           colorTo: FF7436FF
-        },
+           },
+        }
        }
     }
 ]
