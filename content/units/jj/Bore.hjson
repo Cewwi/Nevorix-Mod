@@ -23,7 +23,7 @@ buildSpeed: 1.2
 drag: 0.4
 itemCapacity: 110
 alwaysUnlocked: true
-outlineColor: 42413e
+outlineColor: 1d1c1a
 weapons: [
 {
     name: Bore-gun
