@@ -3,7 +3,7 @@
   "lightRadius": 300,
   "type": "legs",
   "speed": 0.40,
-  "hitSize": 100,
+  "hitSize": 110,
   "health": 5300000,
   "legCount": 6,
   "drownTimeMultiplier": 99999999999999,
@@ -24,7 +24,7 @@
   "armor": 460,
   "drag": 0.2,
   "range": 450,
-  "maxRange": 450,
+  "maxRange": 2000,
   "flying": false,
   "rotateSpeed": 1.5,
   "immunities": [
@@ -46,23 +46,22 @@
   "abilities": [
     {
       "type": "UnitSpawnAbility",
-      "spawnX": 23,
-      "spawnY": -45,
+      "spawnX": 30,
+      "spawnY": -25,
       "unit": "Galva",
       "spawnTime": 500
     },
     {
       "type": "UnitSpawnAbility",
-      "spawnX": -23,
-      "spawnY": -45,
+      "spawnX": -30,
+      "spawnY": -25,
       "unit": "Galva",
       "spawnTime": 500
     },
   ]
   "weapons": [
     {
-      "name": "The-Halt-Halter",
-      "x": 65,
+      "x": 0,
       "y": 5,
       "shootCone": 30,
       "reload": 5,
@@ -85,16 +84,19 @@
       "bullet": {
         "type": "BasicBulletType",
         "sprite": "circle-bullet",
-        "damage": 80,
+        "damage": 120,
         "height": 14,
         "width": 12,
         "speed": 11,
-        "lifetime": 28,
+        "lifetime": 40,
         "homingPower": 0.6,
         "homingRange": 160,
         "shrinkX": 0,
         "shrinkY": 0,
-        "lightning": 20,
+        "lightning": 5,
+        "lightningColor": "C6FF6BFF",
+        "colorFrom": "FFFFFFF",
+        "colorTo": "C6FF6BFF"
         "lightningDamage": 20,
         "lightningLength": 10,
         "lightningCone": 40,
