@@ -122,14 +122,6 @@
           "colorFrom": "FFFFFFF",
           "colorTo": "C6FF6BFF"
         },
-        "shootEffect": "ParticleEffect",
-        "trailColor": "C6FF6BFF",
-        "trailLength": 20,
-        "trailWidth": 3.5,
-        "absorbable": false,
-        "lightColor": "C6FF6BFF",
-        "frontColor": "FFFFFFF",
-        "backColor": "C6FF6BFF"
       }
     },
     {
