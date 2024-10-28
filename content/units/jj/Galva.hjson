@@ -7,7 +7,7 @@ drag: 0.06
 outlineColor: 1d1c1a
 speed: 1.5
 rotateSpeed: 4
-hitSize: 50
+hitSize: 25
 accel: 0.095
 groundLayer: 60
 isEnemy: true
