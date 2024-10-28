@@ -43,6 +43,22 @@
     "electrified",
     "spore-slowed"
   ],
+  "abilities": [
+    {
+      "type": "UnitSpawnAbility",
+      "spawnX": 20,
+      "spawnY": -55,
+      "unit": "Galva",
+      "spawnTime": 500
+    },
+    {
+      "type": "UnitSpawnAbility",
+      "spawnX": -20,
+      "spawnY": -55,
+      "unit": "Galva",
+      "spawnTime": 500
+    },
+  ]
   "weapons": [
     {
       "x": 75,
