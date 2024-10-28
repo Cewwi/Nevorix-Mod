@@ -28,7 +28,7 @@
   "maxRange": 2000,
   "flying": false,
   "rotateSpeed": 1.5,
-  "parts": [
+ /*/ "parts": [
     {
       "type": "HaloPart",
       "y": 52,
@@ -112,7 +112,7 @@
       "triLengthTo": 15,
       "triLength": 15
     },
-  ],
+  ],/*/
   "immunities": [
     "tarred",
     "melting",
