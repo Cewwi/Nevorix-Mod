@@ -1,0 +1,47 @@
+type: mech
+name: Rock
+description: Hurls molten boulders at enemies.
+speed: 0.45
+flying: false
+health: 150
+armor: 9
+hitSize: 14
+outlineColor: 44413c
+mechLegColor: 44413c
+weapons: [
+  {
+    name: boulder-gun
+    y: 0
+    x: 4
+    shooty: 3
+    reload: 40
+    alternate: true
+    mirror: true
+    rotate: false
+    shootSound: shootBig
+    incendAmount: 2
+    bullet: {
+      type: BasicBulletType
+        sprite: circle-bullet
+        lightRadius: 10
+        lightColor: FF7436FF
+        damage: 100
+        scaleVelocity: true
+        splashDamage: 20
+        splashDamageRadius: 110
+        height: 28.5
+        width: 28.5
+        speed: 4
+        lifetime: 50
+        shrinkX: 0
+        shrinkY: 0
+        trailChance: 1
+        trailParam: 5
+        trailLength: 19
+        trailColor: "FF7436FF"
+        trailWidth: 9
+      incendAmount: 2
+    }
+  }
+]
+researchCostMultiplier: 2.5
