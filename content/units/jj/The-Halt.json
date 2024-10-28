@@ -452,7 +452,7 @@
         "lightningLengthRand": 29,
         "absorbable": false,
         "hittable": false,
-        "buildingDamageMultiplier": 01.5,
+        "buildingDamageMultiplier": 1.5,
         "smokeEffect": "none",
         "frontColor": "ffffff",
         "backColor": "C6FF6BFF"
