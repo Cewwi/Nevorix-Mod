@@ -46,30 +46,31 @@
   "abilities": [
     {
       "type": "UnitSpawnAbility",
-      "spawnX": 20,
-      "spawnY": -55,
+      "spawnX": 23,
+      "spawnY": -45,
       "unit": "Galva",
       "spawnTime": 500
     },
     {
       "type": "UnitSpawnAbility",
-      "spawnX": -20,
-      "spawnY": -55,
+      "spawnX": -23,
+      "spawnY": -45,
       "unit": "Galva",
       "spawnTime": 500
     },
   ]
   "weapons": [
     {
-      "x": 75,
-      "y": 1,
+      "name": "The-Halt-Halter",
+      "x": 65,
+      "y": 5,
       "shootCone": 30,
       "reload": 5,
       "alternate": true,
       "top": false,
       "rotate": false,
-      "recoil": 2.5,
-      "shootY": 29,
+      "recoil": 10.5,
+      "shootY": 47,
       "xRand": 5.5,
       "layerOffset": -0.001,
       "inaccuracy": 5,
@@ -403,7 +404,7 @@
         "lightningLengthRand": 29,
         "absorbable": false,
         "hittable": false,
-        "buildingDamageMultiplier": 0.6,
+        "buildingDamageMultiplier": 01.5,
         "smokeEffect": "none",
         "frontColor": "ffffff",
         "backColor": "C6FF6BFF"
