@@ -28,7 +28,7 @@ weapons: [
         damage: 20
         scaleVelocity: true
         splashDamage: 20
-        splashDamageRadius: 10
+        splashDamageRadius: 30
         height: 7.5
         width: 7.5
         speed: 4
@@ -56,7 +56,19 @@ weapons: [
           sizeFrom: 7
           sizeTo: 0
         },
+        despawnEffect: {
+          type: ParticleEffect
+          line: true
+          particles: 6
+          lifetime: 3
+          length: 30
+          cone: -40
+          lenFrom: 2
+          lenTo: 2
+          colorFrom: FFFFFFF
+          colorTo: FF7436FF
+        },
+       }
     }
-  }
 ]
 researchCostMultiplier: 2.5
