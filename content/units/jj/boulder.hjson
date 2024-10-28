@@ -28,9 +28,9 @@ weapons: [
         damage: 100
         scaleVelocity: true
         splashDamage: 20
-        splashDamageRadius: 110
-        height: 28.5
-        width: 28.5
+        splashDamageRadius: 10
+        height: 7.5
+        width: 7.5
         speed: 4
         lifetime: 50
         shrinkX: 0
