@@ -32,7 +32,7 @@
     "parts": [
 {
 "type": "shapePart",
-"y": -13,
+"y": -7,
 "hollow": true,
 "circle": true,
 "layer": 110,
@@ -45,7 +45,7 @@
 },
 {
 "type": "shapePart",
-"y": -13,
+"y": -7,
 "hollow": true,
 "circle": false,
 "sides": 4,
@@ -59,7 +59,7 @@
 },
 {
 "type": "shapePart",
-"y": -13,
+"y": -7,
 "hollow": true,
 "circle": false,
 "sides": 4,
@@ -72,7 +72,7 @@
 },
 {
 "type": "HaloPart",
-"y": -13,
+"y": -7,
 "radius": 2.6,
 "tri": true,
 "layer": 110,
@@ -87,7 +87,7 @@
 }
 {
 "type": "HaloPart",
-"y": -13,
+"y": -7,
 "radius": 2.6,
 "tri": true,
 "shapeRotation": 180,
@@ -103,7 +103,7 @@
 },
 {
 "type": "HaloPart",
-"y": -13,
+"y": -7,
 "radius": 4.6,
 "tri": true,
 "layer": 110,
@@ -119,7 +119,7 @@
 }
 {
 "type": "HaloPart",
-"y": -13,
+"y": -7,
 "radius": 4.6,
 "tri": true,
 "shapeRotation": 180,
