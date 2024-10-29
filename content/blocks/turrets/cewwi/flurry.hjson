@@ -1,6 +1,6 @@
 type: continuousTurret
-localizedName: McFlurry
-description: Fires bullets that burst mid-air
+localizedName: Furry
+description: Fires 2 lasers, using the static discharge byproduct as a secondary
 detail: cewwi
 health: 550
 size: 2
