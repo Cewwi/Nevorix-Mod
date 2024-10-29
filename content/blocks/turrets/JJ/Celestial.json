@@ -187,7 +187,7 @@
         "trailLength": 20,
         "trailWidth": 3.5,
         "absorbable": false,
-        "lightColor": "FFE135FF",
+        "lightColor": "FFFFFF",
         "frontColor": "FFFFFFF",
         "backColor": "FFE135FF"
       }
