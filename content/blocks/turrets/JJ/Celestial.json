@@ -3,12 +3,18 @@
   "coolantMultiplier": 2,
   "name": "Celestial",
   "ammoPerShot": 30,
-  "reload": 7,
+  "reload": 5,
   "ammoUseEffect": "casing4",
   "range": 500,
   "outlineColor": "1B1B1BFF",
   "recoil": 4,
+  "xRand": 5.5,
   "shake": 1,
+  "shoot": {
+        "type": "shootPattern",
+        "shots": 3,
+        "shotDelay": 1
+  },
   "consumes": {
   },
   "coolant": {
@@ -74,7 +80,7 @@
         "trailLength": 20,
         "trailWidth": 3.5,
         "absorbable": false,
-        "lightColor": "FFE135FF        ",
+        "lightColor": "FFE135FF",
         "frontColor": "FFFFFFF",
         "backColor": "FFE135FF"
       }
