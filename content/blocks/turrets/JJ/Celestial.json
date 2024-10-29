@@ -79,14 +79,8 @@
         "backColor": "FFE135FF"
       }
     },
-  },
   "requirements": [
     "graphite/600",
-    "silicon/700",
-    "thorium/900",
-    "volcanite/1200",
-    "oxide/500",
-    "primal-red/2000"
   ],
   "category": "turret"
 }
