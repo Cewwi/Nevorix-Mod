@@ -8,8 +8,9 @@
   "range": 500,
   "outlineColor": "1B1B1BFF",
   "recoil": 4,
-  "xRand": 5.5,
+  "xRand": 15.5,
   "shake": 1,
+  "inaccuracy": 5,
   "shoot": {
         "type": "shootPattern",
         "shots": 3,
