@@ -1,0 +1,182 @@
+{
+"localizedName": "T1-RF Prometheus",
+"description": "The [#ffb98b]Rolling fortress titan[]. The [#ffb98b]T2-RF Prometheus[] is a heavy duty seige unit with thick armoring and high health. main gun is large railgun capable of pirecing structures and units and is armed with four mounted cannons which fire artiliry at enemies and structures. very slow.",
+"details": "One of the first of the erkeir titans developed by [#9681fb]Malis[] in response to something being discovered on Erekir.",
+"type": "tank",
+"template": "ErekirUnitType",
+"research": {
+"parent": "01-prometheus-titan",
+"requirements": [
+]
+},
+"faceTarget": false,
+"squareShape": true,
+"treadFrames": 18,
+"treadPullOffset": 1,
+"treadRects": [
+{
+"x": 65, 
+"y": 70, 
+"width": 131, 
+"height": 180
+},
+{
+"x": 46, 
+"y": -248, 
+"width": 85, 
+"height": 63
+},
+{
+"x": 166, 
+"y": -183.5, 
+"width": 32, 
+"height": 39
+}
+],
+"omniMovement": false,
+"outlineColor": "252525FF",
+"speed": 0.28,
+"hitSize": 110,
+"health": 80000,
+"fogRadius": 80,
+"crushDamage": 1.5,
+"armor": 75,
+"singleTarget": true,
+"flying": false,
+"targetAir": true,
+"rotateSpeed": 0.45,
+"immunities": [
+"burning", 
+"melting",
+"blasted"
+],
+"weapons": [
+{
+"name": "T-prometheus-cannon",
+"x": 0,
+"y": 0,
+"minWarmup": 0.70,
+"smoothReloadSpeed": 0.08,
+"shootWarmupSpeed": 0.03,
+"mirror": false,
+"cooldownTime": 250,
+"top": true,
+"heatColor": "f9350f",
+"reload": 200,
+"rotate": true,
+"layerOffset": 1,
+"rotateSpeed": 0.6,
+"shootY": 8,
+"recoil": 3,
+"parts": [
+{
+"type": "shapePart",
+"y": -36,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "FF7436FF",
+"stroke": 0,
+"strokeTo": 1.9,
+"radiusTo": 18,
+"radius": 18
+},
+{
+"type": "shapePart",
+"y": -36,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "FF7436FF",
+"stroke": 0,
+"strokeTo": 1.1,
+"radiusTo": 7,
+"radius": 7
+},
+ {
+"type": "shapePart",
+"y": -36,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "FF7436FF",
+"stroke": 0,
+"strokeTo": 0.7,
+"radiusTo": 9,
+"radius": 9
+},
+{
+"type": "HaloPart",
+"y": -36,
+"radius": 4.6,
+"tri": true,
+"layer": 110,
+"color": "FF7436FF",
+"haloRotateSpeed": 0.7,
+"haloRadius": 18,
+"haloRadiusTo": 18,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 8,
+"triLengthTo": 4,
+"triLength": 0
+},
+{
+"type": "HaloPart",
+"y": -36,
+"radius": 4.6,
+"tri": true,
+"layer": 110,
+"color": "FF7436FF",
+"haloRotateSpeed": -0.7,
+"haloRadius": 9,
+"haloRadiusTo": 9,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 8,
+"triLengthTo": 8,
+"triLength": 0
+}
+],
+"shootSound": "desolationimpact",
+"bullet": {
+"type" : "RailBulletType",
+"damage": 1500,
+"length": 530,
+"spawnBullets": [
+{
+"fragBullets": 10,
+"fragRandomSpread": 0,
+"fragSpread": 45,
+"fragBullet": {
+"damage": 1500,
+"width": 22.5,
+"type": "ShrapnelBulletType",
+"lifetime": 40,
+"length": 80,
+"hitEffect": {
+"type": "ParticleEffect",
+"line": true,
+"particles": 20,
+"offset": 20,
+"lifetime": 30,
+"length": 65,
+"baseLength": -15,
+"cone": -360,
+"lenFrom": 5,
+"lenTo": 0,
+"colorFrom": "FFFFFF",
+"colorTo": "FF7436FF"
+},
+"serrations": 0,
+"fromColor": "FFFFFF",
+"toColor": "FF7436FF"
+}
+],
+"pointEffectSpace": 25,
+"collidesTiles" : true,
+"pierceDamageFactor": 0.3
+}
+},
+]
+}
