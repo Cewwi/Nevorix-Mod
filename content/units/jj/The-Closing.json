@@ -1,11 +1,10 @@
 {
-"localizedName": "T1-RF Prometheus",
-"description": "The [#ffb98b]Rolling fortress titan[]. The [#ffb98b]T2-RF Prometheus[] is a heavy duty seige unit with thick armoring and high health. main gun is large railgun capable of pirecing structures and units and is armed with four mounted cannons which fire artiliry at enemies and structures. very slow.",
-"details": "One of the first of the erkeir titans developed by [#9681fb]Malis[] in response to something being discovered on Erekir.",
+"localizedName": "Closing",
+"description": "The [#FF7436FF]Planetary closure system[]. The [#FF7436FF]Closing[] is a war tank sent to the planet by the [#FF7436FF]Solarion[]. Equipped with a large rail cannon, mine layers, and 6 machine guns, this slow titan is able to annihilate anything in its path.",
+"details": "The First titan to be constructed in the war for Tronoe. Developed by the [#FF7436FF]Solarion[] in an attempt to take full controle over the planet.",
 "type": "tank",
 "template": "ErekirUnitType",
 "research": {
-"parent": "01-prometheus-titan",
 "requirements": [
 ]
 },
@@ -39,7 +38,7 @@
 "hitSize": 110,
 "health": 80000,
 "fogRadius": 80,
-"crushDamage": 1.5,
+"crushDamage": 3.5,
 "armor": 75,
 "singleTarget": true,
 "flying": false,
@@ -48,7 +47,6 @@
 "immunities": [
 "burning", 
 "melting",
-"blasted"
 ],
 "weapons": [
 {
@@ -172,11 +170,6 @@
 "fromColor": "FFFFFF",
 "toColor": "FF7436FF"
 }
-],
-"pointEffectSpace": 25,
-"collidesTiles" : true,
-"pierceDamageFactor": 0.3
 }
-},
 ]
 }
