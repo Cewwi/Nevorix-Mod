@@ -61,6 +61,76 @@
 "rotateSpeed": 0.6,
 "shootY": 8,
 "recoil": 3,
+"parts": [
+  {
+"type": "shapePart",
+"y": -36,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "FF7436FF",
+"stroke": 0,
+"strokeTo": 1.9,
+"radiusTo": 18,
+"radius": 18
+},
+{
+"type": "shapePart",
+"y": -36,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "FF7436FF",
+"stroke": 0,
+"strokeTo": 1.1,
+"radiusTo": 7,
+"radius": 7
+},
+ {
+"type": "shapePart",
+"y": -36,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "FF7436FF",
+"stroke": 0,
+"strokeTo": 0.7,
+"radiusTo": 9,
+"radius": 9
+},
+{
+"type": "HaloPart",
+"y": -36,
+"radius": 4.6,
+"tri": true,
+"layer": 110,
+"color": "FF7436FF",
+"haloRotateSpeed": 0.7,
+"haloRadius": 18,
+"haloRadiusTo": 18,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 16,
+"triLengthTo": 12,
+"triLength": 0
+},
+{
+"type": "HaloPart",
+"y": -36,
+"radius": 4.6,
+"tri": true,
+"layer": 110,
+"color": "FF7436FF",
+"haloRotateSpeed": -0.7,
+"haloRadius": 9,
+"haloRadiusTo": 9,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 8,
+"triLengthTo": 8,
+"triLength": 0
+}
+]
 "bullet": {
   "type": "basicBulletType",
   "despawnEffect": {
