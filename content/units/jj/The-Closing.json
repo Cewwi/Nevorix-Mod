@@ -173,7 +173,7 @@
         "speed": 20,
         "frontColor": "FFFFFF",
         "backColor": "FF7436FF",
-        "lifetime": 250
+        "lifetime": 50
       }
 }
 ]
