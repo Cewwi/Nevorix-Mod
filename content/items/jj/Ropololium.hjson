@@ -4,5 +4,5 @@ hardness: 2
 cost: 0.5
 alwaysUnlocked: true
 color: C6FF6BFF
-research: Kiperite
+research: Plasma-Core
 hiddenOnPlanets: [serpulo, erekir]
