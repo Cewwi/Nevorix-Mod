@@ -135,6 +135,21 @@
 ]
 "bullet": {
   "type": "basicBulletType",
+  "trailEffect": {
+          "type": "ParticleEffect",
+          "particles": 6,
+          "length": 4,
+          "baseLength": 3,
+          "lifetime": 40,
+          "interp": "circleOut",
+          "cone": 360,
+          "offset": 10,
+          "lightColor": "FF7436FF",
+          "colorFrom": "FFFFFF",
+          "colorTo": "FF7436FF",
+          "sizeFrom": 4,
+          "sizeTo": 0
+        },
   "despawnEffect": {
     "type": "ParticleEffect",
       "line": true,
@@ -174,21 +189,6 @@
         "frontColor": "FFFFFF",
         "backColor": "FF7436FF",
         "lifetime": 50
-        "trailEffect": {
-          "type": "ParticleEffect",
-          "particles": 6,
-          "length": 4,
-          "baseLength": 3,
-          "lifetime": 40,
-          "interp": "circleOut",
-          "cone": 360,
-          "offset": 10,
-          "lightColor": "FF7436FF",
-          "colorFrom": "FFFFFF",
-          "colorTo": "FF7436FF",
-          "sizeFrom": 4,
-          "sizeTo": 0
-        },
 }
 }
 ]
