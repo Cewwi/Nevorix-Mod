@@ -56,6 +56,8 @@
 "shootCone": 15,
 "reload": 17,
 "shootSound": "shoot",
+"mirror": false,
+"alternate": false,
 "rotate": true,
 "layerOffset": 1,
 "rotateSpeed": 0.6,
