@@ -3,7 +3,7 @@ name: Rock
 description: Hurls molten boulders at enemies.
 speed: 0.55
 flying: false
-health: 350
+health: 400
 armor: 9
 hitSize: 17
 outlineColor: 1d1c1a
