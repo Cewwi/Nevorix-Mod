@@ -36,14 +36,14 @@
 "outlineColor": "252525FF",
 "speed": 0.28,
 "hitSize": 110,
-"health": 80000,
+"health": 175000,
 "fogRadius": 80,
 "crushDamage": 3.5,
-"armor": 75,
+"armor": 105,
 "singleTarget": true,
 "flying": false,
 "targetAir": true,
-"rotateSpeed": 0.45,
+"rotateSpeed": 0.5,
 "immunities": [
 "burning", 
 "melting",
@@ -174,7 +174,23 @@
         "frontColor": "FFFFFF",
         "backColor": "FF7436FF",
         "lifetime": 50
+        "trailEffect": {
+          "type": "ParticleEffect",
+          "particles": 6,
+          "length": 4,
+          "baseLength": 3,
+          "lifetime": 40,
+          "interp": "circleOut",
+          "cone": 360,
+          "offset": 10,
+          "lightColor": "FF7436FF",
+          "colorFrom": "FFFFFF",
+          "colorTo": "FF7436FF",
+          "sizeFrom": 4,
+          "sizeTo": 0
+        },
       }
+}
 }
 ]
 }
