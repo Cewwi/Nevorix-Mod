@@ -3,6 +3,6 @@ description: "A hard rock with a magma-like core. Produces power, but highly vol
 hardness: 1
 cost: 0.5
 alwaysUnlocked: true
-color: 628b9d
+color: FF7436FF
 research: Kiperite
 hiddenOnPlanets: [serpulo, erekir]
