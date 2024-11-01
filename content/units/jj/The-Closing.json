@@ -136,7 +136,7 @@
 "bullet": {
   "type": "basicBulletType",
         "shootEffect": "lightningShoot",
-        "damage": 100,
+        "damage": 1500,
         "lightningColor": "FF7436FF",
         "lightning": 5,
         "lightningDamage": 20,
