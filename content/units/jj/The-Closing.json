@@ -1,6 +1,6 @@
 {
 "localizedName": "Closing",
-"description": "The [#FF7436FF]Planetary closure system[]. The [#FF7436FF]Closing[] is a war tank sent to the planet by the [#FF7436FF]Solarion[]. Equipped with a large rail cannon, mine layers, and 6 machine guns, this slow titan is able to annihilate anything in its path.",
+"description": "The [#FF7436FF]Planetary closure system[]. The [#FF7436FF]Closing[] is a war tank sent to the planet by the [#FF7436FF]Solarion[]. Equipped with a large machinegun rain cannon, mine layers, and 6 machine guns, this slow titan is able to annihilate anything in its path.",
 "details": "The First titan to be constructed in the war for Tronoe. Developed by the [#FF7436FF]Solarion[] in an attempt to take full controle over the planet.",
 "type": "tank",
 "template": "ErekirUnitType",
@@ -50,129 +50,57 @@
 ],
 "weapons": [
 {
-"name": "T-prometheus-cannon",
+"name": "The-Closing-cannon",
 "x": 0,
 "y": 0,
-"minWarmup": 0.70,
-"smoothReloadSpeed": 0.08,
-"shootWarmupSpeed": 0.03,
+"shootCone": 15,
 "mirror": false,
-"cooldownTime": 250,
-"top": true,
-"heatColor": "f9350f",
-"reload": 200,
-"rotate": true,
-"layerOffset": 1,
-"rotateSpeed": 0.6,
+"alternate": false,
 "shootY": 8,
-"recoil": 3,
-"parts": [
-{
-"type": "shapePart",
-"y": -36,
-"hollow": true,
-"circle": true,
-"layer": 110,
-"color": "FF7436FF",
-"stroke": 0,
-"strokeTo": 1.9,
-"radiusTo": 18,
-"radius": 18
-},
-{
-"type": "shapePart",
-"y": -36,
-"hollow": true,
-"circle": true,
-"layer": 110,
-"color": "FF7436FF",
-"stroke": 0,
-"strokeTo": 1.1,
-"radiusTo": 7,
-"radius": 7
-},
- {
-"type": "shapePart",
-"y": -36,
-"hollow": true,
-"circle": true,
-"layer": 110,
-"color": "FF7436FF",
-"stroke": 0,
-"strokeTo": 0.7,
-"radiusTo": 9,
-"radius": 9
-},
-{
-"type": "HaloPart",
-"y": -36,
-"radius": 4.6,
-"tri": true,
-"layer": 110,
-"color": "FF7436FF",
-"haloRotateSpeed": 0.7,
-"haloRadius": 18,
-"haloRadiusTo": 18,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 8,
-"triLengthTo": 4,
-"triLength": 0
-},
-{
-"type": "HaloPart",
-"y": -36,
-"radius": 4.6,
-"tri": true,
-"layer": 110,
-"color": "FF7436FF",
-"haloRotateSpeed": -0.7,
-"haloRadius": 9,
-"haloRadiusTo": 9,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 8,
-"triLengthTo": 8,
-"triLength": 0
-}
-],
-"shootSound": "desolationimpact",
+"reload": 17,
+"shootSound": "shoot",
 "bullet": {
-"type" : "RailBulletType",
-"damage": 1500,
-"length": 530,
-"spawnBullets": [
-{
-"fragBullets": 10,
-"fragRandomSpread": 0,
-"fragSpread": 45,
-"fragBullet": {
-"damage": 1500,
-"width": 22.5,
-"type": "ShrapnelBulletType",
-"lifetime": 40,
-"length": 80,
-"hitEffect": {
-"type": "ParticleEffect",
-"line": true,
-"particles": 20,
-"offset": 20,
-"lifetime": 30,
-"length": 65,
-"baseLength": -15,
-"cone": -360,
-"lenFrom": 5,
-"lenTo": 0,
-"colorFrom": "FFFFFF",
-"colorTo": "FF7436FF"
-},
-"serrations": 0,
-"fromColor": "FFFFFF",
-"toColor": "FF7436FF"
-}
-}
-]
-}
+  "type": "basicBulletType",
+  "despawnEffect": {
+    "type": "ParticleEffect",
+      "line": true,
+      "particles": 5,
+          "lifetime": 20,
+          "offset": 10,
+          "length": 35,
+          "cone": -360,
+          "lenFrom": 5,
+          "lenTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "FF7436FF"
+        },
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 5,
+          "lifetime": 20,
+          "offset": 10,
+          "length": 35,
+          "cone": -360,
+          "lenFrom": 5,
+          "lenTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "FF7436FF"
+        },
+        "shootEffect": "lightningShoot",
+        "damage": 100,
+        "lightningColor": "FF7436FF",
+        "lightning": 5,
+        "lightningDamage": 1,
+        "lightningLength": 4,
+        "lightningCone": 360,
+        "height": 12,
+        "width": 2,
+        "speed": 20,
+        "frontColor": "FFFFFF",
+        "backColor": "FF7436FF",
+        "lifetime": 250
+      }
 }
 ]
 }
