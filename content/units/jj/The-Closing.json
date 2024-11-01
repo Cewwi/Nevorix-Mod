@@ -135,7 +135,18 @@
 ]
 "bullet": {
   "type": "basicBulletType",
-  "trailEffect": {
+        "shootEffect": "lightningShoot",
+        "damage": 100,
+        "lightningColor": "FF7436FF",
+        "lightning": 5,
+        "lightningDamage": 20,
+        "lightningLength": 4,
+        "lightningCone": 360,
+        "height": 50,
+        "width": 15,
+        "speed": 20,
+        "trailChance": 1,
+         "trailEffect": {
           "type": "ParticleEffect",
           "particles": 6,
           "length": 4,
@@ -150,42 +161,6 @@
           "sizeFrom": 4,
           "sizeTo": 0
         },
-  "despawnEffect": {
-    "type": "ParticleEffect",
-      "line": true,
-      "particles": 5,
-          "lifetime": 20,
-          "offset": 10,
-          "length": 35,
-          "cone": -360,
-          "lenFrom": 5,
-          "lenTo": 0,
-          "colorFrom": "FFFFFF",
-          "colorTo": "FF7436FF"
-        },
-        "hitEffect": {
-          "type": "ParticleEffect",
-          "line": true,
-          "particles": 5,
-          "lifetime": 20,
-          "offset": 10,
-          "length": 35,
-          "cone": -360,
-          "lenFrom": 5,
-          "lenTo": 0,
-          "colorFrom": "FFFFFF",
-          "colorTo": "FF7436FF"
-        },
-        "shootEffect": "lightningShoot",
-        "damage": 100,
-        "lightningColor": "FF7436FF",
-        "lightning": 5,
-        "lightningDamage": 20,
-        "lightningLength": 4,
-        "lightningCone": 360,
-        "height": 50,
-        "width": 15,
-        "speed": 20,
         "frontColor": "FFFFFF",
         "backColor": "FF7436FF",
         "lifetime": 50
