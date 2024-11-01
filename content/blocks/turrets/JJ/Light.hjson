@@ -41,11 +41,12 @@
       randLength: false
       lifetime: 45
       particles: 15
+      offset: 4
       length: 0
       colorFrom: FFE135FF
       colorTo: ffffff
-      sizeFrom: 0
-      sizeTo: 1
+      sizeFrom: 0.5
+      sizeTo: 0
       interp: pow2Out
     }
     type: BasicBulletType
