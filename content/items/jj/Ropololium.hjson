@@ -1,0 +1,8 @@
+name: Ion
+description: "Simple alloy sde by the [C6FF6BFF]Galux[]."
+hardness: 2
+cost: 0.5
+alwaysUnlocked: true
+color: C6FF6BFF
+research: Kiperite
+hiddenOnPlanets: [serpulo, erekir]
