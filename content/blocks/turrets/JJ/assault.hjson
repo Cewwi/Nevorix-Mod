@@ -1,0 +1,48 @@
+{
+  type: PowerTurret
+  name: Light
+  researchCostMultiplier: 0.3
+  squareSprite: false
+  outlineColor: 36363CFF
+  size: 2
+  health: 500
+  reload: 10
+  range: 190
+  maxAmmo: 10
+  inaccuracy: 4
+  recoil: 3
+  rotateSpeed: 2
+  shootSound: bang
+  requirements: [
+  Ropololium/100
+  Ion/150
+  ]
+  category: turret
+  research: duo
+  consumes: {
+    power: 4
+  },
+  hasPower: true
+  drawer: {
+    type: drawTurret
+    basePrefix: Acentus-
+  },
+  shootType: {
+    trailColor: FFE135FF
+    trailInterval: 1
+    trailRotation: true
+    trailLength: 24
+    trailWidth: 0.5
+    type: BasicBulletType
+    layer: 111
+    width: 6
+    height: 72
+    speed: 10
+    lifetime: 30
+    frontColor: C6FF6BFF
+    backColor: ffffff
+    damage: 10
+    reloadMultiplier: 0.75
+    despawnSound: dullExplosion
+  }
+}
