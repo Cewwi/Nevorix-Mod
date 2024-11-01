@@ -145,7 +145,7 @@
         "height": 50,
         "width": 15,
         "speed": 20,
-        "trailChance": 0.1,
+        "trailChance": 6,
          "trailEffect": {
           "type": "ParticleEffect",
           "particles": 6,
