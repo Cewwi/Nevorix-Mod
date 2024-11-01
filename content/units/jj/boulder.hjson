@@ -59,23 +59,27 @@ weapons: [
         despawnEffect: [
         {
           type: ParticleEffect
-          line: true
           particles: 6
           lifetime: 10
           length: 20
-          cone: -40
+          cone: 50
+          offset: 16
+          lightcolor: FFFFFF
+          interp: circleOut
           lenFrom: 7
           lenTo: 7
-          colorFrom: FFFFFFF
-          colorTo: FF7436FF
+          colorFrom: FF7436FF
+          colorTo: FFFFFFF
           },
           {
           type: ParticleEffect
-          line: true
           particles: 6
           lifetime: 14
           length: 20
-          cone: -40
+          cone: 50
+          offset: 16
+          lightcolor: FF7436FF
+          interp: circleOut
           lenFrom: 7
           lenTo: 7
           colorFrom: FFFFFFF
