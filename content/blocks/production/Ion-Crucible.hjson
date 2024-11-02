@@ -14,19 +14,19 @@ researchCostMultiplier: 0.5
 ambientSoundVolume: 0.09
 updateEffect: {
   type: RadialEffect
-  amount: 2
+  amount: 1
   rotationOffset: 225
-  lengthOffset: 0
+  lengthOffset: 2
   effect: {
     type: ParticleEffect
     particles: 8
     colorFrom: fca67b
     colorTo: c27954
-    sizeFrom: 1.2
-    sizeTo: 0.2
+    sizeFrom: 0.8
+    sizeTo: 0
     lifetime: 30
     cone: 360
-    length: 14
+    length: 6
     baseLength: 8
     interp: pow2Out
     sizeInterp: pow2
@@ -53,12 +53,12 @@ drawer: {
 }
 }
 }
-updateEffectChance: 0.2
+updateEffectChance: 0.9
 craftEffect: {
   type: RadialEffect
   amount: 2
   rotationOffset: 225
-  lengthOffset: 0
+  lengthOffset: 1
   effect: {
     type: ParticleEffect
     particles: 20
