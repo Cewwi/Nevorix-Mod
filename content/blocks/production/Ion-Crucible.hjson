@@ -14,12 +14,12 @@ researchCostMultiplier: 0.5
 ambientSoundVolume: 0.09
 updateEffect: {
     type: ParticleEffect
-    particles: 5
+    particles: 8
     lifetime: 20
     length: 20
-    cone: -360
+    cone: 0
     strokeFrom: 2
-    lenFrom: 4
+    lenFrom: 1
     lenTo: 0
     colorFrom: fca67b
     colorTo: c27954
