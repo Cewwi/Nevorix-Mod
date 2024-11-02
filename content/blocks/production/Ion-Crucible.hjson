@@ -16,8 +16,10 @@ updateEffect: {
     type: ParticleEffect
     particles: 8
     lifetime: 20
-    length: 20
+    length: 2
     cone: 0
+    lengthOffset: 0
+    rotationOffset: 360
     strokeFrom: 2
     lenFrom: 1
     lenTo: 0
@@ -32,14 +34,14 @@ craftEffect: {
   lengthOffset: 0
   effect: {
     type: ParticleEffect
-    particles: 12
+    particles: 20
     colorFrom: fca67b
     colorTo: c27954
-    sizeFrom: 0.95
+    sizeFrom: 1.2
     sizeTo: 0.2
     lifetime: 30
     cone: 360
-    length: 6
+    length: 14
     baseLength: 8
     interp: pow2Out
     sizeInterp: pow2
