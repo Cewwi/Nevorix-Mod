@@ -5,7 +5,7 @@ size: 3
 craftTime: 120
 consumes: {
   items: [
-    Kiperite/2
+    Kiperite/4
   ]
 }
 ignoreLiquidFullness: true
