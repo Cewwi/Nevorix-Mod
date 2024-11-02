@@ -1,6 +1,6 @@
 {
   type: Drill
-  size: 2
+  size: 3
   tier: 1
   rotateSpeed: 5.5
   drillTime: 100
