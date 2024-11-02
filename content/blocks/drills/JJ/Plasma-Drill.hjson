@@ -24,7 +24,7 @@
   hardnessDrillMultiplier: 10
   expanded: true
   requirements: [
-    ion/60
+    Ion/60
     Ropololium/50
   ]
   category: production
