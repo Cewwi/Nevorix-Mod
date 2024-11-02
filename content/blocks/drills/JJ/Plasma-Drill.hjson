@@ -24,8 +24,8 @@
   hardnessDrillMultiplier: 10
   expanded: true
   requirements: [
-    "ion/60"
-    "Ropololium/50"
+    ion/60
+    Ropololium/50
   ]
   category: production
   research: Kiperite-Drill
