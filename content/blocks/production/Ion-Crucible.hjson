@@ -13,19 +13,46 @@ ambientSound: extractLoop
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.09
 updateEffect: {
+  type: RadialEffect
+  amount: 2
+  rotationOffset: 225
+  lengthOffset: 0
+  effect: {
     type: ParticleEffect
     particles: 8
-    lifetime: 20
-    length: 2
-    cone: 0
-    lengthOffset: 0
-    rotationOffset: 360
-    strokeFrom: 2
-    lenFrom: 1
-    lenTo: 0
     colorFrom: fca67b
     colorTo: c27954
-  }
+    sizeFrom: 1.2
+    sizeTo: 0.2
+    lifetime: 30
+    cone: 360
+    length: 14
+    baseLength: 8
+    interp: pow2Out
+    sizeInterp: pow2
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      color: f0950f
+      alpha: 0.85
+      particleSize: 1.2
+      particles: 50
+      particleRad: 12
+      particleLife: 60
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+}
+}
 updateEffectChance: 0.2
 craftEffect: {
   type: RadialEffect
