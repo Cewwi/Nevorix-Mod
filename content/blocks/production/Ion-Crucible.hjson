@@ -12,11 +12,24 @@ ignoreLiquidFullness: true
 ambientSound: extractLoop
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.09
+updateEffect: {
+    type: ParticleEffect
+    particles: 5
+    lifetime: 20
+    length: 20
+    cone: -360
+    strokeFrom: 2
+    lenFrom: 4
+    lenTo: 0
+    colorFrom: fca67b
+    colorTo: c27954
+  }
+updateEffectChance: 0.2
 craftEffect: {
   type: RadialEffect
   amount: 2
   rotationOffset: 225
-  lengthOffset: 12
+  lengthOffset: 0
   effect: {
     type: ParticleEffect
     particles: 12
