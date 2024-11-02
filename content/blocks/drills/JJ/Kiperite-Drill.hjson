@@ -8,7 +8,8 @@ requirements: [
   Kiperite/30
 ]
 drillTime: 50
-output: tungsten
+output: Kiperite
+attribute: Kiperite
 ambientSound: drill
 ambientSoundVolume: 0.08
 alwaysUnlocked: true
