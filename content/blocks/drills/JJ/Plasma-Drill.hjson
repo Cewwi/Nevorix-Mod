@@ -1,9 +1,11 @@
 {
+  name: Plasma Harvester
+  description: Harvests ores from higher levels of the ground.
   type: Drill
   size: 3
   tier: 1
   rotateSpeed: 5.5
-  drillTime: 100
+  drillTime: 130
   liquidBoostIntensity: 1.5
   itemCapacity: 40
   warmupSpeed: 0.0878
