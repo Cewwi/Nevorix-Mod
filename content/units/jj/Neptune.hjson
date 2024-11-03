@@ -54,43 +54,11 @@ weapons: [
         ffffff
       ]
       damage: 4
-      layer: 110
+      layer: 61
+      groundLayer: 61
       intervalBullets: 2
       intervalRandomSpread: 1
       bulletInterval: 2.7
-      intervalBullet: {
-        type: BulletType
-        despawnHit: true
-        despawnEffect: none
-        shootEffect: none
-        hitEffect: {
-          type: multiEffect
-          followParent: true
-          rotWithParent: true
-          effects: [
-            {
-              type: ParticleEffect
-              followParent: true
-              rotWithParent: true
-              tri: true
-              layer: 108
-              particles: 12
-              lifetime: 31
-              interp: circleOut
-              length: 20
-              baseLength: 6
-              cone: 10
-              strokeFrom: 2
-              lenFrom: 10
-              lenTo: 0
-              colorFrom: C6FF6BFF
-              colorTo: C6FF6BFF
-            }
-          ]
-        }
-        lifetime: 0
-        instantDisappear: true
-      }
       drawFlare: false
       collides: false
       width: 2
