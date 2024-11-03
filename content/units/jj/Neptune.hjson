@@ -32,13 +32,13 @@ weapons: [
   {
     name: engine
     x: 13
-    y: -19
+    y: -10
     mirror: true
     alternate: false
     top: true
     display: false
     rotate: false
-    baseRotation: 120
+    baseRotation: 150
     shootY: 10
     shootSound: none
     alwaysShooting: true
@@ -48,7 +48,7 @@ weapons: [
     bullet: {
       type: ContinuousFlameBulletType
       colors: [
-        ffffff
+        C6FF6BFF
         C6FF6BFF
         C6FF6BFF
         ffffff
