@@ -30,7 +30,6 @@ useEngineElevation: false
 lowAltitude: false
 weapons: [
   {
-    name: engine
     x: 6
     y: 0
     mirror: true
@@ -38,7 +37,7 @@ weapons: [
     top: true
     display: false
     rotate: false
-    baseRotation: -160
+    baseRotation: -170
     shootY: 10
     shootSound: none
     alwaysShooting: true
@@ -60,6 +59,39 @@ weapons: [
       intervalRandomSpread: 1
       bulletInterval: 2.7
       drawFlare: false
+      intervalBullet: {
+        type: BulletType
+        despawnHit: true
+        despawnEffect: none
+        shootEffect: none
+        hitEffect: {
+          type: multiEffect
+          followParent: true
+          rotWithParent: true
+          effects: [
+            {
+              type: ParticleEffect
+              followParent: true
+              rotWithParent: true
+              tri: true
+              layer: 108
+              particles: 12
+              lifetime: 31
+              interp: circleOut
+              length: 20
+              baseLength: 6
+              cone: 10
+              strokeFrom: 2
+              lenFrom: 10
+              lenTo: 0
+              colorFrom: C6FF6BFF
+              colorTo: C6FF6BFF
+            }
+          ]
+        }
+        lifetime: 0
+        instantDisappear: true
+      }
       collides: false
       width: 2
       divisions: 20
