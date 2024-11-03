@@ -31,14 +31,14 @@ lowAltitude: false
 weapons: [
   {
     name: engine
-    x: 13
-    y: -7
+    x: 6
+    y: 0
     mirror: true
     alternate: false
     top: true
     display: false
     rotate: false
-    baseRotation: -150
+    baseRotation: -160
     shootY: 10
     shootSound: none
     alwaysShooting: true
@@ -93,9 +93,9 @@ weapons: [
       }
       drawFlare: false
       collides: false
-      width: 5
+      width: 2
       divisions: 20
-      length: 20
+      length: 10
     }
   }
 ]
