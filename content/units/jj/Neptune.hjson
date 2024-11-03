@@ -32,13 +32,13 @@ weapons: [
   {
     name: engine
     x: 13
-    y: -10
+    y: -7
     mirror: true
     alternate: false
     top: true
     display: false
     rotate: false
-    baseRotation: 150
+    baseRotation: -150
     shootY: 10
     shootSound: none
     alwaysShooting: true
@@ -77,8 +77,8 @@ weapons: [
               particles: 12
               lifetime: 31
               interp: circleOut
-              length: 35
-              baseLength: 8
+              length: 20
+              baseLength: 6
               cone: 10
               strokeFrom: 2
               lenFrom: 10
@@ -93,9 +93,9 @@ weapons: [
       }
       drawFlare: false
       collides: false
-      width: 4
+      width: 5
       divisions: 20
-      length: 27
+      length: 20
     }
   }
 ]
