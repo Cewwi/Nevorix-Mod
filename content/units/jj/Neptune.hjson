@@ -1,0 +1,154 @@
+type: flying
+name: Galva
+description: Defender of the Unstable core.
+flying: true
+shadowElevation: 1
+drag: 0.06
+outlineColor: 1d1c1a
+speed: 2
+rotateSpeed: 10
+hitSize: 16
+accel: 0.095
+groundLayer: 60
+isEnemy: true
+health: 1000
+armor: 1
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    layer: -1
+    mirror: true
+    blending: additive
+    color: C6FF6BFF
+    colorTo: C6FF6BFF
+    outline: false
+    progress: warmup
+  }
+]
+engines: [
+]
+useEngineElevation: false
+lowAltitude: false
+weapons: [
+  {
+    name: engine
+    x: 13
+    y: -19
+    mirror: true
+    alternate: false
+    top: true
+    display: false
+    rotate: false
+    baseRotation: 120
+    shootY: 10
+    shootSound: none
+    alwaysShooting: true
+    alwaysContinuous: true
+    continuous: true
+    parentizeEffects: true
+    bullet: {
+      type: ContinuousFlameBulletType
+      colors: [
+        ffffff
+        C6FF6BFF
+        C6FF6BFF
+        ffffff
+      ]
+      damage: 4
+      layer: 110
+      intervalBullets: 2
+      intervalRandomSpread: 1
+      bulletInterval: 2.7
+      intervalBullet: {
+        type: BulletType
+        despawnHit: true
+        despawnEffect: none
+        shootEffect: none
+        hitEffect: {
+          type: multiEffect
+          followParent: true
+          rotWithParent: true
+          effects: [
+            {
+              type: ParticleEffect
+              followParent: true
+              rotWithParent: true
+              tri: true
+              layer: 108
+              particles: 12
+              lifetime: 31
+              interp: circleOut
+              length: 35
+              baseLength: 8
+              cone: 10
+              strokeFrom: 2
+              lenFrom: 10
+              lenTo: 0
+              colorFrom: C6FF6BFF
+              colorTo: C6FF6BFF
+            }
+          ]
+        }
+        lifetime: 0
+        instantDisappear: true
+      }
+      drawFlare: false
+      collides: false
+      width: 4
+      divisions: 20
+      length: 27
+    }
+  }
+]
+  {
+    name: Galva-Cannon
+    x: -8.7
+    y: 20
+    shootY: 10
+    mirror: true
+    alternate: true
+    reload: 46
+    rotate: false
+    trailColor: C6FF6BFF
+    shootSound: missile
+    frontColor: C6FF6BFF
+    backColor: ffffff
+    shoot: {
+      shots: 3
+      shotDelay: 5
+    }
+    bullet: {
+      type: BasicBulletType
+      speed: 5
+      trailColor: C6FF6BFF
+      frontColor: C6FF6BFF
+      backColor: ffffff
+      lifetime: 40
+      damage: 30
+      width: 10
+      height: 15
+      trailWidth: 1
+      trailLength: 4
+      pierce: true
+      shrinkX: 0
+      shrinkY: 0
+      fragBullets: 10
+      fragSpread: 60
+      fragRandomSpread: 0
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragBullet: {
+      type: LightningBulletType
+          lightningColor: C6FF6BFF
+          lightningLength: 10
+          lightningDamage: 10
+          hitSound: spark
+          despawnSound: spark
+          lifetime: 1
+    }
+}
+  }
+]
