@@ -1,4 +1,5 @@
 type: Prop
 name: Ropololium Boulder
+size: 2
 variants: 1
 breakSound: rock-crush
