@@ -67,8 +67,8 @@ weapons: [
         shootEffect: none
         hitEffect: {
           type: multiEffect
-          followParent: true
-          rotWithParent: true
+          followParent: false
+          rotWithParent: false
           effects: [
             {
               followParent: false
