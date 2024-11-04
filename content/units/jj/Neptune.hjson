@@ -28,7 +28,7 @@ parts: [
   }
 ]
 useEngineElevation: false
-lowAltitude: false
+lowAltitude: true
 weapons: [
   {
     x: 6
