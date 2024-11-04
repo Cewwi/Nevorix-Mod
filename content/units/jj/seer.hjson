@@ -27,7 +27,7 @@ weapons: [
     name: seer-blaster
     x: -3.7
     y: 3
-    shootY: 10
+    shootY: 5
     mirror: true
     alternate: true
     reload: 10
@@ -42,14 +42,14 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      lightRadius: 7
+      lightRadius: 12
       lightColor: C6FF6BFF
       speed: 5
       trailColor: C6FF6BFF
       frontColor: C6FF6BFF
       backColor: ffffff
       lifetime: 40
-      damage: 5
+      damage: 5.5
       width: 4
       height: 6
       pierce: false
