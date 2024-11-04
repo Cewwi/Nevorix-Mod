@@ -31,7 +31,6 @@ useEngineElevation: false
 lowAltitude: true
 weapons: [
    {
-    y: 9
     shooty: 8
     reload: 200
     alternate: false
@@ -41,21 +40,21 @@ weapons: [
     bullet: {
       type: BasicBulletType
         lightRadius: 10
-        lightColor: FF7436FF
-        damage: 20
+        lightColor: C6FF6BFF
+        damage: 50
         scaleVelocity: true
         splashDamage: 20
         splashDamageRadius: 30
         height: 7.5
         width: 7.5
-        speed: 4
+        speed: 2
         lifetime: 50
         shrinkX: 0
         shrinkY: 0
-        trailChance: 1
+        trailChance: 2
         trailParam: 10
         trailLength: 19
-        trailColor: FF7436FF
+        trailColor: C6FF6BFF
         trailWidth: 5
         trailEffect: {
           type: ParticleEffect
@@ -65,15 +64,15 @@ weapons: [
           lifetime: 25
           interp: circleOut
           cone: 360
-          offset": 3
-          lightColor: FF7436FF
-          colorFrom: fff8e8
-          colorTo: FF7436FF
+          offset: 3
+          lightColor: C6FF6BFF
+          colorFrom: ffffff
+          colorTo: C6FF6BFF
           sizeFrom: 3
           sizeTo: 0
         },
         fragBullets: 5
-        fragVelocityMin: 0.8
+        fragVelocityMin: 0.2
         fragRandomSpread: 180
         fragSpread: 360
         fragLifeMin: 0.8
@@ -83,11 +82,31 @@ weapons: [
         damage: 120
         height: 14
         width: 12
-        speed: 17
-        lifetime: 28
+        speed: 2
+        lifetime: 60
         homingPower: 0.4
         homingDelay: 17
         homingRange: 370
+        trailChance: 2
+        trailParam: 10
+        trailLength: 10
+        trailColor: C6FF6BFF
+        trailWidth: 5
+        trailEffect: {
+          type: ParticleEffect
+          particles: 10
+          length: 3
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 3
+          lightColor: C6FF6BFF
+          colorFrom: ffffff
+          colorTo: C6FF6BFF
+          sizeFrom: 3
+          sizeTo: 0
+        },
         fragBullets: 1
         fragVelocityMin: 0.8
         fragRandomSpread: 180
