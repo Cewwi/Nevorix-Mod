@@ -1,0 +1,20 @@
+name: Core: Plasma
+  type: CoreBlock
+  health: 30000
+  size: 8
+  armor: 10
+  isFirstTier: false
+  itemCapacity: 50000
+  unitCapModifier: 15
+  buildCostMultiplier: 0.7
+  squareSprite: false
+  unitType: Neptune
+  requirements: [
+    Ion/1
+  ],
+  alwaysUnlocked: true
+  drawCracks: true
+  createRubble: true
+  research: Plasma-Core
+  researchCostMultiplier: 0.05
+  //category: core
