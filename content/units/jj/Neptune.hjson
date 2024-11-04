@@ -14,6 +14,13 @@ layer: 109
 isEnemy: true
 health: 1000
 armor: 1
+mineSpeed: 10
+mineFloor: true
+mineWalls: true
+mineTier: 2
+buildSpeed: 2
+itemCapacity: 175
+alwaysUnlocked: true
 parts: [
   {
     type: RegionPart
