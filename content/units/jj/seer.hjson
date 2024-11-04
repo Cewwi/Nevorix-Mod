@@ -1,6 +1,6 @@
 type: flying
 name: Galva
-description: Simple airborn flank unit made by the [#C6FF6BFF]Galux[]
+description: Simple airborn flank unit made by the Galux
 flying: true
 shadowElevation: 1
 drag: 0.06
