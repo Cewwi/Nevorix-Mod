@@ -1,0 +1,60 @@
+type: flying
+name: Galva
+description: Simple airborn flank unit made by the [#C6FF6BFF]Galux[]
+flying: true
+shadowElevation: 1
+drag: 0.06
+outlineColor: 1d1c1a
+speed: 2.6
+rotateSpeed: 6
+hitSize: 8
+accel: 0.095
+groundLayer: 60
+isEnemy: true
+health: 120
+armor: 1
+engines: [
+  {
+    x: 0
+    y: -6.6
+    radius: 1.5
+  }
+]
+useEngineElevation: false
+lowAltitude: true
+weapons: [
+  {
+    name: seer-blaster
+    x: -3.7
+    y: 3
+    shootY: 10
+    mirror: true
+    alternate: true
+    reload: 10
+    rotate: false
+    trailColor: C6FF6BFF
+    shootSound: missile
+    frontColor: C6FF6BFF
+    backColor: ffffff
+    shoot: {
+      shots: 3
+      shotDelay: 2
+    }
+    bullet: {
+      type: BasicBulletType
+      lightRadius: 7
+      lightColor: C6FF6BFF
+      speed: 5
+      trailColor: C6FF6BFF
+      frontColor: C6FF6BFF
+      backColor: ffffff
+      lifetime: 40
+      damage: 5
+      width: 4
+      height: 6
+      pierce: false
+      shrinkX: 0
+      shrinkY: 0
+}
+  }
+]
