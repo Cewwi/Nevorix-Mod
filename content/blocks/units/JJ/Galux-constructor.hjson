@@ -7,7 +7,7 @@ researchCostMultiplier: 0.3
 research: Plasma-core
 requirements: [
   Ion/50
-  Kiperite/150
+  Ropololium/150
   Steel/50
 ]
 size: 3
