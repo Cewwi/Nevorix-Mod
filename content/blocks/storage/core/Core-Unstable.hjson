@@ -15,11 +15,11 @@ name: Core: Plasma
       spawnY: 0
       unit: seer
       spawnTime: 1700
-    },
+    }
   unitType: Neptune
   requirements: [
     Ion/1
-  ],
+  ]
   alwaysUnlocked: true
   drawCracks: true
   createRubble: true
