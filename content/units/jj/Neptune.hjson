@@ -30,6 +30,87 @@ parts: [
 useEngineElevation: false
 lowAltitude: true
 weapons: [
+   {
+    y: 9
+    shooty: 8
+    reload: 200
+    alternate: false
+    mirror: false
+    rotate: false
+    shootSound: lazer
+    bullet: {
+      type: BasicBulletType
+        lightRadius: 10
+        lightColor: FF7436FF
+        damage: 20
+        scaleVelocity: true
+        splashDamage: 20
+        splashDamageRadius: 30
+        height: 7.5
+        width: 7.5
+        speed: 4
+        lifetime: 50
+        shrinkX: 0
+        shrinkY: 0
+        trailChance: 1
+        trailParam: 10
+        trailLength: 19
+        trailColor: FF7436FF
+        trailWidth: 5
+        trailEffect: {
+          type: ParticleEffect
+          particles: 10
+          length: 3
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset": 3
+          lightColor: FF7436FF
+          colorFrom: fff8e8
+          colorTo: FF7436FF
+          sizeFrom: 3
+          sizeTo: 0
+        },
+        fragBullets: 5
+        fragVelocityMin: 0.8
+        fragRandomSpread: 180
+        fragSpread: 360
+        fragLifeMin: 0.8
+        fragBullet: {
+        type: BasicBulletType
+        sprite: circle-bullet
+        damage: 120
+        height: 14
+        width: 12
+        speed: 17
+        lifetime: 28
+        homingPower: 0.4
+        homingDelay: 17
+        homingRange: 370
+        fragBullets: 1
+        fragVelocityMin: 0.8
+        fragRandomSpread: 180
+        fragSpread: 360
+        fragLifeMin: 0.8
+        fragBullet: {
+        type: LaserBulletType
+        length: 350,
+        width: 50
+        damage: 100
+        hitEffect: lightningShoot
+        shootEffect: lightningShoot
+        colors: [
+          C6FF6BFF
+          C6FF6BFF
+          FFFFFF
+        ],
+        sideAngle: -45
+        sideLength: 30
+        sideWidth: 3.4
+       }
+       }
+    }
   {
     x: 5
     y: 0
