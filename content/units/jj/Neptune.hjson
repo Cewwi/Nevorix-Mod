@@ -47,8 +47,8 @@ weapons: [
         splashDamageRadius: 30
         height: 7.5
         width: 7.5
-        speed: 2
-        lifetime: 50
+        speed: 5
+        lifetime: 75
         shrinkX: 0
         shrinkY: 0
         trailChance: 2
@@ -82,9 +82,9 @@ weapons: [
         damage: 120
         height: 14
         width: 12
-        speed: 4
-        lifetime: 160
-        homingPower: 0.4
+        speed: 3
+        lifetime: 100
+        homingPower: 0.2
         homingDelay: 17
         homingRange: 100
         trailChance: 2
@@ -115,7 +115,7 @@ weapons: [
         fragBullet: {
         type: LaserBulletType
         length: 100,
-        width: 10
+        width: 20
         damage: 40
         hitEffect: lightningShoot
         shootEffect: lightningShoot
