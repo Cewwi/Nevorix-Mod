@@ -1,0 +1,27 @@
+{
+type: UnitFactory
+name: Galux Factory
+description: A factory used by the Galux to make basic units.
+category: units
+researchCostMultiplier: 0.3
+research: Plasma-core
+requirements: [
+  Ion/50
+  Kiperite/150
+  Steel/50
+]
+size: 3
+consumes: {
+  power: 5
+}
+plans: [
+  {
+    unit: seer
+    requirements: [
+      Ropololium/25
+      Ion/15
+    ]
+    time: 500
+  }
+]
+}
