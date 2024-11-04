@@ -31,7 +31,7 @@ useEngineElevation: false
 lowAltitude: true
 weapons: [
   {
-    x: 6
+    x: 5
     y: 0
     mirror: true
     alternate: false
@@ -72,12 +72,10 @@ weapons: [
           effects: [
             {
               type: ParticleEffect
-              followParent: true
-              rotWithParent: true
               tri: true
               layer: 108
               particles: 12
-              lifetime: 31
+              lifetime: 61
               interp: circleOut
               length: 20
               baseLength: 6
