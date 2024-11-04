@@ -16,6 +16,7 @@ name: Core: Plasma
       unit: seer
       spawnTime: 1700
     }
+]
   unitType: Neptune
   requirements: [
     Ion/1
