@@ -82,11 +82,11 @@ weapons: [
         damage: 120
         height: 14
         width: 12
-        speed: 2
-        lifetime: 60
+        speed: 4
+        lifetime: 160
         homingPower: 0.4
         homingDelay: 17
-        homingRange: 370
+        homingRange: 100
         trailChance: 2
         trailParam: 10
         trailLength: 10
@@ -110,6 +110,8 @@ weapons: [
         fragBullets: 1
         fragVelocityMin: 0.8
         fragLifeMin: 0.8
+        fragRandomSpread: 0
+        fragSpread: 0
         fragBullet: {
         type: LaserBulletType
         length: 100,
