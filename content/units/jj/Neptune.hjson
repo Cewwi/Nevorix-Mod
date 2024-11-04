@@ -71,6 +71,8 @@ weapons: [
           rotWithParent: true
           effects: [
             {
+              followParent: false,
+              rotWithParent: false,
               type: ParticleEffect
               tri: true
               layer: 108
