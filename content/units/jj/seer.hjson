@@ -27,7 +27,7 @@ weapons: [
     name: seer-blaster
     x: -3.7
     y: 3
-    shootY: 5
+    shootY: 3.5
     mirror: true
     alternate: true
     reload: 10
