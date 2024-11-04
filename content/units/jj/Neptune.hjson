@@ -10,6 +10,7 @@ rotateSpeed: 10
 hitSize: 16
 accel: 0.095
 groundLayer: 60
+layer: 109
 isEnemy: true
 health: 1000
 armor: 1
@@ -53,7 +54,7 @@ weapons: [
         ffffff
       ]
       damage: 4
-      layer: 61
+      layer: 110
       groundLayer: 61
       intervalBullets: 2
       intervalRandomSpread: 1
