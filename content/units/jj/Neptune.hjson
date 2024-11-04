@@ -79,7 +79,7 @@ weapons: [
               particles: 12
               lifetime: 61
               interp: circleOut
-              length: 20
+              length: 6
               baseLength: 6
               cone: 10
               strokeFrom: 2
@@ -96,7 +96,7 @@ weapons: [
       collides: false
       width: 2
       divisions: 20
-      length: 10
+      length: 6
     }
   }
 ]
