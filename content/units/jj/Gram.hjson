@@ -35,8 +35,8 @@ weapons: [
     alternate: true
     mirror: true
     rotate: false
-    inaccuracy: 3
-    shootSound: missile
+    inaccuracy: 0
+    shootSound: laser
     bullet: {
       type: LaserBulletType
         length: 100
