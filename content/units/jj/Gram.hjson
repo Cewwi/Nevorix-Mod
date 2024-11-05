@@ -1,0 +1,56 @@
+type: legs
+legCount: 8
+legLength: 60
+legSpeed: 0.5
+legExtension: -13.5
+legForwardScl: 0.2
+legMoveSpace: 0.9
+legPairOffset: 2
+hovering: false
+groundLayer: 60
+name: bore
+description: Defends the Plasma core. Builds structures and mines ores. 
+health: 500
+armor: 4
+speed: 3
+hitSize: 9
+isEnemy: false
+mineSpeed: 7.5
+mineFloor: true
+mineWalls: true
+mineTier: 1
+buildSpeed: 1.2
+drag: 0.4
+itemCapacity: 110
+alwaysUnlocked: true
+outlineColor: 1d1c1a
+weapons: [
+{
+    name: seer-blaster
+    x: 8
+    y: -3
+    shooty: 3
+    top: false
+    reload: 10
+    alternate: true
+    mirror: true
+    rotate: false
+    inaccuracy: 3
+    shootSound: missile
+    bullet: {
+      type: MissileBulletType
+      speed: 10
+      lifetime: 30
+      damage: 10
+      width: 10
+      height: 10
+      frontColor: ffffff
+      backColor: C6FF6BFF
+      trailChance: 1
+      trailEffect: missileTrail
+      trailColor: C6FF6BFF
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+    }
+}
+]
