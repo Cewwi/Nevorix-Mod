@@ -3,6 +3,6 @@ description: "Produces a small amount of power, enough to power small blocks."
 hardness: 1
 cost: 0.5
 alwaysUnlocked: true
-color: 628b9d
+color: e4881b
 research: Ropololium
 hiddenOnPlanets: [serpulo, erekir]
