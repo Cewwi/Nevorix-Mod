@@ -1,5 +1,5 @@
 type: legs
-legCount: 6
+legCount: 3
 legLength: 20
 legSpeed: 0.5
 legExtension: -13.5
@@ -7,10 +7,10 @@ legForwardScl: 0.2
 legMoveSpace: 0.9
 legPairOffset: 2
 hovering: false
-groundLayer: 60
+groundLayer: 50
 name: Gram
 description: Defends the Plasma core. Builds structures and mines ores. 
-health: 500
+health: 200
 armor: 4
 speed: 3
 hitSize: 9
