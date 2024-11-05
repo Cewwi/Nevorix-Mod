@@ -39,7 +39,7 @@ weapons: [
     shootSound: laser
     bullet: {
       type: LaserBulletType
-        length: 100
+        length: 150
         width: 6
         damage: 10
         hitEffect: lightningShoot
