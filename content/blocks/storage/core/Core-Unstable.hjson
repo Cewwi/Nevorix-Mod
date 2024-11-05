@@ -8,18 +8,11 @@ name: Core: Plasma
   unitCapModifier: 15
   buildCostMultiplier: 0.7
   squareSprite: false
-  abilities: [
-    {
-      type: UnitSpawnAbility
-      spawnX: 0
-      spawnY: 0
-      unit: seer
-      spawnTime: 1700
-    }
-]
   unitType: Neptune
   requirements: [
-    Ion/1
+    Ion/7500
+    Ropololium/10000
+    Steel/3000
   ]
   alwaysUnlocked: true
   drawCracks: true
