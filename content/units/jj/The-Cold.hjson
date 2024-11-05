@@ -12,7 +12,7 @@ hitSize: 5
 accel: 0.095
 groundLayer: 60
 isEnemy: true
-health: 15250000
+health: 452500000
 status: guardian
 armor: 50
 mineSpeed: 7.5
