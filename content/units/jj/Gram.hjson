@@ -1,6 +1,6 @@
 type: legs
-legCount: 8
-legLength: 60
+legCount: 6
+legLength: 20
 legSpeed: 0.5
 legExtension: -13.5
 legForwardScl: 0.2
@@ -8,7 +8,7 @@ legMoveSpace: 0.9
 legPairOffset: 2
 hovering: false
 groundLayer: 60
-name: bore
+name: Gram
 description: Defends the Plasma core. Builds structures and mines ores. 
 health: 500
 armor: 4
