@@ -38,19 +38,20 @@ weapons: [
     inaccuracy: 3
     shootSound: missile
     bullet: {
-      type: MissileBulletType
-      speed: 10
-      lifetime: 30
-      damage: 10
-      width: 10
-      height: 10
-      frontColor: ffffff
-      backColor: C6FF6BFF
-      trailChance: 1
-      trailEffect: missileTrail
-      trailColor: C6FF6BFF
-      shootEffect: shootSmall
-      smokeEffect: shootSmallSmoke
+      type: LaserBulletType
+        length: 100
+        width: 20
+        damage: 10
+        hitEffect: lightningShoot
+        shootEffect: lightningShoot
+        colors: [
+          C6FF6BFF
+          C6FF6BFF
+          FFFFFF
+        ],
+        sideAngle: -45
+        sideLength: 30
+        sideWidth: 3.4
     }
 }
 ]
