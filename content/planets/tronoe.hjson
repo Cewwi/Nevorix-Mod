@@ -1,12 +1,12 @@
 localizedName: Tronoe PO7
-description: A deserted planet, where fire and ice exist in harmony.
+description: A planet undergoing devastation by major corporations from another system.
 alwaysUnlocked: true
 mesh: [
   {
 bloom: false
 type: SunMesh
 planet: tronoe
-seed: 94
+seed: 12
 divisions: 5
 radius: 1.22
 octaves: 1
@@ -23,7 +23,6 @@ colors: [
 ]
 }
   {
-    //demetite
     type: NoiseMesh
     planet: tronoe
     seed: 69
@@ -37,7 +36,6 @@ colors: [
     mag: 1
   }
   {
-    //barite
     type: NoiseMesh
     planet: tronoe
     divisions: 5
@@ -49,7 +47,6 @@ colors: [
     persistence: 1.1
   }
   {
-    //radian barite
     type: NoiseMesh
     planet: tronoe
     divisions: 6
@@ -61,7 +58,6 @@ colors: [
     persistence: 1.1
   }
   {
-    //red sand
     type: NoiseMesh
     planet: tronoe
     divisions: 6
@@ -73,7 +69,6 @@ colors: [
     persistence: 0.9
   }
   {
-    //slag
     type: NoiseMesh
     planet: tronoe
     divisions: 5
@@ -85,7 +80,6 @@ colors: [
     persistence: 1.1
   }
   {
-    //cryofluid
     type: NoiseMesh
     planet: tronoe
     divisions: 5
