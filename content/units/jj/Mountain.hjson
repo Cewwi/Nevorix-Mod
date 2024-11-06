@@ -92,37 +92,7 @@ triLength: 3
           colorTo: FF7436FF
           sizeFrom: 3
           sizeTo: 0
-        },
-        despawnEffect: [
-        {
-          type: ParticleEffect
-          particles: 6
-          lifetime: 10
-          length: 20
-          cone: 50
-          offset: 16
-          lightcolor: FFFFFF
-          interp: circleOut
-          lenFrom: 7
-          lenTo: 7
-          colorFrom: FF7436FF
-          colorTo: FFFFFFF
-          },
-          {
-          type: ParticleEffect
-          particles: 6
-          lifetime: 14
-          length: 20
-          cone: 50
-          offset: 16
-          lightcolor: FF7436FF
-          interp: circleOut
-          lenFrom: 7
-          lenTo: 7
-          colorFrom: FFFFFFF
-          colorTo: FF7436FF
-           },
-        ]
+        }
        }
     }
 ]
