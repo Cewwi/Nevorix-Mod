@@ -41,6 +41,25 @@ weapons: [
         trailColor: FF7436FF
         trailWidth: 5
         incendAmount: 2
+        parts: [
+{
+type: HaloPart
+x: 0
+y: -10
+radius: 4.6
+tri: true
+layer: 110
+color: A45637FF
+haloRotateSpeed: 4
+haloRadius: 8
+haloRadiusTo: 8
+stroke: 0
+strokeTo: 2
+shapes: 1
+triLengthTo: 8
+triLength: 0
+}
+]
         trailEffect: {
           type: ParticleEffect
           particles: 10
