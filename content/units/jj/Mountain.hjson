@@ -37,7 +37,6 @@ weapons: [
     rotate: true
     shootSound: shootBig
     incendAmount: 4
-    shootCone: 45
     bullet: {
       type: BasicBulletType
         sprite: circle-bullet
@@ -101,9 +100,8 @@ weapons: [
         lifetime: 40
         shrinkX: 0
         shrinkY: 0
-        trailChance: 1
-        trailParam: 10
-        trailLength: 19
+        trailParam: 6
+        trailLength: 5
         trailColor: FF7436FF
         trailWidth: 2
        }
