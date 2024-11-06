@@ -33,6 +33,7 @@ weapons: [
     name: Mountain-gun
     y: 1
     x: 20
+    top: false
     shooty: 20
     reload: 40
     alternate: true
@@ -40,6 +41,7 @@ weapons: [
     rotate: true
     shootSound: shootBig
     incendAmount: 4
+    shootCone: 45
     bullet: {
       type: BasicBulletType
         sprite: circle-bullet
