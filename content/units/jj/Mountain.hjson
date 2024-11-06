@@ -27,13 +27,17 @@ abilities: [
     effectRadius: 0
     status: molten-charge
   }
-  {
-    type: ForceFieldAbility
-    max: 450
-    radius: 64
-    regen: 0.2
-    cooldown: 360
-    sides: 9
+   {
+    type: ShieldArcAbility
+    max: 2800
+    cooldown: 300
+    regen: 0.5
+    angle: 90
+    whenShooting: false
+    width: 4
+    x: 0
+    y: -22
+    radius: 50
   }
 ]
 weapons: [
