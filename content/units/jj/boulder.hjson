@@ -1,5 +1,5 @@
 type: mech
-name: Rock
+name: Boulder
 description: Hurls molten boulders at enemies.
 speed: 0.55
 flying: false
