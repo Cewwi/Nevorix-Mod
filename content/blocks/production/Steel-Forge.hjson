@@ -11,16 +11,6 @@ consumes: {
     slag/0.1
   ]
 }
-drawer: {
-    {
-      type: DrawLiquidTile
-      drawLiquid: slag
-      padding: 3
-    }
-    {
-      type: DrawDefault
-    }
-}
 ignoreLiquidFullness: true
 ambientSound: extractLoop
 researchCostMultiplier: 0.5
