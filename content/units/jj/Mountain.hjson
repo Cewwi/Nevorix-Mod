@@ -58,7 +58,7 @@ weapons: [
         trailLength: 19
         trailColor: FF7436FF
         trailWidth: 5
-        incendAmount: 
+        incendAmount: 2
         trailEffect: {
           type: ParticleEffect
           particles: 10
