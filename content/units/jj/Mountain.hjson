@@ -1,0 +1,92 @@
+type: mech
+name: Boulder
+description: Hurls molten boulders at enemies.
+speed: 0.55
+flying: false
+health: 400
+armor: 9
+hitSize: 17
+outlineColor: 1d1c1a
+mechLegColor: 1d1c1a
+weapons: [
+  {
+    name: Mountain-gun
+    y: 4
+    x: 10
+    shooty: 8
+    reload: 40
+    alternate: true
+    mirror: true
+    rotate: false
+    shootSound: shootBig
+    incendAmount: 4
+    bullet: {
+      type: BasicBulletType
+        sprite: circle-bullet
+        lightRadius: 10
+        lightColor: FF7436FF
+        damage: 20
+        scaleVelocity: true
+        splashDamage: 20
+        splashDamageRadius: 30
+        height: 7.5
+        width: 7.5
+        speed: 4
+        lifetime: 50
+        shrinkX: 0
+        shrinkY: 0
+        trailChance: 1
+        trailParam: 10
+        trailLength: 19
+        trailColor: FF7436FF
+        trailWidth: 5
+        incendAmount: 2
+        trailEffect: {
+          type: ParticleEffect
+          particles: 10
+          length: 3
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 3
+          lightColor: FF7436FF
+          colorFrom: fff8e8
+          colorTo: FF7436FF
+          sizeFrom: 3
+          sizeTo: 0
+        },
+        despawnEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          lifetime: 10
+          length: 20
+          cone: 50
+          offset: 16
+          lightcolor: FFFFFF
+          interp: circleOut
+          lenFrom: 7
+          lenTo: 7
+          colorFrom: FF7436FF
+          colorTo: FFFFFFF
+          },
+          {
+          type: ParticleEffect
+          particles: 6
+          lifetime: 14
+          length: 20
+          cone: 50
+          offset: 16
+          lightcolor: FF7436FF
+          interp: circleOut
+          lenFrom: 7
+          lenTo: 7
+          colorFrom: FFFFFFF
+          colorTo: FF7436FF
+           },
+        ]
+       }
+    }
+]
+researchCostMultiplier: 2.5
