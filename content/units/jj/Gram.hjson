@@ -9,7 +9,7 @@ legPairOffset: 2
 hovering: false
 groundLayer: 50
 name: Gram
-description: Defends the Plasma core. Builds structures and mines ores. 
+description: Basic mech typr unit constructed by the Galux
 health: 200
 armor: 4
 speed: 3
