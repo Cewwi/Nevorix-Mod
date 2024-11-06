@@ -7,6 +7,7 @@ health: 4000
 armor: 9
 hitSize: 33
 outlineColor: 1d1c1a
+rotateSpeed: 2
 mechLegColor: 1d1c1a
 abilities: [
    {
@@ -31,11 +32,31 @@ weapons: [
     shooty: 20
     reload: 40
     alternate: true
+    rotateSpeed: 1.5
     mirror: true
     rotate: true
     shootSound: shootBig
     incendAmount: 4
     shootCone: 45
+parts: [
+{
+type: HaloPart
+x: 0
+y: 20
+radius: 4.6
+tri: true
+layer: 110
+color: A45637FF
+haloRotateSpeed: 4
+haloRadius: 8
+haloRadiusTo: 8
+stroke: 2
+strokeTo: 2
+shapes: 1
+triLengthTo: 8
+triLength: 3
+}
+]
     bullet: {
       type: BasicBulletType
         sprite: circle-bullet
@@ -56,26 +77,7 @@ weapons: [
         trailLength: 19
         trailColor: FF7436FF
         trailWidth: 5
-        incendAmount: 2
-        parts: [
-{
-type: HaloPart
-x: 0
-y: 20
-radius: 4.6
-tri: true
-layer: 110
-color: A45637FF
-haloRotateSpeed: 4
-haloRadius: 8
-haloRadiusTo: 8
-stroke: 2
-strokeTo: 2
-shapes: 1
-triLengthTo: 8
-triLength: 3
-}
-]
+        incendAmount: 
         trailEffect: {
           type: ParticleEffect
           particles: 10
