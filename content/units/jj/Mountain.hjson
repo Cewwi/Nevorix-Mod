@@ -1,6 +1,6 @@
 type: mech
 name: Mountain
-description: Heavily armored Mech unit. Buffs nearby ally units.
+description: Heavily armored Mech unit.
 speed: 0.37
 flying: false
 health: 4000
@@ -9,12 +9,6 @@ hitSize: 33
 outlineColor: 1d1c1a
 mechLegColor: 1d1c1a
 abilities: [
-  {
-      effect: Tronoe-molten-charge
-      range: 165
-      reload: 20
-      duration: 5
-    }
    {
     type: ShieldArcAbility
     max: 2800
