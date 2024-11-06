@@ -28,7 +28,7 @@ weapons: [
     name: Mountain-gun
     y: 1
     x: 20
-    top: false
+    top: true
     shooty: 20
     reload: 40
     alternate: true
@@ -43,7 +43,7 @@ weapons: [
         sprite: circle-bullet
         lightRadius: 10
         lightColor: FF7436FF
-        damage: 20
+        damage: 100
         scaleVelocity: true
         splashDamage: 20
         splashDamageRadius: 30
@@ -74,6 +74,38 @@ weapons: [
           sizeFrom: 3
           sizeTo: 0
         }
+       }
+}
+{
+    name: rock-gun
+    y: -5
+    x: 7
+    top: true
+    shooty: 20
+    reload: 2
+    alternate: true
+    rotateSpeed: 1.5
+    mirror: true
+    rotate: true
+    shootSound: shoot
+    shootCone: 45
+    bullet: {
+      type: BasicBulletType
+        lightRadius: 10
+        lightColor: FF7436FF
+        damage: 3
+        scaleVelocity: true
+        height: 2.5
+        width: 2.5
+        speed: 6
+        lifetime: 40
+        shrinkX: 0
+        shrinkY: 0
+        trailChance: 1
+        trailParam: 10
+        trailLength: 19
+        trailColor: FF7436FF
+        trailWidth: 2
        }
     }
 ]
