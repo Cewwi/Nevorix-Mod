@@ -13,8 +13,8 @@
     cone: -360
     lenFrom: 5
     lenTo: 0
-    colorFrom: A9D8FFFF
-    colorTo: 66B1FFFF
+    colorFrom: 5c5c5c
+    colorTo: 5c5c5c
   },
   damage: -2.5
 }
