@@ -75,6 +75,7 @@ weapons: [
           sizeTo: 0
         }
        }
+}
 {
     name: rock-gun
     y: -5
@@ -106,7 +107,6 @@ weapons: [
         trailColor: FF7436FF
         trailWidth: 2
        }
-}
 }
 ]
 researchCostMultiplier: 2.5
