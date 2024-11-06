@@ -73,11 +73,11 @@ color: A45637FF
 haloRotateSpeed: 4
 haloRadius: 8
 haloRadiusTo: 8
-stroke: 0
+stroke: 2
 strokeTo: 2
 shapes: 1
 triLengthTo: 8
-triLength: 0
+triLength: 3
 }
 ]
         trailEffect: {
