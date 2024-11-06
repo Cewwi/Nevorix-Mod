@@ -29,51 +29,41 @@ weapons: [
     y: 1
     x: 20
     top: true
-    shooty: 20
-    reload: 40
+    shooty: 34
+    reload: 2
     alternate: true
     rotateSpeed: 1.5
     mirror: true
     rotate: true
     shootSound: shootBig
     incendAmount: 4
+    alwaysShooting: true
+    alwaysContinuous: true
+    continuous: true
     bullet: {
-      type: BasicBulletType
-        sprite: circle-bullet
-        lightRadius: 10
-        lightColor: FF7436FF
-        damage: 100
-        scaleVelocity: true
-        splashDamage: 20
-        splashDamageRadius: 30
-        height: 7.5
-        width: 7.5
-        speed: 4
-        lifetime: 50
-        shrinkX: 0
-        shrinkY: 0
-        trailChance: 1
-        trailParam: 10
-        trailLength: 19
-        trailColor: FF7436FF
-        trailWidth: 5
-        incendAmount: 2
-        trailEffect: {
-          type: ParticleEffect
-          particles: 10
-          length: 3
-          baseLength: 3
-          lifetime: 25
-          interp: circleOut
-          cone: 360
-          offset: 3
-          lightColor: FF7436FF
-          colorFrom: fff8e8
-          colorTo: FF7436FF
-          sizeFrom: 3
-          sizeTo: 0
-        }
-       }
+      type: ContinuousFlameBulletType
+      colors: [
+        C6FF6BFF
+        C6FF6BFF
+        C6FF6BFF
+        ffffff
+      ]
+      damage: 10
+      layer: 110
+      groundLayer: 61
+      intervalBullets: 2
+      intervalRandomSpread: 1
+      bulletInterval: 2.7
+      drawFlare: false
+      intervalBullet: {
+      type: BulletType
+      shootEffect: none
+      collides: true
+      width: 7
+      divisions: 20
+      length: 30
+
+}
 }
 {
     name: rock-gun
