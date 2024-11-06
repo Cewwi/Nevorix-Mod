@@ -1,4 +1,3 @@
-{
 type: mech
 name: Mountain
 description: Heavily armored Mech unit.
@@ -39,25 +38,6 @@ weapons: [
     shootSound: shootBig
     incendAmount: 4
     shootCone: 45
-parts: [
-{
-type: HaloPart
-x: 0
-y: 20
-radius: 4.6
-tri: true
-layer: 110
-color: A45637FF
-haloRotateSpeed: 4
-haloRadius: 8
-haloRadiusTo: 8
-stroke: 2
-strokeTo: 2
-shapes: 1
-triLengthTo: 8
-triLength: 3
-}
-]
     bullet: {
       type: BasicBulletType
         sprite: circle-bullet
@@ -98,4 +78,3 @@ triLength: 3
     }
 ]
 researchCostMultiplier: 2.5
-}
