@@ -1,11 +1,11 @@
 type: GenericCrafter
-name: Ion Crucible
+name: Steel Forge
 description: Fuses ion and slag to make Steel
-size: 3
-craftTime: 120
+size: 4
+craftTime: 50
 consumes: {
   items: [
-    Kiperite/4
+    Kiperite/2
   ]
   liquids: [
     slag/0.1
@@ -15,68 +15,6 @@ ignoreLiquidFullness: true
 ambientSound: extractLoop
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.09
-updateEffect: {
-  type: RadialEffect
-  amount: 1
-  rotationOffset: 225
-  lengthOffset: 0
-  effect: {
-    type: ParticleEffect
-    particles: 8
-    colorFrom: fca67b
-    colorTo: c27954
-    sizeFrom: 0.8
-    sizeTo: 0
-    lifetime: 30
-    cone: 360
-    length: 6
-    baseLength: 8
-    interp: pow2Out
-    sizeInterp: pow2
-  }
-}
-updateEffectChance: 0.9
-craftEffect: {
-  type: RadialEffect
-  amount: 2
-  rotationOffset: 225
-  lengthOffset: 1
-  effect: {
-    type: ParticleEffect
-    particles: 20
-    colorFrom: fca67b
-    colorTo: c27954
-    sizeFrom: 1.2
-    sizeTo: 0.2
-    lifetime: 30
-    cone: 360
-    length: 14
-    baseLength: 8
-    interp: pow2Out
-    sizeInterp: pow2
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawDefault
-    }
-    {
-      type: DrawParticles
-      color: f0950f
-      alpha: 0.85
-      particleSize: 1.2
-      particles: 50
-      particleRad: 12
-      particleLife: 60
-    }
-    {
-      type: DrawRegion
-      suffix: -top
-    }
-  ]
-}
-  }
-}
 drawer: {
   type: DrawMulti
   drawers: [
@@ -108,7 +46,7 @@ drawer: {
   ]
 }
 outputItems: [
-  Ion/3
+  Steel/1
 ]
 category: crafting
 research: Ion-Crucible
