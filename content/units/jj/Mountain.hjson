@@ -107,6 +107,6 @@ weapons: [
         trailWidth: 2
        }
 }
-    }
+}
 ]
 researchCostMultiplier: 2.5
