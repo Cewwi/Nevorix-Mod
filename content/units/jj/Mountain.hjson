@@ -11,13 +11,13 @@ mechLegColor: 1d1c1a
 weapons: [
   {
     name: Mountain-gun
-    y: 4
-    x: 10
+    y: 1
+    x: 20
     shooty: 20
     reload: 40
     alternate: true
     mirror: true
-    rotate: false
+    rotate: true
     shootSound: shootBig
     incendAmount: 4
     bullet: {
