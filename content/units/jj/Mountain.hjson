@@ -12,7 +12,7 @@ abilities: [
   {
       effect: Tronoe-molten-charge
       range: 165
-      reload: 1
+      reload: 20
       duration: 5
     }
    {
@@ -20,7 +20,7 @@ abilities: [
     max: 2800
     cooldown: 300
     regen: 0.5
-    angle: 90
+    angle: 100
     whenShooting: true
     width: 6
     x: 0
