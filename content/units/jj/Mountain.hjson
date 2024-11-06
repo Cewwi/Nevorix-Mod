@@ -13,7 +13,7 @@ weapons: [
     name: Mountain-gun
     y: 4
     x: 10
-    shooty: 8
+    shooty: 20
     reload: 40
     alternate: true
     mirror: true
@@ -45,7 +45,7 @@ weapons: [
 {
 type: HaloPart
 x: 0
-y: -10
+y: 20
 radius: 4.6
 tri: true
 layer: 110
