@@ -1,3 +1,4 @@
+{
 type: mech
 name: Mountain
 description: Heavily armored Mech unit.
@@ -97,3 +98,4 @@ triLength: 3
     }
 ]
 researchCostMultiplier: 2.5
+}
