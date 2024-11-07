@@ -83,9 +83,10 @@ weapons: [
       type: BasicBulletType
         lightRadius: 10
         lightColor: FF7436FF
-        damage: 9
+        damage: 14
         scaleVelocity: true
         height: 6.5
+        inaccuracy: 12
         width: 6.5
         speed: 6
         lifetime: 40
