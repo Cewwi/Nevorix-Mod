@@ -55,14 +55,9 @@ weapons: [
       intervalRandomSpread: 1
       bulletInterval: 2.7
       drawFlare: false
-      intervalBullet: {
-      type: BulletType
-      shootEffect: none
-      collides: true
       width: 7
       divisions: 20
       length: 30
-}
 }
 }
 {
