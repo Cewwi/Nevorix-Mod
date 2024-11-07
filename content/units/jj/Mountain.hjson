@@ -40,7 +40,7 @@ weapons: [
     shootCone: 45
     loopSound: torch
     layerOffset: -0.00001
-    shootSound: none
+    shootSound: torch
     incendAmount: 4
     alwaysShooting: false
     alwaysContinuous: true
@@ -61,6 +61,7 @@ weapons: [
       bulletInterval: 2.7
       drawFlare: false
       width: 6
+      pierceArmor: true
       divisions: 20
       length: 140
 }
