@@ -45,8 +45,8 @@ weapons: [
     bullet: {
       type: ContinuousFlameBulletType
       colors: [
-        FF7436FF
-        FF7436FF
+        ad3500
+        ff4f01
         FF7436FF
         ffffff
       ]
@@ -81,8 +81,8 @@ weapons: [
         lightColor: FF7436FF
         damage: 9
         scaleVelocity: true
-        height: 2.5
-        width: 2.5
+        height: 6.5
+        width: 6.5
         speed: 6
         lifetime: 40
         shrinkX: 0
