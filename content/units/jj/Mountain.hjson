@@ -34,8 +34,11 @@ weapons: [
     alternate: true
     rotateSpeed: 1.5
     mirror: true
+    rotationLimit: 52.5
     rotate: true
-    shootSound: flame
+    shootCone: 45
+    loopSound: torch
+    shootSound: none
     incendAmount: 4
     alwaysShooting: false
     alwaysContinuous: true
@@ -57,7 +60,7 @@ weapons: [
       drawFlare: false
       width: 6
       divisions: 20
-      length: 120
+      length: 140
 }
 }
 {
@@ -77,7 +80,7 @@ weapons: [
       type: BasicBulletType
         lightRadius: 10
         lightColor: FF7436FF
-        damage: 3
+        damage: 9
         scaleVelocity: true
         height: 2.5
         width: 2.5
