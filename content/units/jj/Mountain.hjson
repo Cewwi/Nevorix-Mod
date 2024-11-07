@@ -33,7 +33,7 @@ weapons: [
     reload: 2
     rotateSpeed: 1.5
     mirror: true
-    alternate
+    alternate: false
     cooldownTime: 50
     rotationLimit: 52.5
     rotate: true
