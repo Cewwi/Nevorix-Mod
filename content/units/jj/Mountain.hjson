@@ -35,17 +35,17 @@ weapons: [
     rotateSpeed: 1.5
     mirror: true
     rotate: true
-    shootSound: shootBig
+    shootSound: flame
     incendAmount: 4
-    alwaysShooting: true
+    alwaysShooting: false
     alwaysContinuous: true
     continuous: true
     bullet: {
       type: ContinuousFlameBulletType
       colors: [
-        C6FF6BFF
-        C6FF6BFF
-        C6FF6BFF
+        FF7436FF
+        FF7436FF
+        FF7436FF
         ffffff
       ]
       damage: 10
@@ -55,9 +55,9 @@ weapons: [
       intervalRandomSpread: 1
       bulletInterval: 2.7
       drawFlare: false
-      width: 7
+      width: 6
       divisions: 20
-      length: 30
+      length: 120
 }
 }
 {
