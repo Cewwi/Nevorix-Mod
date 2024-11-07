@@ -33,10 +33,13 @@ weapons: [
     reload: 2
     rotateSpeed: 1.5
     mirror: true
+    alternate
+    cooldownTime: 50
     rotationLimit: 52.5
     rotate: true
     shootCone: 45
     loopSound: torch
+    layerOffset: -0.00001
     shootSound: none
     incendAmount: 4
     alwaysShooting: false
