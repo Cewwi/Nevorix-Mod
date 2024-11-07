@@ -53,7 +53,7 @@ weapons: [
         FF7436FF
         ffffff
       ]
-      damage: 10
+      damage: 30
       layer: 110
       groundLayer: 61
       intervalBullets: 2
