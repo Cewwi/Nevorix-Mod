@@ -31,7 +31,6 @@ weapons: [
     top: true
     shooty: 34
     reload: 2
-    alternate: true
     rotateSpeed: 1.5
     mirror: true
     rotationLimit: 52.5
