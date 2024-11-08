@@ -1,14 +1,13 @@
-{
 type: flying
-name: Neptune
-description: Defender of the Unstable core.
+name: Polux
+description: Defender of the Plasma core.
 flying: true
 shadowElevation: 1
 drag: 0.06
 outlineColor: 1d1c1a
-speed: 2
+speed: 2.4
 rotateSpeed: 10
-hitSize: 16
+hitSize: 8
 accel: 0.095
 groundLayer: 60
 layer: 109
@@ -22,25 +21,12 @@ mineTier: 2
 buildSpeed: 2
 itemCapacity: 175
 alwaysUnlocked: true
-parts: [
-  {
-    type: RegionPart
-    suffix: -glow
-    layer: -1
-    mirror: true
-    blending: additive
-    color: C6FF6BFF
-    colorTo: C6FF6BFF
-    outline: false
-    progress: warmup
-  }
-]
 useEngineElevation: false
 lowAltitude: true
 weapons: [
    {
     shooty: 8
-    reload: 200
+    reload: 70
     alternate: false
     mirror: false
     rotate: false
@@ -49,7 +35,7 @@ weapons: [
       type: BasicBulletType
       lightRadius: 10
       lightColor: C6FF6BFF
-      damage: 50
+      damage: 30
       scaleVelocity: true
       splashDamage: 20
       splashDamageRadius: 30
@@ -65,4 +51,3 @@ weapons: [
 }
 }
 ]
-}
