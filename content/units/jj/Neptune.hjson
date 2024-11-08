@@ -139,8 +139,8 @@ weapons: [
     }
 }
   {
-    x: 0
-    y: 0
+    x: 9
+    y: -2
     mirror: true
     alternate: false
     top: true
