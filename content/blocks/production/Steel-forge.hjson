@@ -20,7 +20,7 @@ drawer: {
   drawers: [
     {
       type: DrawRegion
-      suffix: -top
+      suffix: -bottom
     }
     {
       type: DrawLiquidTile
