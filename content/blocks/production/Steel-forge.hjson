@@ -25,23 +25,8 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: slag
-      alpha: 0.3
+      alpha: 1
       padding: 2.5
-    }
-    {
-      type: DrawFrames
-      frames: 15
-      sine: true
-      interval: 6
-    }
-    {
-      type: DrawWeave
-    }
-    {
-      type: DrawMultiWeave
-    }
-    {
-      type: DrawDefault 
     }
   ]
 }
