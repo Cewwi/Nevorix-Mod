@@ -5,9 +5,9 @@ noiseColor: b0ec3f
 drawNoise: true
 particleRegion: particle
 useWindVector: true
-sizeMax: 140
-sizeMin: 70
-minAlpha: 0
+sizeMax: 400
+sizeMin: 100
+minAlpha: 0.2
 maxAlpha: 0.3
 density: 3200
 baseSpeed: 14.4
