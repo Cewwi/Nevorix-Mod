@@ -28,6 +28,9 @@ drawer: {
       alpha: 1
       padding: 2.5
     }
+    {
+      type: DrawDefault 
+    }
   ]
 }
 outputItems: [
