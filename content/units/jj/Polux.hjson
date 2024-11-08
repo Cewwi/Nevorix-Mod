@@ -12,7 +12,7 @@ accel: 0.095
 groundLayer: 60
 layer: 109
 isEnemy: true
-health: 1000
+health: 100
 armor: 1
 mineSpeed: 10
 mineFloor: true
