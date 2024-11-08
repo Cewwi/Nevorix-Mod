@@ -29,12 +29,12 @@ weapons: [
     y: 1
     x: 20
     top: true
-    shooty: 34
-    reload: 2
+    shooty: 37
+    reload: 5
     rotateSpeed: 1.5
     mirror: true
     alternate: false
-    cooldownTime: 50
+    cooldownTime: 90
     rotationLimit: 52.5
     rotate: true
     shootCone: 45
