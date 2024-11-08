@@ -158,7 +158,7 @@ atmosphereRadIn: 0
 atmosphereRadOut: 0.2
 accessible: true
 updateLighting: false
-sectorSeed: 14513
+sectorSeed: 3711
 bloom: false
 visible: true
 atmosphereColor: 86eb48
@@ -173,10 +173,14 @@ parent: sun
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
-  "Kiperite"
-  "Ion"
-  "Magmium"
-  "Olium"
-  "Malinite"
-  "Volcanite"
+  Kiperite
+  Ion
+  Magmium
+  Steel
+  Kiperite
+  Ropololium
+  Olium
+  Malinite
+  Volcanite
+  Terestrium
 ]
