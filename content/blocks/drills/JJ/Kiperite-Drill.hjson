@@ -9,7 +9,7 @@ requirements: [
 ]
 drillTime: 50
 output: Kiperite
-attribute: ionium-KiperOre
+attribute: KiperOre-
 ambientSound: drill
 ambientSoundVolume: 0.08
 alwaysUnlocked: true
