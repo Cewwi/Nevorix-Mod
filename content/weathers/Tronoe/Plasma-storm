@@ -1,0 +1,18 @@
+type: ParticleWeather
+name: Ropo Storm
+color: b0ec3f
+noiseColor: b0ec3f
+drawNoise: true
+particleRegion: particle
+useWindVector: true
+sizeMax: 140
+sizeMin: 70
+minAlpha: 0
+maxAlpha: 0.3
+density: 3200
+baseSpeed: 14.4
+opacityMultiplier: 0.45
+force: 0.4
+sound: wind
+soundVol: 0.8
+duration: 4200
