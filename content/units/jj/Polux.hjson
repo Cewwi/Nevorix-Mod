@@ -1,0 +1,68 @@
+{
+type: flying
+name: Neptune
+description: Defender of the Unstable core.
+flying: true
+shadowElevation: 1
+drag: 0.06
+outlineColor: 1d1c1a
+speed: 2
+rotateSpeed: 10
+hitSize: 16
+accel: 0.095
+groundLayer: 60
+layer: 109
+isEnemy: true
+health: 1000
+armor: 1
+mineSpeed: 10
+mineFloor: true
+mineWalls: true
+mineTier: 2
+buildSpeed: 2
+itemCapacity: 175
+alwaysUnlocked: true
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    layer: -1
+    mirror: true
+    blending: additive
+    color: C6FF6BFF
+    colorTo: C6FF6BFF
+    outline: false
+    progress: warmup
+  }
+]
+useEngineElevation: false
+lowAltitude: true
+weapons: [
+   {
+    shooty: 8
+    reload: 200
+    alternate: false
+    mirror: false
+    rotate: false
+    shootSound: lazer
+    bullet: {
+      type: BasicBulletType
+      lightRadius: 10
+      lightColor: C6FF6BFF
+      damage: 50
+      scaleVelocity: true
+      splashDamage: 20
+      splashDamageRadius: 30
+      height: 7.5
+      width: 7.5
+      homingPower: 0.2
+      homingDelay: 17
+      homingRange: 100
+      speed: 5
+      lifetime: 75
+      shrinkX: 0
+      shrinkY: 0
+}
+}
+]
+}
