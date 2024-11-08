@@ -172,6 +172,8 @@ weapons: [
         type: BulletType
         despawnHit: true
         despawnEffect: none
+        followParent: false
+        rotWithParent: false
         shootEffect: none
         hitEffect: {
           type: multiEffect
