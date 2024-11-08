@@ -52,8 +52,8 @@ f45e37,
     divisions: 6
     seed: 61
     radius: 1.248
-    color1: 3b3b3b
-    color2: 3b3b3b
+    color1: d0e749
+    color2: 8fa416
     octaves: 4.5
     persistence: 1.1
   }
@@ -63,8 +63,8 @@ f45e37,
     divisions: 6
     seed: 17
     radius: 1.2514
-    color1: eafffd7e
-    color2: eafffd7e
+    color1: d0e749
+    color2: 8fa416
     octaves: 5.7
     persistence: 0.9
   }
@@ -74,8 +74,8 @@ f45e37,
     divisions: 5
     seed: 7
     radius: 1.229
-    color1: ff8100
-    color2: c47a2e
+    color1: 82a509
+    color2: 81ff19
     octaves: 3.7
     persistence: 1.1
   }
@@ -85,8 +85,8 @@ f45e37,
     divisions: 5
     seed: 7
     radius: 1.229
-    color1: ff8100
-    color2: c47a2e
+    color1: 82a509
+    color2: 81ff19
     octaves: 3.7
     persistence: 1.1
   } 
@@ -98,7 +98,7 @@ cloudMesh: [
    speed: 1.21
    radius: 0.1
    divisions: 6
-   color: f45e37
+   color: 5f6b37
    octaves: 3
    persistence: 0.3
    scl: 1
@@ -110,7 +110,7 @@ cloudMesh: [
    speed: 1.01
    radius: 0.11
    divisions: 6
-   color:  f45e37
+   color:  bcf141
    octaves: 3
    persistence: 0.4
    scl: 0.9
