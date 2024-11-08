@@ -98,7 +98,7 @@ cloudMesh: [
    speed: 1.21
    radius: 0.1
    divisions: 6
-   color: eafffd7e
+   color: f45e37
    octaves: 3
    persistence: 0.3
    scl: 1
@@ -110,7 +110,7 @@ cloudMesh: [
    speed: 1.01
    radius: 0.11
    divisions: 6
-   color:  a14919
+   color:  f45e37
    octaves: 3
    persistence: 0.4
    scl: 0.9
@@ -144,7 +144,7 @@ generator: {
   berylChance: 0
   ferricChance: 0.26
 }
-sectorSize: 1
+sectorSize: 0.5
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
@@ -161,8 +161,8 @@ updateLighting: false
 sectorSeed: 14513
 bloom: false
 visible: true
-atmosphereColor: ae4105
-iconColor: 8bda25
+atmosphereColor: 86eb48
+iconColor: 86eb48
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
