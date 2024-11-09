@@ -1,6 +1,6 @@
 type: flying
 name: Oad
-description: Basic support unit. Can mine some ores.
+description: Basic support unit. Only capable of mining Terestrium.
 flying: true
 playerControllable: false
 shadowElevation: 1
