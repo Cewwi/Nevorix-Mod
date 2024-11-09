@@ -25,7 +25,7 @@
   "weapons": [
     {
       "name": "Downfall-cannon-outline",
-      "x": 128,
+      "x": 108,
       "y": -1,
       "reload": 350,
       "mirror": true,
