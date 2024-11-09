@@ -24,8 +24,8 @@
   ],
   "weapons": [
     {
-      "name": "xenoct-nuclear-weapon",
-      "x": 48,
+      "name": "Downfall-cannon-outline",
+      "x": 128,
       "y": -1,
       "reload": 330,
       "mirror": true,
@@ -81,11 +81,11 @@
         "trailChance": 1,
         "trailParam": 5,
         "trailLength": 19,
-        "trailColor": "BF92F9FF",
+        "trailColor": "FF7436FF",
         "trailWidth": 9,
         "lightning": 9,
         "lightningDamage": 125,
-        "lightningColor": "BF92F9FF",
+        "lightningColor": "FF7436FF",
         "lightningLength": 12,
         "lightningCone": 360,
         "lightningLengthRand": 29,
@@ -94,7 +94,82 @@
         "buildingDamageMultiplier": 0.6,
         "smokeEffect": "none",
         "frontColor": "ffffff",
-        "backColor": "BF92F9FF"
+        "backColor": "FF7436FF"
+        "fragBullets": 3,
+      "fragVelocityMin": 1,
+      "fragRandomSpread": 0,
+      "fragSpread": 36,
+      "fragBullet": {
+        "type": "BasicBulletType",
+        "frontColor": "ffffff",
+        "backColor": "FF7436FF",
+        "height": 36,
+        "width": 36,
+        "splashDamage": 525,
+        "splashDamageRadius": 48,
+        "speed": 8,
+        "lifetime": 25,
+        "damage": 100,
+        "shrinkY": 0.5,
+        "despawnEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "WaveEffect",
+              "lifetime": 45,
+              "sizeFrom": 0,
+              "sizeTo": 32,
+              "strokeFrom": 3,
+              "strokeTo": 0,
+              "lightColor": "ffffff",
+              "colorFrom": "FF7436FF",
+              "colorTo": "FF7436FF"
+            },
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "particles": 7,
+              "lifetime": 125,
+              "offset": 60,
+              "interp": "circleOut",
+              "length": 15,
+              "cone": -360,
+              "strokeFrom": 3,
+              "strokeTo": 0,
+              "sizeFrom": 24,
+              "sizeTo": 24,
+              "lightColor": "ffffff",
+              "colorFrom": "FF7436FF",
+              "colorTo": "FF7436FF"
+            },
+            {
+              "type": "ParticleEffect",
+              "lightOpacity": 0,
+              "particles": 20,
+              "length": 25,
+              "lifetime": 40,
+              "interp": "circleOut",
+              "sizeInterp": "pow5In",
+              "sizeFrom": 4,
+              "sizeTo": 0,
+              "colorFrom": "FF7436FF",
+              "colorTo": "FF7436FF"
+            },
+            {
+              "type": "ParticleEffect",
+              "lightOpacity": 0,
+              "particles": 20,
+              "length": 25,
+              "lifetime": 30,
+              "interp": "circleOut",
+              "sizeInterp": "pow5In",
+              "sizeFrom": 2.5,
+              "sizeTo": 0,
+              "colorFrom": "ffffff",
+              "colorTo": "FF7436FF"
+            }
+          ]
+        },
       }
     }
   ]
