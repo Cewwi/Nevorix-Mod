@@ -139,7 +139,7 @@ weapons: [
     }
 }
   {
-    x: 9
+    x: 6
     y: -2
     mirror: true
     alternate: false
