@@ -1,5 +1,5 @@
-name: "nevorix"
-displayName: "Nevorix"
+name: "resurrection"
+displayName: "Resurrection"
 author: "cewwi & JJ"
 description: '''
 We plan to add three new planets into the game, with two new tech trees.
@@ -13,7 +13,7 @@ On the ancient battlefield of Nevorix, you use the technologies that you have re
 version: "0"
 minGameVersion: "146"
 dependencies: [ ]
-main: "nevorix.Nevorix"
+main: "resurrection.Resurrection"
 hidden: false
 subtitle: "in the making"
-repo: https://github.com/Cewwi/Nevorix-Mod
+repo: https://github.com/Cewwi/Resurrection-Mod
