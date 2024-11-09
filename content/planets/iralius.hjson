@@ -2,30 +2,26 @@ localizedName: Iralius
 description: "The moon of Tronoe. For some unknown reason, barely shares any rescources - if at all, with Tronoe."
 alwaysUnlocked: true
 mesh: [
- {
-    //potatssium
-    type: NoiseMesh
-    planet: iralius
-    divisions: 3
-    seed: 4
-    radius: 1.229
-    color1: 133a3d
-    color2: 246569
-    octaves: 3.7
-    persistence: 0.9
-  }
 {
-    //more potatssium
-    type: NoiseMesh
-    planet: iralius
-    divisions: 5
-    seed: 10
-    radius: 1.229
-    color1: 1b998b
-    color2: 1b998b
-    octaves: 4
-    persistence: 0.5
-  }
+bloom: false
+type: SunMesh
+planet: tronoe
+seed: 12
+divisions: 5
+radius: 1.22
+octaves: 1
+persistence: 0.5
+scl: 2
+pow: 2.2
+mag: 3
+colorScale: 1
+colors: [
+133a3d,
+246569,
+1b998b,
+]
+}
+
 ]
 cloudMesh: [
  {
