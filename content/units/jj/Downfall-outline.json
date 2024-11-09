@@ -35,6 +35,7 @@
       "shootY": 27,
       "cooldownTime": 330,
       "shots": 2,
+      "layerOffset": -0.00001,
       "shake": 8,
       "shootSound": "laserblast",
       "inaccuracy": 20,
