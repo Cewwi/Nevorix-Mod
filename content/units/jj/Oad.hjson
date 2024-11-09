@@ -13,8 +13,7 @@ mineHardnessScaling: true
 mineSpeed: 1
 groundLayer: 60
 mineItems: [
-   copper
-   Kiperite
+   Terestrium
 ]
 mineWalls: true
 mineFloor: true
