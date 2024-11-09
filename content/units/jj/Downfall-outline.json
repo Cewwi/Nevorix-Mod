@@ -1,0 +1,79 @@
+{
+"localizedName": "Downfall test",
+"description": "The [#FF7436FF]Planetary closure system[]. The [#FF7436FF]Closing[] is a war Mech sent to the planet by the [#FF7436FF]Solarion[]. Equipped with 2 giant Volcano Annihilators, built in factory, and 6 machine guns, this Tough titan is able to annihilate anything in its path.",
+"details": "The Last titan to be constructed in the war for Tronoe. Developed by the [#FF7436FF]Solarion[] in an attempt to take full controle over the planet.",
+"type": "mech",
+  "outlineColor": "252525",
+  "mechLegColor": "252525",
+  "armor": 19,
+  "rotateSpeed": 2.0,
+  "canDrown": false,
+  "hitSize": 42,
+  "mechFrontSway": 1.6,
+  "mechSideSway": 0.6,
+  "mechStepParticles": true,
+  "mechLandShake": 3,
+  "singleTarget": true,
+  "speed": 1,
+  "health": 50000,
+  "range": 200,
+  "immunities": [
+    "burning",
+    "melting",
+    "blasted"
+  ],
+  "weapons": [
+    {
+      "name": "Downfall-cannon-outline",
+      "x": 29,
+      "y": -0.5,
+      "reload": 80,
+      "alternate": true,
+      "top": false,
+      "recoil": 3,
+      "shoot": {
+        "type": "ShootSpread",
+        "spread": 4,
+        "shots": 3
+      },
+      "shake": 2,
+      "shootY": 22,
+      "shootSound": "shotgun",
+      "ejectEffect": "casing1",
+      "cooldownTime": 120,
+      "bullet": {
+        "type": "LaserBulletType",
+        "length": 200,
+        "width": 32,
+        "damage": 125,
+        "lifetime": 25,
+        "lightColor": "FF7436FF",
+        "sideAngle": 25,
+        "sideLength": 1,
+        "sideWidth": 1,
+        "colors": [
+          "ff7048",
+          "ffcea0",
+          "FFFFFF"
+        ],
+        "statusDuration": 50,
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 5,
+          "lifetime": 10,
+          "offset": 20,
+          "length": 35,
+          "cone": -360,
+          "lenFrom": 5,
+          "lenTo": 0,
+          "colorFrom": "FF7436FF",
+          "colorTo": "FF7436FF"
+        },
+        "incendChance": 0.4,
+        "incendSpread": 12,
+        "incendAmount": 1
+      }
+    },
+  ]
+}
