@@ -17,6 +17,81 @@ armor: 1
 alwaysUnlocked: false
 useEngineElevation: false
 lowAltitude: false
+parts: [
+{
+type: shapePart
+y: 0
+x: 4
+hollow: true
+circle: true
+layer: 110
+color: ffffff
+stroke: 2
+strokeTo: 2
+radiusTo: 5
+radius: 5
+}
+{
+type: shapePart
+y: 0
+x: 0
+hollow: true
+circle: true
+layer: 110
+color: ffffff
+stroke: 2
+strokeTo: 2
+radiusTo: 5
+radius: 5
+}
+{
+type: shapePart
+y: 0
+x: 0
+hollow: true
+circle: true
+layer: 110
+color: A45637FF
+stroke: 2
+strokeTo: 2
+radiusTo: 9
+radius: 9
+}
+{
+type: HaloPart
+y: 0
+x: 0
+radius: 4.6
+tri: true
+layer: 110
+color: A45637FF
+haloRotateSpeed: -1.5
+haloRadius: 8
+haloRadiusTo: 8
+stroke: 2
+strokeTo: 2
+shapes: 2
+triLengthTo: 12
+triLength: 8
+}
+{
+type: HaloPart
+y: 0
+x: 0
+radius: -4.6
+tri: true
+layer: 110
+color: A45637FF
+haloRotateSpeed: -1.5
+haloRadius: 8
+haloRadiusTo: 8
+stroke: 2
+strokeTo: 2
+shapes: 2
+triLengthTo: 6
+triLength: 4
+}
+]
 weapons: [
    {
     x: 0
