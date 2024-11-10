@@ -1,7 +1,7 @@
 name: Volcanite Vent
 type: SteamVent
-blendGroup: Volcanite-floor
-parent: Volcanite-floor
+blendGroup: Volcanium-floor
+parent: Volcanium-floor
 effectSpacing: 720
 effect: [ 
   {
