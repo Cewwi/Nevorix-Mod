@@ -8,6 +8,7 @@ layer: 112
 outlineColor: 1d1c1a
 speed: 5
 rotateSpeed: 4
+range: 0.1
 hitSize: 5
 accel: 0.095
 groundLayer: 60
