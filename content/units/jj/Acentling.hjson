@@ -35,6 +35,19 @@ layer: 110
 color: FFDF2CFF
 stroke: 2
 strokeTo: 1
+radiusTo: 10
+radius: 8
+}
+{
+type: shapePart
+y: 0
+x: 0
+hollow: true
+circle: true
+layer: 110
+color: FFDF2CFF
+stroke: 2
+strokeTo: 1
 radiusTo: 30
 radius: 8
 }
@@ -108,8 +121,8 @@ haloRadiusTo: -12
 stroke: 2
 strokeTo: 2
 shapes: 4
-triLengthTo: -6
-triLength: -4
+triLengthTo: -12
+triLength: -8
 }
 ]
 weapons: [
