@@ -25,6 +25,8 @@ useEngineElevation: false
 lowAltitude: false
 weapons: [
    {
+    x: 0
+    y: 0
     shooty: 8
     reload: 70
     alternate: false
