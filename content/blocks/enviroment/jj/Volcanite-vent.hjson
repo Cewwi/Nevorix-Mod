@@ -13,9 +13,9 @@ effect: [
     sizeTo: 0.2
     length: 24
     baseLength: 6
-    colorFrom: 5d736d
-    colorTo: 8fb7ac
-    lifetime: 180
+    colorFrom: FF7436FF
+    colorTo: FF7436FF
+    lifetime: 380
     useRotation: false
   }
   {
@@ -27,9 +27,9 @@ effect: [
     sizeTo: 0.2
     length: 32
     baseLength: 8
-    colorFrom: 5d736d
-    colorTo: 8fb7ac
-    lifetime: 180
+    colorFrom: FF7436FF
+    colorTo: FF7436FF
+    lifetime: 380
     useRotation: false
     startDelay: 6
   }
@@ -42,9 +42,9 @@ effect: [
     sizeTo: 0.2
     length: 40
     baseLength: 10
-    colorFrom: 5d736d
-    colorTo: 8fb7ac
-    lifetime: 180
+    colorFrom: FF7436FF
+    colorTo: FF7436FF
+    lifetime: 380
     useRotation: false
     startDelay: 8
   }
@@ -57,9 +57,9 @@ effect: [
     sizeTo: 0.2
     length: 48
     baseLength: 12
-    colorFrom: 5d736d
-    colorTo: 8fb7ac
-    lifetime: 180
+    colorFrom: FF7436FF
+    colorTo: FF7436FF
+    lifetime: 380
     useRotation: false
     startDelay: 10
   }
@@ -72,9 +72,9 @@ effect: [
     sizeTo: 0.2
     length: 64
     baseLength: 16
-    colorFrom: 5d736d
-    colorTo: 8fb7ac
-    lifetime: 180
+    colorFrom: FF7436FF
+    colorTo: FF7436FF
+    lifetime: 380
     useRotation: false
     startDelay: 12
   }
@@ -87,9 +87,9 @@ effect: [
     sizeTo: 0.2
     length: 72
     baseLength: 18
-    colorFrom: 5d736d
-    colorTo: 8fb7ac
-    lifetime: 180
+    colorFrom: FF7436FF
+    colorTo: FF7436FF
+    lifetime: 380
     useRotation: false
     startDelay: 14
   }
@@ -102,9 +102,9 @@ effect: [
     sizeTo: 0.2
     length: 80
     baseLength: 20
-    colorFrom: 5d736d
-    colorTo: 8fb7ac
-    lifetime: 180
+    colorFrom: FF7436FF
+    colorTo: FF7436FF
+    lifetime: 380
     useRotation: false
     startDelay: 16
   }
