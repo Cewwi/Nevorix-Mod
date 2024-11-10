@@ -16,7 +16,7 @@ health: 130
 armor: 1
 alwaysUnlocked: false
 useEngineElevation: false
-lowAltitude: false
+lowAltitude: true
 engines: [
   {
     x: 0
@@ -25,6 +25,19 @@ engines: [
   }
 ]
 parts: [
+{
+type: shapePart
+y: 0
+x: 0
+hollow: false
+circle: true
+layer: 110
+color: FFDF2CFF
+stroke: 2
+strokeTo: 3
+radiusTo: 16
+radius: 8
+}
 {
 type: shapePart
 y: 0
@@ -105,7 +118,7 @@ x: 0
 radius: 4.6
 tri: true
 layer: 110
-color: A45637FF
+color: FFDF2CFF
 haloRotateSpeed: -1.5
 haloRadius: 8
 haloRadiusTo: 12
@@ -122,7 +135,7 @@ x: 0
 radius: 4.6
 tri: true
 layer: 110
-color: A45637FF
+color: FFDF2CFF
 haloRotateSpeed: -1.5
 haloRadius: -12
 haloRadiusTo: -12
