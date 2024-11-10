@@ -58,7 +58,7 @@ x: 0
 hollow: false
 circle: true
 layer: 110
-color: ffffff
+color: 000000
 stroke: 2
 strokeTo: 2
 radiusTo: 8
