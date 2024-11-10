@@ -1,7 +1,8 @@
+{
 type: mech
 name: Acentling
 description: An unit made of pure energy.
-flying: true
+flying: false
 shadowElevation: 0
 drag: 0.06
 outlineColor: 1d1c1a
@@ -17,13 +18,6 @@ armor: 1
 alwaysUnlocked: false
 useEngineElevation: false
 lowAltitude: true
-engines: [
-  {
-    x: 0
-    y: 0
-    radius: 0
-  }
-]
 parts: [
 {
 type: shapePart
@@ -159,3 +153,4 @@ weapons: [
 }
 }
 ]
+}
