@@ -61,8 +61,8 @@ layer: 110
 color: FFDF2CFF
 stroke: 2
 strokeTo: 2
-radiusTo: 5
-radius: 5
+radiusTo: 4
+radius: 3
 }
 {
 type: shapePart
