@@ -84,40 +84,6 @@ x: 0
 radius: 4.6
 tri: true
 layer: 110
-color: ffffff
-haloRotateSpeed: -1.5
-haloRadius: 8
-haloRadiusTo: 14
-stroke: 2
-strokeTo: 2
-shapes: 4
-triLengthTo: 12
-triLength: 8
-}
-{
-type: HaloPart
-y: 0
-x: 0
-radius: 4.6
-tri: true
-layer: 110
-color: ffffff
-haloRotateSpeed: -1.5
-haloRadius: -8
-haloRadiusTo: -14
-stroke: 2
-strokeTo: 2
-shapes: 4
-triLengthTo: -6
-triLength: -4
-}
-{
-type: HaloPart
-y: 0
-x: 0
-radius: 4.6
-tri: true
-layer: 110
 color: FFDF2CFF
 haloRotateSpeed: -1.5
 haloRadius: 8
