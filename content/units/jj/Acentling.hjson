@@ -32,7 +32,7 @@ x: 0
 hollow: false
 circle: true
 layer: 110
-color: ffffff
+color: 000000
 stroke: 2
 strokeTo: 2
 radiusTo: 8
@@ -77,7 +77,7 @@ haloRadius: 8
 haloRadiusTo: 14
 stroke: 2
 strokeTo: 2
-shapes: 2
+shapes: 4
 triLengthTo: 12
 triLength: 8
 }
@@ -90,11 +90,11 @@ tri: true
 layer: 110
 color: ffffff
 haloRotateSpeed: -1.5
-haloRadius: 8
-haloRadiusTo: 14
+haloRadius: -8
+haloRadiusTo: -14
 stroke: 2
 strokeTo: 2
-shapes: 2
+shapes: 4
 triLengthTo: -6
 triLength: -4
 }
@@ -111,7 +111,7 @@ haloRadius: 8
 haloRadiusTo: 12
 stroke: 2
 strokeTo: 2
-shapes: 2
+shapes: 4
 triLengthTo: 12
 triLength: 8
 }
@@ -124,11 +124,11 @@ tri: true
 layer: 110
 color: A45637FF
 haloRotateSpeed: -1.5
-haloRadius: 8
-haloRadiusTo: 12
+haloRadius: -12
+haloRadiusTo: -12
 stroke: 2
 strokeTo: 2
-shapes: 2
+shapes: 4
 triLengthTo: -6
 triLength: -4
 }
