@@ -32,10 +32,10 @@ x: 0
 hollow: true
 circle: true
 layer: 110
-color: FFDF2CFF
+color: FFD53FFF
 stroke: 2
 strokeTo: 1
-radiusTo: 10
+radiusTo: 13
 radius: 8
 }
 {
@@ -45,7 +45,7 @@ x: 0
 hollow: true
 circle: true
 layer: 110
-color: FFDF2CFF
+color: FFD53FFF
 stroke: 2
 strokeTo: 1
 radiusTo: 30
@@ -71,7 +71,7 @@ x: 0
 hollow: false
 circle: true
 layer: 110
-color: FFDF2CFF
+color: FFD53FFF
 stroke: 2
 strokeTo: 2
 radiusTo: 4
@@ -84,7 +84,7 @@ x: 0
 hollow: true
 circle: true
 layer: 110
-color: FFDF2CFF
+color: FFD53FFF
 stroke: 2
 strokeTo: 2
 radiusTo: 9
@@ -97,7 +97,7 @@ x: 0
 radius: 4.6
 tri: true
 layer: 110
-color: FFDF2CFF
+color: FFD53FFF
 haloRotateSpeed: -1.5
 haloRadius: 8
 haloRadiusTo: 12
@@ -114,7 +114,7 @@ x: 0
 radius: 4.6
 tri: true
 layer: 110
-color: FFDF2CFF
+color: FFD53FFF
 haloRotateSpeed: -1.5
 haloRadius: -12
 haloRadiusTo: -12
