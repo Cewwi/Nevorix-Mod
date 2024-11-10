@@ -2,30 +2,15 @@ name: Volcanite Vent
 type: SteamVent
 blendGroup: Volcanium-floor
 parent: Volcanium-floor
-effectSpacing: 720
+effectSpacing: 10
 effect: [ 
-   {
-    type: ParticleEffect
-    lightRadius: 20
-    lightColor: FF7436FF
-    particles: 2
-    cone: 22
-    sizeFrom: 1.8
-    sizeTo: 0.2
-    length: 24
-    baseLength: 6
-    colorFrom: FF7436FF
-    colorTo: FF7436FF
-    lifetime: 180
-    useRotation: false
-  }
   {
     type: ParticleEffect
     lightRadius: 20
     lightColor: FF7436FF
-    particles: 16
+    particles: 2
     baseRotation: 90
-    cone: 22
+    cone: 360
     sizeFrom: 1.8
     sizeTo: 0.2
     length: 24
@@ -37,11 +22,11 @@ effect: [
   }
   {
     type: ParticleEffect
-    lightRadius: 20
+    lightRadius: 3
     lightColor: FF7436FF
-    particles: 18
+    particles: 2
     baseRotation: 90
-    cone: 20
+    cone: 360
     sizeFrom: 1.8
     sizeTo: 0.2
     length: 32
@@ -50,15 +35,15 @@ effect: [
     colorTo: FF7436FF
     lifetime: 380
     useRotation: false
-    startDelay: 6
+    startDelay: 0
   }
   {
     type: ParticleEffect
-    lightRadius: 20
+    lightRadius: 2
     lightColor: FF7436FF
     particles: 20
     baseRotation: 90
-    cone: 18
+    cone: 360
     sizeFrom: 1.8
     sizeTo: 0.2
     length: 40
@@ -67,15 +52,15 @@ effect: [
     colorTo: FF7436FF
     lifetime: 380
     useRotation: false
-    startDelay: 8
+    startDelay: 0
   }
   {
     type: ParticleEffect
     lightRadius: 20
     lightColor: FF7436FF
-    particles: 20
+    particles: 2
     baseRotation: 90
-    cone: 16
+    cone: 360
     sizeFrom: 1.8
     sizeTo: 0.2
     length: 48
@@ -84,15 +69,15 @@ effect: [
     colorTo: FF7436FF
     lifetime: 380
     useRotation: false
-    startDelay: 10
+    startDelay: 0
   }
   {
     type: ParticleEffect
     lightRadius: 20
     lightColor: FF7436FF
-    particles: 22
+    particles: 2
     baseRotation: 90
-    cone: 14
+    cone: 360
     sizeFrom: 1.8
     sizeTo: 0.2
     length: 64
@@ -101,15 +86,15 @@ effect: [
     colorTo: FF7436FF
     lifetime: 380
     useRotation: false
-    startDelay: 12
+    startDelay: 0
   }
   {
     type: ParticleEffect
     lightRadius: 20
     lightColor: FF7436FF
-    particles: 22
+    particles: 2
     baseRotation: 90
-    cone: 12
+    cone: 360
     sizeFrom: 1.8
     sizeTo: 0.2
     length: 72
@@ -118,15 +103,15 @@ effect: [
     colorTo: FF7436FF
     lifetime: 380
     useRotation: false
-    startDelay: 14
+    startDelay: 0
   }
   {
     type: ParticleEffect
     lightRadius: 20
     lightColor: FF7436FF
-    particles: 24
+    particles: 2
     baseRotation: 90
-    cone: 10
+    cone: 360
     sizeFrom: 1.8
     sizeTo: 0.2
     length: 80
@@ -135,7 +120,7 @@ effect: [
     colorTo: FF7436FF
     lifetime: 380
     useRotation: false
-    startDelay: 16
+    startDelay: 0
   }
 ]
 cacheLayer: slag
