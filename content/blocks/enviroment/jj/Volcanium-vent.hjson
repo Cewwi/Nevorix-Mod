@@ -4,6 +4,21 @@ blendGroup: Volcanium-floor
 parent: Volcanium-floor
 effectSpacing: 720
 effect: [ 
+   {
+    type: ParticleEffect
+    lightRadius: 20
+    lightColor: FF7436FF
+    particles: 2
+    cone: 22
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 24
+    baseLength: 6
+    colorFrom: FF7436FF
+    colorTo: FF7436FF
+    lifetime: 180
+    useRotation: false
+  }
   {
     type: ParticleEffect
     lightRadius: 20
