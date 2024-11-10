@@ -1,5 +1,5 @@
-type: flying
-name: Polux
+type: mech
+name: Acentling
 description: An unit made of pure energy.
 flying: true
 shadowElevation: 0
@@ -34,8 +34,8 @@ circle: true
 layer: 110
 color: FFDF2CFF
 stroke: 2
-strokeTo: 3
-radiusTo: 16
+strokeTo: 1
+radiusTo: 30
 radius: 8
 }
 {
@@ -45,7 +45,7 @@ x: 0
 hollow: false
 circle: true
 layer: 110
-color: 000000
+color: ffffff
 stroke: 2
 strokeTo: 2
 radiusTo: 8
