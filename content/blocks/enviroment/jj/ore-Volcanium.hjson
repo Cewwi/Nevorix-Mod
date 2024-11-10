@@ -1,0 +1,6 @@
+  type: OreBlock
+  oreDefault: true
+  oreScale: 25
+  oreThreshold: 1
+  itemDrop: Kiperite
+  variants: 3
