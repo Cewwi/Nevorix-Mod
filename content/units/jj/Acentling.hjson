@@ -1,0 +1,53 @@
+type: flying
+name: Polux
+description: An unit made of pure energy.
+flying: true
+shadowElevation: 0
+drag: 0.06
+outlineColor: 1d1c1a
+speed: 3.4
+rotateSpeed: 10
+hitSize: 8
+accel: 0.095
+groundLayer: 60
+layer: 109
+isEnemy: true
+health: 130
+armor: 1
+alwaysUnlocked: false
+useEngineElevation: false
+lowAltitude: false
+weapons: [
+   {
+    x: 0
+    y: 0
+    shooty: 8
+    reload: 70
+    alternate: false
+    mirror: false
+    rotate: false
+    shootSound: laser
+    bullet: {
+      type: BasicBulletType
+      lightRadius: 10
+      lightColor: FFDF2CFF
+      damage: 30
+      scaleVelocity: true
+      height: 7.5
+      width: 4.5
+      homingPower: 0.2
+      homingDelay: 17
+      homingRange: 100
+      speed: 5
+      lifetime: 75
+      shrinkX: 0
+      frontcolor: FFDF2CFF
+      shrinkY: 0
+      trailChance: 2
+      trailParam: 10
+      trailLength: 19
+      trailColor: FFDF2CFF
+      trailWidth: 3
+}
+}
+]
