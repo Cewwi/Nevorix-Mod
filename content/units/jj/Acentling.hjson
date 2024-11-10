@@ -32,7 +32,7 @@ x: 0
 hollow: false
 circle: true
 layer: 110
-color: 000000
+color: ffffff
 stroke: 2
 strokeTo: 2
 radiusTo: 8
@@ -42,7 +42,7 @@ radius: 8
 type: shapePart
 y: 3
 x: 0
-hollow: true
+hollow: false
 circle: true
 layer: 110
 color: FFDF2CFF
@@ -68,13 +68,13 @@ radius: 9
 type: HaloPart
 y: 0
 x: 0
-radius: 9.6
+radius: 4.6
 tri: true
 layer: 110
-color: A45637FF
+color: ffffff
 haloRotateSpeed: -1.5
 haloRadius: 8
-haloRadiusTo: 8
+haloRadiusTo: 14
 stroke: 2
 strokeTo: 2
 shapes: 2
@@ -85,18 +85,52 @@ triLength: 8
 type: HaloPart
 y: 0
 x: 0
-radius: -9.6
+radius: 4.6
+tri: true
+layer: 110
+color: ffffff
+haloRotateSpeed: -1.5
+haloRadius: 8
+haloRadiusTo: 14
+stroke: 2
+strokeTo: 2
+shapes: 2
+triLengthTo: -6
+triLength: -4
+}
+{
+type: HaloPart
+y: 0
+x: 0
+radius: 4.6
 tri: true
 layer: 110
 color: A45637FF
 haloRotateSpeed: -1.5
 haloRadius: 8
-haloRadiusTo: 8
+haloRadiusTo: 12
 stroke: 2
 strokeTo: 2
 shapes: 2
-triLengthTo: 6
-triLength: 4
+triLengthTo: 12
+triLength: 8
+}
+{
+type: HaloPart
+y: 0
+x: 0
+radius: 4.6
+tri: true
+layer: 110
+color: A45637FF
+haloRotateSpeed: -1.5
+haloRadius: 8
+haloRadiusTo: 12
+stroke: 2
+strokeTo: 2
+shapes: 2
+triLengthTo: -6
+triLength: -4
 }
 ]
 weapons: [
