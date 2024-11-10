@@ -29,7 +29,7 @@ parts: [
 type: shapePart
 y: 0
 x: 0
-hollow: false
+hollow: true
 circle: true
 layer: 110
 color: FFDF2CFF
