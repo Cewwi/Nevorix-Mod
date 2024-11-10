@@ -141,6 +141,8 @@ weapons: [
       lightColor: FFDF2CFF
       damage: 30
       scaleVelocity: true
+      trailColor: FFDF2CFF
+      frontColor: ffffff
       height: 5.5
       width: 2.5
       homingPower: 0.2
@@ -149,7 +151,6 @@ weapons: [
       speed: 5
       lifetime: 75
       shrinkX: 0
-      frontcolor: FFDF2CFF
       shrinkY: 0
       trailParam: 10
       trailLength: 3
