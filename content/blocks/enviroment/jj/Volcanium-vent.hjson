@@ -6,7 +6,7 @@ effectSpacing: 10
 effect: [ 
   {
     type: ParticleEffect
-    lightRadius: 20
+    lightRadius: 100
     lightColor: FF7436FF
     particles: 2
     baseRotation: 90
@@ -22,7 +22,7 @@ effect: [
   }
   {
     type: ParticleEffect
-    lightRadius: 3
+    lightRadius: 50
     lightColor: FF7436FF
     particles: 2
     baseRotation: 90
@@ -39,7 +39,7 @@ effect: [
   }
   {
     type: ParticleEffect
-    lightRadius: 2
+    lightRadius: 50
     lightColor: FF7436FF
     particles: 20
     baseRotation: 90
@@ -56,7 +56,7 @@ effect: [
   }
   {
     type: ParticleEffect
-    lightRadius: 20
+    lightRadius: 50
     lightColor: FF7436FF
     particles: 2
     baseRotation: 90
@@ -73,7 +73,7 @@ effect: [
   }
   {
     type: ParticleEffect
-    lightRadius: 20
+    lightRadius: 50
     lightColor: FF7436FF
     particles: 2
     baseRotation: 90
@@ -90,7 +90,7 @@ effect: [
   }
   {
     type: ParticleEffect
-    lightRadius: 20
+    lightRadius: 50
     lightColor: FF7436FF
     particles: 2
     baseRotation: 90
@@ -107,7 +107,7 @@ effect: [
   }
   {
     type: ParticleEffect
-    lightRadius: 20
+    lightRadius: 50
     lightColor: FF7436FF
     particles: 2
     baseRotation: 90
