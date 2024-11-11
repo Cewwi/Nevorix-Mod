@@ -1,5 +1,5 @@
 {
-type: mech
+type: flying
 name: Acentling
 description: An unit made of pure energy.
 flying: false
@@ -17,7 +17,7 @@ health: 130
 armor: 1
 alwaysUnlocked: false
 useEngineElevation: false
-lowAltitude: true
+lowAltitude: false
 engines: [
   {
     x: 0
@@ -132,6 +132,9 @@ weapons: [
     y: 0
     shooty: 8
     reload: 70
+    xRand: 20
+    yRand: 20
+    shootCone: 20
     alternate: false
     mirror: false
     rotate: false
@@ -144,9 +147,9 @@ weapons: [
       scaleVelocity: true
       trailColor: FFDF2CFF
       frontColor: ffffff
-      height: 5.5
-      width: 2.5
-      homingPower: 0.2
+      height: 12.5
+      width: 7.5
+      homingPower: 0.02
       homingDelay: 17
       homingRange: 100
       speed: 5
@@ -157,6 +160,59 @@ weapons: [
       trailLength: 3
       trailColor: FFDF2CFF
       trailWidth: 3
+      shootEffect: {
+  type: multiEffect
+  effects: [
+     {
+      type: WaveEffect
+      lifetime: 35
+      sizeFrom: 15
+      sizeTo: 0
+      lightColor: FFD53FFF
+      interp: circleOut
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: FFD53FFF
+      colorTo: FFD53FFF
+    }
+    {
+      type: WaveEffect
+      lifetime: 35
+      sizeFrom: 0
+      sizeTo: 15
+      lightColor: FFD53FFF
+      interp: circleOut
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: FFD53FFF
+      colorTo: FFD53FFF
+    }
+    {
+      type: ParticleEffect
+      particles: 1
+      sizeFrom: 7
+      sizeTo: 0
+      length: 0
+      layer: 114
+      region: thing
+      interp: swing
+      lifetime: 50
+      colorFrom: 000000FF
+      colorTo: 000000FF
+    }
+    {
+      type: ParticleEffect
+      particles: 1
+      sizeFrom: 8
+      sizeTo: 0
+      length: 0
+      interp: swing
+      lifetime: 50
+      colorFrom: FFD53FFF
+      colorTo: FFD53FFF
+    }
+  ]
+}
 }
 }
 ]
