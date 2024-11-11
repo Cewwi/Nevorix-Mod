@@ -132,8 +132,8 @@ weapons: [
     y: 0
     shooty: 8
     reload: 70
-    xRand: 20
-    yRand: 20
+    xRand: 70
+    yRand: 70
     shootCone: 20
     alternate: false
     mirror: false
@@ -179,7 +179,7 @@ weapons: [
       type: WaveEffect
       lifetime: 35
       sizeFrom: 0
-      sizeTo: 15
+      sizeTo: 8
       lightColor: FFD53FFF
       interp: circleOut
       strokeFrom: 4
@@ -190,7 +190,7 @@ weapons: [
     {
       type: ParticleEffect
       particles: 1
-      sizeFrom: 7
+      sizeFrom: 5
       sizeTo: 0
       length: 0
       layer: 114
@@ -202,7 +202,7 @@ weapons: [
     {
       type: ParticleEffect
       particles: 1
-      sizeFrom: 8
+      sizeFrom: 6
       sizeTo: 0
       length: 0
       interp: swing
