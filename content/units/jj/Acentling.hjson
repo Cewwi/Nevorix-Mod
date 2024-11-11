@@ -194,7 +194,6 @@ weapons: [
       sizeTo: 0
       length: 0
       layer: 114
-      circle: true
       interp: swing
       lifetime: 50
       colorFrom: 000000FF
