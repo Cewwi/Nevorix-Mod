@@ -18,6 +18,13 @@ armor: 1
 alwaysUnlocked: false
 useEngineElevation: false
 lowAltitude: true
+engines: [
+  {
+    x: 0
+    y: 0
+    radius: 0
+  }
+]
 parts: [
 {
 type: shapePart
