@@ -1,5 +1,5 @@
 {
-type: flying
+type: falling
 name: Acentling
 description: An unit made of pure energy.
 flying: false
@@ -18,6 +18,10 @@ armor: 1
 alwaysUnlocked: false
 useEngineElevation: false
 lowAltitude: false
+trailParam: 10
+trailLength: 6
+trailColor: FFDF2CFF
+trailWidth: 5
 engines: [
   {
     x: 0
@@ -194,7 +198,7 @@ weapons: [
       sizeTo: 0
       length: 0
       layer: 114
-      region: resurrection-plasma-back
+      circle: true
       interp: swing
       lifetime: 50
       colorFrom: 000000FF
