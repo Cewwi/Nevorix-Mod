@@ -135,10 +135,15 @@ weapons: [
     xRand: 70
     yRand: 70
     shootCone: 20
+    reload: 10
     alternate: false
     mirror: false
     rotate: false
     shootSound: laser
+    shoot:
+      shots: 3
+      shotDelay: 5
+    }
     bullet: {
       type: BasicBulletType
       lightRadius: 10
