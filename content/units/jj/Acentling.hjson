@@ -140,7 +140,7 @@ weapons: [
     mirror: false
     rotate: false
     shootSound: laser
-    shoot:
+    shoot: {
       shots: 3
       shotDelay: 5
     }
