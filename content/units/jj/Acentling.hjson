@@ -18,10 +18,6 @@ armor: 1
 alwaysUnlocked: false
 useEngineElevation: false
 lowAltitude: false
-trailParam: 10
-trailLength: 6
-trailColor: FFDF2CFF
-trailWidth: 5
 engines: [
   {
     x: 0
