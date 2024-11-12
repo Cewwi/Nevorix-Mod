@@ -18,6 +18,10 @@ armor: 1
 alwaysUnlocked: false
 useEngineElevation: false
 lowAltitude: false
+trailParam: 10
+trailLength: 8
+trailColor: FFDF2CFF
+trailWidth: 6
 engines: [
   {
     x: 0
@@ -129,22 +133,25 @@ triLength: -8
 type: HaloPart
 y: 0
 x: 0
-hollow: false
+hollow: true
+tri: false
 circle: true
 layer: 110
 color: FFD53FFF
 haloRotateSpeed: 0.5
-haloRadius: -12
-haloRadiusTo: -12
 stroke: 2
 strokeTo: 2
-shapes: 2
+radiusTo: 9
+radius: 9
+shapes: 4
+triLengthTo: -12
+triLength: -8
+haloRadius: -17
+haloRadiusTo: -17
 trailParam: 10
 trailLength: 3
 trailColor: FFDF2CFF
 trailWidth: 3
-radiusTo: 3
-radius: 3
 }
 ]
 weapons: [
