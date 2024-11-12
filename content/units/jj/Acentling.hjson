@@ -158,10 +158,10 @@ weapons: [
    {
     x: 0
     y: 0
-    shooty: 8
+    shooty: -12
     reload: 70
-    xRand: 70
-    yRand: 70
+    xRand: 40
+    yRand: 40
     shootCone: 20
     reload: 20
     alternate: false
