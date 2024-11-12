@@ -125,6 +125,27 @@ shapes: 4
 triLengthTo: -12
 triLength: -8
 }
+{
+type: HaloPart
+y: 0
+x: 0
+hollow: false
+circle: true
+layer: 110
+color: FFD53FFF
+haloRotateSpeed: 0.5
+haloRadius: -12
+haloRadiusTo: -12
+stroke: 2
+strokeTo: 2
+shapes: 2
+trailParam: 10
+trailLength: 3
+trailColor: FFDF2CFF
+trailWidth: 3
+radiusTo: 3
+radius: 3
+}
 ]
 weapons: [
    {
