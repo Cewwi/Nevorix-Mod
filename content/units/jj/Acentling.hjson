@@ -163,14 +163,13 @@ weapons: [
     xRand: 70
     yRand: 70
     shootCone: 20
-    reload: 10
+    reload: 20
     alternate: false
     mirror: false
     rotate: false
     shootSound: laser
     shoot: {
       shots: 3
-      shotDelay: 5
     }
     bullet: {
       type: BasicBulletType
@@ -182,7 +181,7 @@ weapons: [
       frontColor: ffffff
       height: 12.5
       width: 7.5
-      homingPower: 0.02
+      homingPower: 0.12
       homingDelay: 17
       homingRange: 100
       speed: 5
