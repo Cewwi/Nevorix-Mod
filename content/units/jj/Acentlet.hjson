@@ -1,7 +1,7 @@
 {
 type: flying
-name: Acentling
-description: An unit made of pure energy.
+name: Acentlit
+description: An weak unit made of pure energy.
 flying: false
 shadowElevation: 0
 drag: 0.06
