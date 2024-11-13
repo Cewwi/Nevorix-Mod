@@ -30,6 +30,20 @@ type: shapePart
 y: 0
 x: 0
 hollow: true
+sides: 4
+circle: true
+layer: 110
+color: FFD53FFF
+stroke: 2
+strokeTo: 1
+radiusTo: 13
+radius: 8
+}
+{
+type: shapePart
+y: 0
+x: 0
+hollow: true
 circle: true
 layer: 110
 color: FFD53FFF
