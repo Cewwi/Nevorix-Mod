@@ -1,0 +1,221 @@
+{
+type: flying
+name: Acentling
+description: An unit made of pure energy.
+flying: false
+shadowElevation: 0
+drag: 0.06
+outlineColor: 1d1c1a
+speed: 3.4
+rotateSpeed: 10
+hitSize: 8
+accel: 0.095
+groundLayer: 60
+layer: 109
+isEnemy: true
+health: 130
+armor: 1
+alwaysUnlocked: false
+useEngineElevation: false
+lowAltitude: false
+trailParam: 10
+trailLength: 8
+trailColor: FFDF2CFF
+trailWidth: 6
+engineOffset: 5
+engineSize: 0
+parts: [
+{
+type: shapePart
+y: 0
+x: 0
+hollow: true
+circle: true
+layer: 110
+color: FFD53FFF
+stroke: 2
+strokeTo: 1
+radiusTo: 13
+radius: 8
+}
+{
+type: shapePart
+y: 0
+x: 0
+hollow: true
+circle: true
+layer: 110
+color: FFD53FFF
+stroke: 2
+strokeTo: 1
+radiusTo: 30
+radius: 8
+}
+{
+type: shapePart
+y: 0
+x: 0
+hollow: false
+circle: true
+layer: 110
+color: 000000
+stroke: 2
+strokeTo: 2
+radiusTo: 8
+radius: 8
+}
+{
+type: shapePart
+y: 3
+x: 0
+hollow: false
+circle: true
+layer: 110
+color: FFD53FFF
+stroke: 2
+strokeTo: 2
+radiusTo: 4
+radius: 3
+}
+{
+type: shapePart
+y: 0
+x: 0
+hollow: true
+circle: true
+layer: 110
+color: FFD53FFF
+stroke: 2
+strokeTo: 2
+radiusTo: 9
+radius: 9
+}
+{
+type: HaloPart
+y: 0
+x: 0
+radius: 4.6
+tri: true
+layer: 110
+color: FFD53FFF
+haloRotateSpeed: -1.5
+haloRadius: 8
+haloRadiusTo: 12
+stroke: 2
+strokeTo: 2
+shapes: 4
+triLengthTo: 12
+triLength: 8
+}
+{
+type: HaloPart
+y: 0
+x: 0
+radius: 4.6
+tri: true
+layer: 110
+color: FFD53FFF
+haloRotateSpeed: -1.5
+haloRadius: -12
+haloRadiusTo: -12
+stroke: 2
+strokeTo: 2
+shapes: 4
+triLengthTo: -12
+triLength: -8
+}
+]
+weapons: [
+   {
+    x: 0
+    y: 0
+    shooty: -12
+    reload: 70
+    xRand: 40
+    yRand: 40
+    shootCone: 20
+    reload: 20
+    alternate: false
+    mirror: false
+    rotate: false
+    shootSound: laser
+    shoot: {
+      shots: 3
+    }
+    bullet: {
+      type: BasicBulletType
+      lightRadius: 10
+      lightColor: FFDF2CFF
+      damage: 30
+      scaleVelocity: true
+      trailColor: FFDF2CFF
+      frontColor: ffffff
+      height: 12.5
+      width: 7.5
+      homingPower: 0.12
+      homingDelay: 17
+      homingRange: 100
+      speed: 5
+      lifetime: 75
+      shrinkX: 0
+      shrinkY: 0
+      trailParam: 10
+      trailLength: 3
+      trailColor: FFDF2CFF
+      trailWidth: 3
+      shootEffect: {
+      type: multiEffect
+      effects: [
+      {
+      type: WaveEffect
+      lifetime: 35
+      sizeFrom: 0
+      sizeTo: 12
+      lightColor: FFD53FFF
+      interp: circleOut
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: FFD53FFF
+      colorTo: FFD53FFF
+    }
+    {
+      type: WaveEffect
+      lifetime: 35
+      sizeFrom: 0
+      sizeTo: 8
+      lightColor: FFD53FFF
+      interp: circleOut
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: FFD53FFF
+      colorTo: FFD53FFF
+    }
+    {
+      type: ParticleEffect
+      particles: 1
+      sizeFrom: 5
+      sizeTo: 0
+      length: 0
+      layer: 114
+      interp: swing
+      lifetime: 50
+      colorFrom: 000000FF
+      colorTo: 000000FF
+    }
+    {
+      type: ParticleEffect
+      particles: 1
+      sizeFrom: 6
+      sizeTo: 0
+      length: 0
+      interp: swing
+      lifetime: 50
+      colorFrom: FFD53FFF
+      colorTo: FFD53FFF
+    }
+  ]
+}
+}
+}
+]
+}
