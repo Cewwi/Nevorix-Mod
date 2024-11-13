@@ -23,14 +23,7 @@ trailLength: 8
 trailColor: FFDF2CFF
 trailWidth: 6
 engineOffset: 5
-engines: [
-  {
-    x: 0
-    y: 0
-    radius: 0
-    engineSize: 0
-  }
-]
+engineSize: 0
 parts: [
 {
 type: shapePart
