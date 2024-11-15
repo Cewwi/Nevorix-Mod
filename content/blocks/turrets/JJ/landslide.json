@@ -27,11 +27,14 @@
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "reinforced-"
+    "firstShotDelay": 120,
     "parts": [
       {
         "type": "RegionPart",
         "suffix": "-side",
         "moveRot": -9.7,
+        "moveX": 7,
+        "moveY": -7,
         "progress": {
           "type": "charge",
           "op": "blend",
@@ -43,9 +46,21 @@
       {
         "type": "RegionPart",
         "suffix": "-wing",
+        "progress": {
+          "type": "charge",
+          "op": "blend",
+          "other": "heat"
+          "amount": 0.2
+        },
+        "mirror": true,
+        "heatProgress": "warmup",
+        "under": true,
+        "outline": false,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-bar",
         "moveRot": -15,
-        "moveX": 3,
-        "moveY": -3,
         "progress": {
           "type": "charge",
           "op": "blend",
