@@ -1,20 +1,18 @@
 {
   "type": "itemTurret",
   "coolantMultiplier": 2,
-  "name": "Celestial",
+  "name": "Landslide",
   "ammoPerShot": 30,
   "reload": 5,
-  "ammoUseEffect": "casing4",
   "range": 464,
   "outlineColor": "1B1B1BFF",
   "recoil": 3,
   "xRand": 12.5,
   "shake": 1,
-  "inaccuracy": 15,
+  "inaccuracy": 40,
   "shoot": {
         "type": "shootPattern",
         "shots": 3,
-        "shotDelay": 1
   },
   "consumes": {
   },
@@ -28,7 +26,7 @@
   "armor": 40,
   "drawer": {
     "type": "drawTurret",
-    "basePrefix": "Acentus-"
+    "basePrefix": "reinforced-"
     "parts": [
 {
 "type": "shapePart",
@@ -136,7 +134,7 @@
 }
 ]
 },
-  "shootSound": "shootBig",
+  "shootSound": "largeCannon",
   "ammoTypes": {
     "graphite": {
         "type": "BasicBulletType",
