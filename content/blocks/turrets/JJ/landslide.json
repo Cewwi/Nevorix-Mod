@@ -3,16 +3,17 @@
   "coolantMultiplier": 2,
   "name": "Landslide",
   "ammoPerShot": 30,
-  "reload": 40,
+  "reload": 80,
   "range": 464,
   "outlineColor": "1B1B1BFF",
   "recoil": 3,
   "xRand": 12.5,
   "shake": 1,
-  "inaccuracy": 40,
+  "inaccuracy": 30,
   "shoot": {
         "type": "shootPattern",
         "shots": 30,
+        "firstShotDelay": 120,
   },
   "consumes": {
   },
@@ -27,7 +28,6 @@
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "reinforced-"
-    "firstShotDelay": 120,
     "parts": [
       {
         "type": "RegionPart",
@@ -53,9 +53,6 @@
           "amount": 0.2
         },
         "mirror": true,
-        "heatProgress": "warmup",
-        "under": true,
-        "outline": false,
       },
       {
         "type": "RegionPart",
@@ -67,7 +64,10 @@
           "other": "recoil",
           "amount": 0.2
         },
-        "mirror": true
+        "mirror": true,
+        "heatProgress": "warmup",
+        "under": true,
+        "outline": false,
       },
 ]
 },
@@ -79,9 +79,9 @@
         "damage": 120,
         "height": 14,
         "width": 12,
-        "speed": 17,
+        "speed": 14,
         "lifetime": 28,
-        "homingPower": 0.7,
+        "homingPower": 0.07,
         "homingDelay": 17,
         "homingRange": 370,
         "shrinkX": 0,
@@ -97,6 +97,7 @@
           "type": "ParticleEffect",
           "line": true,
           "particles": 6,
+          "shape": 4,
           "lifetime": 20,
           "length": 75,
           "cone": -40,
@@ -111,6 +112,7 @@
           "particles": 6,
           "lifetime": 20,
           "length": 75,
+          "shape": 4,
           "cone": -40,
           "lenFrom": 8,
           "lenTo": 8,
