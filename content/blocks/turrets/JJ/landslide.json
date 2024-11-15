@@ -33,7 +33,7 @@
         "type": "RegionPart",
         "suffix": "-side",
         "moveRot": -9.7,
-        "moveX": 3,
+        "moveX": -3,
         "moveY": -3,
         "progress": {
           "type": "charge",
@@ -46,8 +46,8 @@
       {
         "type": "RegionPart",
         "suffix": "-wing",
-        "moveRot": 20.7,
-        "moveX": 3,
+        "moveRot": -20.7,
+        "moveX": -3,
         "moveY": 3,
         "progress": {
           "type": "charge",
@@ -60,7 +60,9 @@
       {
         "type": "RegionPart",
         "suffix": "-bar",
-        "moveX": 4,
+        "moveRot": -70,
+        "moveX": -7,
+        "moveY": 7,
         "layerOffset": -0.3,
         "progress": {
           "type": "charge",
