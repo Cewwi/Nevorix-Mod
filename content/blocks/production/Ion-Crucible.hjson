@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: Ion Crucible
 description: Refines Kiperite to a smooth alloy called Ion. Produces slag as a byproduct.
-size: 3
+size: 4
 craftTime: 120
 consumes: {
   items: [
