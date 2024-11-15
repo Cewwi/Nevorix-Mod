@@ -3,10 +3,10 @@
   "coolantMultiplier": 2,
   "name": "Landslide",
   "ammoPerShot": 30,
-  "reload": 80,
+  "reload": 40,
   "range": 464,
   "outlineColor": "1B1B1BFF",
-  "recoil": 3,
+  "recoil": 2,
   "xRand": 12.5,
   "shake": 1,
   "inaccuracy": 30,
@@ -32,9 +32,8 @@
       {
         "type": "RegionPart",
         "suffix": "-side",
-        "moveRot": -9.7,
-        "moveX": -3,
-        "moveY": -3,
+        "moveX": 0,
+        "moveY": -5,
         "progress": {
           "type": "charge",
           "op": "blend",
@@ -46,9 +45,8 @@
       {
         "type": "RegionPart",
         "suffix": "-wing",
-        "moveRot": -20.7,
         "moveX": -3,
-        "moveY": 3,
+        "moveY": 5,
         "progress": {
           "type": "charge",
           "op": "blend",
@@ -60,9 +58,9 @@
       {
         "type": "RegionPart",
         "suffix": "-bar",
-        "moveRot": 70,
-        "moveX": 7,
-        "moveY": 7,
+        "moveRot": -70,
+        "moveX": 12,
+        "moveY": -12,
         "layerOffset": -0.3,
         "progress": {
           "type": "charge",
@@ -79,9 +77,9 @@
       {
         "type": "RegionPart",
         "suffix": "-bar",
-        "moveRot": 100,
-        "moveX": 7,
-        "moveY": 7,
+        "moveRot": -100,
+        "moveX": 12,
+        "moveY": -12,
         "layerOffset": -0.3,
         "progress": {
           "type": "charge",
@@ -90,7 +88,6 @@
           "amount": 0.2
         },
         "mirror": true,
-        "heatProgress": "warmup",
         "under": true,
         "color": "ea8878"
         "outline": false,
