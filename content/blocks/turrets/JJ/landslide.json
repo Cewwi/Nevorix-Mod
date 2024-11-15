@@ -5,6 +5,7 @@
   "ammoPerShot": 30,
   "reload": 40,
   "range": 464,
+  "shooty": 2,
   "outlineColor": "1B1B1BFF",
   "recoil": 2,
   "xRand": 12.5,
@@ -32,26 +33,13 @@
       {
         "type": "RegionPart",
         "suffix": "-side",
-        "moveX": 3,
-        "moveY": -5,
-        "progress": {
-          "type": "charge",
-          "op": "blend",
-          "other": "heat",
-          "amount": 0.8
-        },
-        "mirror": true
-      },
-      {
-        "type": "RegionPart",
-        "suffix": "-side",
         "moveX": 0,
         "moveY": -5,
         "progress": {
           "type": "charge",
           "op": "blend",
           "other": "heat",
-          "amount": 0.8
+          "amount": 0.2
         },
         "mirror": true
       },
@@ -64,28 +52,9 @@
           "type": "charge",
           "op": "blend",
           "other": "heat"
-          "amount": 0.8
+          "amount": 0.2
         },
         "mirror": true,
-      },
-      {
-        "type": "RegionPart",
-        "suffix": "-bar",
-        "moveRot": -50,
-        "moveX": 16,
-        "moveY": -16,
-        "layerOffset": -0.3,
-        "progress": {
-          "type": "charge",
-          "op": "blend",
-          "other": "recoil",
-          "amount": 0.8
-        },
-        "mirror": true,
-        "heatProgress": "warmup",
-        "under": true,
-        "color": "ea8878"
-        "outline": false,
       },
       {
         "type": "RegionPart",
@@ -98,11 +67,11 @@
           "type": "charge",
           "op": "blend",
           "other": "recoil",
-          "amount": 0.8
+          "amount": 0.2
         },
         "mirror": true,
-        "under": true,
         "heatProgress": "warmup",
+        "under": true,
         "color": "ea8878"
         "outline": false,
       },
@@ -117,7 +86,26 @@
           "type": "charge",
           "op": "blend",
           "other": "recoil",
-          "amount": 0.8
+          "amount": 0.2
+        },
+        "mirror": true,
+        "under": true,
+        "heatProgress": "warmup",
+        "color": "ea8878"
+        "outline": false,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-bar",
+        "moveRot": -350,
+        "moveX": 16,
+        "moveY": -16,
+        "layerOffset": -0.3,
+        "progress": {
+          "type": "charge",
+          "op": "blend",
+          "other": "recoil",
+          "amount": 0.2
         },
         "mirror": true,
         "under": true,
@@ -151,7 +139,6 @@
         "backColor": "ea8878"
         "hitEffect": {
           "type": "ParticleEffect",
-          "line": true,
           "particles": 6,
           "shape": 4,
           "lifetime": 20,
@@ -164,7 +151,6 @@
         },
         "despawnEffect": {
           "type": "ParticleEffect",
-          "line": true,
           "particles": 6,
           "lifetime": 20,
           "length": 75,
