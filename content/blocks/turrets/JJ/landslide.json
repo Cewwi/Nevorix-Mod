@@ -46,6 +46,7 @@
       {
         "type": "RegionPart",
         "suffix": "-wing",
+        "moveRot": 20.7,
         "moveX": 3,
         "moveY": 3,
         "progress": {
@@ -59,6 +60,8 @@
       {
         "type": "RegionPart",
         "suffix": "-bar",
+        "moveX": 4,
+        "layerOffset": -0.3,
         "progress": {
           "type": "charge",
           "op": "blend",
