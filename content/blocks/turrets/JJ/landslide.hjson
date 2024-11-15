@@ -1,5 +1,5 @@
-smite: {
-    type: ItemTurret
+type: ItemTurret
+name: Landslide
     requirements: {
         category: turret
         materials: {
@@ -11,7 +11,7 @@ smite: {
         }
     }
     ammo: {
-        item: surgeAlloy
+        item: graphite
         bulletType: {
             speed: 7
             damage: 250
@@ -119,23 +119,12 @@ smite: {
     shootSound: shootSmite
     minWarmup: 0.99
     coolantMultiplier: 6
-    halo: {
-        progress: warmup.delay(0.5)
-        y: -15
-        rotSpeed: 1
-    }
-    shake: 2
+    shake: 5
     ammoPerShot: 2
     drawer: {
         type: DrawTurret
         base: reinforced-
         parts: [
-            {
-                type: RegionPart
-                id: -mid
-                heatProgress: heat.blend(warmup 0.5)
-                mirror: false
-            }
             {
                 type: RegionPart
                 id: -blade
@@ -152,7 +141,6 @@ smite: {
                     }
                 ]
             }
-            // Additional parts continue similarly
         ]
     }
     shootWarmupSpeed: 0.04
@@ -180,4 +168,3 @@ smite: {
         sound: glow
         volume: 0.8
     }
-}
