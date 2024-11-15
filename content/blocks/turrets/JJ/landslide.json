@@ -60,8 +60,27 @@
       {
         "type": "RegionPart",
         "suffix": "-bar",
-        "moveRot": -70,
-        "moveX": -7,
+        "moveRot": 70,
+        "moveX": 7,
+        "moveY": 7,
+        "layerOffset": -0.3,
+        "progress": {
+          "type": "charge",
+          "op": "blend",
+          "other": "recoil",
+          "amount": 0.2
+        },
+        "mirror": true,
+        "heatProgress": "warmup",
+        "under": true,
+        "color": "ea8878"
+        "outline": false,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-bar",
+        "moveRot": 100,
+        "moveX": 7,
         "moveY": 7,
         "layerOffset": -0.3,
         "progress": {
