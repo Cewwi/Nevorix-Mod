@@ -4,7 +4,206 @@ name: Landslide
         category: turret
         materials: {
             oxide: 200
-            surgeAlloy: 400
+            surgeAlloy: 400{
+  "type": "itemTurret",
+  "coolantMultiplier": 2,
+  "name": "Celestial",
+  "ammoPerShot": 30,
+  "reload": 5,
+  "ammoUseEffect": "casing4",
+  "range": 464,
+  "outlineColor": "1B1B1BFF",
+  "recoil": 3,
+  "xRand": 12.5,
+  "shake": 1,
+  "inaccuracy": 15,
+  "shoot": {
+        "type": "shootPattern",
+        "shots": 3,
+        "shotDelay": 1
+  },
+  "consumes": {
+  },
+  "coolant": {
+    "type": "ConsumeLiquid",
+    "liquid": "slag",
+    "amount": 0.5
+  },
+  "size": 8,
+  "health": 18000,
+  "armor": 40,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "Acentus-"
+    "parts": [
+{
+"type": "shapePart",
+"y": -6.5,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "FFE135FF",
+"stroke": 0,
+"rotateSpeed": 1,
+"strokeTo": 0.8,
+"radiusTo": 13,
+"radius": 13
+},
+{
+"type": "shapePart",
+"y": -6.5,
+"hollow": true,
+"circle": false,
+"sides": 4,
+"layer": 110,
+"color": "FFE135FF",
+"stroke": 0,
+"rotateSpeed": 1,
+"strokeTo": 0.8,
+"radiusTo": 9,
+"radius": 9
+},
+{
+"type": "shapePart",
+"y": -6.5,
+"hollow": true,
+"circle": false,
+"sides": 4,
+"layer": 110,
+"color": "FFE135FF",
+"stroke": 0,
+"strokeTo": 2,
+"radiusTo": 5,
+"radius": 5
+},
+{
+"type": "HaloPart",
+"y": -6.5,
+"radius": 2.6,
+"tri": true,
+"layer": 110,
+"color": "FFE135FF",
+"haloRadius": 9,
+"haloRadiusTo": 9,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 2,
+"triLengthTo": 13,
+"triLength": 0
+}
+{
+"type": "HaloPart",
+"y": -6.5,
+"radius": 2.6,
+"tri": true,
+"shapeRotation": 180,
+"layer": 110,
+"color": "FFE135FF",
+"haloRadius": 9,
+"haloRadiusTo": 9,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 4,
+"triLengthTo": 4,
+"triLength": 0
+},
+{
+"type": "HaloPart",
+"y": -6.5,
+"radius": 4.6,
+"tri": true,
+"layer": 110,
+"color": "FFE135FF",
+"haloRotateSpeed": 2.7,
+"haloRadius": 12,
+"haloRadiusTo": 12,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 2,
+"triLengthTo": 8,
+"triLength": 0
+}
+{
+"type": "HaloPart",
+"y": -6.5,
+"radius": 4.6,
+"tri": true,
+"shapeRotation": 180,
+"layer": 110,
+"color": "FFE135FF",
+"haloRotateSpeed": 2.7,
+"haloRadius": 12,
+"haloRadiusTo": 12,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 2,
+"triLengthTo": 7,
+"triLength": 0
+}
+]
+},
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "graphite": {
+        "type": "BasicBulletType",
+        "sprite": "circle-bullet",
+        "damage": 120,
+        "height": 14,
+        "width": 12,
+        "speed": 17,
+        "lifetime": 28,
+        "homingPower": 0.7,
+        "homingDelay": 17,
+        "homingRange": 370,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "lightning": 7,
+        "lightningDamage": 20,
+        "lightningLength": 4,
+        "lightningCone": 40,
+        "lightningLengthRand": 6,
+        "frontColor": "FFFFFFF",
+        "backColor": "FFE135FF"
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 6,
+          "lifetime": 20,
+          "length": 75,
+          "cone": -40,
+          "lenFrom": 8,
+          "lenTo": 8,
+          "colorFrom": "FFFFFFF",
+          "colorTo": "FFE135FF"
+        },
+        "despawnEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 6,
+          "lifetime": 20,
+          "length": 75,
+          "cone": -40,
+          "lenFrom": 8,
+          "lenTo": 8,
+          "colorFrom": "FFFFFFF",
+          "colorTo": "FFE135FF"
+        },
+        "shootEffect": "shootHealYellow",
+        "trailColor": "F3E979FF",
+        "trailLength": 20,
+        "trailWidth": 3.5,
+        "absorbable": false,
+        "lightColor": "FFFFFF",
+        "frontColor": "FFFFFFF",
+        "backColor": "FFE135FF"
+      }
+    },
+  "requirements": [
+    "graphite/600",
+  ],
+  "category": "turret"
+}
+
             silicon: 800
             carbide: 500
             phaseFabric: 300
