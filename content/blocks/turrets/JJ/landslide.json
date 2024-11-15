@@ -32,13 +32,26 @@
       {
         "type": "RegionPart",
         "suffix": "-side",
+        "moveX": 3,
+        "moveY": -5,
+        "progress": {
+          "type": "charge",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.8
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-side",
         "moveX": 0,
         "moveY": -5,
         "progress": {
           "type": "charge",
           "op": "blend",
           "other": "heat",
-          "amount": 0.2
+          "amount": 0.8
         },
         "mirror": true
       },
@@ -51,22 +64,22 @@
           "type": "charge",
           "op": "blend",
           "other": "heat"
-          "amount": 0.2
+          "amount": 0.8
         },
         "mirror": true,
       },
       {
         "type": "RegionPart",
         "suffix": "-bar",
-        "moveRot": -70,
-        "moveX": 12,
-        "moveY": -12,
+        "moveRot": -50,
+        "moveX": 16,
+        "moveY": -16,
         "layerOffset": -0.3,
         "progress": {
           "type": "charge",
           "op": "blend",
           "other": "recoil",
-          "amount": 0.2
+          "amount": 0.8
         },
         "mirror": true,
         "heatProgress": "warmup",
@@ -77,18 +90,38 @@
       {
         "type": "RegionPart",
         "suffix": "-bar",
-        "moveRot": -100,
-        "moveX": 12,
-        "moveY": -12,
+        "moveRot": -150,
+        "moveX": 16,
+        "moveY": -16,
         "layerOffset": -0.3,
         "progress": {
           "type": "charge",
           "op": "blend",
           "other": "recoil",
-          "amount": 0.2
+          "amount": 0.8
         },
         "mirror": true,
         "under": true,
+        "heatProgress": "warmup",
+        "color": "ea8878"
+        "outline": false,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-bar",
+        "moveRot": -250,
+        "moveX": 16,
+        "moveY": -16,
+        "layerOffset": -0.3,
+        "progress": {
+          "type": "charge",
+          "op": "blend",
+          "other": "recoil",
+          "amount": 0.8
+        },
+        "mirror": true,
+        "under": true,
+        "heatProgress": "warmup",
         "color": "ea8878"
         "outline": false,
       },
