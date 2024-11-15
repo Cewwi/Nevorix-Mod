@@ -28,6 +28,32 @@
     "type": "drawTurret",
     "basePrefix": "reinforced-"
     "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-side",
+        "moveRot": -9.7,
+        "progress": {
+          "type": "charge",
+          "op": "blend",
+          "other": "recoil",
+          "amount": 0.5
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-wing",
+        "moveRot": -15,
+        "moveX": 3,
+        "moveY": -3,
+        "progress": {
+          "type": "charge",
+          "op": "blend",
+          "other": "recoil",
+          "amount": 0.5
+        },
+        "mirror": true
+      },
 {
 "type": "shapePart",
 "y": -6.5,
