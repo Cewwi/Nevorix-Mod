@@ -16,23 +16,11 @@
 "treadPullOffset": 1,
 "treadRects": [
 {
-"x": 65, 
-"y": 70, 
-"width": 131, 
-"height": 180
+"x": 50, 
+"y": -70, 
+"width": 69, 
+"height": 173
 },
-{
-"x": 46, 
-"y": -248, 
-"width": 85, 
-"height": 63
-},
-{
-"x": 166, 
-"y": -183.5, 
-"width": 32, 
-"height": 39
-}
 ],
 "omniMovement": false,
 "outlineColor": "252525FF",
