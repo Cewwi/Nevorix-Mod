@@ -1,95 +1,131 @@
 {
-  "outlineColor": "252525FF",
-  "type": "tank",
-  "template": "ErekirUnitType",
-  "research": {
-    "parent": "SolFactory",
-    "research": "SolFactory"
-  },
-  "armor": 12,
-  "hitSize": 12,
-  "squareShape": true,
-  "treadPullOffset": 8,
-  "treadRects": [
-    {
-      "x": 7,
-      "y": -26,
-      "width": 14,
-      "height": 51
-    }
-  ],
-  "singleTarget": false,
-  "omniMovement": false,
-  "rotateMoveFirst": true,
-  "rotateSpeed": 1.8,
-  "speed": 1,
-  "flying": false,
-  "health": 950,
-  "range": 160,
-  "immunities": [
-    "melting",
-    "burning",
-    "blasted"
-  ],
-  "weapons": [
-    {
-      "name": "Dominate-cannon",
-      "mirror": false,
-      "top": true,
-      "x": 0,
-      "y": 0,
-      "layerOffset": 1,
-      "rotate": true,
-      "inaccuracy": 5,
-      "rotateSpeed": 5,
-      "cooldownTime": 30,
-      "shootY": 8,
-      "reload": 10,
-      "recoil": 0.2,
-      "parts": [
-        {
-          "type": "RegionPart",
-          "suffix": "-glow",
-          "layer": -1,
-          "mirror": true,
-          "blending": "additive",
-          "color": "ff2302",
-          "colorTo": "ff2302",
-          "outline": false,
-          "progress": "warmup"
+"localizedName": "Dominate",
+"description": "[FEB380FF]Dominate[] fires a slew of lazers. It will spawn locuses at a rate of 1 locus 50 seconds, and a precept every 2 minutes. Has secondary locus like lazer cannons."
+"template": "ErekirUnitType",
+"research": {
+"requirements": [
+  "silicon/1000",
+  "phase-fabric/50",
+  "carbide/50",
+]
+},
+"faceTarget": false,
+"squareShape": true,
+"type": "tank",
+"treadFrames": 18,
+"treadPullOffset": 1,
+"treadRects": [
+{
+"x": 68, 
+"y": 72, 
+"width": 131, 
+"height": 180
+},
+{
+"x": 0, 
+"y": 0, 
+"width": 131, 
+"height": 180
+},
+{
+"x": 65, 
+"y": 70, 
+"width": 131, 
+"height": 180
+},
+{
+"x": 46, 
+"y": -248, 
+"width": 85, 
+"height": 63
+},
+{
+"x": 166, 
+"y": -183.5, 
+"width": 32, 
+"height": 39
+}
+],
+"omniMovement": false,
+"outlineColor": "252525FF",
+"speed": 0.35,
+"hitSize": 90,
+"health": 50000,
+"fogRadius": 80,
+"crushDamage": 1,
+"armor": 26,
+"singleTarget": true,
+"flying": false,
+"targetAir": true,
+"rotateSpeed": 0.45,
+"immunities": [
+"burning", 
+"melting",
+],
+"weapons": [
+{
+"name": "Dominate-cannon",
+"x": 0,
+"y": 0,
+"minWarmup": 0.70,
+"smoothReloadSpeed": 0.08,
+"shootWarmupSpeed": 0.03,
+"mirror": false,
+"cooldownTime": 250,
+"top": true,
+"heatColor": "f9350f",
+"reload": 200,
+"rotate": true,
+"layerOffset": 1,
+"rotateSpeed": 0.6,
+"shootY": 8,
+"recoil": 3,
+"shootSound": "desolationimpact",
+"bullet": {
+"type": "BasicBulletType",
+        "sprite": "circle-bullet",
+        "damage": 120,
+        "height": 14,
+        "width": 12,
+        "speed": 17,
+        "lifetime": 28,
+        "homingPower": 0.7,
+        "homingDelay": 17,
+        "homingRange": 370,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "lightning": 7,
+        "lightningDamage": 20,
+        "lightningLength": 4,
+        "lightningCone": 40,
+        "lightningLengthRand": 6,
+        "frontColor": "FFFFFFF",
+        "backColor": "FEB380FF"
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 6,
+          "lifetime": 20,
+          "length": 75,
+          "cone": -40,
+          "lenFrom": 8,
+          "lenTo": 8,
+          "colorFrom": "FFFFFFF",
+          "colorTo": "FEB380FF"
         },
-        {
-          "type": "RegionPart",
-          "suffix": "-barrel",
-          "under": true,
-          "moves": [
-            {
-              "type": "PartMove",
-              "progress": "recoil",
-              "y": -1.5
-            }
-          ]
+        "despawnEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 6,
+          "lifetime": 20,
+          "length": 75,
+          "cone": -40,
+          "lenFrom": 8,
+          "lenTo": 8,
+          "colorFrom": "FFFFFFF",
+          "colorTo": "FEB380FF"
         }
-      ],
-      "shootSound": "shoot",
-      "bullet": {
-        "type": "basicBulletType",
-        "sprite": "missile-large",
-        "shootEffect": "shootBig2",
-        "hitEffect": "hitBulletSmall",
-        "despawnHit": true,
-        "lifetime": 22.85714286,
-        "damage": 15,
-        "pierceArmor": true,
-        "speed": 7,
-        "trailLength": 8,
-        "trailWidth": 1.5,
-        "width": 4,
-        "height": 9,
-        "trailColor": "ff7048",
-        "backColor": "ff7048",
-        "frontColor": "ffcea0"
-      }
-    }
+}
+}
   ]
 }
