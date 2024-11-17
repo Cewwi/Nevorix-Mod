@@ -3,8 +3,10 @@
 "description": "[FEB380FF]Dominate[] fires a slew of lazers. It will spawn locuses at a rate of 1 locus 50 seconds, and a precept every 2 minutes. Has secondary locus like lazer cannons."
 "template": "ErekirUnitType",
 "research": {
-"parent": "01-prometheus-titan",
 "requirements": [
+  "silicon/1000",
+  "phase-fabric/50",
+  "carbide/50",
 ]
 },
 "faceTarget": false,
