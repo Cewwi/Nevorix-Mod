@@ -13,6 +13,7 @@
 "squareShape": true,
 "treadFrames": 18,
 "treadPullOffset": 1,
+"drawBody": false,
 "treadRects": [
 {
 "x": 65, 
