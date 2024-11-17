@@ -1,0 +1,76 @@
+{
+"localizedName": "Dominate",
+"description": "[FEB380FF]Dominate[] fires a slew of lazers. It will spawn locuses at a rate of 1 locus 50 seconds, and a precept every 2 minutes. Has secondary locus like lazer cannons."
+"template": "ErekirUnitType",
+"research": {
+"parent": "01-prometheus-titan",
+"requirements": [
+]
+},
+"faceTarget": false,
+"squareShape": true,
+"treadFrames": 18,
+"treadPullOffset": 1,
+"treadRects": [
+{
+"x": 65, 
+"y": 70, 
+"width": 131, 
+"height": 180
+},
+{
+"x": 46, 
+"y": -248, 
+"width": 85, 
+"height": 63
+},
+{
+"x": 166, 
+"y": -183.5, 
+"width": 32, 
+"height": 39
+}
+],
+"omniMovement": false,
+"outlineColor": "252525FF",
+"speed": 0.28,
+"hitSize": 110,
+"health": 80000,
+"fogRadius": 80,
+"crushDamage": 1.5,
+"armor": 75,
+"singleTarget": true,
+"flying": false,
+"targetAir": true,
+"rotateSpeed": 0.45,
+"immunities": [
+"burning", 
+"melting",
+],
+"weapons": [
+{
+"name": "T-prometheus-cannon",
+"x": 0,
+"y": 0,
+"minWarmup": 0.70,
+"smoothReloadSpeed": 0.08,
+"shootWarmupSpeed": 0.03,
+"mirror": false,
+"cooldownTime": 250,
+"top": true,
+"heatColor": "f9350f",
+"reload": 200,
+"rotate": true,
+"layerOffset": 1,
+"rotateSpeed": 0.6,
+"shootY": 8,
+"recoil": 3,
+"shootSound": "desolationimpact",
+"bullet": {
+"damage": 1500,
+"length": 530,
+}
+}
+}
+]
+}
