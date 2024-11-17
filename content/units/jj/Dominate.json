@@ -13,8 +13,32 @@
 "squareShape": true,
 "type": "tank",
 "treadFrames": 18,
-"treadPullOffset": 1,
+"treadPullOffset": 5,
 "treadRects": [
+{
+"x": 50, 
+"y": -70, 
+"width": 69, 
+"height": 173
+},
+{
+"x": 50, 
+"y": -70, 
+"width": 69, 
+"height": 173
+},
+{
+"x": 50, 
+"y": -70, 
+"width": 69, 
+"height": 173
+},
+{
+"x": 50, 
+"y": -70, 
+"width": 69, 
+"height": 173
+},
 {
 "x": 50, 
 "y": -70, 
