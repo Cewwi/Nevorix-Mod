@@ -14,20 +14,7 @@
 "type": "tank",
 "treadFrames": 18,
 "treadPullOffset": 1,
-"drawBody": true,
 "treadRects": [
-{
-"x": 65, 
-"y": 70, 
-"width": 131, 
-"height": 180
-},
-{
-"x": 65, 
-"y": 70, 
-"width": 131, 
-"height": 180
-},
 {
 "x": 65, 
 "y": 70, 
