@@ -11,6 +11,7 @@
 },
 "faceTarget": false,
 "squareShape": true,
+"type": "tank",
 "treadFrames": 18,
 "treadPullOffset": 1,
 "drawBody": false,
