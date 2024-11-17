@@ -17,15 +17,15 @@
 "treadRects": [
 {
 "x": 50, 
-"y": -70, 
+"y": -65, 
 "width": 66, 
-"height": 173
+"height": 173,
 },
 {
-"x": 80, 
+"x": 70, 
 "y": -70, 
-"width": 66, 
-"height": 173
+"width": 50, 
+"height": 173,
 },
 ],
 "omniMovement": false,
