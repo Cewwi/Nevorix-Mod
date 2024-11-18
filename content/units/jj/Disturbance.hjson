@@ -28,10 +28,9 @@ parts: [
     layer: -1
     mirror: true
     blending: additive
-    color: C6FF6BFF
-    colorTo: C6FF6BFF
+    color: BF92F9FF
+    colorTo: BF92F9FF
     outline: false
-    progress: warmup
   }
 ]
 useEngineElevation: false
