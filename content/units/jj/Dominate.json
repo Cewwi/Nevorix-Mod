@@ -1,6 +1,6 @@
 {
 "localizedName": "Dominate",
-"description": "Dominate fires a laser out of the front cannon. It will spawn locuses at a rate of 1 locus 50 seconds, and a precept every 2 minutes. Has secondary locus like laser cannons."
+"description": "Fires a laser out of the front cannon. It will spawn locuses at a rate of 1 locus 50 seconds, and a precept every 2 minutes. Has secondary locus like laser cannons."
 "template": "ErekirUnitType",
 "research": {
 "requirements": [
