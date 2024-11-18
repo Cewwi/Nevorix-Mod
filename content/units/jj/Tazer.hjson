@@ -35,27 +35,20 @@ weapons: [
     rotate: false
     shootSound: lazer
     bullet: {
-      type: BasicBulletType
-      lightRadius: 10
-      lightColor: C6FF6BFF
-      damage: 30
-      scaleVelocity: true
-      splashDamage: 20
-      splashDamageRadius: 30
-      height: 7.5
-      width: 7.5
-      homingPower: 0.2
-      homingDelay: 17
-      homingRange: 100
-      speed: 5
-      lifetime: 75
-      shrinkX: 0
-      shrinkY: 0
-      trailChance: 2
-      trailParam: 10
-      trailLength: 19
-      trailColor: C6FF6BFF
-      trailWidth: 5
-}
+      type: LaserBulletType
+        length: 150
+        width: 6
+        damage: 10
+        hitEffect: lightningShoot
+        shootEffect: lightningShoot
+        colors: [
+          F7E97EFF
+          F7E97EFF
+          FFFFFF
+        ],
+        sideAngle: -45
+        sideLength: 30
+        sideWidth: 3.4
+    }
 }
 ]
