@@ -26,16 +26,16 @@ lowAltitude: false
 payloadCapacity: 4
 engines: [
   {
-    x: 9
-    y: 9.3
+    x: 10
+    y: 5.3
     radius: 3
-    rotation: 45
+    rotation: 125
   }
   {
-    x: -9
-    y: 9.3
+    x: -10
+    y: 5.3
     radius: 3
-    rotation: 45
+    rotation: -125
   }
 ]
 weapons: [
