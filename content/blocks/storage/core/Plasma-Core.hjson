@@ -23,4 +23,4 @@ research: {
   name: Tronoe
   requiresUnlock: false
 }
-  //category: core
+  category: effect
