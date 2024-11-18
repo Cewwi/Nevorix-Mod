@@ -38,18 +38,18 @@ engines: [
 ]
 weapons: [
    {
-    x: 0
+    x: 6
     y: 0
     shooty: 8
     reload: 30
-    alternate: false
-    mirror: false
+    alternate: true
+    mirror: true
     rotate: false
     shootSound: lazer
     bullet: {
       type: LaserBulletType
         length: 150
-        width: 7
+        width: 6
         damage: 60
         hitEffect: lightningShoot
         shootEffect: lightningShoot
@@ -61,6 +61,25 @@ weapons: [
         sideAngle: -45
         sideLength: 30
         sideWidth: 3.4
+    }
+}
+{
+    x: 0
+    y: 0
+    shooty: 8
+    reload: 7
+    alternate: false
+    mirror: false
+    rotate: false
+    shootSound: lazer
+    bullet: {
+      type: LightningBulletType
+          lightningColor: F7E97EFF
+          lightningLength: 30
+          lightningDamage: 50
+          hitSound: spark
+          despawnSound: spark
+          lifetime: 1
     }
 }
 ]
