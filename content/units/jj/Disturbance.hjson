@@ -1,11 +1,11 @@
 type: flying
 name: Disturbance
-description: Fires two powerful missiles and a slew of weaker missiles.
+description: Fires two powerful missiles and a slew of weaker missiles. Able to do tasks that a core unit is capable of doing.
 flying: true
 shadowElevation: 1
 drag: 0.06
 outlineColor: 1d1c1a
-speed: 2
+speed: 0.7
 rotateSpeed: 10
 hitSize: 16
 accel: 0.095
