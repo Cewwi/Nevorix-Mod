@@ -1,6 +1,6 @@
 type: flying
 name: Polux
-description: Defender of the Surge core. Has offensive ability, but cannot repair structures.
+description: Defender of the Surge core. Has offensive ability, but cannot repair structures. Cannot pick up blocks.
 flying: true
 shadowElevation: 1
 drag: 0.06
@@ -23,7 +23,6 @@ itemCapacity: 75
 alwaysUnlocked: true
 useEngineElevation: false
 lowAltitude: false
-payloadCapacity: 4000
 engines: [
   {
     x: 11
@@ -63,24 +62,6 @@ weapons: [
         sideAngle: -45
         sideLength: 30
         sideWidth: 3.4
-    }
-}
-{
-    x: 0
-    y: 0
-    shooty: 8
-    reload: 7
-    alternate: false
-    mirror: false
-    rotate: false
-    bullet: {
-      type: LightningBulletType
-          lightningColor: F7E97EFF
-          lightningLength: 5
-          lightningDamage: 50
-          hitSound: spark
-          despawnSound: spark
-          lifetime: 1
     }
 }
 ]
