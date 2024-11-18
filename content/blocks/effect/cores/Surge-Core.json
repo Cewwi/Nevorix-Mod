@@ -1,0 +1,22 @@
+
+  "localizedName": "Soletux Fortress",
+  "type": "CoreBlock",
+  "health": 30000,
+  "squareSprite": false,
+  "size": 6,
+  "armor": 12,
+  "itemCapacity": 3500,
+  "unitCapModifier": 15,
+  "researchCostMultiplier": 0.1,
+  "requiresCoreZone": true,
+  "buildCostMultiplier": 0.7,
+  "unitType": "emanate",
+  "requirements": [
+    "silicon/5000",
+    "surge-alloy/4000",
+    "tungsten/2500",
+    "carbide/3000",
+  ]
+  "category": "effect",
+  "research": "core-citadel",
+}
