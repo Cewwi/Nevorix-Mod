@@ -1,6 +1,6 @@
 type: flying
-name: Neptune
-description: Defender of the Unstable core. Has high offensive capability.
+name: Disturbance
+description: Fires two powerful missiles and a slew of weaker missiles.
 flying: true
 shadowElevation: 1
 drag: 0.06
