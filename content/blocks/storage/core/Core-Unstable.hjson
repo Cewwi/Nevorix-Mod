@@ -19,4 +19,4 @@ name: Core: Plasma
   createRubble: true
   research: Plasma-Core
   researchCostMultiplier: 0.05
-  //category: core
+  category: effect
