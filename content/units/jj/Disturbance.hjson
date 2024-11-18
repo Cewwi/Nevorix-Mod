@@ -27,14 +27,14 @@ abilities: [
       spawnX: 30
       spawnY: -25
       unit: avert
-      spawnTime: 600
+      spawnTime: 12000
     },
     {
       type: UnitSpawnAbility
       spawnX: -30
       spawnY: -25
       unit: avert
-      spawnTime: 600
+      spawnTime: 12000
     },
   ]
 parts: [
