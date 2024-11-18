@@ -35,13 +35,15 @@ parts: [
   }
 ]
 useEngineElevation: false
-lowAltitude: true
+lowAltitude: false
 weapons: [
    {
+    x: 10
+    y: 3
     shooty: 8
     reload: 200
     alternate: false
-    mirror: false
+    mirror: true
     rotate: false
     shootSound: missileLaunch
     bullet: {
