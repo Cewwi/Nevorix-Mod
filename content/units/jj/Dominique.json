@@ -1,5 +1,6 @@
 {
   "singleTarget": true,
+  "template": "ErekirUnitType",
   "drawShields": false,
   "research": {
     "requirements": [
