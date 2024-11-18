@@ -23,7 +23,7 @@ itemCapacity: 75
 alwaysUnlocked: true
 useEngineElevation: false
 lowAltitude: false
-payloadCapacity: 4
+payloadCapacity: 4000
 engines: [
   {
     x: 10
