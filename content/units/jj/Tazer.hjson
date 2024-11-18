@@ -27,25 +27,27 @@ payloadCapacity: 4
 engines: [
   {
     x: 9
-    y: 12.6
-    radius: 1.5
+    y: 9.3
+    radius: 3
+    rotation: 45
   }
   {
     x: -9
-    y: 12.6
-    radius: 1.5
+    y: 9.3
+    radius: 3
+    rotation: 45
   }
 ]
 weapons: [
    {
     x: 6
     y: 0
-    shooty: 8
+    shooty: 10
     reload: 30
     alternate: true
     mirror: true
     rotate: false
-    shootSound: lazer
+    shootSound: laser
     bullet: {
       type: LaserBulletType
         length: 150
@@ -71,11 +73,10 @@ weapons: [
     alternate: false
     mirror: false
     rotate: false
-    shootSound: lazer
     bullet: {
       type: LightningBulletType
           lightningColor: F7E97EFF
-          lightningLength: 30
+          lightningLength: 5
           lightningDamage: 50
           hitSound: spark
           despawnSound: spark
