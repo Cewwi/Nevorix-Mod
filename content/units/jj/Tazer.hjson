@@ -24,6 +24,18 @@ alwaysUnlocked: true
 useEngineElevation: false
 lowAltitude: false
 payloadCapacity: 4
+engines: [
+  {
+    x: 9
+    y: 12.6
+    radius: 1.5
+  }
+  {
+    x: -9
+    y: 12.6
+    radius: 1.5
+  }
+]
 weapons: [
    {
     x: 0
