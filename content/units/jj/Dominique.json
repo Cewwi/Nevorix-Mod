@@ -10,7 +10,7 @@
   "lightRadius": 200,
   "type": "legs",
   "drownTimeMultiplier": 999999999999999999999,
-  "legCount": 12,
+  "legCount": 4,
   "legLength": 80,
   "legSpeed": 0.5,
   "legExtension": -10.5,
