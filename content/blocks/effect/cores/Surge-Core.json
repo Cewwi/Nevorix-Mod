@@ -10,7 +10,7 @@
   "researchCostMultiplier": 0.1,
   "requiresCoreZone": true,
   "buildCostMultiplier": 0.7,
-  "unitType": "emanate",
+  "unitType": "Tazer",
   "requirements": [
     "silicon/5000",
     "surge-alloy/4000",
