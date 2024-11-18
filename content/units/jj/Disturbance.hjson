@@ -21,6 +21,22 @@ mineTier: 2
 buildSpeed: 2
 itemCapacity: 175
 alwaysUnlocked: true
+abilities: [
+    {
+      type: UnitSpawnAbility
+      spawnX: 30
+      spawnY: -25
+      unit: avert
+      spawnTime: 600
+    },
+    {
+      type: UnitSpawnAbility
+      spawnX: -30
+      spawnY: -25
+      unit: avert
+      spawnTime: 600
+    },
+  ]
 parts: [
   {
     type: RegionPart
