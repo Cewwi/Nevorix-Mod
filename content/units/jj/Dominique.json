@@ -41,8 +41,9 @@
 "rotate": false,
 "reload": 800,
 "shootY": 0,
-"shootSound": "bigLaserShoot",
-"chargeSound": "chargeup",
+"shootDuration": 360,
+"shootSound": "laserbig",
+"loopSound": "beam",
 "recoilTime": 500,
 "shootStatus": "unmoving",
 "shootStatusDuration": 100,
@@ -58,7 +59,7 @@
 "layer": 114,
 "color": "ffFFFFff",
 "radiusTo": 1.5,
-"radius": 10
+"radius": 5
 },
 {
 "type": "shapePart",
@@ -68,7 +69,7 @@
 "layer": 110,
 "color": "aec6ff",
 "radiusTo": 3,
-"radius": 20
+"radius": 16
 },
 {
 "type": "shapePart",
@@ -78,7 +79,7 @@
 "layer": 110,
 "color": "8ca9e855",
 "radiusTo": 4,
-"radius": 26
+"radius": 18
 },
 {
 "type": "shapePart",
@@ -88,7 +89,7 @@
 "layer": 110,
 "color": "597cff45",
 "radiusTo": 4.2,
-"radius": 29
+"radius": 20
 }
 ],
   "bullet": {
@@ -102,9 +103,6 @@
     "oscMag": 3,
     "shoot": {
     "firstShotDelay": 100
-    "type": "ShootHelix",
-    "shotDelay": 4,
-    "shots": 2
     },
     "hitEffect": {
       "type": "ParticleEffect",
@@ -124,11 +122,17 @@
 },
     {
   "shooty": 8,
-  "reload": 200,
+  "reload": 800,
   "alternate": false,
   "mirror": false,
   "rotate": false,
   "shootSound": "laser",
+  "shoot": {
+    "firstShotDelay": 100
+    "type": "ShootHelix",
+    "shotDelay": 4,
+    "shots": 25
+  },
   "bullet": {
     "type": "BasicBulletType",
     "lightRadius": 10,
