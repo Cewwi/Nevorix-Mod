@@ -44,6 +44,41 @@
 "burning", 
 "melting",
 ],
+  "abilities": [
+    {
+      "type": "UnitSpawnAbility",
+      "spawnX": 30,
+      "spawnY": -25,
+      "unit": "locus",
+      "spawnTime": 10000
+    },
+    {
+      "type": "UnitSpawnAbility",
+      "spawnX": -30,
+      "spawnY": -25,
+      "unit": "locus",
+      "spawnTime": 10000
+    }
+    {
+      "type": "UnitSpawnAbility",
+      "spawnX": 0,
+      "spawnY": -30,
+      "unit": "precept",
+      "spawnTime": 24000
+    }
+  ],
+  "parts": [
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": true,
+      "blending": "additive",
+      "color": "BF92F9FF",
+      "colorTo": "BF92F9FF",
+      "outline": false
+    }
+  ]
 "weapons": [
 {
 "name": "Dominate-cannon",
