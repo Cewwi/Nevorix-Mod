@@ -31,25 +31,20 @@
   "hitSize": 92,
   "armor": 36,
   "lowAltitude": true,
+  "parts": [
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": true,
+      "blending": "additive",
+      "color": "BF92F9FF",
+      "colorTo": "BF92F9FF",
+      "outline": false
+    }
+  ]
   "weapons": [
 {
-"shootCone": 0,
-"mirror": false,
-"y": 4.5,
-"x": 0,
-"recoil": 0,
-"rotate": false,
-"reload": 800,
-"shootY": 0,
-"shootDuration": 360,
-"shootSound": "laserbig",
-"loopSound": "beam",
-"recoilTime": 500,
-"shootStatus": "unmoving",
-"shootStatusDuration": 100,
-"shoot": {
-"firstShotDelay": 100
-},
   "parts": [
 {
 "type": "shapePart",
@@ -92,35 +87,6 @@
 "radius": 20
 }
 ],
-  "bullet": {
-    "type": "ContinuousLaserBulletType",
-    "damage": 300,
-    "width": 11,
-    "length": 290,
-    "status": "blasted",
-    "statusDuration": 720,
-    "oscScl": 2,
-    "oscMag": 3,
-    "shoot": {
-    "firstShotDelay": 100
-    },
-    "hitEffect": {
-      "type": "ParticleEffect",
-      "particles": 6,
-      "length": 30,
-      "lifetime": 15,
-      "line": false,
-      "lenFrom": 8,
-      "lenTo": 8,
-      "strokeFrom": 2,
-      "strokeTo": 0.5,
-      "colorFrom": "D1EFFFFF",
-      "colorTo": "D1EFFFFF"
-    },
-    "drawSize": 420,
-  },
-},
-    {
   "shooty": 8,
   "reload": 800,
   "alternate": false,
@@ -129,7 +95,7 @@
   "shootSound": "laser",
   "shoot": {
     "firstShotDelay": 100
-    "type": "ShootHelix",
+    "type": "shootPattern",
     "shotDelay": 4,
     "shots": 25
   },
@@ -152,21 +118,40 @@
     "trailLength": 19,
     "trailColor": "C6FF6BFF",
     "trailWidth": 5,
-    "trailEffect": {
-      "type": "ParticleEffect",
-      "particles": 10,
-      "length": 3,
-      "baseLength": 3,
-      "lifetime": 25,
-      "interp": "circleOut",
-      "cone": 360,
-      "offset": 3,
-      "lightColor": "ffFFFFff",
-      "colorFrom": "ffffff",
-      "colorTo": "ffFFFFff",
-      "sizeFrom": 3,
-      "sizeTo": 0
-    },
+    "trailEffect": [
+        {
+        "type": "ParticleEffect",
+        "particles": 10,
+        "length": 3,
+        "baseLength": 3,
+        "lifetime": 25,
+        "shape": ,
+        "interp": "circleOut",
+        "cone": 360,
+        "offset": 3,
+        "lightColor": "77ceff",
+        "colorFrom": "ffffff",
+        "colorTo": "77ceff",
+        "sizeFrom": 3,
+        "sizeTo": 0
+      },
+      {
+        "type": "ParticleEffect",
+        "particles": 10,
+        "length": 3,
+        "line": true,
+        "baseLength": 3,
+        "lifetime": 25,
+        "interp": "circleOut",
+        "cone": 360,
+        "offset": 3,
+        "lightColor": "77ceff",
+        "colorFrom": "ffffff",
+        "colorTo": "77ceff",
+        "sizeFrom": 3,
+        "sizeTo": 0
+      },
+      ],
     "fragBullets": 5,
     "fragVelocityMin": 0.2,
     "fragRandomSpread": 180,
@@ -180,52 +165,51 @@
       "width": 12,
       "speed": 3,
       "lifetime": 100,
+      "shape": 3,
       "homingPower": 0.2,
       "homingDelay": 17,
       "homingRange": 100,
       "trailChance": 2,
       "trailParam": 10,
       "trailLength": 10,
-      "trailColor": "C6FF6BFF",
+      "trailColor": "77ceff",
       "trailWidth": 5,
-      "trailEffect": {
+      "trailEffect": [
+        {
         "type": "ParticleEffect",
         "particles": 10,
         "length": 3,
         "baseLength": 3,
         "lifetime": 25,
+        "shape": ,
         "interp": "circleOut",
         "cone": 360,
         "offset": 3,
-        "lightColor": "ffFFFFff",
+        "lightColor": "77ceff",
         "colorFrom": "ffffff",
-        "colorTo": "ffFFFFff",
+        "colorTo": "77ceff",
         "sizeFrom": 3,
         "sizeTo": 0
       },
-      "fragBullets": 1,
-      "fragVelocityMin": 0.8,
-      "fragLifeMin": 0.8,
-      "fragRandomSpread": 0,
-      "fragSpread": 0,
-      "fragBullet": {
-        "type": "LaserBulletType",
-        "length": 100,
-        "width": 20,
-        "damage": 40,
-        "hitEffect": "lightningShoot",
-        "shootEffect": "lightningShoot",
-        "colors": [
-          "ffFFFFff",
-          "ffFFFFff",
-          "FFFFFF"
-        ],
-        "sideAngle": -45,
-        "sideLength": 30,
-        "sideWidth": 3.4
+      {
+        "type": "ParticleEffect",
+        "particles": 10,
+        "length": 3,
+        "line": true,
+        "baseLength": 3,
+        "lifetime": 25,
+        "interp": "circleOut",
+        "cone": 360,
+        "offset": 3,
+        "lightColor": "77ceff",
+        "colorFrom": "ffffff",
+        "colorTo": "77ceff",
+        "sizeFrom": 3,
+        "sizeTo": 0
+      },
+      ],
       }
     }
   }
-}
 ]
 }
