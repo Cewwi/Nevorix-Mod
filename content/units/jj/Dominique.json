@@ -108,11 +108,52 @@
     "splashDamage": 20,
     "splashDamageRadius": 30,
     "height": 7.5,
+    "inaccuracy": 7,
     "width": 7.5,
     "speed": 5,
     "lifetime": 75,
     "shrinkX": 0,
     "shrinkY": 0,
+    "despawnEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 8,
+              "length": 60,
+              "lifetime": 46,
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "ffffff",
+              "colorTo": "77ceff",
+              "sizeFrom": 5,
+              "sizeTo": 0
+            },
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "particles": 8,
+              "length": 60,
+              "lifetime": 46,
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "ffffff",
+              "colorTo": "77ceff",
+              "sizeFrom": 5,
+              "sizeTo": 0
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 15,
+              "sizeFrom": 0,
+              "sizeTo": 45,
+              "strokeFrom": 4,
+              "strokeTo": 0,
+              "colorFrom": "ffffff",
+              "colorTo": "77ceff"
+            }
+          ]
+        },
     "trailChance": 2,
     "trailParam": 10,
     "trailLength": 19,
