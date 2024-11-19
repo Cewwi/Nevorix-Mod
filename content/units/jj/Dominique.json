@@ -159,6 +159,8 @@
     "trailLength": 19,
     "trailColor": "C6FF6BFF",
     "trailWidth": 5,
+    "weaveScale": 5,
+    "weaveMag": 5,
     "trailEffect": [
         {
         "type": "ParticleEffect",
@@ -215,6 +217,46 @@
       "trailLength": 10,
       "trailColor": "77ceff",
       "trailWidth": 5,
+      "despawnEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 8,
+              "length": 60,
+              "lifetime": 46,
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "ffffff",
+              "colorTo": "77ceff",
+              "sizeFrom": 5,
+              "sizeTo": 0
+            },
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "particles": 8,
+              "length": 60,
+              "lifetime": 46,
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "ffffff",
+              "colorTo": "77ceff",
+              "sizeFrom": 5,
+              "sizeTo": 0
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 15,
+              "sizeFrom": 0,
+              "sizeTo": 145,
+              "strokeFrom": 4,
+              "strokeTo": 0,
+              "colorFrom": "ffffff",
+              "colorTo": "77ceff"
+            }
+          ]
+        },
       "trailEffect": [
         {
         "type": "ParticleEffect",
