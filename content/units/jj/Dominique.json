@@ -166,7 +166,7 @@
         "length": 3,
         "baseLength": 3,
         "lifetime": 25,
-        "shape": ,
+        "shape": 4,
         "interp": "circleOut",
         "cone": 360,
         "offset": 3,
