@@ -17,19 +17,19 @@
   "legForwardScl": 0,
   "legMoveSpace": 0.9,
   "legPairOffset": 2,
-  "rotateSpeed": 0.7,
+  "rotateSpeed": 1.3,
   "speed": 0.73,
   "accel": 0.4,
   "drag": 0.4,
   "range": 380,
   "maxRange": 380,
   "aimDst": 340,
-  "outlineColor": "1d1c1a",
+  "outlineColor": "252525FF",
   "faceTarget": true,
   "flying": false,
-  "health": 174000,
-  "hitSize": 92,
-  "armor": 36,
+  "health": 36500,
+  "hitSize": 72,
+  "armor": 12,
   "lowAltitude": true,
   "parts": [
     {
@@ -38,8 +38,8 @@
       "layer": -1,
       "mirror": true,
       "blending": "additive",
-      "color": "BF92F9FF",
-      "colorTo": "BF92F9FF",
+      "color": "aec6ff",
+      "colorTo": "ffffff",
       "outline": false
     }
   ]
@@ -87,6 +87,8 @@
 "radius": 20
 }
 ],
+  "x": 0,
+  "y": 0,
   "shooty": 8,
   "reload": 800,
   "alternate": false,
@@ -108,13 +110,53 @@
     "splashDamage": 20,
     "splashDamageRadius": 30,
     "height": 7.5,
-    "inaccuracy": 7,
+    "inaccuracy": 30,
     "width": 7.5,
     "speed": 5,
     "lifetime": 75,
     "shrinkX": 0,
     "shrinkY": 0,
     "despawnEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 8,
+              "length": 60,
+              "lifetime": 46,
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "ffffff",
+              "colorTo": "77ceff",
+              "sizeFrom": 5,
+              "sizeTo": 0
+            },
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "particles": 8,
+              "length": 60,
+              "lifetime": 46,
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "ffffff",
+              "colorTo": "77ceff",
+              "sizeFrom": 5,
+              "sizeTo": 0
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 15,
+              "sizeFrom": 0,
+              "sizeTo": 45,
+              "strokeFrom": 4,
+              "strokeTo": 0,
+              "colorFrom": "ffffff",
+              "colorTo": "77ceff"
+            }
+          ]
+        },
+        "hitEffect": {
           "type": "multiEffect",
           "effects": [
             {
@@ -217,6 +259,46 @@
       "trailLength": 10,
       "trailColor": "77ceff",
       "trailWidth": 5,
+      "hitEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 8,
+              "length": 60,
+              "lifetime": 46,
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "ffffff",
+              "colorTo": "77ceff",
+              "sizeFrom": 5,
+              "sizeTo": 0
+            },
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "particles": 8,
+              "length": 60,
+              "lifetime": 46,
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "ffffff",
+              "colorTo": "77ceff",
+              "sizeFrom": 5,
+              "sizeTo": 0
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 15,
+              "sizeFrom": 0,
+              "sizeTo": 45,
+              "strokeFrom": 4,
+              "strokeTo": 0,
+              "colorFrom": "ffffff",
+              "colorTo": "77ceff"
+            }
+          ]
+        },
       "despawnEffect": {
           "type": "multiEffect",
           "effects": [
