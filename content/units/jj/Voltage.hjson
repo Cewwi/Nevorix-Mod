@@ -1,0 +1,42 @@
+type: mech
+name: Voltage
+description: Fires a small surge of electricity.
+speed: 0.75
+flying: false
+health: 150
+armor: 9
+hitSize: 14
+outlineColor: 1d1c1a
+mechLegColor: 1d1c1a
+weapons: [
+  {
+    name: Voltage-cannon
+    y: 0
+    x: 5
+    shooty: 3
+    reload: 14
+    alternate: true
+    mirror: true
+    rotate: false
+    inaccuracy: 3
+    shootSound: missile
+    incendAmount: 2
+    bullet: {
+      type: MissileBulletType
+      speed: 3
+      lifetime: 50
+      damage: 10
+      width: 5
+      height: 7
+      frontColor: ffffff
+      backColor: FF7436FF
+      trailChance: 1
+      trailEffect: missileTrail
+      trailColor: FF7436FF
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      incendAmount: 2
+    }
+  }
+]
+researchCostMultiplier: 2.5
