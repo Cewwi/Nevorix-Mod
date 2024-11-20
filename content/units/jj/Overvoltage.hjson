@@ -13,7 +13,7 @@ weapons: [
     name: Surge-catipult
     y: -2
     x: 0
-    shooty: 3
+    shooty: 4
     reload: 14
     alternate: true
     mirror: true
@@ -28,6 +28,18 @@ weapons: [
           lightningDamage: 60
           hitSound: spark
           lifetime: 1
+          bulletInterval: 2
+          intervalRandomSpread = 360f;
+          intervalSpread = 300f;
+          intervalBullet: {
+              LightningBulletType
+          status: shocked
+          lightningColor: F7E97EFF
+          lightningLength: 15
+          lightningDamage: 60
+          hitSound: spark
+          lifetime: 1
+          
     }
   }
 ]
