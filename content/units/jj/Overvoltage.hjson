@@ -20,6 +20,7 @@ weapons: [
     rotate: false
     inaccuracy: 3
     shootSound: spark
+    bullet: {
     type: LightningBulletType
           lightningColor: F7E97EFF
           lightningLength: 15
