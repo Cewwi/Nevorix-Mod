@@ -48,5 +48,6 @@ shrinkY: 0
           lifetime: 1
     }
   }
+}
 ]
 researchCostMultiplier: 2.5
