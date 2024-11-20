@@ -1,0 +1,33 @@
+type: mech
+name: Kalimtare
+description: Fires a small surge of electricity.
+speed: 0.75
+flying: false
+health: 650
+armor: 9
+hitSize: 14
+outlineColor: 1d1c1a
+mechLegColor: 1d1c1a
+weapons: [
+  {
+    name: Sobretensión-cannon
+    y: 0
+    x: 13
+    shooty: 3
+    reload: 14
+    alternate: true
+    mirror: true
+    rotate: false
+    inaccuracy: 3
+    shootSound: spark
+    bullet: {
+    type: LightningBulletType
+          lightningColor: F7E97EFF
+          lightningLength: 15
+          lightningDamage: 60
+          hitSound: spark
+          lifetime: 1
+    }
+  }
+]
+researchCostMultiplier: 2.5
