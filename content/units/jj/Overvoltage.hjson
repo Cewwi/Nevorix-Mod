@@ -1,6 +1,6 @@
 type: mech
-name: Voltage
-description: Fires a small surge of electricity.
+name: Overvoltage
+description: Fires a ball of electricity.
 speed: 0.75
 flying: false
 health: 650
@@ -29,8 +29,8 @@ weapons: [
           hitSound: spark
           lifetime: 1
           bulletInterval: 2
-          intervalRandomSpread = 360f;
-          intervalSpread = 300f;
+          intervalRandomSpread: 360
+          intervalSpread: 300
           intervalBullet: {
               LightningBulletType
           status: shocked
