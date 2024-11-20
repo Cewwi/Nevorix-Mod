@@ -40,13 +40,12 @@ shrinkY: 0
           intervalRandomSpread: 360
           intervalSpread: 300
           intervalBullet: {
-              LightningBulletType
+          type: LightningBulletType
           lightningColor: F7E97EFF
           lightningLength: 15
           lightningDamage: 60
           hitSound: spark
           lifetime: 1
-          
     }
   }
 ]
