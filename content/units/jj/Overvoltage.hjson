@@ -41,7 +41,8 @@ shrinkY: 0
           intervalSpread: 300
           intervalBullet: {
               LightningBulletType
-          status: shocked
+          StatusEffects: shocked
+          statusDuration: 20
           lightningColor: F7E97EFF
           lightningLength: 15
           lightningDamage: 60
