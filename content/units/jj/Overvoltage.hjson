@@ -61,7 +61,7 @@ shrinkY: 0
           intervalBullet: {
           type: LightningBulletType
           lightningColor: F7E97EFF
-          lightningLength: 8
+          lightningLength: 10
           lightningDamage: 60
           hitSound: spark
           lifetime: 1
