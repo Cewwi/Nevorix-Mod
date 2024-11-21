@@ -19,7 +19,7 @@ weapons: [
     mirror: false
     rotate: true
     inaccuracy: 3
-    shootSound: shootSmite
+    shootSound: cannon
     shootSoundVolume: 0.05
     bullet: {
     type: BasicBulletType
