@@ -28,7 +28,7 @@ lightRadius: 10
 lightColor: ffFFFFff
 damage: 70
 scaleVelocity: true
-splashDamage: 410
+splashDamage: 70
 splashDamageRadius: 30
 height: 18.5
 width: 18.5
@@ -39,8 +39,8 @@ shrinkY: 0
       trailChance: 2
       trailParam: 10
       trailLength: 19
-      trailColor: C6FF6BFF
-      trailWidth: 5
+      trailColor: F7E97EFF
+      trailWidth: 3
         trailEffect: {
           type: ParticleEffect
           particles: 3
@@ -53,7 +53,7 @@ shrinkY: 0
           lightColor: F7E97EFF
           colorFrom: ffffff
           colorTo: F7E97EFF
-          sizeFrom: 5
+          sizeFrom: 12
           sizeTo: 0
           }
           bulletInterval: 2
