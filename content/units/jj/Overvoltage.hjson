@@ -5,7 +5,7 @@ speed: 0.75
 flying: false
 health: 650
 armor: 9
-hitSize: 14
+hitSize: 16
 outlineColor: 1d1c1a
 mechLegColor: 1d1c1a
 weapons: [
@@ -20,7 +20,7 @@ weapons: [
     rotate: true
     inaccuracy: 3
     shootSound: shootSmite
-    shootSoundVolume: 0.5
+    shootSoundVolume: 0.05
     bullet: {
     type: BasicBulletType
     sprite: large-orb
@@ -42,7 +42,7 @@ shrinkY: 0
           intervalBullet: {
           type: LightningBulletType
           lightningColor: F7E97EFF
-          lightningLength: 5
+          lightningLength: 8
           lightningDamage: 60
           hitSound: spark
           lifetime: 1
