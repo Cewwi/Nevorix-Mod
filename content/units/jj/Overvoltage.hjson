@@ -55,6 +55,7 @@ shrinkY: 0
           colorTo: F7E97EFF
           sizeFrom: 5
           sizeTo: 0
+          }
           bulletInterval: 2
           intervalRandomSpread: 360
           intervalSpread: 300
