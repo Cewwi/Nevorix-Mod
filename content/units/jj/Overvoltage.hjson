@@ -36,6 +36,10 @@ speed: 2.5
 lifetime: 75
 shrinkX: 0
 shrinkY: 0
+        trailParam: 10
+        trailLength: 19
+        trailColor: C6FF6BFF
+        trailWidth: 5
           bulletInterval: 2
           intervalRandomSpread: 360
           intervalSpread: 300
