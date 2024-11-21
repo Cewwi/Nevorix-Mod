@@ -36,10 +36,25 @@ speed: 2.5
 lifetime: 75
 shrinkX: 0
 shrinkY: 0
-        trailParam: 10
-        trailLength: 19
-        trailColor: C6FF6BFF
-        trailWidth: 5
+      trailChance: 2
+      trailParam: 10
+      trailLength: 19
+      trailColor: C6FF6BFF
+      trailWidth: 5
+        trailEffect: {
+          type: ParticleEffect
+          particles: 3
+          length: 3
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 2
+          lightColor: F7E97EFF
+          colorFrom: ffffff
+          colorTo: F7E97EFF
+          sizeFrom: 5
+          sizeTo: 0
           bulletInterval: 2
           intervalRandomSpread: 360
           intervalSpread: 300
