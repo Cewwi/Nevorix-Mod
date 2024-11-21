@@ -14,12 +14,13 @@ weapons: [
     y: -2
     x: 0
     shooty: 4
-    reload: 14
-    alternate: true
-    mirror: true
-    rotate: false
+    reload: 40
+    alternate: false
+    mirror: false
+    rotate: true
     inaccuracy: 3
     shootSound: shootSmite
+    shootSoundVolume: 0.5
     bullet: {
     type: BasicBulletType
     sprite: large-orb
@@ -29,10 +30,9 @@ damage: 70
 scaleVelocity: true
 splashDamage: 410
 splashDamageRadius: 30
-height: 7.5
-inaccuracy: 30
-width: 7.5
-speed: 3.5
+height: 18.5
+width: 18.5
+speed: 2.5
 lifetime: 75
 shrinkX: 0
 shrinkY: 0
@@ -42,7 +42,7 @@ shrinkY: 0
           intervalBullet: {
           type: LightningBulletType
           lightningColor: F7E97EFF
-          lightningLength: 15
+          lightningLength: 5
           lightningDamage: 60
           hitSound: spark
           lifetime: 1
