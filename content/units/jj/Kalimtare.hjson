@@ -10,9 +10,9 @@ outlineColor: 1d1c1a
 mechLegColor: 1d1c1a
 weapons: [
   {
-    name: Sobretensión-cannon
+    name: Kalimtare-cannon
     y: 0
-    x: 13
+    x: 17
     shooty: 3
     reload: 14
     alternate: true
