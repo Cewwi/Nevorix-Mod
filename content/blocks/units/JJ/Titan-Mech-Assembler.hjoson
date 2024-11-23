@@ -1,6 +1,6 @@
 researchCostMultiplier: 0.5
 type: UnitAssembler
-localizedName: Titan Mech Assembler
+name: Titan Mech Assembler
 description: Creates Titan mech units using many payloads.
 size: 8
 category: units
