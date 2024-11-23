@@ -7,7 +7,7 @@ category: units
 droneType: assembly-drone
 dronesCreated: 6
 droneConstructTime: 120
-research: collaris
+research: mech-assembler
 requirements: [
   graphite/3000
   carbide/1000
