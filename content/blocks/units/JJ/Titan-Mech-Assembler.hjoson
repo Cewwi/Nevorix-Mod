@@ -2,7 +2,7 @@ researchCostMultiplier: 0.5
 type: UnitAssembler
 name: Titan Mech Assembler
 description: Creates Titan mech units using many payloads.
-size: 5
+size: 8
 category: units
 droneType: assembly-drone
 research: collaris
@@ -13,8 +13,8 @@ requirements: [
   tungsten/2500
   phase-fabric/750
 ]
-plans:
-  {
+plans: [
+{
     type: AssemblerUnitPlan
     unit: Dominique
     requirements: [
@@ -24,8 +24,19 @@ plans:
     ]
     time: 55000
   }
-squareSprite: false
+{
+    type: AssemblerUnitPlan
+    unit: Dominique
+    requirements: [
+      shielded-wall/6
+      afflict/2
+      anthicus/6
+    ]
+    time: 55000
+  }
+]
+squareSprite: flase
 consumes: {
-  power: 2
+  power: 4
 }
 areaSize: 13
