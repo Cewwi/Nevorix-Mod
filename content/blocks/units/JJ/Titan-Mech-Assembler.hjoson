@@ -4,8 +4,8 @@ name: Titan Mech Assembler
 description: Creates Titan mech units using many payloads.
 size: 5
 category: units
-droneType: 18r-12-mounting-drone
-research: 10j-00-ground-mounting-bay
+droneType: assembly-drone
+research: collaris
 requirements: [
   graphite/3000
   carbide/1000
