@@ -5,7 +5,7 @@ description: Creates Titan mech units using many payloads.
 size: 8
 category: units
 droneType: assembly-drone
-dronesCreated: 6
+dronesCreated: 4
 droneConstructTime: 120
 research: mech-assembler
 requirements: [
