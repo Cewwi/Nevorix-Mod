@@ -10,6 +10,7 @@ requirements: [
   graphite/3000
   carbide/1000
   silicon/1500
+  tungsten/2500
 ]
 plans:
   {
