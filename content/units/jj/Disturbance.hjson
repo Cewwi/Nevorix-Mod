@@ -12,6 +12,13 @@ hitSize: 16
 accel: 0.095
 groundLayer: 60
 layer: 109
+  research: {
+  requirements: [
+    silicon/1000
+    phase-fabric/50
+    carbide/50
+ ]
+ }
 isEnemy: true
 health: 1000
 armor: 1
