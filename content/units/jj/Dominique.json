@@ -1,6 +1,7 @@
 {
   "singleTarget": true,
   "template": "ErekirUnitType",
+  "localizedName": "Dominique",
   "drawShields": false,
   "research": {
     "requirements": [
