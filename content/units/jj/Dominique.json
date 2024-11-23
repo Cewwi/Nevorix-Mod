@@ -4,10 +4,12 @@
   "localizedName": "Dominique",
   "drawShields": false,
   "research": {
-    "requirements": [
-      "copper/1"
-    ]
-  },
+  "requirements": [
+    "silicon/1000",
+    "phase-fabric/50",
+    "carbide/50",
+ ]
+ },
   "lightRadius": 200,
   "type": "legs",
   "drownTimeMultiplier": 999999999999999999999,
