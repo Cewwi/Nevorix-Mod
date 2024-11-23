@@ -11,6 +11,7 @@ requirements: [
   carbide/1000
   silicon/1500
   tungsten/2500
+  phase-fabric/750
 ]
 plans:
   {
