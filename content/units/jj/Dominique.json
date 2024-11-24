@@ -393,8 +393,45 @@
       "shootSound": "laser",
       "mirror": true,
       "alternate": true,
-      "rotate": false,
+      "rotate": true,
+      "rotationLimit": 52.5,
       "parts": [
+{
+"type": "shapePart",
+"y": 2,
+"circle": true,
+"layer": 114,
+"color": "ffFFFFff",
+"radiusTo": 1.5,
+"radius": 5
+},
+{
+"type": "shapePart",
+"y": 2,
+"circle": true,
+"layer": 110,
+"color": "aec6ff",
+"radiusTo": 3,
+"radius": 16
+},
+{
+"type": "shapePart",
+"y": 2,
+"circle": true,
+"layer": 110,
+"color": "8ca9e855",
+"radiusTo": 4,
+"radius": 18
+},
+{
+"type": "shapePart",
+"y": 2,
+"circle": true,
+"layer": 110,
+"color": "597cff45",
+"radiusTo": 4.2,
+"radius": 20
+}
     {
       "type": "RegionPart",
       "suffix": "-glow",
