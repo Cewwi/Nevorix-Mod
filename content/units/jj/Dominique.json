@@ -383,13 +383,13 @@
   }
     {
   "name": "Triangulum",
-  "x": 0,
+  "x": 30,
   "y": 0,
   "layerOffset": 0.002,
       "shootY": 22,
       "rotateSpeed": 1,
       "reload": 100,
-      "recoil": 0,
+      "recoil": 8,
       "shootSound": "laser",
       "mirror": true,
       "alternate": true,
@@ -400,7 +400,8 @@
         "width": 50,
         "damage": 600,
         "hitEffect": "lightningShoot",
-        "shootEffect": {
+        "shootEffect": [
+          {
           "type": "WaveEffect",
           "lifetime": 20,
           "sizeFrom": 0,
@@ -411,6 +412,29 @@
           "colorFrom": "FFFFFF",
           "colorTo": "6569C9FF"
         }
+          {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 12,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "6569C9FF"
+        }
+          {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 18,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "6569C9FF"
+        }
+        ]
         "colors": [
           "77ceff",
           "6569C9FF",
