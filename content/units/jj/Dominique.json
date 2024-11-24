@@ -381,5 +381,39 @@
       }
     }
   }
+    {
+  "name": "Triangulum",
+  "x": 0,
+  "y": 0,
+  "shooty": 8,
+  "reload": 800,
+  "alternate": false,
+  "mirror": false,
+  "rotate": false,
+  "shootSound": "laser",
+  "bullet": {
+    "type": "BasicBulletType",
+    "lightRadius": 10,
+    "lightColor": "ffFFFFff",
+    "damage": 70,
+    "scaleVelocity": true,
+    "splashDamage": 410,
+    "splashDamageRadius": 30,
+    "height": 7.5,
+    "inaccuracy": 30,
+    "width": 7.5,
+    "speed": 5,
+    "lifetime": 75,
+    "shrinkX": 0,
+    "shrinkY": 0,
+    "trailChance": 2,
+    "trailParam": 10,
+    "trailLength": 19,
+    "trailColor": "77ceff",
+    "trailWidth": 5,
+    "weaveScale": 5,
+    "weaveMag": 5,
+    }
+  }
 ]
 }
