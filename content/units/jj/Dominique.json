@@ -442,6 +442,14 @@
       "colorTo": "ffffff",
       "outline": false
     }
+        {
+        "type": "RegionPart",
+        "suffix": "-ring",
+        "x": 12,
+        "y": -12,
+        "rotateSpeed": 1,
+        "mirror": true,
+      },
   ]
       "bullet": {
         "type": "LaserBulletType",
