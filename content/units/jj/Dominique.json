@@ -399,7 +399,74 @@
         "length": 350,
         "width": 50,
         "damage": 600,
-        "hitEffect": "lightningShoot",
+        "hitEffect": [
+          {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 6,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "6569C9FF"
+        }
+          {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 12,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "6569C9FF"
+        }
+          {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 18,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "6569C9FF"
+        }
+          {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 24,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "6569C9FF"
+          }
+          {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 30,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "6569C9FF"
+        }
+          {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 36,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "6569C9FF"
+        }
+        ]
         "shootEffect": [
           {
           "type": "WaveEffect",
@@ -444,7 +511,7 @@
           "strokeTo": 0,
           "colorFrom": "FFFFFF",
           "colorTo": "6569C9FF"
-        
+          }
           {
           "type": "WaveEffect",
           "lifetime": 20,
