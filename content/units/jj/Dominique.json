@@ -444,6 +444,7 @@
     }
         {
         "type": "RegionPart",
+        "top": false,
         "suffix": "-ring",
         "x": 12,
         "y": -12,
