@@ -388,7 +388,7 @@
       "layerOffset": -0.00001,
       "shootY": -14,
       "rotateSpeed": 1,
-      "reload": 100,
+      "reload": 70,
       "recoil": 8,
       "shootSound": "laser",
       "mirror": true,
