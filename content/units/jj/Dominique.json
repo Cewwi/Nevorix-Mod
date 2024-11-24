@@ -13,7 +13,7 @@
   "lightRadius": 200,
   "type": "legs",
   "drownTimeMultiplier": 999999999999999999999,
-  "legCount": 4,
+  "legCount": 6,
   "legLength": 85,
   "legSpeed": 0.5,
   "legExtension": -10.5,
@@ -385,7 +385,7 @@
   "name": "Triangulum",
   "x": 30,
   "y": 0,
-  "layerOffset": 0.002,
+      "layerOffset": -0.00001,
       "shootY": -14,
       "rotateSpeed": 1,
       "reload": 100,
@@ -394,6 +394,18 @@
       "mirror": true,
       "alternate": true,
       "rotate": false,
+      "parts": [
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": true,
+      "blending": "additive",
+      "color": "aec6ff",
+      "colorTo": "ffffff",
+      "outline": false
+    }
+  ]
       "bullet": {
         "type": "LaserBulletType",
         "length": 350,
