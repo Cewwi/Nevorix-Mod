@@ -447,7 +447,7 @@
         "suffix": "-ring",
         "x": 12,
         "y": -12,
-        "rotateSpeed": 1,
+        "haloRotateSpeed": -1.5,
         "mirror": true,
       },
   ]
