@@ -386,7 +386,7 @@
   "x": 30,
   "y": 0,
   "layerOffset": 0.002,
-      "shootY": 22,
+      "shootY": -14,
       "rotateSpeed": 1,
       "reload": 100,
       "recoil": 8,
@@ -428,6 +428,39 @@
           "lifetime": 20,
           "sizeFrom": 0,
           "sizeTo": 18,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "6569C9FF"
+        }
+          {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 24,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "6569C9FF"
+        
+          {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 30,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "6569C9FF"
+        }
+          {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 36,
           "sides": 4,
           "strokeFrom": 8,
           "strokeTo": 0,
