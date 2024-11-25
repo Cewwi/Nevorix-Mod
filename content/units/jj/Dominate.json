@@ -148,7 +148,7 @@
 "cooldownTime": 250,
 "top": true,
 "heatColor": "f9350f",
-"reload": 200,
+"reload": 100,
 "rotate": true,
 "layerOffset": 1,
 "rotateSpeed": 0.6,
@@ -160,7 +160,7 @@
         "damage": 120,
         "height": 35,
         "width": 6,
-        "speed": 17,
+        "speed": 37,
         "lifetime": 28,
         "shrinkX": 0,
         "shrinkY": 0,
@@ -169,8 +169,29 @@
         "lightningLength": 4,
         "lightningCone": 40,
         "lightningLengthRand": 6,
-        "frontColor": "FFFFFFF",
-        "backColor": "FEB380FF"
+        "frontColor": "9b3706",
+        "backColor": "e85f02"
+        "trailEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 10,
+          "length": 9,
+          "baseLength": 9,
+          "lifetime": 25,
+          "interp": "circleOut",
+          "cone": 360,
+          "offset": 2,
+          "lightColor": "e85f02",
+          "colorFrom": "fff8e8",
+          "colorTo": "e85f02",
+          "sizeFrom": 7,
+          "sizeTo": 0
+        },
+        "trailChance": 1,
+        "trailParam": 5,
+        "trailLength": 19,
+        "trailColor": "C6FF6BFF",
+        "trailWidth": 9,
         "hitEffect": {
           "type": "ParticleEffect",
           "line": true,
@@ -181,7 +202,7 @@
           "lenFrom": 8,
           "lenTo": 8,
           "colorFrom": "FFFFFFF",
-          "colorTo": "FEB380FF"
+          "colorTo": "e85f02"
         },
         "despawnEffect": {
           "type": "ParticleEffect",
@@ -193,7 +214,7 @@
           "lenFrom": 8,
           "lenTo": 8,
           "colorFrom": "FFFFFFF",
-          "colorTo": "FEB380FF"
+          "colorTo": "e85f02"
         }
 }
 }
