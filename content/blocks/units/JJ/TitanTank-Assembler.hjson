@@ -1,0 +1,40 @@
+{
+researchCostMultiplier: 0.5
+type: UnitAssembler
+name: Titan Mech Assembler
+description: Creates Titan tank units using many payloads.
+size: 8
+category: units
+droneType: assembly-drone
+dronesCreated: 4
+droneConstructTime: 80
+research: tank-assembler
+requirements: [
+  graphite/3000
+  carbide/1000
+  silicon/1500
+  tungsten/2500
+  phase-fabric/750
+]
+plans: [
+{
+    type: AssemblerUnitPlan
+    unit: Dominate
+    requirements: [
+      shielded-wall/12
+      breach/6
+      precept/6
+    ]
+    time: 25000
+  }
+]
+squareSprite: flase
+consumes: {
+  power: 4
+liquids: [
+  arkycite/0.4
+  cyanogen/0.3
+]
+}
+areaSize: 18
+}
