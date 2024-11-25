@@ -98,7 +98,7 @@
 "type": "BasicBulletType",
         "damage": 120,
         "height": 75,
-        "width": 20,
+        "width": 14,
         "speed": 7,
         "lifetime": 58,
         "shrinkX": 0,
@@ -171,6 +171,66 @@
           "lenTo": 8,
           "colorFrom": "FFFFFFF",
           "colorTo": "ffb98b"
+        }
+          "fragBullets": 6,
+      "fragVelocityMin": 1,
+      "fragRandomSpread": 20,
+      "fragSpread": 360,
+      "fragBullet": {
+        "type": "BasicBulletType",
+        "damage": 120,
+        "height": 75,
+        "width": 20,
+        "speed": 7,
+        "lifetime": 58,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "lightning": 7,
+        "lightningDamage": 20,
+        "lightningLength": 4,
+        "lightningCone": 40,
+        "lightningLengthRand": 6,
+        "frontColor": "ffdfca",
+        "backColor": "ffb98b"
+        "trailEffect": [
+          {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 10,
+          "length": 9,
+          "baseLength": 9,
+          "lifetime": 25,
+          "interp": "circleOut",
+          "cone": 360,
+          "offset": 0,
+          "lightColor": "ffb98b",
+          "colorFrom": "fff8e8",
+          "colorTo": "ffb98b",
+          "sizeFrom": 7,
+          "sizeTo": 0
+          },
+          {
+          "type": "ParticleEffect",
+          "particles": 10,
+          "length": 9,
+          "baseLength": 9,
+          "lifetime": 10,
+          "interp": "circleOut",
+          "cone": 360,
+          "offset": 0,
+          "lightColor": "ffb98b",
+          "colorFrom": "fff8e8",
+          "colorTo": "ffb98b",
+          "sizeFrom": 7,
+          "sizeTo": 0
+          },
+        ]
+        "trailChance": 3,
+        "trailParam": 5,
+        "trailLength": 19,
+        "trailColor": "ffb98b",
+        "trailWidth": 2,
+        },
         }
 }
 }
