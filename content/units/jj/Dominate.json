@@ -167,7 +167,10 @@
           "colorFrom": "FFFFFFF",
           "colorTo": "ffb98b"
         }
-          "fragBullets": 6,
+      "pierce": true
+      "pierceBuilding": false
+      "pierceCap": 6
+      "fragBullets": 6,
       "fragVelocityMin": 1,
       "fragRandomSpread": 20,
       "fragSpread": 360,
