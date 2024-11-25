@@ -74,8 +74,8 @@
       "layer": -1,
       "mirror": true,
       "blending": "additive",
-      "color": "BF92F9FF",
-      "colorTo": "BF92F9FF",
+      "color": "ff0000AA",
+      "colorTo": "ff0000AA",
       "outline": false
     }
   ]
@@ -97,8 +97,8 @@
 "bullet": {
 "type": "BasicBulletType",
         "damage": 120,
-        "height": 35,
-        "width": 12,
+        "height": 75,
+        "width": 40,
         "speed": 7,
         "lifetime": 58,
         "shrinkX": 0,
@@ -108,8 +108,8 @@
         "lightningLength": 4,
         "lightningCone": 40,
         "lightningLengthRand": 6,
-        "frontColor": "9b3706",
-        "backColor": "e85f02"
+        "frontColor": "ffdfca",
+        "backColor": "ffb98b"
         "trailEffect": {
           "type": "ParticleEffect",
           "line": true,
@@ -120,9 +120,9 @@
           "interp": "circleOut",
           "cone": 360,
           "offset": 2,
-          "lightColor": "e85f02",
+          "lightColor": "ffb98b",
           "colorFrom": "fff8e8",
-          "colorTo": "e85f02",
+          "colorTo": "ffb98b",
           "sizeFrom": 7,
           "sizeTo": 0
         },
@@ -141,7 +141,7 @@
           "lenFrom": 8,
           "lenTo": 8,
           "colorFrom": "FFFFFFF",
-          "colorTo": "e85f02"
+          "colorTo": "ffb98b"
         },
         "despawnEffect": {
           "type": "ParticleEffect",
@@ -153,7 +153,7 @@
           "lenFrom": 8,
           "lenTo": 8,
           "colorFrom": "FFFFFFF",
-          "colorTo": "e85f02"
+          "colorTo": "ffb98b"
         }
 }
 }
@@ -175,7 +175,20 @@
   "incendAmount": 4,
   "alwaysShooting": false,
   "alwaysContinuous": true,
+  "layerOffset": 1,
   "continuous": true,
+  "parts": [
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": true,
+      "blending": "additive",
+      "color": "ff0000AA",
+      "colorTo": "ff0000AA",
+      "outline": false
+    }
+  ]
   "bullet": {
     "type": "ContinuousFlameBulletType",
     "colors": [
