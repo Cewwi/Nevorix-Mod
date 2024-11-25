@@ -209,9 +209,9 @@
   "bullet": {
     "type": "ContinuousFlameBulletType",
     "colors": [
-      "f5570a",
-      "f28b0d",
-      "e6c219",
+      "ff9d5c",
+      "ffb98b",
+      "ffb98b",
       "ffffff"
     ],
     "damage": 30,
@@ -225,20 +225,8 @@
     "pierceArmor": true,
     "divisions": 20,
     "length": 240,
-    "hitEffect": {
-          "type": "ParticleEffect",
-          "line": true,
-          "particles": 7,
-          "lifetime": 30,
-          "length": 260,
-          "cone": 80,
-          "strokeFrom": 4.5,
-          "strokeTo": 0,
-          "lenFrom": 8,
-          "lenTo": 0,
-          "colorFrom": "e6c219",
-          "colorTo": "f5570a"
-        },
+    "hitEffect": "massiveExplosion",
+    "despawnEffect": "massiveExplosion",
   }
 }
   ]
