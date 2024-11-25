@@ -110,7 +110,8 @@
         "lightningLengthRand": 6,
         "frontColor": "ffdfca",
         "backColor": "ffb98b"
-        "trailEffect": {
+        "trailEffect": [
+          {
           "type": "ParticleEffect",
           "line": true,
           "particles": 10,
@@ -119,14 +120,30 @@
           "lifetime": 25,
           "interp": "circleOut",
           "cone": 360,
-          "offset": 2,
+          "offset": 0,
           "lightColor": "ffb98b",
           "colorFrom": "fff8e8",
           "colorTo": "ffb98b",
           "sizeFrom": 7,
           "sizeTo": 0
-        },
-        "trailChance": 1,
+          },
+          {
+          "type": "ParticleEffect",
+          "particles": 10,
+          "length": 9,
+          "baseLength": 9,
+          "lifetime": 10,
+          "interp": "circleOut",
+          "cone": 360,
+          "offset": 0,
+          "lightColor": "ffb98b",
+          "colorFrom": "fff8e8",
+          "colorTo": "ffb98b",
+          "sizeFrom": 7,
+          "sizeTo": 0
+          },
+        ]
+        "trailChance": 3,
         "trailParam": 5,
         "trailLength": 19,
         "trailColor": "ffb98b",
