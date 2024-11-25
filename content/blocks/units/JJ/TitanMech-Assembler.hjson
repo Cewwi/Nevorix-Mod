@@ -1,3 +1,4 @@
+{
 researchCostMultiplier: 0.5
 type: UnitAssembler
 name: Titan Mech Assembler
@@ -34,3 +35,4 @@ liquids: [
 ]
 }
 areaSize: 18
+}
