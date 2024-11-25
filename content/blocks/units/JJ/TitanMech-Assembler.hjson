@@ -25,7 +25,7 @@ plans: [
       afflict/2
       anthicus/6
     ]
-    time: 55000
+    time: 25000
   }
 ]
 squareSprite: flase
