@@ -98,7 +98,7 @@
 "type": "BasicBulletType",
         "damage": 120,
         "height": 75,
-        "width": 40,
+        "width": 20,
         "speed": 7,
         "lifetime": 58,
         "shrinkX": 0,
@@ -129,7 +129,7 @@
         "trailChance": 1,
         "trailParam": 5,
         "trailLength": 19,
-        "trailColor": "e85f02",
+        "trailColor": "ffb98b",
         "trailWidth": 2,
         "hitEffect": {
           "type": "ParticleEffect",
