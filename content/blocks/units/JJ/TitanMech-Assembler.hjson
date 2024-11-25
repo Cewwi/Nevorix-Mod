@@ -16,7 +16,8 @@ requirements: [
   tungsten/2500
   phase-fabric/750
 ]
-plans: {
+plans: [
+{
     type: AssemblerUnitPlan
     unit: Dominique
     requirements: [
@@ -26,6 +27,7 @@ plans: {
     ]
     time: 55000
   }
+]
 squareSprite: flase
 consumes: {
   power: 4
