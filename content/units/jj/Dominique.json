@@ -381,5 +381,67 @@
       }
     },
   },
+    {
+      "name": "Surge-catipult",
+      "y": 0,
+      "x": 12,
+      "shooty": 4,
+      "reload": 40,
+      "alternate": true,
+      "mirror": true,
+      "rotate": true,
+      "inaccuracy": 0,
+      "shootSound": "cannon",
+      "shootSoundVolume": 0.05,
+      "bullet": {
+        "type": "BasicBulletType",
+        "sprite": "large-orb",
+        "lightRadius": 10,
+        "lightColor": "ffFFFFff",
+        "damage": 70,
+        "scaleVelocity": true,
+        "splashDamage": 70,
+        "splashDamageRadius": 30,
+        "height": 13.5,
+        "width": 13.5,
+        "speed": 4.5,
+        "lifetime": 75,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "trailChance": 2,
+        "trailParam": 10,
+        "trailLength": 19,
+        "trailColor": "77ceff",
+        "trailWidth": 3,
+        "trailEffect": {
+          "type": "ParticleEffect",
+          "particles": 3,
+          "length": 3,
+          "baseLength": 3,
+          "lifetime": 25,
+          "interp": "circleOut",
+          "cone": 360,
+          "offset": 2,
+          "lightColor": "77ceff",
+          "colorFrom": "ffffff",
+          "colorTo": "77ceff",
+          "sizeFrom": 12,
+          "sizeTo": 0
+        },
+        "bulletInterval": 2,
+        "intervalRandomSpread": 360,
+        "intervalSpread": 300,
+        "intervalBullet": {
+          "type": "LightningBulletType",
+          "lightningColor": "77ceff",
+          "lightningLength": 8,
+          "lightningDamage": 60,
+          "hitSound": "spark",
+          "lifetime": 1
+        }
+      }
+    }
+  ]
+}
 ]
 }
