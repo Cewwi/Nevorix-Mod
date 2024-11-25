@@ -5,8 +5,8 @@ description: Creates Titan mech units using many payloads.
 size: 8
 category: units
 droneType: assembly-drone
-dronesCreated: 4
-droneConstructTime: 120
+dronesCreated: 6
+droneConstructTime: 80
 research: mech-assembler
 requirements: [
   graphite/3000
@@ -19,7 +19,7 @@ plans: {
     type: AssemblerUnitPlan
     unit: Dominique
     requirements: [
-      shielded-wall/6
+      shielded-wall/12
       afflict/2
       anthicus/6
     ]
@@ -29,7 +29,8 @@ squareSprite: flase
 consumes: {
   power: 4
 liquids: [
-  neoplasm/0.3
+  arkycite/0.4
+  cyanogen/0.3
 ]
 }
 areaSize: 18
