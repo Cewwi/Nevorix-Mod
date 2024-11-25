@@ -94,6 +94,18 @@
 "shootY": 16,
 "recoil": 3,
 "shootSound": "shootBig",
+  "parts": [
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": true,
+      "blending": "additive",
+      "color": "ff0000AA",
+      "colorTo": "ff0000AA",
+      "outline": false
+    }
+  ]
 "bullet": {
 "type": "BasicBulletType",
         "damage": 120,
