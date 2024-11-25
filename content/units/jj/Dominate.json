@@ -279,8 +279,7 @@
     "pierceArmor": true,
     "divisions": 20,
     "length": 240,
-    "hitEffect": "massiveExplosion",
-    "despawnEffect": "massiveExplosion",
+    "hitEffect": "shootSmokeTitan",
   }
 }
   ]
