@@ -82,8 +82,8 @@
 "weapons": [
   {
 "name": "Dominate-rebarPucher",
-"x": 14,
-"y": 5,
+"x": 18,
+"y": -3,
 "mirror": true,
 "top": true,
 "heatColor": "f9350f",
@@ -91,7 +91,7 @@
 "rotate": true,
 "layerOffset": 1,
 "rotateSpeed": 0.6,
-"shootY": 12,
+"shootY": 16,
 "recoil": 3,
 "shootSound": "shootBig",
 "bullet": {
