@@ -99,6 +99,8 @@
         "damage": 120,
         "height": 75,
         "width": 14,
+        "splashDamage": 50,
+        "splashDamageRadius": 50,
         "speed": 7,
         "lifetime": 58,
         "shrinkX": 0,
