@@ -18,7 +18,7 @@ weapons: [
     alternate: false
     mirror: false
     rotate: true
-    inaccuracy: 3
+    inaccuracy: 0
     shootSound: cannon
     shootSoundVolume: 0.05
     bullet: {
@@ -30,9 +30,9 @@ damage: 70
 scaleVelocity: true
 splashDamage: 70
 splashDamageRadius: 30
-height: 18.5
-width: 18.5
-speed: 2.5
+height: 13.5
+width: 13.5
+speed: 4.5
 lifetime: 75
 shrinkX: 0
 shrinkY: 0
@@ -62,7 +62,7 @@ shrinkY: 0
           intervalBullet: {
           type: LightningBulletType
           lightningColor: F7E97EFF
-          lightningLength: 10
+          lightningLength: 8
           lightningDamage: 60
           hitSound: spark
           lifetime: 1
