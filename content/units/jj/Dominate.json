@@ -80,6 +80,83 @@
     }
   ]
 "weapons": [
+  {
+"name": "Dominate-rebarPucher",
+"x": 14,
+"y": 5,
+"mirror": true,
+"top": true,
+"heatColor": "f9350f",
+"reload": 10,
+"rotate": true,
+"layerOffset": 1,
+"rotateSpeed": 0.6,
+"shootY": 12,
+"recoil": 3,
+"shootSound": "shootBig",
+"bullet": {
+"type": "BasicBulletType",
+        "damage": 120,
+        "height": 35,
+        "width": 6,
+        "speed": 7,
+        "lifetime": 28,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "lightning": 7,
+        "lightningDamage": 20,
+        "lightningLength": 4,
+        "lightningCone": 40,
+        "lightningLengthRand": 6,
+        "frontColor": "9b3706",
+        "backColor": "e85f02"
+        "trailEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 10,
+          "length": 9,
+          "baseLength": 9,
+          "lifetime": 25,
+          "interp": "circleOut",
+          "cone": 360,
+          "offset": 2,
+          "lightColor": "e85f02",
+          "colorFrom": "fff8e8",
+          "colorTo": "e85f02",
+          "sizeFrom": 7,
+          "sizeTo": 0
+        },
+        "trailChance": 1,
+        "trailParam": 5,
+        "trailLength": 19,
+        "trailColor": "e85f02",
+        "trailWidth": 2,
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 20,
+          "lifetime": 20,
+          "length": 75,
+          "cone": -40,
+          "lenFrom": 8,
+          "lenTo": 8,
+          "colorFrom": "FFFFFFF",
+          "colorTo": "e85f02"
+        },
+        "despawnEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 6,
+          "lifetime": 20,
+          "length": 75,
+          "cone": -40,
+          "lenFrom": 8,
+          "lenTo": 8,
+          "colorFrom": "FFFFFFF",
+          "colorTo": "e85f02"
+        }
+}
+}
 {
 "name": "Dominate-cannon",
 "x": 0,
@@ -114,7 +191,7 @@
     "intervalBullets": 2,
     "intervalRandomSpread": 1,
     "bulletInterval": 2.7,
-    "drawFlare": false,
+    "drawFlare": true,
     "width": 6,
     "pierceArmor": true,
     "divisions": 20,
@@ -134,87 +211,6 @@
           "colorTo": "f5570a"
         },
   }
-}
-  {
-"name": "Dominate-rebarPucher",
-"x": 7,
-"y": 5,
-"minWarmup": 0.70,
-"smoothReloadSpeed": 0.08,
-"shootWarmupSpeed": 0.03,
-"mirror": true,
-"cooldownTime": 250,
-"top": true,
-"heatColor": "f9350f",
-"reload": 100,
-"rotate": true,
-"layerOffset": 1,
-"rotateSpeed": 0.6,
-"shootY": 8,
-"recoil": 3,
-"shootSound": "desolationimpact",
-"bullet": {
-"type": "BasicBulletType",
-        "damage": 120,
-        "height": 35,
-        "width": 6,
-        "speed": 37,
-        "lifetime": 28,
-        "shrinkX": 0,
-        "shrinkY": 0,
-        "lightning": 7,
-        "lightningDamage": 20,
-        "lightningLength": 4,
-        "lightningCone": 40,
-        "lightningLengthRand": 6,
-        "frontColor": "9b3706",
-        "backColor": "e85f02"
-        "trailEffect": {
-          "type": "ParticleEffect",
-          "line": true,
-          "particles": 10,
-          "length": 9,
-          "baseLength": 9,
-          "lifetime": 25,
-          "interp": "circleOut",
-          "cone": 360,
-          "offset": 2,
-          "lightColor": "e85f02",
-          "colorFrom": "fff8e8",
-          "colorTo": "e85f02",
-          "sizeFrom": 7,
-          "sizeTo": 0
-        },
-        "trailChance": 6,
-        "trailParam": 5,
-        "trailLength": 19,
-        "trailColor": "e85f02",
-        "trailWidth": 2,
-        "hitEffect": {
-          "type": "ParticleEffect",
-          "line": true,
-          "particles": 20,
-          "lifetime": 20,
-          "length": 75,
-          "cone": -40,
-          "lenFrom": 8,
-          "lenTo": 8,
-          "colorFrom": "FFFFFFF",
-          "colorTo": "e85f02"
-        },
-        "despawnEffect": {
-          "type": "ParticleEffect",
-          "line": true,
-          "particles": 6,
-          "lifetime": 20,
-          "length": 75,
-          "cone": -40,
-          "lenFrom": 8,
-          "lenTo": 8,
-          "colorFrom": "FFFFFFF",
-          "colorTo": "e85f02"
-        }
-}
 }
   ]
 }
