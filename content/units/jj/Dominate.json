@@ -283,7 +283,8 @@
       "ffffff"
     ],
     "damage": 30,
-    "flareColor": "f28b0d"
+    "lightColor": "ffb98b",
+    "flareColor": "ffb98b",
     "groundLayer": 61,
     "intervalBullets": 2,
     "intervalRandomSpread": 1,
