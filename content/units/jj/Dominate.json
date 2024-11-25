@@ -50,21 +50,21 @@
       "spawnX": 30,
       "spawnY": -25,
       "unit": "locus",
-      "spawnTime": 10000
+      "spawnTime": 1800
     },
     {
       "type": "UnitSpawnAbility",
       "spawnX": -30,
       "spawnY": -25,
       "unit": "locus",
-      "spawnTime": 10000
+      "spawnTime": 1800
     }
     {
       "type": "UnitSpawnAbility",
       "spawnX": 0,
       "spawnY": -30,
       "unit": "precept",
-      "spawnTime": 24000
+      "spawnTime": 3600
     }
   ],
   "parts": [
@@ -88,6 +88,70 @@
 "smoothReloadSpeed": 0.08,
 "shootWarmupSpeed": 0.03,
 "mirror": false,
+"cooldownTime": 250,
+"top": true,
+"heatColor": "f9350f",
+"reload": 200,
+"rotate": true,
+"layerOffset": 1,
+"rotateSpeed": 0.6,
+"shootY": 8,
+"recoil": 3,
+"shootSound": "desolationimpact",
+"bullet": {
+"type": "BasicBulletType",
+        "sprite": "circle-bullet",
+        "damage": 120,
+        "height": 14,
+        "width": 12,
+        "speed": 17,
+        "lifetime": 28,
+        "homingPower": 0.7,
+        "homingDelay": 17,
+        "homingRange": 370,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "lightning": 7,
+        "lightningDamage": 20,
+        "lightningLength": 4,
+        "lightningCone": 40,
+        "lightningLengthRand": 6,
+        "frontColor": "FFFFFFF",
+        "backColor": "FEB380FF"
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 6,
+          "lifetime": 20,
+          "length": 75,
+          "cone": -40,
+          "lenFrom": 8,
+          "lenTo": 8,
+          "colorFrom": "FFFFFFF",
+          "colorTo": "FEB380FF"
+        },
+        "despawnEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 6,
+          "lifetime": 20,
+          "length": 75,
+          "cone": -40,
+          "lenFrom": 8,
+          "lenTo": 8,
+          "colorFrom": "FFFFFFF",
+          "colorTo": "FEB380FF"
+        },
+},
+},
+  {
+"name": "Dominate-rebarPucher",
+"x": 7,
+"y": 5,
+"minWarmup": 0.70,
+"smoothReloadSpeed": 0.08,
+"shootWarmupSpeed": 0.03,
+"mirror": true,
 "cooldownTime": 250,
 "top": true,
 "heatColor": "f9350f",
