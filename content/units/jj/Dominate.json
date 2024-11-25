@@ -103,11 +103,6 @@
         "lifetime": 58,
         "shrinkX": 0,
         "shrinkY": 0,
-        "lightning": 7,
-        "lightningDamage": 20,
-        "lightningLength": 4,
-        "lightningCone": 40,
-        "lightningLengthRand": 6,
         "frontColor": "ffdfca",
         "backColor": "ffb98b"
         "trailEffect": [
@@ -181,17 +176,14 @@
         "damage": 120,
         "height": 75,
         "width": 20,
-        "speed": 7,
-        "lifetime": 58,
+        "speed": 12,
+        "lifetime": 18,
         "shrinkX": 0,
         "shrinkY": 0,
-        "lightning": 7,
-        "lightningDamage": 20,
-        "lightningLength": 4,
-        "lightningCone": 40,
-        "lightningLengthRand": 6,
         "frontColor": "ffdfca",
         "backColor": "ffb98b"
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
         "trailEffect": [
           {
           "type": "ParticleEffect",
