@@ -5,7 +5,7 @@ flying: true
 shadowElevation: 1
 template: ErekirUnitType
 drag: 0.06
-outlineColor: 1d1c1a
+outlineColor: 2d2f39
 speed: 0.7
 rotateSpeed: 10
 hitSize: 16
@@ -20,7 +20,7 @@ layer: 109
  ]
  }
 isEnemy: true
-health: 1000
+health: 30000
 armor: 1
 mineSpeed: 10
 mineFloor: true
