@@ -16,10 +16,10 @@
 "treadPullOffset": 5,
 "treadRects": [
 {
-"x": 30, 
-"y": -150, 
-"width": 80, 
-"height": 300,
+"x": 287,
+"y": -150,
+"width": 80,
+"height": 500,
 },
 ],
 "omniMovement": false,
