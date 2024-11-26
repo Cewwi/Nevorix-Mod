@@ -27,7 +27,7 @@
   "range": 380,
   "maxRange": 380,
   "aimDst": 340,
-  "outlineColor": "252525FF",
+  "outlineColor": "2d2f39",
   "faceTarget": true,
   "flying": false,
   "health": 36500,
