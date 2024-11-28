@@ -75,7 +75,6 @@ weapons: [
        }
   }
 {
-    name: disrupt-weapon
     x: 15
     y: -3
     shooty: 8
