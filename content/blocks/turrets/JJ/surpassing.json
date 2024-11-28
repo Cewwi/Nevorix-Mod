@@ -7,7 +7,7 @@
   "range": 464,
   "outlineColor": "2d2f39",
   "recoil": 0,
-  "shootY": -10,
+  "shootY": -4,
   "shake": 1,
   "inaccuracy": 0,
   "category": "turret"
@@ -64,7 +64,6 @@
         "type": "RegionPart",
         "suffix": "-blade",
         "moveRot": -60,
-        "turretHeatLayer": -0.2,
         "under": true,
         "y": 10,
         "progress": {
@@ -72,7 +71,6 @@
           "op": "blend",
           "other": "heat",
           "amount": 0
-          "turretHeatLayer": -0.2,
         },
         "mirror": true
       },
@@ -87,10 +85,8 @@
           "op": "blend",
           "other": "heat",
           "amount": 0
-          "turretHeatLayer": -0.2,
         },
         "mirror": true
-        "turretHeatLayer": -0.2,
       },
       {
         "type": "RegionPart",
@@ -104,7 +100,6 @@
           "other": "heat",
           "amount": 0
         },
-        "turretHeatLayer": -0.2,
         "mirror": true
       },
 ]
