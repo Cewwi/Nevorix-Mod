@@ -66,6 +66,7 @@
         "moveRot": -60,
         "turretHeatLayer": -0.2,
         "under": true,
+        "y": 10,
         "progress": {
           "type": "warmup",
           "op": "blend",
@@ -80,6 +81,7 @@
         "suffix": "-blade",
         "moveRot": -90,
         "under": true,
+        "y": 10,
         "progress": {
           "type": "warmup",
           "op": "blend",
@@ -95,6 +97,7 @@
         "suffix": "-blade",
         "moveRot": -120,
         "under": true,
+        "y": 10,
         "progress": {
           "type": "warmup",
           "op": "blend",
