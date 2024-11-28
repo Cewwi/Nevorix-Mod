@@ -14,7 +14,7 @@ weapons: [
     y: 1
     x: 12
     top: true
-    shooty: 43
+    shootY: 3
     reload: 90
     rotateSpeed: 1.5
     mirror: true
@@ -23,11 +23,8 @@ weapons: [
     rotationLimit: 52.5
     rotate: true
     shootCone: 45
-    loopSound: beam
+    loopSound: flame
     shootSound: laserbig
-    incendAmount: 4
-    alwaysShooting: false
-    shootDuration: 3000
     alwaysContinuous: true
     continuous: true
     loopSoundVolume: 0.5
