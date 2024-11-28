@@ -31,110 +31,6 @@
     "basePrefix": "reinforced-"
     "parts": [
       {
-"type": "shapePart",
-"y": 6.5,
-"hollow": true,
-"circle": true,
-"layer": 110,
-"color": "ea8878",
-"stroke": 0,
-"rotateSpeed": 1,
-"strokeTo": 0.8,
-"radiusTo": 13,
-"radius": 13
-},
-{
-"type": "shapePart",
-"y": 6.5,
-"hollow": true,
-"circle": false,
-"sides": 4,
-"layer": 110,
-"color": "ea8878",
-"stroke": 0,
-"rotateSpeed": 1,
-"strokeTo": 0.8,
-"radiusTo": 9,
-"radius": 9
-},
-{
-"type": "shapePart",
-"y": 6.5,
-"hollow": true,
-"circle": false,
-"sides": 4,
-"layer": 110,
-"color": "ea8878",
-"stroke": 0,
-"strokeTo": 2,
-"radiusTo": 5,
-"radius": 5
-},
-{
-"type": "HaloPart",
-"y": 6.5,
-"radius": 2.6,
-"tri": true,
-"layer": 110,
-"color": "ea8878",
-"haloRadius": 9,
-"haloRadiusTo": 9,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 2,
-"triLengthTo": 13,
-"triLength": 0
-}
-{
-"type": "HaloPart",
-"y": 6.5,
-"radius": 2.6,
-"tri": true,
-"shapeRotation": 180,
-"layer": 110,
-"color": "ea8878",
-"haloRadius": 9,
-"haloRadiusTo": 9,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 4,
-"triLengthTo": 4,
-"triLength": 0
-},
-{
-"type": "HaloPart",
-"y": 6.5,
-"radius": 4.6,
-"tri": true,
-"layer": 110,
-"color": "ea8878",
-"haloRotateSpeed": 2.7,
-"haloRadius": 12,
-"haloRadiusTo": 12,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 2,
-"triLengthTo": 8,
-"triLength": 0
-}
-{
-"type": "HaloPart",
-"y": 6.5,
-"radius": 4.6,
-"tri": true,
-"shapeRotation": 180,
-"layer": 110,
-"color": "ea8878",
-"haloRotateSpeed": 2.7,
-"haloRadius": 12,
-"haloRadiusTo": 12,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 2,
-"triLengthTo": 7,
-"triLength": 0
-}
-      {
         "type": "RegionPart",
         "suffix": "-side",
         "moveX": 0,
@@ -245,7 +141,7 @@
           "type": "ParticleEffect",
           "particles": 6,
           "shape": 4,
-          "lifetime": 20,
+          "lifetime": 120,
           "length": 75,
           "cone": -80,
           "lenFrom": 8,
@@ -256,7 +152,7 @@
         "despawnEffect": {
           "type": "ParticleEffect",
           "particles": 6,
-          "lifetime": 20,
+          "lifetime": 120,
           "length": 75,
           "shape": 4,
           "cone": -80,
@@ -268,7 +164,6 @@
   "requirements": [
     "graphite/600",
   ],
-  "category": "turret"
 }
   }
 }
