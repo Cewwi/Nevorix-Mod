@@ -7,7 +7,7 @@
   "range": 464,
   "outlineColor": "2d2f39",
   "recoil": 0,
-  "shootY": -4,
+  "shootY": 2,
   "shake": 1,
   "inaccuracy": 0,
   "category": "turret"
@@ -112,8 +112,8 @@
 "damage": 200,
 "knockback": 3,
 "buildingDamageMultiplier": 0.24
-"width": 10.5,
-"drawFlare": false,
+"width": 6.5,
+"drawFlare": true,
 "lifetime": 60,
 "hitEffect": {
 "type": "ParticleEffect",
