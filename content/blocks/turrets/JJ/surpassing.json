@@ -63,8 +63,6 @@
       {
         "type": "RegionPart",
         "suffix": "-blade",
-        "moveX": 5,
-        "moveY": -4,
         "moveRot": -60,
         "turretHeatLayer": -0.2,
         "under": true,
@@ -80,8 +78,6 @@
       {
         "type": "RegionPart",
         "suffix": "-blade",
-        "moveX": 5,
-        "moveY": -4,
         "moveRot": -90,
         "under": true,
         "progress": {
@@ -97,8 +93,6 @@
       {
         "type": "RegionPart",
         "suffix": "-blade",
-        "moveX": 5,
-        "moveY": -4,
         "moveRot": -120,
         "under": true,
         "progress": {
