@@ -94,3 +94,9 @@
 }
 }
 }
+"research": {
+"parent": "sublimate",
+"objectives": [
+"sublimate"
+]
+}
