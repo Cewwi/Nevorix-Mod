@@ -65,62 +65,32 @@
 },
   "shootSound": "shootBig",
   "ammoTypes": {
-    "hydrogen": {
-        "type": "BasicBulletType",
-        "sprite": "circle-bullet",
-        "damage": 120,
-        "height": 14,
-        "width": 12,
-        "speed": 17,
-        "lifetime": 28,
-        "homingPower": 0.7,
-        "homingDelay": 17,
-        "homingRange": 370,
-        "shrinkX": 0,
-        "shrinkY": 0,
-        "lightning": 7,
-        "lightningDamage": 20,
-        "lightningLength": 4,
-        "lightningCone": 40,
-        "lightningLengthRand": 6,
-        "frontColor": "FFFFFFF",
-        "backColor": "FFE135FF"
-        "hitEffect": {
-          "type": "ParticleEffect",
-          "line": true,
-          "particles": 6,
-          "lifetime": 20,
-          "length": 75,
-          "cone": -40,
-          "lenFrom": 8,
-          "lenTo": 8,
-          "colorFrom": "FFFFFFF",
-          "colorTo": "FFE135FF"
-        },
-        "despawnEffect": {
-          "type": "ParticleEffect",
-          "line": true,
-          "particles": 6,
-          "lifetime": 20,
-          "length": 75,
-          "cone": -40,
-          "lenFrom": 8,
-          "lenTo": 8,
-          "colorFrom": "FFFFFFF",
-          "colorTo": "FFE135FF"
-        },
-        "shootEffect": "shootHealYellow",
-        "trailColor": "F3E979FF",
-        "trailLength": 20,
-        "trailWidth": 3.5,
-        "absorbable": false,
-        "lightColor": "FFFFFF",
-        "frontColor": "FFFFFFF",
-        "backColor": "FFE135FF"
-      }
-    },
-  "requirements": [
-    "graphite/600",
-  ],
-  "category": "turret"
+"hydrogen": {
+"type": "ContinuousFlameBulletType",
+"colors": ["5040d260", "597cffaa", "8ca9e8", "aec6ff", "ffffff"],
+"damage": 200,
+"knockback": 3,
+"status": "exogenesis-hydrogen-flash",
+"statusDuration": 240,
+"buildingDamageMultiplier": 0.24
+"width": 10.5,
+"drawFlare": false,
+"lifetime": 60,
+"hitEffect": {
+"type": "ParticleEffect",
+"line": true,
+"particles": 7,
+"lifetime": 15,
+"length": 65,
+"cone": -360,
+"strokeFrom": 2.5,
+"strokeTo": 0,
+"lenFrom": 8,
+"lenTo": 0,
+"colorFrom": "8ca9e8",
+"colorTo": "6a8ef6"
+},
+"length": 200,
+}
+}
 }
