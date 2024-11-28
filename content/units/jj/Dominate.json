@@ -1,6 +1,6 @@
 {
 "localizedName": "Dominate",
-"description": "Fires a large flame out of the front cannon. It will spawn locuses at a rate of 1 locus 50 seconds, and a precept every 2 minutes. Has secondary locus like laser cannons."
+"description": "Fires a large flame out of the front cannon. Has extreamky powerful rebar punchers."
 "template": "ErekirUnitType",
 "research": {
 "requirements": [
@@ -17,15 +17,15 @@
 "treadRects": [
 {
 "x": 40,
-"y": -350,
+"y": -355,
 "width": 80,
-"height": 500,
+"height": 400,
 },
 ],
 "omniMovement": false,
 "outlineColor": "2d2f39",
 "speed": 0.35,
-"hitSize": 90,
+"hitSize": 70,
 "health": 50000,
 "fogRadius": 80,
 "crushDamage": 1,
@@ -122,7 +122,7 @@
           "baseLength": 9,
           "lifetime": 25,
           "interp": "circleOut",
-          "cone": 360,
+          "cone": 60,
           "offset": 0,
           "lightColor": "ffb98b",
           "colorFrom": "fff8e8",
@@ -137,7 +137,7 @@
           "baseLength": 9,
           "lifetime": 10,
           "interp": "circleOut",
-          "cone": 360,
+          "cone": 60,
           "offset": 0,
           "lightColor": "ffb98b",
           "colorFrom": "fff8e8",
@@ -180,7 +180,7 @@
       "pierceCap": 6
       "fragBullets": 6,
       "fragVelocityMin": 1,
-      "fragRandomSpread": 20,
+      "fragRandomSpread": 0,
       "fragSpread": 360,
       "fragBullet": {
         "type": "BasicBulletType",
@@ -204,7 +204,7 @@
           "baseLength": 9,
           "lifetime": 25,
           "interp": "circleOut",
-          "cone": 360,
+          "cone": 60,
           "offset": 0,
           "lightColor": "ffb98b",
           "colorFrom": "fff8e8",
@@ -219,7 +219,7 @@
           "baseLength": 9,
           "lifetime": 10,
           "interp": "circleOut",
-          "cone": 360,
+          "cone": 60,
           "offset": 0,
           "lightColor": "ffb98b",
           "colorFrom": "fff8e8",
