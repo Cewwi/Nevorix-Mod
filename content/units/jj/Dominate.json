@@ -179,8 +179,9 @@
       "pierceBuilding": false
       "pierceCap": 6
       "fragBullets": 6,
+      "fragOnHit": true,
       "fragVelocityMin": 1,
-      "fragRandomSpread": 0,
+      "fragRandomSpread": 360,
       "fragSpread": 360,
       "fragBullet": {
         "type": "BasicBulletType",
