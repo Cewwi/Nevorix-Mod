@@ -22,7 +22,7 @@
   "shoot": {
         "type": "shootPattern",
         "shots": 1,
-        "shotDelay": 1
+        "shotDelay": 1,
   },
   "size": 5,
   "health": 18000,
@@ -87,8 +87,8 @@
       {
         "type": "RegionPart",
         "suffix": "-blade",
-        "moveX": 4,
-        "moveY": -4,
+        "moveX": 12,
+        "moveY": -3,
         "moveRot": -30,
         "under": true,
         "progress": {
@@ -102,8 +102,8 @@
       {
         "type": "RegionPart",
         "suffix": "-blade",
-        "moveX": 8,
-        "moveY": -2,
+        "moveX": 12,
+        "moveY": 0,
         "moveRot": -60,
         "under": true,
         "progress": {
