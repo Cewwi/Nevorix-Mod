@@ -1,6 +1,6 @@
 type: flying
 name: Disturbance
-description: Fires two powerful missiles and a slew of weaker missiles. Able to do tasks that a core unit is capable of doing.
+description: Fires two powerful missiles and a slew of weaker missiles. Able to do some tasks that a core unit is capable of doing. Spawns support units to mine, build, and repair.
 flying: true
 shadowElevation: 1
 template: ErekirUnitType
@@ -72,6 +72,20 @@ weapons: [
     bullet: {
       type: BasicBulletType
         spawnUnit: Disturbance-rocket
+       }
+  }
+{
+    x: 10
+    y: 3
+    shooty: 8
+    reload: 50
+    alternate: false
+    mirror: true
+    rotate: false
+    shootSound: missileLaunch
+    bullet: {
+      type: BasicBulletType
+        spawnUnit: disrupt-missile
        }
   }
 ]
