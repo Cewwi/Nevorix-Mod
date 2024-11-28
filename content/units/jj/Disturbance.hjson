@@ -31,11 +31,16 @@ itemCapacity: 175
 alwaysUnlocked: true
 abilities: [
     {
-      type: UnitSpawnAbility
-      spawnX: 30
-      spawnY: -25
-      unit: avert
-      spawnTime: 12000
+      type: SuppressionFieldAbility
+      orbRadius: 10
+      x: 20
+      y: 20
+    },
+    {
+      type: SuppressionFieldAbility
+      orbRadius: 10
+      x: -20
+      y: 20
     },
     {
       type: UnitSpawnAbility
