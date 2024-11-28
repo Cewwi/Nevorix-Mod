@@ -34,9 +34,8 @@ weapons: [
     bullet: {
       type: ContinuousLaserBulletType
       colors: [
-        ad3500
-        ff4f01
-        FF7436FF
+        F7E97EFF
+        F7E97EFF
         ffffff
       ]
       damage: 30
