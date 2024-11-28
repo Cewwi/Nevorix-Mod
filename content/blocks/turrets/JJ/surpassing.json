@@ -33,6 +33,21 @@
       {
         "type": "RegionPart",
         "suffix": "-spine",
+        "moveX": 0,
+        "moveY": 5,
+        "progress": {
+          "type": "charge",
+          "op": "blend",
+          "other": "glow",
+          "amount": 0.2
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-spine",
+        "moveX": 0,
+        "moveY": -15,
         "progress": {
           "type": "charge",
           "op": "blend",
