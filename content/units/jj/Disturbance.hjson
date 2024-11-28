@@ -33,25 +33,25 @@ abilities: [
     {
       type: SuppressionFieldAbility
       orbRadius: 8
-      x: 16
+      x: 16.5
       y: -11.5
     },
 {
       type: SuppressionFieldAbility
       orbRadius: 8
-      x: -16
+      x: -16.5
       y: -11.5
     },
     {
       type: SuppressionFieldAbility
       orbRadius: 8
-      x: 10.5
+      x: 11
       y: 9
     },
     {
       type: SuppressionFieldAbility
       orbRadius: 8
-      x: -10.5
+      x: -11
       y: 9
     },
   ]
