@@ -23,7 +23,7 @@
     "liquid": "slag",
     "amount": 0.5
   },
-  "size": 8,
+  "size": 5,
   "health": 18000,
   "armor": 40,
   "drawer": {
