@@ -32,25 +32,25 @@ alwaysUnlocked: true
 abilities: [
     {
       type: SuppressionFieldAbility
-      orbRadius: 10
+      orbRadius: 8
       x: 16
       y: -11.5
     },
 {
       type: SuppressionFieldAbility
-      orbRadius: 10
+      orbRadius: 8
       x: -16
       y: -11.5
     },
     {
       type: SuppressionFieldAbility
-      orbRadius: 10
+      orbRadius: 8
       x: 10.5
       y: 9
     },
     {
       type: SuppressionFieldAbility
-      orbRadius: 10
+      orbRadius: 8
       x: -10.5
       y: 9
     },
