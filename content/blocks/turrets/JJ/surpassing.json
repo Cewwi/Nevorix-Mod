@@ -37,25 +37,15 @@
         "moveX": 0,
         "under": true,
         "moveY": 5,
-        "parts": [
-    {
-      "type": "RegionPart",
-      "suffix": "-glow",
-      "layer": -1,
-      "mirror": true,
-      "blending": "additive",
-      "color": "8CA9E8FF",
-      "colorTo": "8CA9E8FF",
-      "outline": false
-    }
-  ]
         "progress": {
           "type": "warmup",
           "op": "blend",
           "other": "heat",
-          "amount": 0.2
+          "amount": 0.2,
+          "turretHeatLayer": -0.2,
         },
         "mirror": true
+        "turretHeatLayer": -0.2,
       },
       {
         "type": "RegionPart",
@@ -76,12 +66,14 @@
         "moveX": 5,
         "moveY": -4,
         "moveRot": -60,
+        "turretHeatLayer": -0.2,
         "under": true,
         "progress": {
           "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": 0
+          "turretHeatLayer": -0.2,
         },
         "mirror": true
       },
@@ -97,8 +89,10 @@
           "op": "blend",
           "other": "heat",
           "amount": 0
+          "turretHeatLayer": -0.2,
         },
         "mirror": true
+        "turretHeatLayer": -0.2,
       },
       {
         "type": "RegionPart",
@@ -112,6 +106,7 @@
           "op": "blend",
           "other": "heat",
           "amount": 0
+          "turretHeatLayer": -0.2,
         },
         "mirror": true
       },
