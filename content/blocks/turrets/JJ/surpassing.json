@@ -5,7 +5,7 @@
   "ammoPerShot": 2,
   "reload": 5,
   "range": 464,
-  "outlineColor": "1B1B1BFF",
+  "outlineColor": "2d2f39",
   "recoil": 0.0000001,
   "xRand": 12.5,
   "shake": 1,
