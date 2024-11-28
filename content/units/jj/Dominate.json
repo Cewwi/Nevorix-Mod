@@ -40,11 +40,11 @@
 ],
   "abilities": [
     {
-      "type": "UnitSpawnAbility",
-      "spawnX": 30,
-      "spawnY": -25,
-      "unit": "locus",
-      "spawnTime": 1800
+      "type": "SuppressionFieldAbility",
+      "orbRadius": 10,
+      "mirror": true,
+      "X": 20,
+      "Y": 20,
     },
     {
       "type": "UnitSpawnAbility",
