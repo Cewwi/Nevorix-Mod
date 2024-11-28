@@ -6,7 +6,7 @@
   "reload": 5,
   "range": 464,
   "outlineColor": "1B1B1BFF",
-  "recoil": 3,
+  "recoil": 0,
   "xRand": 12.5,
   "shake": 1,
   "inaccuracy": 15,
@@ -26,6 +26,7 @@
         "type": "RegionPart",
         "suffix": "-spine",
         "moveX": 0,
+        "top": false,
         "moveY": 5,
         "progress": {
           "type": "recoil",
