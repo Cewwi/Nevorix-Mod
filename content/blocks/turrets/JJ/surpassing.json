@@ -12,6 +12,13 @@
   "inaccuracy": 0,
   "category": "turret"
   "research": "sublimate"
+  "requirements": [
+  "crabide/200",
+  "oxide/1500",
+  "silicon/2500",
+  "tungsten/1000",
+  "phase-fabric/200"
+  ]
   "shoot": {
         "type": "shootPattern",
         "shots": 1,
