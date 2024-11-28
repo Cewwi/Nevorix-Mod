@@ -115,6 +115,7 @@
 "width": 6.5,
 "drawFlare": true,
 "lifetime": 60,
+"flareColor": "8ca9e8",
 "hitEffect": {
 "type": "ParticleEffect",
 "line": true,
