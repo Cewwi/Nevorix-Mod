@@ -106,8 +106,8 @@
           "op": "blend",
           "other": "heat",
           "amount": 0
-          "turretHeatLayer": -0.2,
         },
+        "turretHeatLayer": -0.2,
         "mirror": true
       },
 ]
