@@ -81,9 +81,10 @@ weapons: [
     reload: 75
     alternate: false
     mirror: true
-    shootCone: 60,
+    shootCone: 60
     rotate: false
-    shootSound: missileLaunch
+    shootSound: missileLarge
+    inaccuracy: 60
     shoot: {
       shots: 3
     }
