@@ -7,7 +7,7 @@
   "range": 464,
   "outlineColor": "2d2f39",
   "recoil": 0,
-  "xRand": 12.5,
+  "shootY": -10,
   "shake": 1,
   "inaccuracy": 0,
   "category": "turret"
