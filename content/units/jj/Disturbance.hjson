@@ -78,11 +78,15 @@ weapons: [
     x: 10
     y: 3
     shooty: 8
-    reload: 50
+    reload: 75
     alternate: false
     mirror: true
+    shootCone: 60,
     rotate: false
     shootSound: missileLaunch
+    shoot: {
+      shots: 3
+    }
     bullet: {
       type: BasicBulletType
         spawnUnit: disrupt-missile
