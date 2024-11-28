@@ -66,8 +66,38 @@
       {
         "type": "RegionPart",
         "suffix": "-blade",
-        "moveX": 26,
-        "moveY": -12,
+        "moveX": 12,
+        "moveY": -6,
+        "under": true,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-blade",
+        "moveX": 12,
+        "moveY": -6,
+        "moveRot": -30,
+        "under": true,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-blade",
+        "moveX": 12,
+        "moveY": -6,
+        "moveRot": -60,
         "under": true,
         "progress": {
           "type": "warmup",
