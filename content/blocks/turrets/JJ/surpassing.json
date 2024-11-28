@@ -25,7 +25,7 @@
         "shotDelay": 1,
   },
   "size": 5,
-  "health": 18000,
+  "health": 9000,
   "armor": 40,
   "drawer": {
     "type": "drawTurret",
@@ -42,10 +42,8 @@
           "op": "blend",
           "other": "heat",
           "amount": 0.2,
-          "turretHeatLayer": -0.2,
         },
         "mirror": true
-        "turretHeatLayer": -0.2,
       },
       {
         "type": "RegionPart",
