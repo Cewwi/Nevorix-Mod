@@ -13,7 +13,7 @@
   "category": "turret"
   "research": "sublimate"
   "requirements": [
-  "crabide/200",
+  "carbide/200",
   "oxide/1500",
   "silicon/2500",
   "tungsten/1000",
