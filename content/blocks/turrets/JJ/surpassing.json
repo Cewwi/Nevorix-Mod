@@ -2,7 +2,7 @@
   "type": "itemTurret",
   "coolantMultiplier": 2,
   "name": "Surpassing",
-  "ammoPerShot": 30,
+  "ammoPerShot": 2,
   "reload": 5,
   "range": 464,
   "outlineColor": "1B1B1BFF",
@@ -14,9 +14,6 @@
         "type": "shootPattern",
         "shots": 3,
         "shotDelay": 1
-  },
-  "consumes": {
-    "graphite/1"
   },
   "size": 5,
   "health": 18000,
@@ -68,7 +65,7 @@
 },
   "shootSound": "shootBig",
   "ammoTypes": {
-    "graphite": {
+    "hydrogen": {
         "type": "BasicBulletType",
         "sprite": "circle-bullet",
         "damage": 120,
