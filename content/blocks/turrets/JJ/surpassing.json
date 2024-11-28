@@ -87,7 +87,7 @@
       {
         "type": "RegionPart",
         "suffix": "-blade",
-        "moveX": 12,
+        "moveX": 7,
         "moveY": -3,
         "moveRot": -30,
         "under": true,
@@ -102,7 +102,7 @@
       {
         "type": "RegionPart",
         "suffix": "-blade",
-        "moveX": 10,
+        "moveX": 3,
         "moveY": 0,
         "moveRot": -60,
         "under": true,
