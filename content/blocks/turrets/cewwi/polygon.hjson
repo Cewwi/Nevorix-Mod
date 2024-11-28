@@ -2,7 +2,7 @@ type: ItemTurret
 localizedName: BRATATATATATA
 description: I need more boulets!
 detail: cewwi
-health: 696969
+health: 5000
 size: 1
 reload: 10
 range: 300
@@ -63,8 +63,7 @@ shoot: {
 }
 
 requirements: [
-copper/3000
-silicon/1
+copper/1
 ]
 category: turret
 research: duo
