@@ -12,7 +12,7 @@ weapons: [
   {
     name: galvanism-cannon
     y: 1
-    x: 15
+    x: 12
     top: true
     shooty: 43
     reload: 90
@@ -27,7 +27,7 @@ weapons: [
     shootSound: laserbig
     incendAmount: 4
     alwaysShooting: false
-    shootDuration: 280
+    shootDuration: 3000
     alwaysContinuous: true
     continuous: true
     loopSoundVolume: 0.5
@@ -45,7 +45,7 @@ weapons: [
       intervalRandomSpread: 1
       bulletInterval: 2.7
       drawFlare: false
-      width: 6
+      width: 3
       pierceArmor: true
       divisions: 20
       length: 140
