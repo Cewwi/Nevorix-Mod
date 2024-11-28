@@ -75,10 +75,11 @@ weapons: [
        }
   }
 {
-    x: 10
-    y: 3
+    name: disrupt-weapon
+    x: 15
+    y: -3
     shooty: 8
-    reload: 75
+    reload: 50
     alternate: false
     mirror: true
     shootCone: 60
@@ -86,8 +87,10 @@ weapons: [
     shootSound: missileLarge
     inaccuracy: 60
     shoot: {
-      shots: 3
-    }
+        type: shootPattern
+        shots: 5
+        shotDelay: 10
+      },
     bullet: {
       type: BasicBulletType
         spawnUnit: disrupt-missile
