@@ -16,8 +16,7 @@
         "shotDelay": 1
   },
   "consumes": {
-  },
-  "coolant": {
+    "graphite/1"
   },
   "size": 5,
   "health": 18000,
