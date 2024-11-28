@@ -1,0 +1,132 @@
+{
+  "type": "itemTurret",
+  "coolantMultiplier": 2,
+  "name": "Surpassing",
+  "ammoPerShot": 30,
+  "reload": 5,
+  "ammoUseEffect": "casing4",
+  "range": 464,
+  "outlineColor": "1B1B1BFF",
+  "recoil": 3,
+  "xRand": 12.5,
+  "shake": 1,
+  "inaccuracy": 15,
+  "shoot": {
+        "type": "shootPattern",
+        "shots": 3,
+        "shotDelay": 1
+  },
+  "consumes": {
+  },
+  "coolant": {
+    "type": "ConsumeLiquid",
+    "liquid": "slag",
+    "amount": 0.5
+  },
+  "size": 8,
+  "health": 18000,
+  "armor": 40,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "reinforced-"
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-spine",
+        "progress": {
+          "type": "charge",
+          "op": "blend",
+          "other": "glow",
+          "amount": 0.2
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-wing",
+        "moveX": 0,
+        "moveY": 12,
+        "progress": {
+          "type": "charge",
+          "op": "blend",
+          "other": "glow",
+          "amount": 0
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-blade",
+        "moveX": 26,
+        "moveY": -12,
+        "progress": {
+          "type": "charge",
+          "op": "blend",
+          "other": "glow",
+          "amount": 0
+        },
+        "mirror": true
+      },
+]
+},
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "graphite": {
+        "type": "BasicBulletType",
+        "sprite": "circle-bullet",
+        "damage": 120,
+        "height": 14,
+        "width": 12,
+        "speed": 17,
+        "lifetime": 28,
+        "homingPower": 0.7,
+        "homingDelay": 17,
+        "homingRange": 370,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "lightning": 7,
+        "lightningDamage": 20,
+        "lightningLength": 4,
+        "lightningCone": 40,
+        "lightningLengthRand": 6,
+        "frontColor": "FFFFFFF",
+        "backColor": "FFE135FF"
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 6,
+          "lifetime": 20,
+          "length": 75,
+          "cone": -40,
+          "lenFrom": 8,
+          "lenTo": 8,
+          "colorFrom": "FFFFFFF",
+          "colorTo": "FFE135FF"
+        },
+        "despawnEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 6,
+          "lifetime": 20,
+          "length": 75,
+          "cone": -40,
+          "lenFrom": 8,
+          "lenTo": 8,
+          "colorFrom": "FFFFFFF",
+          "colorTo": "FFE135FF"
+        },
+        "shootEffect": "shootHealYellow",
+        "trailColor": "F3E979FF",
+        "trailLength": 20,
+        "trailWidth": 3.5,
+        "absorbable": false,
+        "lightColor": "FFFFFF",
+        "frontColor": "FFFFFFF",
+        "backColor": "FFE135FF"
+      }
+    },
+  "requirements": [
+    "graphite/600",
+  ],
+  "category": "turret"
+}
