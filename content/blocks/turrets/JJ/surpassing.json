@@ -9,10 +9,12 @@
   "recoil": 0,
   "xRand": 12.5,
   "shake": 1,
-  "inaccuracy": 15,
+  "inaccuracy": 0,
+  "category": "turret"
+  "research": "sublimate"
   "shoot": {
         "type": "shootPattern",
-        "shots": 3,
+        "shots": 1,
         "shotDelay": 1
   },
   "size": 5,
