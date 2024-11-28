@@ -30,6 +30,18 @@
         "moveX": 0,
         "under": true,
         "moveY": 5,
+        "parts": [
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": true,
+      "blending": "additive",
+      "color": "8CA9E8FF",
+      "colorTo": "8CA9E8FF",
+      "outline": false
+    }
+  ]
         "progress": {
           "type": "warmup",
           "op": "blend",
