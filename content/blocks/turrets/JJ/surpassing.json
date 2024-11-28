@@ -73,38 +73,39 @@
       {
         "type": "RegionPart",
         "suffix": "-blade",
-        "moveX": 12,
-        "moveY": -6,
-        "under": true,
-        "progress": {
-          "type": "warmup",
-          "op": "blend",
-          "other": "heat",
-          "amount": 0
-        },
-        "mirror": true
-      },
-      {
-        "type": "RegionPart",
-        "suffix": "-blade",
-        "moveX": 7,
-        "moveY": -3,
-        "moveRot": -30,
-        "under": true,
-        "progress": {
-          "type": "warmup",
-          "op": "blend",
-          "other": "heat",
-          "amount": 0
-        },
-        "mirror": true
-      },
-      {
-        "type": "RegionPart",
-        "suffix": "-blade",
-        "moveX": 3,
-        "moveY": 0,
+        "moveX": 5,
+        "moveY": -4,
         "moveRot": -60,
+        "under": true,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-blade",
+        "moveX": 5,
+        "moveY": -4,
+        "moveRot": -90,
+        "under": true,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-blade",
+        "moveX": 5,
+        "moveY": -4,
+        "moveRot": -120,
         "under": true,
         "progress": {
           "type": "warmup",
