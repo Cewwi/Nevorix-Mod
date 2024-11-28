@@ -71,7 +71,7 @@ weapons: [
     shootSound: missileLaunch
     bullet: {
       type: BasicBulletType
-        spawnUnit: scathe-missile
+        spawnUnit: Disturbance-rocket
        }
   }
 ]
