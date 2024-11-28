@@ -26,6 +26,7 @@
 "type": "MoveEffectAbility",
 "effect": {
 "type": "ParticleEffect",
+"line": true,
 "particles": 5,
 "sizeFrom": 6,
 "sizeTo": 1,
@@ -39,7 +40,7 @@
 "cone": 15
 },
 "interval": 3,
-"y": -17,
+"y": -12,
 "rotateEffect": true,
 "rotation": 180
 }
