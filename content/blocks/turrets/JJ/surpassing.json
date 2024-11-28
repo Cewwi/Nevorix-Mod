@@ -38,7 +38,7 @@
         "progress": {
           "type": "charge",
           "op": "blend",
-          "other": "glow",
+          "other": "heat",
           "amount": 0.2
         },
         "mirror": true
@@ -51,7 +51,7 @@
         "progress": {
           "type": "charge",
           "op": "blend",
-          "other": "glow",
+          "other": "heat",
           "amount": 0.2
         },
         "mirror": true
@@ -64,7 +64,7 @@
         "progress": {
           "type": "charge",
           "op": "blend",
-          "other": "glow",
+          "other": "heat",
           "amount": 0
         },
         "mirror": true
@@ -77,7 +77,7 @@
         "progress": {
           "type": "charge",
           "op": "blend",
-          "other": "glow",
+          "other": "heat",
           "amount": 0
         },
         "mirror": true
