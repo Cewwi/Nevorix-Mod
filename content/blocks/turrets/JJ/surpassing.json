@@ -70,8 +70,6 @@
 "colors": ["5040d260", "597cffaa", "8ca9e8", "aec6ff", "ffffff"],
 "damage": 200,
 "knockback": 3,
-"status": "exogenesis-hydrogen-flash",
-"statusDuration": 240,
 "buildingDamageMultiplier": 0.24
 "width": 10.5,
 "drawFlare": false,
