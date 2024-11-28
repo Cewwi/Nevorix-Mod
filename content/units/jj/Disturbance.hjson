@@ -46,13 +46,13 @@ abilities: [
       type: SuppressionFieldAbility
       orbRadius: 5
       x: 11
-      y: 7
+      y: 6
     },
     {
       type: SuppressionFieldAbility
       orbRadius: 5
       x: -11
-      y: 7
+      y: 6
     },
   ]
 parts: [
