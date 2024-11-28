@@ -6,7 +6,7 @@
   "reload": 5,
   "range": 464,
   "outlineColor": "2d2f39",
-  "recoil": 0.0000001,
+  "recoil": 0,
   "xRand": 12.5,
   "shake": 1,
   "inaccuracy": 0,
@@ -28,10 +28,10 @@
         "type": "RegionPart",
         "suffix": "-spine",
         "moveX": 0,
-        "top": false,
+        "under": true,
         "moveY": 5,
         "progress": {
-          "type": "recoil",
+          "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": 0.2
@@ -44,7 +44,7 @@
         "moveX": 0,
         "moveY": 12,
         "progress": {
-          "type": "recoil",
+          "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": 0
@@ -56,8 +56,9 @@
         "suffix": "-blade",
         "moveX": 26,
         "moveY": -12,
+        "under": true,
         "progress": {
-          "type": "recoil",
+          "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": 0
