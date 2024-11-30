@@ -5,9 +5,9 @@
     "tungsten/10"
     "carbide/5"
     ],
-    "moveTime" = "35",
-    "canOverdrive" = "false",
-    "health" = "800",
+    "moveTime": "35",
+    "canOverdrive": "false",
+    "health": "800",
     "researchCostMultiplier": "4",
     "underBullets": "true",
     "category": "units",
