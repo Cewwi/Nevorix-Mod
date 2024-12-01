@@ -375,8 +375,9 @@
       "mirror": false,
       "xRand": 4,
       "alternate": false,
+      "rotationLimit": 52.5,
       "rotate": true,
-      "layerOffset": 1,
+      "layerOffset": -0.00001,
       "bullet": {
         "type": "LaserBulletType",
         "length": 450,
