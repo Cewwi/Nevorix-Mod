@@ -1,6 +1,6 @@
 {
 "localizedName": "Dominate",
-"description": "Fires a large flame out of the front cannon. Has extreamky powerful rebar punchers."
+"description": "Fires a large flame out of the front cannon. Has extrealky powerful rebar punchers."
 "template": "ErekirUnitType",
 "research": {
 "requirements": [
@@ -122,7 +122,7 @@
           "baseLength": 9,
           "lifetime": 25,
           "interp": "circleOut",
-          "cone": 60,
+          "cone": 360,
           "offset": 0,
           "lightColor": "ffb98b",
           "colorFrom": "fff8e8",
@@ -137,7 +137,7 @@
           "baseLength": 9,
           "lifetime": 10,
           "interp": "circleOut",
-          "cone": 60,
+          "cone": 360,
           "offset": 0,
           "lightColor": "ffb98b",
           "colorFrom": "fff8e8",
@@ -157,7 +157,7 @@
           "particles": 20,
           "lifetime": 20,
           "length": 75,
-          "cone": -40,
+          "cone": 360,
           "lenFrom": 8,
           "lenTo": 8,
           "colorFrom": "FFFFFFF",
@@ -169,7 +169,7 @@
           "particles": 6,
           "lifetime": 20,
           "length": 75,
-          "cone": -40,
+          "cone": 360,
           "lenFrom": 8,
           "lenTo": 8,
           "colorFrom": "FFFFFFF",
@@ -205,7 +205,7 @@
           "baseLength": 9,
           "lifetime": 25,
           "interp": "circleOut",
-          "cone": 60,
+          "cone": 360,
           "offset": 0,
           "lightColor": "ffb98b",
           "colorFrom": "fff8e8",
@@ -220,7 +220,7 @@
           "baseLength": 9,
           "lifetime": 10,
           "interp": "circleOut",
-          "cone": 60,
+          "cone": 360,
           "offset": 0,
           "lightColor": "ffb98b",
           "colorFrom": "fff8e8",
