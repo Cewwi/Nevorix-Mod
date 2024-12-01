@@ -4,6 +4,7 @@
   "localizedName": "Dominique",
   "description": "Fires a devastating surge of energy out of the main cannon. Has a secondary laser chaingun."
   "drawShields": false,
+  "aiController": "FlyingFollowAI",
   "research": {
   "requirements": [
     "silicon/1000",
