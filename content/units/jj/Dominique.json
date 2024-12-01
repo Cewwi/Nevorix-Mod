@@ -385,11 +385,11 @@
     {
       "name": "Dominique-laserCannon",
       "x": 0,
-      "y": -5,
-      "shootY": 22,
+      "y": -12,
+      "shootY": 25,
       "top": true,
       "rotateSpeed": 1.7,
-      "reload": 10,
+      "reload": 3,
       "recoil": 2,
       "shootSound": "laser",
       "mirror": false,
@@ -399,7 +399,7 @@
       "layerOffset": 1,
       "bullet": {
         "type": "LaserBulletType",
-        "length": 350,
+        "length": 450,
         "width": 20,
         "damage": 50,
         "hitEffect": {
