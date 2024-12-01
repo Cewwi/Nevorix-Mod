@@ -381,5 +381,54 @@
       }
     },
   },
+    {
+      "name": "Dominique-laserCannon",
+      "x": 33,
+      "y": 15.5,
+      "shootY": 22,
+      "rotateSpeed": 1,
+      "reload": 100,
+      "recoil": 30,
+      "shootSound": "laser",
+      "mirror": true,
+      "alternate": true,
+      "rotate": false,
+      "bullet": {
+        "type": "LaserBulletType",
+        "length": 350,
+        "width": 50,
+        "damage": 300,
+        "hitEffect": {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 6,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "24b0ff"
+        }
+        "shootEffect": {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 6,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "24b0ff"
+        }
+        "colors": [
+          "24b0ff",
+          "77ceff",
+          "FFFFFF"
+        ],
+        "sideAngle": -45,
+        "sideLength": 30,
+        "sideWidth": 3.4
+      }
+    },
   ]
 }
