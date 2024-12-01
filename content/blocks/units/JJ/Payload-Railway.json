@@ -8,6 +8,7 @@
     "moveTime": "35",
     "canOverdrive": "false",
     "health": "800",
+    "payloadCapacity": "6484",
     "researchCostMultiplier": "4",
     "underBullets": "true",
     "category": "units",
