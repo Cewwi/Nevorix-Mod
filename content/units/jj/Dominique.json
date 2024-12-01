@@ -56,16 +56,6 @@
 "progress": "recoil",
 "circle": true,
 "layer": -1,
-"color": "aec6ff",
-"radiusTo": 3,
-"radius": 16
-},
-{
-"type": "shapePart",
-"y": 2,
-"progress": "recoil",
-"circle": true,
-"layer": -1,
 "color": "8ca9e855",
 "radiusTo": 4,
 "radius": 18
