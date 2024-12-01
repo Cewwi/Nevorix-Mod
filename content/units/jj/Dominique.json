@@ -42,7 +42,7 @@
       "layer": -1,
       "mirror": true,
       "blending": "additive",
-      "color": "aec6ff",
+      "color": "8ca9e855",
       "colorTo": "ffffff",
       "outline": false
     }
@@ -55,7 +55,7 @@
 "y": 2,
 "progress": "recoil",
 "circle": true,
-"layer": 114,
+"layer": -1,
 "color": "ffFFFFff",
 "radiusTo": 1.5,
 "radius": 5
@@ -65,7 +65,7 @@
 "y": 2,
 "progress": "recoil",
 "circle": true,
-"layer": 110,
+"layer": -1,
 "color": "aec6ff",
 "radiusTo": 3,
 "radius": 16
@@ -75,7 +75,7 @@
 "y": 2,
 "progress": "recoil",
 "circle": true,
-"layer": 110,
+"layer": -1,
 "color": "8ca9e855",
 "radiusTo": 4,
 "radius": 18
@@ -108,7 +108,7 @@
   "bullet": {
     "type": "BasicBulletType",
     "lightRadius": 10,
-    "lightColor": "ffFFFFff",
+    "lightColor": "aec6ff",
     "damage": 70,
     "scaleVelocity": true,
     "splashDamage": 410,
@@ -131,7 +131,7 @@
               "interp": "circleOut",
               "cone": 360,
               "colorFrom": "ffffff",
-              "colorTo": "77ceff",
+              "colorTo": "aec6ff",
               "sizeFrom": 5,
               "sizeTo": 0
             },
@@ -144,7 +144,7 @@
               "interp": "circleOut",
               "cone": 360,
               "colorFrom": "ffffff",
-              "colorTo": "77ceff",
+              "colorTo": "aec6ff",
               "sizeFrom": 5,
               "sizeTo": 0
             },
@@ -156,7 +156,7 @@
               "strokeFrom": 4,
               "strokeTo": 0,
               "colorFrom": "ffffff",
-              "colorTo": "77ceff"
+              "colorTo": "aec6ff"
             }
           ]
         },
@@ -171,7 +171,7 @@
               "interp": "circleOut",
               "cone": 360,
               "colorFrom": "ffffff",
-              "colorTo": "77ceff",
+              "colorTo": "aec6ff",
               "sizeFrom": 5,
               "sizeTo": 0
             },
@@ -184,7 +184,7 @@
               "interp": "circleOut",
               "cone": 360,
               "colorFrom": "ffffff",
-              "colorTo": "77ceff",
+              "colorTo": "aec6ff",
               "sizeFrom": 5,
               "sizeTo": 0
             },
@@ -196,14 +196,14 @@
               "strokeFrom": 4,
               "strokeTo": 0,
               "colorFrom": "ffffff",
-              "colorTo": "77ceff"
+              "colorTo": "aec6ff"
             }
           ]
         },
     "trailChance": 2,
     "trailParam": 10,
     "trailLength": 19,
-    "trailColor": "77ceff",
+    "trailColor": "aec6ff",
     "trailWidth": 5,
     "weaveScale": 5,
     "weaveMag": 5,
@@ -218,9 +218,9 @@
         "interp": "circleOut",
         "cone": 360,
         "offset": 3,
-        "lightColor": "77ceff",
+        "lightColor": "aec6ff",
         "colorFrom": "ffffff",
-        "colorTo": "77ceff",
+        "colorTo": "aec6ff",
         "sizeFrom": 3,
         "sizeTo": 0
       },
@@ -234,9 +234,9 @@
         "interp": "circleOut",
         "cone": 360,
         "offset": 3,
-        "lightColor": "77ceff",
+        "lightColor": "aec6ff",
         "colorFrom": "ffffff",
-        "colorTo": "77ceff",
+        "colorTo": "aec6ff",
         "sizeFrom": 3,
         "sizeTo": 0
       },
@@ -276,7 +276,7 @@
               "interp": "circleOut",
               "cone": 360,
               "colorFrom": "ffffff",
-              "colorTo": "77ceff",
+              "colorTo": "aec6ff",
               "sizeFrom": 5,
               "sizeTo": 0
             },
@@ -289,7 +289,7 @@
               "interp": "circleOut",
               "cone": 360,
               "colorFrom": "ffffff",
-              "colorTo": "77ceff",
+              "colorTo": "aec6ff",
               "sizeFrom": 5,
               "sizeTo": 0
             },
@@ -301,7 +301,7 @@
               "strokeFrom": 4,
               "strokeTo": 0,
               "colorFrom": "ffffff",
-              "colorTo": "77ceff"
+              "colorTo": "aec6ff"
             }
           ]
         },
@@ -316,7 +316,7 @@
               "interp": "circleOut",
               "cone": 360,
               "colorFrom": "ffffff",
-              "colorTo": "77ceff",
+              "colorTo": "aec6ff",
               "sizeFrom": 5,
               "sizeTo": 0
             },
@@ -329,7 +329,7 @@
               "interp": "circleOut",
               "cone": 360,
               "colorFrom": "ffffff",
-              "colorTo": "77ceff",
+              "colorTo": "aec6ff",
               "sizeFrom": 5,
               "sizeTo": 0
             },
@@ -341,7 +341,7 @@
               "strokeFrom": 4,
               "strokeTo": 0,
               "colorFrom": "ffffff",
-              "colorTo": "77ceff"
+              "colorTo": "aec6ff"
             }
           ]
         },
@@ -356,9 +356,9 @@
         "interp": "circleOut",
         "cone": 360,
         "offset": 3,
-        "lightColor": "77ceff",
+        "lightColor": "aec6ff",
         "colorFrom": "ffffff",
-        "colorTo": "77ceff",
+        "colorTo": "aec6ff",
         "sizeFrom": 3,
         "sizeTo": 0
       },
@@ -372,9 +372,9 @@
         "interp": "circleOut",
         "cone": 360,
         "offset": 3,
-        "lightColor": "77ceff",
+        "lightColor": "aec6ff",
         "colorFrom": "ffffff",
-        "colorTo": "77ceff",
+        "colorTo": "aec6ff",
         "sizeFrom": 3,
         "sizeTo": 0
       },
@@ -389,7 +389,7 @@
       "shootY": 25,
       "top": true,
       "rotateSpeed": 1.7,
-      "reload": 3,
+      "reload": 7,
       "recoil": 2,
       "shootSound": "laser",
       "mirror": false,
@@ -400,8 +400,8 @@
       "bullet": {
         "type": "LaserBulletType",
         "length": 450,
-        "width": 20,
-        "damage": 50,
+        "width": 15,
+        "damage": 160,
         "hitEffect": {
           "type": "WaveEffect",
           "lifetime": 20,
@@ -411,7 +411,7 @@
           "strokeFrom": 8,
           "strokeTo": 0,
           "colorFrom": "FFFFFF",
-          "colorTo": "24b0ff"
+          "colorTo": "aec6ff"
         }
         "shootEffect": {
           "type": "WaveEffect",
@@ -422,12 +422,12 @@
           "strokeFrom": 8,
           "strokeTo": 0,
           "colorFrom": "FFFFFF",
-          "colorTo": "24b0ff"
+          "colorTo": "aec6ff"
         }
         "colors": [
-          "24b0ff",
-          "77ceff",
-          "FFFFFF"
+          "8ca9e855",
+          "aec6ff",
+          "ffFFFFff"
         ],
         "sideAngle": -45,
         "sideLength": 30,
