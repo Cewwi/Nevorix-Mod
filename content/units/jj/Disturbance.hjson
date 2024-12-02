@@ -7,8 +7,8 @@ template: ErekirUnitType
 drag: 0.06
 outlineColor: 2d2f39
 speed: 0.7
-rotateSpeed: 10
-hitSize: 16
+rotateSpeed: 2
+hitSize: 36
 accel: 0.095
 groundLayer: 60
 layer: 109
@@ -77,32 +77,12 @@ weapons: [
     reload: 200
     alternate: false
     mirror: true
+    shootCone: 60
     rotate: false
     shootSound: missileLaunch
     bullet: {
       type: BasicBulletType
         spawnUnit: Disturbance-rocket
-       }
-  }
-{
-    x: 15
-    y: -3
-    shooty: 8
-    reload: 50
-    alternate: false
-    mirror: true
-    shootCone: 60
-    rotate: false
-    shootSound: missileLarge
-    inaccuracy: 60
-    shoot: {
-        type: shootPattern
-        shots: 5
-        shotDelay: 10
-      },
-    bullet: {
-      type: BasicBulletType
-        spawnUnit: disrupt-missile
        }
   }
 ]
