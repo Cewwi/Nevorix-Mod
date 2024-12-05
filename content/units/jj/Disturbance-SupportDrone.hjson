@@ -1,5 +1,5 @@
 type: flying
-name: Oad
+name: Support Drone
 description: Advanced support unit. Does multiple tasks
 flying: true
 playerControllable: false
