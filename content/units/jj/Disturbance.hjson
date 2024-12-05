@@ -56,7 +56,6 @@ abilities: [
       x: -16.5
       y: -18.5
     },
-    {
 {
       type: SuppressionFieldAbility
       orbRadius: 5
