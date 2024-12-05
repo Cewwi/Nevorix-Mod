@@ -35,26 +35,26 @@ abilities: [
       spawnX: 30
       spawnY: -25
       unit: Disturbance-SupportDrone
-      spawnTime: 600
+      spawnTime: 1600
     },
     {
       type: UnitSpawnAbility
       spawnX: -30
       spawnY: -25
       unit: Disturbance-SupportDrone
-      spawnTime: 600
+      spawnTime: 1600
     },
     {
       type: SuppressionFieldAbility
       orbRadius: 5
       x: 16.5
-      y: -16.5
+      y: -18.5
     },
 {
       type: SuppressionFieldAbility
       orbRadius: 5
       x: -16.5
-      y: -16.5
+      y: -18.5
     },
     {
       type: SuppressionFieldAbility
