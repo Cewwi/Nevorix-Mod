@@ -30,6 +30,20 @@ buildSpeed: 2
 itemCapacity: 175
 alwaysUnlocked: true
 abilities: [
+   {
+      type: UnitSpawnAbility
+      spawnX: 30
+      spawnY: -25
+      unit: Disturbance-SupportDrone
+      spawnTime: 600
+    },
+    {
+      type: UnitSpawnAbility
+      spawnX: -30
+      spawnY: -25
+      unit: Disturbance-SupportDrone
+      spawnTime: 600
+    },
     {
       type: SuppressionFieldAbility
       orbRadius: 5
