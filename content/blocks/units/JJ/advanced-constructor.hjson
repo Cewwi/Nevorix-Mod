@@ -1,0 +1,14 @@
+localizedName: Advanced Constructor Lite
+description: can build all 2 by 2 blocks.
+type: Constructor
+research: constructor
+size: 3
+category: units
+consumes:
+  power: 1.5
+requirements: [
+  silicon/100
+  tungsten/150
+  beryllium/250
+  oxide/50
+]
