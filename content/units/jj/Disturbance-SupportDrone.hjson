@@ -46,11 +46,39 @@ weapons: [
       maxRange: 300
     }
   }
+{
+    x: 0
+    y: 0
+    shooty: 3
+    reload: 10
+    alternate: false
+    mirror: false
+    rotate: false
+    inaccuracy: 3
+    shootSound: missile
+    bullet: {
+      type: MissileBulletType
+      speed: 10
+      lifetime: 50
+      damage: 10
+      width: 7
+      height: 10
+      healPercent: 2
+      collidesTeam: true
+      frontColor: ffffff
+      backColor: C6FF6BFF
+      trailChance: 1
+      trailEffect: missileTrail
+      trailColor: C6FF6BFF
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+    }
+}
 ]
 engines: [
   {
     x: 0
-    y: -6.6
-    radius: 1.5
+    y: -10.6
+    radius: 2.5
   }
 ]
