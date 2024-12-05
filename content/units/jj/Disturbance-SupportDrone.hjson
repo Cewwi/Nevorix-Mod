@@ -11,9 +11,10 @@ rotateSpeed: 5
 accel: 0.095
 mineHardnessScaling: true
 mineSpeed: 1
+buildSpeed: 1
 groundLayer: 60
 isEnemy: false
-health: 120
+health: 520
 itemCapacity: 20
 mineTier: 1
 allowChangeCommands: false
