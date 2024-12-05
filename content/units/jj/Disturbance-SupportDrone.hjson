@@ -3,7 +3,7 @@ name: Support Drone
 description: Advanced support unit. Does multiple tasks
 flying: true
 template: ErekirUnitType
-playerControllable: false
+playerControllable: true
 shadowElevation: 1
 drag: 0.06
 outlineColor: 1d1c1a
@@ -16,9 +16,9 @@ buildSpeed: 1
 groundLayer: 60
 isEnemy: false
 health: 520
-itemCapacity: 20
+itemCapacity: 60
 mineTier: 1
-allowChangeCommands: false
+allowChangeCommands: true
 armor: 1
 defaultController: minerAI
 weapons: [
@@ -32,11 +32,11 @@ weapons: [
     reload: 1
     recoil: 0
     shake: 1
-    rotate: true
+    rotate: false
     shootSound: laser
     laserColor: 73FFAEFF
     controllable: false
-    autoTarget: true
+    autoTarget: false
     beamWidth: 0.7
     pulseRadius: 6
     pulseStroke: 2
