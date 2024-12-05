@@ -1,6 +1,6 @@
 type: flying
 name: Support Drone
-description: Advanced support unit. Does multiple tasks.
+description: Advanced support unit. Does multiple tasks. (Can't mine walls because of a bug in V7)
 flying: true
 template: ErekirUnitType
 playerControllable: true
@@ -18,7 +18,7 @@ groundLayer: 60
 isEnemy: true
 health: 520
 itemCapacity: 60
-mineTier: 5
+mineTier: 3
 allowChangeCommands: true
 armor: 1
 defaultController: minerAI
@@ -41,7 +41,7 @@ weapons: [
     beamWidth: 0.7
     pulseRadius: 6
     pulseStroke: 2
-    repairSpeed: 6.25
+    repairSpeed: 1.25
     bullet: {
       speed: 100
       maxRange: 300
