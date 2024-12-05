@@ -18,7 +18,7 @@ groundLayer: 60
 isEnemy: true
 health: 520
 itemCapacity: 60
-mineTier: 3
+mineTier: 4
 allowChangeCommands: true
 armor: 1
 defaultController: minerAI
@@ -41,7 +41,7 @@ weapons: [
     beamWidth: 0.7
     pulseRadius: 6
     pulseStroke: 2
-    repairSpeed: 1.25
+    repairSpeed: 0.25
     bullet: {
       speed: 100
       maxRange: 300
