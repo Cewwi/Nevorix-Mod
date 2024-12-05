@@ -5,6 +5,7 @@ flying: true
 template: ErekirUnitType
 playerControllable: true
 shadowElevation: 1
+hitSize: 7
 drag: 0.06
 outlineColor: 1d1c1a
 speed: 1.5
