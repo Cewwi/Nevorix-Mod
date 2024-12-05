@@ -1,0 +1,33 @@
+type: flying
+name: Oad
+description: Basic support unit. Only capable of mining Terestrium.
+flying: true
+playerControllable: false
+shadowElevation: 1
+drag: 0.06
+outlineColor: 1d1c1a
+speed: 1.5
+rotateSpeed: 5
+accel: 0.095
+mineHardnessScaling: true
+mineSpeed: 1
+groundLayer: 60
+mineItems: [
+   Terestrium
+]
+mineWalls: true
+mineFloor: true
+isEnemy: false
+health: 120
+itemCapacity: 20
+mineTier: 1
+allowChangeCommands: false
+armor: 1
+defaultController: minerAI
+engines: [
+  {
+    x: 0
+    y: -6.6
+    radius: 1.5
+  }
+]
