@@ -1,7 +1,7 @@
 {
 researchCostMultiplier: 0.5
 type: UnitAssembler
-name: Titan Mech Assembler
+name: Titan Tank Assembler
 description: Creates Titan tank units using many payloads.
 size: 8
 category: units
