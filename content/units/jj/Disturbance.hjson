@@ -46,6 +46,19 @@ abilities: [
     },
     {
       type: SuppressionFieldAbility
+      orbRadius: 8
+      x: 16.5
+      y: -18.5
+    },
+{
+      type: SuppressionFieldAbility
+      orbRadius: 8
+      x: -16.5
+      y: -18.5
+    },
+    {
+{
+      type: SuppressionFieldAbility
       orbRadius: 5
       x: 16.5
       y: -18.5
@@ -58,15 +71,27 @@ abilities: [
     },
     {
       type: SuppressionFieldAbility
+      orbRadius: 8
+      x: 11
+      y: 5.5
+    },
+    {
+      type: SuppressionFieldAbility
+      orbRadius: 8
+      x: -11
+      y: 5.5
+    },
+{
+      type: SuppressionFieldAbility
       orbRadius: 5
       x: 11
-      y: 6
+      y: 5.5
     },
     {
       type: SuppressionFieldAbility
       orbRadius: 5
       x: -11
-      y: 6
+      y: 5.5
     },
   ]
 parts: [
