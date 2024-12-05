@@ -8,7 +8,7 @@ drag: 0.06
 outlineColor: 2d2f39
 speed: 0.7
 rotateSpeed: 2
-hitSize: 36
+hitSize: 53
 accel: 0.095
 groundLayer: 60
 layer: 109
