@@ -55,7 +55,7 @@
 "y": 2,
 "progress": "recoil",
 "circle": true,
-"layer": -1,
+"layer": 100,
 "color": "8ca9e855",
 "radiusTo": 4,
 "radius": 18
