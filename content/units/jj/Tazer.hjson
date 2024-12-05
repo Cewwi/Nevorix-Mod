@@ -1,7 +1,8 @@
 type: flying
-name: Polux
+name: Tazer
 description: Defender of the Surge core. Has offensive ability, but cannot repair structures. Cannot pick up blocks.
 flying: true
+template: ErekirUnitType
 shadowElevation: 1
 drag: 0.06
 outlineColor: 1d1c1a
