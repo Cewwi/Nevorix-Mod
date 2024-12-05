@@ -2,6 +2,7 @@ type: flying
 name: Support Drone
 description: Advanced support unit. Does multiple tasks
 flying: true
+template: ErekirUnitType
 playerControllable: false
 shadowElevation: 1
 drag: 0.06
