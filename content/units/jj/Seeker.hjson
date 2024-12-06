@@ -26,7 +26,6 @@ useEngineElevation: false
 lowAltitude: false
 engines: [
   {
-  {
     x: -7
     y: -7.2
     radius: 3
