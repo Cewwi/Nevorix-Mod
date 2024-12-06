@@ -1,4 +1,4 @@
 type: StaticWall
 name: Surge Stone wall
 variants: 3
-itemDrop: surgealloy
+itemDrop: item-SurgeQuartz
