@@ -3,6 +3,6 @@ description: "Raw Surge Quartz. Can be refined into Surge Alloy or Surge Obsidia
 hardness: 1
 cost: 0.5
 alwaysUnlocked: false
-color: 628b9d
+color: F7E97EFF
 research: Kiperite
 hiddenOnPlanets: [serpulo]
