@@ -20,7 +20,7 @@ mineFloor: true
 mineWalls: false
 mineTier: 1
 buildSpeed: 1.6
-itemCapacity: 75
+itemCapacity: 175
 alwaysUnlocked: true
 useEngineElevation: false
 lowAltitude: false
