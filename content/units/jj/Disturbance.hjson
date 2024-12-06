@@ -23,6 +23,7 @@ isEnemy: true
 health: 30000
 armor: 1
 mineSpeed: 10
+faceTarget: true
 mineFloor: true
 mineWalls: true
 mineTier: 2
