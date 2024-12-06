@@ -20,22 +20,18 @@ mineFloor: true
 mineWalls: false
 mineTier: 1
 buildSpeed: 1.6
-itemCapacity: 40
+itemCapacity: 65
 alwaysUnlocked: true
 useEngineElevation: false
 lowAltitude: false
 engines: [
   {
-    x: 11
-    y: 3.2
-    radius: 3
-    rotation: 125
-  }
   {
-    x: -11
-    y: 3.2
+    x: -7
+    y: -7.2
     radius: 3
     rotation: -125
+    mirror: true
   }
 ]
 weapons: [
