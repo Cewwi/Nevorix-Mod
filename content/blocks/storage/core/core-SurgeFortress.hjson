@@ -10,9 +10,9 @@
   buildCostMultiplier: 0.7
   unitType: Seeker
  requirements: [
-    Ion/1000
-    Steel/2000
-    Ropololium/1500
+    silicon/1000
+    graphite/2000
+    item-SurgeQuartz/1500
   ],
   alwaysUnlocked: true
   drawCracks: true
