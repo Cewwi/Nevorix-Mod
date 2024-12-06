@@ -1,0 +1,68 @@
+type: flying
+name: Tazer
+description: Defender of the Surge Fortress core. Has offensive ability, but cannot repair structures. Cannot pick up blocks.
+flying: true
+template: ErekirUnitType
+shadowElevation: 1
+drag: 0.06
+outlineColor: 1d1c1a
+speed: 6.4
+rotateSpeed: 10
+hitSize: 8
+accel: 0.095
+groundLayer: 60
+layer: 109
+isEnemy: true
+health: 200
+armor: 1
+mineSpeed: 5
+mineFloor: true
+mineWalls: false
+mineTier: 1
+buildSpeed: 1.6
+itemCapacity: 40
+alwaysUnlocked: true
+useEngineElevation: false
+lowAltitude: false
+engines: [
+  {
+    x: 11
+    y: 3.2
+    radius: 3
+    rotation: 125
+  }
+  {
+    x: -11
+    y: 3.2
+    radius: 3
+    rotation: -125
+  }
+]
+weapons: [
+   {
+    x: 0
+    y: 0
+    shooty: 0
+    reload: 30
+    alternate: false
+    mirror: false
+    rotate: false
+    shootSound: laser
+    bullet: {
+      type: LaserBulletType
+        length: 120
+        width: 6
+        damage: 10
+        hitEffect: lightningShoot
+        shootEffect: lightningShoot
+        colors: [
+          F7E97EFF
+          F7E97EFF
+          FFFFFF
+        ],
+        sideAngle: -45
+        sideLength: 30
+        sideWidth: 3.4
+    }
+}
+]
