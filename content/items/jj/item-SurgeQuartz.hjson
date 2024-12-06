@@ -1,0 +1,8 @@
+name: Surge Quartz
+description: "Raw Surge Quartz. Can be refined into Surge Alloy or Surge Obsidian."
+hardness: 1
+cost: 0.5
+alwaysUnlocked: false
+color: 628b9d
+research: Kiperite
+hiddenOnPlanets: [serpulo]
