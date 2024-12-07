@@ -173,14 +173,8 @@ parent: sun
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
-  Kiperite
-  Ion
-  Magmium
-  Steel
-  Kiperite
-  Ropololium
-  Olium
-  Malinite
-  Volcanite
-  Terestrium
+  silicon
+  item-SurgeQuartz
+  surge-alloy
+  graphite
 ]
