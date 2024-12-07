@@ -52,7 +52,7 @@ F7E97E,
     seed: 61
     radius: 1.248
     color1: F7E97EFF
-    color2: E3AE6FFF
+    color2: ff6500
     octaves: 4.5
     persistence: 1.1
   }
@@ -63,7 +63,7 @@ F7E97E,
     seed: 17
     radius: 1.2514
     color1: F7E97EFF
-    color2: E3AE6FFF
+    color2: ff6500
     octaves: 5.7
     persistence: 0.9
   }
