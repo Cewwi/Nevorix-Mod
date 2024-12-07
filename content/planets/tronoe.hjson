@@ -18,8 +18,7 @@ colorScale: 1
 colors: [
 353535,
 757575,
-86eb48,
-f45e37,
+F7E97E,
 ]
 }
   {
@@ -52,8 +51,8 @@ f45e37,
     divisions: 6
     seed: 61
     radius: 1.248
-    color1: d0e749
-    color2: 8fa416
+    color1: F7E97EFF
+    color2: E3AE6FFF
     octaves: 4.5
     persistence: 1.1
   }
@@ -63,8 +62,8 @@ f45e37,
     divisions: 6
     seed: 17
     radius: 1.2514
-    color1: d0e749
-    color2: 8fa416
+    color1: F7E97EFF
+    color2: E3AE6FFF
     octaves: 5.7
     persistence: 0.9
   }
@@ -74,8 +73,8 @@ f45e37,
     divisions: 5
     seed: 7
     radius: 1.229
-    color1: 82a509
-    color2: 81ff19
+    color1: C3C3C3FF
+    color2: E6E6E6FF
     octaves: 3.7
     persistence: 1.1
   }
@@ -85,8 +84,8 @@ f45e37,
     divisions: 5
     seed: 7
     radius: 1.229
-    color1: 82a509
-    color2: 81ff19
+    color1: C3C3C3FF
+    color2: E6E6E6FF
     octaves: 3.7
     persistence: 1.1
   } 
@@ -98,7 +97,7 @@ cloudMesh: [
    speed: 1.21
    radius: 0.1
    divisions: 6
-   color: 5f6b37
+   color: F7E97EFF
    octaves: 3
    persistence: 0.3
    scl: 1
@@ -110,7 +109,7 @@ cloudMesh: [
    speed: 1.01
    radius: 0.11
    divisions: 6
-   color:  bcf141
+   color: F7E97EFF
    octaves: 3
    persistence: 0.4
    scl: 0.9
@@ -122,7 +121,7 @@ cloudMesh: [
    speed: 0.891
    radius: 0.091
    divisions: 6
-   color: bcf141
+   color: E6E6E6FF
    octaves: 3
    persistence: 0.5
    scl: 1.1
@@ -161,7 +160,7 @@ updateLighting: false
 sectorSeed: 3711
 bloom: false
 visible: true
-atmosphereColor: 86eb48
+atmosphereColor: F7E97EFF
 iconColor: 86eb48
 hasAtmosphere: true
 allowWaveSimulation: true
