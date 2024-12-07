@@ -1,0 +1,14 @@
+type: BeamDrill
+  name: Surge bore
+  consumePower: 0.8
+  drillTime: 100
+  tier: 5
+  size: 2
+  range: 6
+  fogRadius: 4
+  laserWidth: 0.7f
+  itemCapacity: 20
+  requirements: [
+  silicon/20
+  item-SurgeQuartz/20
+  ]
