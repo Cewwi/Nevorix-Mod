@@ -3,6 +3,7 @@ name: Voltage
 description: Fires a small surge of electricity.
 speed: 0.75
 flying: false
+template: ErekirUnitType
 health: 650
 armor: 9
 hitSize: 14
@@ -18,13 +19,13 @@ weapons: [
     alternate: true
     mirror: true
     rotate: false
-    inaccuracy: 3
+    inaccuracy: 0
     shootSound: spark
     bullet: {
     type: LightningBulletType
           lightningColor: F7E97EFF
           lightningLength: 15
-          lightningDamage: 60
+          lightningDamage: 200
           hitSound: spark
           lifetime: 1
     }
