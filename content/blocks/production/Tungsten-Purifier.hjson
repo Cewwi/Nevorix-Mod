@@ -38,6 +38,7 @@ drawer: {
     colorTo: E3AE6FFF
     lifetime: 38
     useRotation: false
+}
     {
       type: DrawDefault 
     }
