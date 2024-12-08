@@ -2,6 +2,7 @@ type: mech
 name: Voltage
 description: Fires a small surge of electricity.
 speed: 0.65
+template: ErekirUnitType
 flying: false
 health: 5000
 armor: 9
@@ -12,7 +13,7 @@ weapons: [
   {
     name: galvanism-cannon
     y: 1
-    x: 12
+    x: 10
     top: true
     shootY: 3
     reload: 90
@@ -24,8 +25,7 @@ weapons: [
     rotate: true
     shootCone: 45
     loopSound: flame
-    shootSound: laserbig
-    alwaysContinuous: true
+    shootSound: flame
     continuous: true
     loopSoundVolume: 0.5
     bullet: {
