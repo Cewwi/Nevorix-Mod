@@ -37,25 +37,8 @@ updateEffect: {
     lifetime: 38
     useRotation: false
 drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawDefault
-    }
-    {
-      type: DrawParticles
-      color: f0950f
-      alpha: 0.85
-      particleSize: 1.2
-      particles: 50
-      particleRad: 12
-      particleLife: 60
-    }
-    {
-      type: DrawRegion
+  type: DrawRegion
       suffix: -bottom
-    }
-  ]
 }
 }
 }
