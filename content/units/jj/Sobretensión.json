@@ -30,9 +30,6 @@
         "type": "MultiEffect",
         "effects": [
           {
-            "type": "shootTitan"
-          },
-          {
             "type": "WaveEffect",
             "colorTo": "surge",
             "sizeTo": 26.0,
