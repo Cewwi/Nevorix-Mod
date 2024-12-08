@@ -1,6 +1,7 @@
 type: mech
 name: Overvoltage
 description: Fires a ball of electricity.
+template: ErekirUnitType
 speed: 0.75
 flying: false
 health: 650
