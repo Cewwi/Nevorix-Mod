@@ -24,7 +24,7 @@
     "recoil": 3.0,
     "range": 300,
     "shootCone": 20.0,
-    "shootType": {
+    "bullet": {
       "type": "BasicBulletType",
       "shootEffect": {
         "type": "MultiEffect",
