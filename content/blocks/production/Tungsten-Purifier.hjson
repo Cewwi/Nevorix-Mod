@@ -23,11 +23,21 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawLiquidTile
-      drawLiquid: slag
-      alpha: 1
-      padding: 2.5
-    }
+    type: ParticleEffect
+    lightRadius: 100
+    lightColor: F7E97EFF
+    line: true
+    particles: 5
+    baseRotation: 90
+    cone: 360
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 24
+    baseLength: 6
+    colorFrom: F7E97EFF
+    colorTo: E3AE6FFF
+    lifetime: 38
+    useRotation: false
     {
       type: DrawDefault 
     }
