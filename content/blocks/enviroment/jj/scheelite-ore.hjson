@@ -1,5 +1,5 @@
   type: OreBlock
-  wallOre: true
+  oreDefault: true
   oreScale: 25
   oreThreshold: 1
   itemDrop: scheelite
