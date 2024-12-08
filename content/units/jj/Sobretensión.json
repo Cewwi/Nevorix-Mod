@@ -13,7 +13,7 @@
   {
     "name": "Sobretensión-cannon",
     "y": 0,
-    "x": 10,
+    "x": 13,
     "mirror": true,
     "alternate": true,
     "newTargetInterval": 40.0,
