@@ -4,5 +4,5 @@ hardness: 1
 cost: 0.5
 alwaysUnlocked: false
 color: F7E97EFF
-research: item-phase
+research: phaseFabric
 hiddenOnPlanets: [serpulo]
