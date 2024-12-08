@@ -15,33 +15,18 @@ ignoreLiquidFullness: true
 ambientSound: extractLoop
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.09
-updateEffect: {
-  type: RadialEffect
-  amount: 1
-  rotationOffset: 225
-  lengthOffset: 0
-  effect: {
-    type: ParticleEffect
-    lightRadius: 100
-    lightColor: F7E97EFF
-    line: true
-    particles: 5
-    baseRotation: 90
-    cone: 360
-    sizeFrom: 1.8
-    sizeTo: 0.2
-    length: 24
-    baseLength: 6
-    colorFrom: F7E97EFF
-    colorTo: E3AE6FFF
-    lifetime: 38
-    useRotation: false
-drawer: {
+drawer: [
+{
   type: DrawRegion
-      suffix: -bottom
+  suffix: -bottom
 }
+{
+  type: DrawArcSmelt
 }
+{
+  type: DrawDefault
 }
+]
 outputItems: [
   tungsten/1
 ]
