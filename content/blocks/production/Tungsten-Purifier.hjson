@@ -1,0 +1,45 @@
+type: GenericCrafter
+name: Steel Forge
+description: Fuses ion and slag to make Steel
+size: 4
+craftTime: 50
+consumes: {
+  items: [
+    Kiperite/2
+  ]
+  liquids: [
+    slag/0.1
+  ]
+}
+ignoreLiquidFullness: true
+ambientSound: extractLoop
+researchCostMultiplier: 0.5
+ambientSoundVolume: 0.09
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: slag
+      alpha: 1
+      padding: 2.5
+    }
+    {
+      type: DrawDefault 
+    }
+  ]
+}
+outputItems: [
+  Steel/1
+]
+category: crafting
+research: Ion-Crucible
+requirements: [
+  Kiperite/75
+  Ion/50
+]
+itemCapacity: 20
