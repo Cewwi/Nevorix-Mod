@@ -1,0 +1,6 @@
+  type: OreBlock
+  wallOre: true
+  oreScale: 25
+  oreThreshold: 1
+  itemDrop: scheelite
+  variants: 3
