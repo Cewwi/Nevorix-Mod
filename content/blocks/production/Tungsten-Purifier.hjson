@@ -15,14 +15,12 @@ ignoreLiquidFullness: true
 ambientSound: extractLoop
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.09
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
+updateEffect: {
+  type: RadialEffect
+  amount: 1
+  rotationOffset: 225
+  lengthOffset: 0
+  effect: {
     type: ParticleEffect
     lightRadius: 100
     lightColor: F7E97EFF
@@ -38,14 +36,31 @@ drawer: {
     colorTo: E3AE6FFF
     lifetime: 38
     useRotation: false
-}
+drawer: {
+  type: DrawMulti
+  drawers: [
     {
-      type: DrawDefault 
+      type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      color: f0950f
+      alpha: 0.85
+      particleSize: 1.2
+      particles: 50
+      particleRad: 12
+      particleLife: 60
+    }
+    {
+      type: DrawRegion
+      suffix: -bottom
     }
   ]
 }
+}
+}
 outputItems: [
-  Steel/1
+  tungsten/1
 ]
 category: crafting
 research: Ion-Crucible
