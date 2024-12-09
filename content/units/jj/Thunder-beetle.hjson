@@ -3,9 +3,9 @@ type: legs
 legCount: 6
 legLength: 13
 legSpeed: 0.5
-legExtension: -13.5
-legForwardScl: 0.2
-legMoveSpace: 0.9
+legExtension: -33.5
+legForwardScl: 1.2
+legMoveSpace: 1.5
 legPairOffset: 1
 hovering: false
 groundLayer: 50
