@@ -1,0 +1,51 @@
+{
+type: legs
+legCount: 6
+legLength: 20
+legSpeed: 0.5
+legExtension: -13.5
+legForwardScl: 0.2
+legMoveSpace: 0.9
+legPairOffset: 2
+hovering: false
+groundLayer: 50
+name: Thunder beetle
+description: beetle like lifeform
+health: 2000
+armor: 4
+speed: 1.6
+hitSize: 9
+isEnemy: true
+drag: 0.4
+itemCapacity: 10
+alwaysUnlocked: true
+outlineColor: 1d1c1a
+weapons: [
+   {
+    x: 6
+    y: 0
+    shooty: 10
+    reload: 30
+    alternate: true
+    mirror: true
+    rotate: false
+    shootSound: laser
+    bullet: {
+      type: LaserBulletType
+        length: 150
+        width: 6
+        damage: 60
+        hitEffect: lightningShoot
+        shootEffect: lightningShoot
+        colors: [
+          F7E97EFF
+          F7E97EFF
+          FFFFFF
+        ],
+        sideAngle: -45
+        sideLength: 30
+        sideWidth: 3.4
+    }
+}
+]
+   }
