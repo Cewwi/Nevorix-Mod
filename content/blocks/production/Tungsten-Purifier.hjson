@@ -7,9 +7,7 @@ consumes: {
   items: [
     scheelite/2
   ]
-[
 power: 3
-]
 }
 ignoreLiquidFullness: true
 ambientSound: extractLoop
