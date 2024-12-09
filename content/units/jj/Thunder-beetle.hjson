@@ -1,12 +1,12 @@
 {
 type: legs
 legCount: 6
-legLength: 20
+legLength: 13
 legSpeed: 0.5
 legExtension: -13.5
 legForwardScl: 0.2
 legMoveSpace: 0.9
-legPairOffset: 2
+legPairOffset: 1
 hovering: false
 groundLayer: 50
 name: Thunder beetle
@@ -29,7 +29,7 @@ parts: [
     under: true
     moveRot: -10
     progress: {
-      type: warmup
+      type: recoil
       op: blend
       other: heat
       amount: 0.2
