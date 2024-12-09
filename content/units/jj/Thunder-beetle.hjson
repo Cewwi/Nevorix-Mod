@@ -36,6 +36,16 @@ parts: [
     }
     mirror: true
   }
+{
+  type: RegionPart
+  suffix: -glow
+  layer: -1
+  mirror: true
+  blending: additive
+  color: F7E97EFF
+  colorTo: ffffff
+  outline: false
+}
 ]
 weapons: [
    {
