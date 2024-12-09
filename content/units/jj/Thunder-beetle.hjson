@@ -20,6 +20,23 @@ drag: 0.4
 itemCapacity: 10
 alwaysUnlocked: true
 outlineColor: 1d1c1a
+parts: [
+  {
+    type: RegionPart
+    suffix: -jaw
+    moveX: 0
+    moveY: 0
+    under: true
+    moveRot: -10
+    progress: {
+      type: warmup
+      op: blend
+      other: heat
+      amount: 0.2
+    }
+    mirror: true
+  }
+]
 weapons: [
    {
     x: 0
