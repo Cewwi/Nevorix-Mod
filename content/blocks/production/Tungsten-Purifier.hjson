@@ -24,7 +24,7 @@ drawer: [
   type: DrawArcSmelt
 }
 {
-  type: DrawDefault
+  type: DrawCrucibleFlame
 }
 ]
 outputItems: [
