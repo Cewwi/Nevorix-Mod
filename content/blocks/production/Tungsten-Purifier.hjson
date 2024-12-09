@@ -31,7 +31,7 @@ outputItems: [
   tungsten/3
 ]
 category: crafting
-research: Ion-Crucible
+research: carbideCrucible
 requirements: [
   Kiperite/75
   Ion/50
