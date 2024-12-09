@@ -1,15 +1,15 @@
 type: GenericCrafter
 name: Steel Forge
-description: Pureifies 
+description: Pureifies scheelite into tungsten
 size: 5
 craftTime: 100
 consumes: {
   items: [
-    Kiperite/2
+    scheelite/2
   ]
-  liquids: [
-    slag/0.1
-  ]
+[
+power: 3
+]
 }
 ignoreLiquidFullness: true
 ambientSound: extractLoop
