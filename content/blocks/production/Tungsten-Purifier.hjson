@@ -2,7 +2,7 @@ type: GenericCrafter
 name: Steel Forge
 description: Fuses ion and slag to make Steel
 size: 5
-craftTime: 50
+craftTime: 100
 consumes: {
   items: [
     Kiperite/2
@@ -28,7 +28,7 @@ drawer: [
 }
 ]
 outputItems: [
-  tungsten/1
+  tungsten/3
 ]
 category: crafting
 research: Ion-Crucible
