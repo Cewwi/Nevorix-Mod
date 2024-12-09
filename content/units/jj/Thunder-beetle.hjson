@@ -22,14 +22,15 @@ alwaysUnlocked: true
 outlineColor: 1d1c1a
 weapons: [
    {
-    x: 6
+    x: 0
     y: 0
-    shooty: 10
-    reload: 30
+    shooty: 20
+    reload: 2
     alternate: true
     mirror: true
     rotate: false
     shootSound: laser
+    inaccuracy: 10
     bullet: {
       type: LaserBulletType
         length: 150
@@ -47,5 +48,24 @@ weapons: [
         sideWidth: 3.4
     }
 }
+{
+    y: 0
+    x: 0
+    shooty: 20
+    reload: 2
+    alternate: true
+    mirror: true
+    rotate: false
+    inaccuracy: 10
+    shootSound: spark
+    bullet: {
+    type: LightningBulletType
+          lightningColor: F7E97EFF
+          lightningLength: 15
+          lightningDamage: 200
+          hitSound: spark
+          lifetime: 1
+    }
+  }
 ]
    }
