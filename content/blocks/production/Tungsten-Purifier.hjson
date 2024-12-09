@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Steel Forge
-description: Fuses ion and slag to make Steel
+description: Pureifies 
 size: 5
 craftTime: 100
 consumes: {
