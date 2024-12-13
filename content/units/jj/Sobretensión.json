@@ -19,10 +19,10 @@
     "alternate": true,
     "newTargetInterval": 40.0,
     "inaccuracy": 1.0,
-    "shake": 2.0,
+    "shake": 4.0,
     "shootY": 4,
     "reload": 100.0,
-    "recoil": 3.0,
+    "recoil": 5,
     "range": 300,
     "shootCone": 20.0,
     "bullet": {
