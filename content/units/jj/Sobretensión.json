@@ -27,9 +27,7 @@
     "shootCone": 20.0,
     "bullet": {
       "type": "BasicBulletType",
-      "shootEffect": {
-        "type": "MultiEffect",
-        "effects": [
+      "shootEffect": [
           {
             "type": "WaveEffect",
             "colorTo": "surge",
@@ -38,7 +36,6 @@
             "strokeFrom": 4.0
           }
         ]
-      },
       "smokeEffect": "shootSmokeTitan",
       "hitColor": "surge",
       "sprite": "large-orb",
