@@ -4,7 +4,7 @@ description: Fires a small surge of electricity.
 speed: 0.2
 template: ErekirUnitType
 flying: false
-health: 650
+health: 7600
 armor: 9
 hitSize: 14
 outlineColor: 2d2f39
@@ -19,7 +19,7 @@ weapons: [
     alternate: true
     mirror: true
     rotate: false
-    inaccuracy: 3
+    inaccuracy: 1
     shootSound: shootBig
     bullet: {
       type: BasicBulletType
@@ -29,14 +29,14 @@ weapons: [
       trailColor: F7E97EFF
       frontColor: F7E97EFF
       backColor: ffffff
-      lifetime: 40
+      lifetime: 60
       damage: 20.5
       width: 7
       height: 9
       pierce: false
       shrinkX: 0
       shrinkY: 0
-trailChance: 2
+trailChance: 4
       trailParam: 10
       trailLength: 19
       trailColor: F7E97EFF
