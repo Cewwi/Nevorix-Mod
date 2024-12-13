@@ -22,7 +22,7 @@
     "shake": 4.0,
     "shootY": 4,
     "reload": 100.0,
-    "recoil": 5,
+    "recoil": 3,
     "range": 300,
     "shootCone": 20.0,
     "bullet": {
