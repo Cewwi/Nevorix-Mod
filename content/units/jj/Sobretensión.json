@@ -2,14 +2,14 @@
 "type": "mech",
 "name": "Sobretensión",
 "description": "Fires a small surge of electricity.",
-"speed": 0.75,
+"speed": 0.4,
 "template": "ErekirUnitType",
 "flying": false,
 "health": 650,
 "armor": 9,
 "hitSize": 14,
-"outlineColor": "1d1c1a",
-"mechLegColor": "1d1c1a",
+"outlineColor": "2d2f39",
+"mechLegColor": "2d2f39",
 "weapons": [
   {
     "name": "Sobretensión-cannon",
