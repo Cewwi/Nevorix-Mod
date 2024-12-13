@@ -25,6 +25,7 @@
     "recoil": 3,
     "range": 300,
     "shootCone": 20.0,
+    "shootSound": "cannon",
     "bullet": {
       "type": "BasicBulletType",
       "shootEffect": [
