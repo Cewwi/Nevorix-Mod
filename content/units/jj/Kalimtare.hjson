@@ -15,24 +15,24 @@ weapons: [
     y: 0
     x: 17
     shooty: 3
-    reload: 14
+    reload: 2
     alternate: true
     mirror: true
     rotate: false
     inaccuracy: 3
-    shootSound: spark
+    shootSound: shootBig
     bullet: {
       type: BasicBulletType
       lightRadius: 12
       lightColor: C6FF6BFF
-      speed: 5
-      trailColor: C6FF6BFF
-      frontColor: C6FF6BFF
+      speed: 12
+      trailColor: F7E97EFF
+      frontColor: F7E97EFF
       backColor: ffffff
       lifetime: 40
-      damage: 5.5
-      width: 4
-      height: 6
+      damage: 20.5
+      width: 7
+      height: 9
       pierce: false
       shrinkX: 0
       shrinkY: 0
