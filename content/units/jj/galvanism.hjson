@@ -1,5 +1,5 @@
 type: mech
-name: Voltage
+name: Galvanism
 description: Fires two beams.
 speed: 0.65
 template: ErekirUnitType
