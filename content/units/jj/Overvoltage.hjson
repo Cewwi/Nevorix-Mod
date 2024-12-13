@@ -2,13 +2,13 @@ type: mech
 name: Overvoltage
 description: Fires a ball of electricity.
 template: ErekirUnitType
-speed: 0.75
+speed: 0.6
 flying: false
 health: 650
 armor: 9
 hitSize: 16
-outlineColor: 1d1c1a
-mechLegColor: 1d1c1a
+outlineColor: 2d2f39
+mechLegColor: 2d2f39
 weapons: [
   {
     name: Surge-catipult
