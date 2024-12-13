@@ -1,14 +1,14 @@
 type: mech
 name: Voltage
-description: Fires a small surge of electricity.
+description: Fires two beams.
 speed: 0.65
 template: ErekirUnitType
 flying: false
 health: 5000
 armor: 9
 hitSize: 14
-outlineColor: 1d1c1a
-mechLegColor: 1d1c1a
+outlineColor: 2d2f39
+mechLegColor: 2d2f39
 weapons: [
   {
     name: galvanism-cannon
