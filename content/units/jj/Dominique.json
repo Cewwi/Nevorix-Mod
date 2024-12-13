@@ -100,6 +100,8 @@
     "lifetime": 75,
     "shrinkX": 0,
     "shrinkY": 0,
+    "frontColor": "aec6ff",
+    "backColor": "ffffff",
     "despawnEffect": {
           "type": "multiEffect",
           "effects": [
@@ -233,6 +235,8 @@
       "height": 14,
       "width": 12,
       "speed": 3,
+      "frontColor": "aec6ff",
+      "backColor": "ffffff",
       "lifetime": 100,
       "shape": 3,
       "homingPower": 0.2,
