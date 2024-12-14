@@ -3,7 +3,7 @@ name: Mountain
 description: Heavily armored Mech unit.
 speed: 0.37
 flying: false
-health: 4000
+health: 7000
 armor: 9
 hitSize: 25
 outlineColor: 1d1c1a
