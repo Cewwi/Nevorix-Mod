@@ -19,7 +19,7 @@ health: 520
 itemCapacity: 60
 mineTier: 4
 armor: 1
-defaultController: DefenderAI
+defaultController: minerAI
 weapons: [
   {
     type: RepairBeamWeapon
