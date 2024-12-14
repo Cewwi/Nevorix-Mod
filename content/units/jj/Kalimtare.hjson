@@ -69,6 +69,7 @@ shrinkY: 0
           lifetime: 1
     }
   }
+}
   {
     name: Kalimtare-cannon
     y: 0
