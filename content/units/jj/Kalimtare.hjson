@@ -23,20 +23,21 @@ weapons: [
     shootSound: shootBig
     bullet: {
       type: BasicBulletType
+      sprite: bullet
       lightRadius: 12
       lightColor: C6FF6BFF
-      speed: 12
+      speed: 7
       trailColor: F7E97EFF
       frontColor: F7E97EFF
       backColor: ffffff
       lifetime: 60
       damage: 20.5
-      width: 7
+      width: 6
       height: 9
       pierce: false
       shrinkX: 0
       shrinkY: 0
-trailChance: 4
+      trailChance: 4
       trailParam: 10
       trailLength: 19
       trailColor: F7E97EFF
