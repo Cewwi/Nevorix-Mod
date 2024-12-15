@@ -45,12 +45,11 @@ weapons: [
       bulletInterval: 2.7
       hitEffect: {
 type: "ParticleEffect
-line: true
 particles: 7
 lifetime: 15
 length: 65
 cone: -360
-strokeFrom: 2.5
+strokeFrom: 1
 strokeTo: 0
 lenFrom: 8
 lenTo: 0
