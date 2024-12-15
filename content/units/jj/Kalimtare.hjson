@@ -98,7 +98,7 @@ shrinkY: 0
       pierce: false
       shrinkX: 0
       shrinkY: 0
-      trailChance: 3
+      trailChance: 1
       trailParam: 10
       trailLength: 19
       trailColor: F7E97EFF
