@@ -21,6 +21,7 @@ weapons: [
     rotate: true
     inaccuracy: 0
     shootSound: cannon
+    layerOffset: -0.00001
     shootSoundVolume: 0.05
     bullet: {
     type: BasicBulletType
