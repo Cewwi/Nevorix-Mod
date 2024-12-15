@@ -72,7 +72,7 @@ shrinkY: 0
 }
   {
     name: Kalimtare-cannon
-    y: 0
+    y: 3
     x: 17
     shooty: 3
     reload: 8
@@ -110,8 +110,8 @@ shrinkY: 0
           baseLength: 3
           lifetime: 25
           interp: circleOut
-          cone: 360
-          offset: 1
+          cone: -40
+          offset: 0
           lightColor: F7E97EFF
           colorFrom: ffffff
           colorTo: F7E97EFF
