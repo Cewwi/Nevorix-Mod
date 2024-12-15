@@ -16,7 +16,7 @@ consumes: {
 }
 plans: [
   {
-    unit: igniter
+    unit: Igniter
     requirements: [
       pyratite/25
       graphite/15
