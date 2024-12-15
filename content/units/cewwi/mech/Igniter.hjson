@@ -43,8 +43,11 @@ weapons: [
       intervalBullets: 2
       intervalRandomSpread: 1
       bulletInterval: 2.7
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 3
       hitEffect: {
-type: "ParticleEffect
+type: ParticleEffect
 particles: 7
 lifetime: 15
 length: 65
