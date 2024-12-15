@@ -20,6 +20,7 @@
     "newTargetInterval": 40.0,
     "inaccuracy": 1.0,
     "shake": 4.0,
+    "layerOffset": -0.00001,
     "shootY": 4,
     "reload": 100.0,
     "recoil": 3,
