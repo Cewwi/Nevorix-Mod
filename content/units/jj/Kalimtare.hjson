@@ -13,11 +13,11 @@ weapons: [
 {
     name: Surge-catipult
     y: -2
-    x: 0
+    x: 7
     shooty: 4
     reload: 40
-    alternate: false
-    mirror: false
+    alternate: true
+    mirror: true
     rotate: true
     inaccuracy: 0
     shootSound: cannon
