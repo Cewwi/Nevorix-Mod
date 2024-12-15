@@ -1,0 +1,27 @@
+{
+type: UnitFactory
+name: Advanced Ground Factory
+description: A factory used to make advanced ground units.
+category: units
+researchCostMultiplier: 0.3
+research: additive-reconstructor
+requirements: [
+  lead/50
+  silicon/150
+  graphite/50
+]
+size: 3
+consumes: {
+  power: 5
+}
+plans: [
+  {
+    unit: igniter
+    requirements: [
+      pyratite/25
+      graphite/15
+    ]
+    time: 700
+  }
+]
+}
