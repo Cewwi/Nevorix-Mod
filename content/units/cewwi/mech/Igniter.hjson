@@ -1,0 +1,54 @@
+type: mech
+name: Igniter
+description: Heavily armored Mech unit.
+speed: 0.37
+flying: false
+health: 100
+armor: 1
+hitSize: 25
+rotateSpeed: 2
+weapons: [
+  {
+    name: Igniter-gun
+    y: 0
+    x: 7
+    top: true
+    shooty: 43
+    reload: 5
+    rotateSpeed: 1.5
+    mirror: true
+    alternate: false
+    cooldownTime: 90
+    rotationLimit: 52.5
+    rotate: true
+    shootCone: 45
+    loopSound: torch
+    layerOffset: -0.00001
+    shootSound: torch
+    incendAmount: 4
+    alwaysShooting: false
+    alwaysContinuous: true
+    continuous: true
+    bullet: {
+      type: ContinuousFlameBulletType
+      colors: [
+        ad3500
+        ff4f01
+        FF7436FF
+        ffffff
+      ]
+      damage: 5
+      layer: 110
+      groundLayer: 61
+      intervalBullets: 2
+      intervalRandomSpread: 1
+      bulletInterval: 2.7
+      drawFlare: false
+      width: 3
+      pierceArmor: false
+      divisions: 20
+      length: 80
+}
+}
+]
+researchCostMultiplier: 2.5
