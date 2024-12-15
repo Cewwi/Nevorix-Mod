@@ -76,7 +76,7 @@ shrinkY: 0
       trailParam: 10
       trailLength: 19
       trailColor: F7E97EFF
-      trailWidth: 3
+      trailWidth: 1
           bulletInterval: 2
           intervalRandomSpread: 360
           intervalSpread: 300
