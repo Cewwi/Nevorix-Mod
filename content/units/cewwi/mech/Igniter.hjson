@@ -3,9 +3,9 @@ name: Igniter
 description: Heavily armored Mech unit.
 speed: 0.37
 flying: false
-health: 100
+health: 300
 armor: 1
-hitSize: 25
+hitSize: 10
 rotateSpeed: 2
 weapons: [
   {
