@@ -75,7 +75,7 @@ shrinkY: 0
     y: 0
     x: 17
     shooty: 3
-    reload: 2
+    reload: 8
     alternate: true
     mirror: true
     rotate: false
@@ -93,8 +93,8 @@ shrinkY: 0
       backColor: ffffff
       lifetime: 60
       damage: 20.5
-      width: 6
-      height: 9
+      width: 13
+      height: 18
       pierce: false
       shrinkX: 0
       shrinkY: 0
