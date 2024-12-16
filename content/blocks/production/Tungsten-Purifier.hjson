@@ -6,6 +6,7 @@ craftTime: 100
 consumes: {
   items: [
     scheelite/2
+    graphite/5
   ]
 power: 8
 }
@@ -36,7 +37,9 @@ outputItems: [
 category: crafting
 research: carbideCrucible
 requirements: [
-  Kiperite/75
-  Ion/50
+  tungsten/750
+  silicon/500
+  carbide/200
+  graphite/600
 ]
 itemCapacity: 20
