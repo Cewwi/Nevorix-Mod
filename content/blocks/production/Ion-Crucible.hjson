@@ -36,7 +36,6 @@ drawer: {
   ]
 }
 }
-}
 updateEffectChance: 0.9
 craftEffect: {
   type: RadialEffect
