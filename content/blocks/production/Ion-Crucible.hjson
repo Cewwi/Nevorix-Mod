@@ -13,23 +13,7 @@ ambientSound: extractLoop
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.09
 updateEffect: {
-  type: RadialEffect
-  amount: 1
-  rotationOffset: 225
-  lengthOffset: 2
-  effect: {
-    type: ParticleEffect
-    particles: 8
-    colorFrom: fca67b
-    colorTo: c27954
-    sizeFrom: 0.8
-    sizeTo: 0
-    lifetime: 30
-    cone: 360
-    length: 6
-    baseLength: 8
-    interp: pow2Out
-    sizeInterp: pow2
+  type: massiveExplosion
 drawer: {
   type: DrawMulti
   drawers: [
