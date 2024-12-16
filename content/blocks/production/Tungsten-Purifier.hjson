@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Multi Forge
+name: Mul-T Forge
 description: Produces tungsten, silicon, and sand.
 size: 5
 craftTime: 100
@@ -7,7 +7,7 @@ consumes: {
   items: [
     scheelite/2
   ]
-power: 3
+power: 8
 }
 ignoreLiquidFullness: true
 ambientSound: extractLoop
