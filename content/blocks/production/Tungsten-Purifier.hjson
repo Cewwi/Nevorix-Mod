@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Steel Forge
-description: Pureifies scheelite into tungsten
+name: Multi Forge
+description: Produces tungsten, silicon, and sand.
 size: 5
 craftTime: 100
 consumes: {
@@ -19,6 +19,9 @@ drawer: [
   suffix: -bottom
 }
 {
+  type: DrawDefault
+}
+{
   type: DrawArcSmelt
 }
 {
@@ -26,7 +29,9 @@ drawer: [
 }
 ]
 outputItems: [
-  tungsten/3
+  tungsten/2
+  silicon/2
+  sand/5
 ]
 category: crafting
 research: carbideCrucible
