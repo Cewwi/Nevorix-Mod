@@ -25,7 +25,7 @@ weapons: [
     type: LightningBulletType
           lightningColor: F7E97EFF
           lightningLength: 15
-          lightningDamage: 275
+          lightningDamage: 875
           hitSound: spark
           lifetime: 3
           hiteffect: [
@@ -53,7 +53,7 @@ weapons: [
           lifetime: 25
           interp: circleOut
           cone: 360
-          offset: 0
+          offset: 1
           lightColor: F7E97EFF
           colorFrom: ffffff
           colorTo: F7E97EFF
