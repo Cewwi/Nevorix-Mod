@@ -28,21 +28,39 @@ weapons: [
           lightningDamage: 275
           hitSound: spark
           lifetime: 3
-          hiteffect: {
+          hiteffect: [
+{
           type: ParticleEffect
-          particles: 3
+          line: true
+          particles: 12
           length: 3
           baseLength: 3
           lifetime: 25
           interp: circleOut
           cone: 360
-          offset: 2
+          offset: 0
           lightColor: F7E97EFF
           colorFrom: ffffff
           colorTo: F7E97EFF
-          sizeFrom: 12
+          sizeFrom: 4
           sizeTo: 0
           }
+{
+          type: ParticleEffect
+          particles: 7
+          length: 2
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 0
+          lightColor: F7E97EFF
+          colorFrom: ffffff
+          colorTo: F7E97EFF
+          sizeFrom: 5
+          sizeTo: 0
+          }
+]
     }
   }
 ]
